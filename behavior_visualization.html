@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Behavior Visualization</title>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+	</head>
+	<body>
+
+
+		<h1>Learning Pathway: Behavior After Watching</h1>
+		<div class="form">
+			<select id="User" class="select">
+				<option value="user_null" selected="selected">select user</option>
+			</select><br>
+			<select  id="Puzzle" class="select">
+				<option value="puzzle_null" selected="selected">select puzzle</option>
+			</select><br>
+			<button onclick="drawMe()" class="button">analyze</button>
+		</div>
+		<div class="legendinfo">
+					<p> double line : added <br>
+						dotted line :  dropped <br>
+						straight line : moved <br>
+					</p>
+				</div>
+		<div class="graph"></div>
+
+
+		<script src="https://d3js.org/d3.v4.js"></script>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.2.min.js"></script>
+		<script>
+
+			var users = new Set();
+			var _puzzle = [],	//arrays of actions
+			_puzzles = []	//arrays of puzzle/username object
+
+			function createDropdown(){
+				var user = document.getElementById('User');
+				var puzzle = document.getElementById('Puzzle');
+				d3.csv("codename_puzzle_list.csv", function(data) {
+
+					data.forEach( function(item){
+						var option = document.createElement('option');
+						option.text = item.Name;
+						option.value = item.Name;
+
+						if (item.Type == "User") {
+							user.appendChild(option);
+							users.add(item.Name);
+						}
+						else if (item.Type == "Puzzle") {
+							puzzle.appendChild(option);
+						}
+					});
+
+					// Sort the usernames and puzzles
+					var users_list = $('#User option');
+					users_list.sort(function(a, b) { return $(a).text() > $(b).text() ? 1 : -1; });
+					$("#User").html('').append(users_list);
+					$("#User").val('user_null');
+
+					var puzzles_list = $('#Puzzle option');
+					puzzles_list.sort(function(a, b) { return $(a).text() > $(b).text() ? 1 : -1; });
+					$("#Puzzle").html('').append(puzzles_list);
+					$("#Puzzle").val('puzzle_null');
+				});
+			}
+			function drawForPuzzle(selectedPuzzle){
+				sortedusers = Array.from(users).sort();
+				sortedusers.forEach(function(user){
+
+					d3.csv("/data/" + user + "-process.csv", function(error, data){
+						_puzzle = [];
+						_puzzles = [];
+
+						if(error) {
+							console.log(error);
+							return;
+						}
+
+						data.forEach(function(d){
+							if(d.puzzle == selectedPuzzle){
+								processData(_puzzle, _puzzles, d);
+							}
+						})
+
+						drawPuzzle(_puzzles);
+
+					})
+				})
+			}
+			function drawForUser(selectedUser){
+				d3.csv("/data/" + selectedUser + "-process.csv", function(error, data){
+
+					_puzzle = [];
+					_puzzles = [];
+
+					if (error) {
+						console.log(error);
+						return;
+					}
+
+					data.forEach(function (d){
+						processData(_puzzle, _puzzles, d);
+					})
+
+					drawPuzzle(_puzzles);
+
+				});
+			}
+			function drawForU_P(selectedUser, selectedPuzzle){
+				d3.csv("/data/" + selectedUser + "-process.csv", function(error, data){
+
+					_puzzle = [];
+					_puzzles = [];
+
+					if (error) {
+						console.log(error);
+						return;
+					}
+
+					data.forEach(function (d){
+						if(d.puzzle == selectedPuzzle){
+							processData(_puzzle, _puzzles, d);
+						}
+					})
+
+					drawPuzzle(_puzzles);
+
+				});
+			}
+			function drawMe() {
+				var selectedUser = document.getElementById("User").value;
+				var selectedPuzzle = document.getElementById("Puzzle").value;
+
+				$('.graph').empty();
+
+				if(selectedUser == "user_null" && selectedPuzzle == "puzzle_null"){
+					window.alert("Select a user or a puzzle");
+				}
+				else if(selectedUser != "user_null" && selectedPuzzle == "puzzle_null"){
+					drawForUser(selectedUser);
+				}
+				else if(selectedUser == "user_null" && selectedPuzzle != "puzzle_null"){
+					drawForPuzzle(selectedPuzzle);
+				}
+				else if(selectedUser != "user_null" && selectedPuzzle != "puzzle_null"){
+					drawForU_P(selectedUser, selectedPuzzle);
+				}
+			}
+			function processData(_puzzle_, _puzzles_, d){
+				_puzzle_.push({
+					"action" : d.action,
+					"current_index" : d.current_index.split("/"),
+					"next_index"	: d.next_index.split("/"),
+					"correctness" : d.correctness.split("/"),
+					"start_time" : d.start_time,
+					"closed_time" : d.closed_time,
+					"content_current" : d.content_current,
+					"content_next" : d.content_next
+				});
+
+				//at the end of a puzzle, append _puzzle into _puzzles, empty _puzzle
+				if(d.action == "END"){
+					_puzzles_.push({
+						"codename" : d.codename,
+						"puzzle_name" : d.puzzle,
+						"correct_stmts" : d.current_index.split("/"),
+						"number_stmts"	: d.correctness,
+						"max_time" : d.closed_time,
+						"mental_effort" : d.next_index,
+						"puzzle" : _puzzle_
+					})
+					_puzzle = [];
+				}
+			}
+			function drawPuzzle(_puzzles_){
+				//-----------------initial variables--------------------
+					var lineType, transLine_x1, transLine_x2, transLine_y1, transLine_y2;
+					var playType, playBar_x, playBar_y, playBar_height;
+					var cellType, stateCell_x, stateCell_y;
+
+					var xScale, yScale, xAxis, yAxis;
+					var xaxis_height = 20;
+					var yaxis_width = 200;
+					var width = window.innerWidth;
+					var height = 300;
+					var margin_top = 8;
+					var margin_bottom = 8;
+					var margin_left = 8;
+					var margin_right = 8;
+
+					var min_width = 500;
+					var avg_duration = 130;
+					var cell_height = 27;
+					var numplay = 0;
+
+					var regex;
+				//------------------------------------------------------
+
+				for(var i=0; i < _puzzles_.length; ++i){
+					width = _puzzles_[i].puzzle.length * 50 + yaxis_width;
+					height = _puzzles_[i].number_stmts * cell_height + margin_top + margin_bottom + xaxis_height;
+
+					regex = /-data|-2017/g;
+					var result = _puzzles_[i].codename.replace(regex, "");
+					var title = d3.select(".graph")
+					.append("p")
+					.attr("class", "title");
+
+					title.append("p")
+					.attr("class", "name")
+					.text(result + "    |  |    " + _puzzles_[i].puzzle_name);
+
+					var mins = Math.floor(_puzzles_[i].max_time/60);
+					var sec = _puzzles[i].max_time%60;
+					title.append("p")
+					.attr("class", "detail")
+					.text("time: " + mins + "mins " + sec + "sec " + " |  |   mental effort:" + _puzzles_[i].mental_effort)
+
+					var svg = d3.select(".graph")
+					.append("svg")
+					.attr("width", width)
+					.attr("height", height);
+
+					numplay = 0;
+					for(var j=0; j < _puzzles_[i].puzzle.length; ++j){
+					//----------------draw play bar------------------------
+						if(_puzzles_[i].puzzle[j].action == "END"){
+							break
+						}
+						else if(_puzzles_[i].puzzle[j].action == "REFERENCE"){
+							playType = "playReferenceBar";
+						}
+						else if(_puzzles_[i].puzzle[j].action == "PUZZLE"){
+							playType = "playPuzzleBar";
+						}
+						playBar_x = numplay * 50;
+						playBar_y =  margin_top;
+						playBar_height = _puzzles_[i].number_stmts * cell_height + 2;
+
+						svg.append("g")
+						.append("rect")
+						.attr("class", playType)
+						.attr("height", playBar_height)
+						.attr("x", playBar_x)
+						.attr("y", playBar_y);
+					//------------------------------------------------------
+					if(_puzzles_[i].puzzle[j].closed_time == -1){
+						//if a player goes on a wathces another video without closing the window,
+						//just print out state cells and no transition line
+						for(var k=0; k < _puzzles_[i].number_stmts; ++k){
+							stateCell_x = numplay * 50 + 1;
+							stateCell_y = margin_top + k * cell_height + 2;
+							if(_puzzles_[i].puzzle[j].correctness[k] == "C"){
+								cellType = "stateCellCorrect";
+							}
+							else if(_puzzles_[i].puzzle[j].correctness[k] == "I"){
+								cellType = "stateCellError";
+							}
+							else if(_puzzles_[i].puzzle[j].correctness[k] == "U"){
+								cellType = "stateCellUnknown";
+							}
+
+							svg.append("g")
+							.append("rect")
+							.attr("class", cellType)
+							.attr("x", stateCell_x)
+							.attr("y", stateCell_y);
+						}
+						numplay += 0.25;
+					}
+					else{
+						for(var k=0; k < _puzzles_[i].number_stmts; ++k){
+						//-----------------transition line----------------------
+							lineType = "transitionLineMoved";
+							transLine_x1 = numplay * 50 + 6;
+							transLine_x2 = transLine_x1 + 30;
+							transLine_y1 = _puzzles_[i].puzzle[j].current_index[k] * cell_height - 13.5 + margin_top;
+							transLine_y2 = _puzzles_[i].puzzle[j].next_index[k] * cell_height - 13.5 + margin_top;
+
+							if(_puzzles_[i].puzzle[j].current_index[k] == "-1" && _puzzles_[i].puzzle[j].next_index[k] != "-1"){
+								lineType = "transitionLineAdded";
+								transLine_x1 += 10;
+								transLine_y1 = transLine_y2;
+								//"transitionLineAdded" has two lines:
+								svg.append("g")
+								.append("line")
+								.attr("class", lineType)
+								.attr("x1", transLine_x1)
+								.attr("x2", transLine_x2)
+								.attr("y1", transLine_y1+3)
+								.attr("y2", transLine_y2+3);
+							}
+							else if(_puzzles_[i].puzzle[j].current_index[k] != "-1" && _puzzles_[i].puzzle[j].next_index[k] == "-1"){
+								lineType = "transitionLineDropped";
+								transLine_x2 -= 10;
+								transLine_y2 = transLine_y1;
+							}
+							else if(_puzzles_[i].puzzle[j].current_index[k] == "-1" && _puzzles_[i].puzzle[j].next_index[k] == "-1"){
+								lineType = "notExist";
+							}
+						//------------------------------------------------------
+
+						//----------------------tooltip-------------------------
+							// var content = _puzzles_[i].correct_stmts[k]
+							// regex = /(|.)(this|GlobalFirstInstanceExpression.scene).(.*)\(/;
+							// if (regex.test(content)) {
+							// 	content = regex.exec(content)[3];
+							// }
+							var content = _puzzles_[i].correct_stmts[k];
+							var removespace = /\s*/g;
+							var subst = ``;
+							content = content.replace(removespace, subst);
+							regex = /(|{*|}*)(count\d|dotogether|doinorder|Comment|\s*\w+.(.*)\()/;
+							if (regex.test(content)) {
+								matched = regex.exec(content);
+								if(matched[3] != undefined){
+									matched[2] = matched[3];
+								}
+								content = matched[2]
+							}
+							var component = svg.append("g")
+							.attr("id", "component");
+							var transitionLine = component.append("svg:line")
+							.attr("class", lineType)
+							.attr("x1", transLine_x1)
+							.attr("x2", transLine_x2)
+							.attr("y1", transLine_y1)
+							.attr("y2", transLine_y2);
+							var tooltip = component.append("g")
+							.attr("class", "tooltip");
+							var rectangle = tooltip.append("rect")
+							.attr("width", 150)
+							.attr("height", 18)
+							.attr("rx", 5)
+		    			.attr("ry", 5)
+							.attr("y", transLine_y1)
+							.attr("x", transLine_x1);
+							var tooltipText = tooltip.append("text")
+							.attr("x", transLine_x1)
+							.attr("y", transLine_y1)
+							.text(content);
+						//------------------------------------------------------
+
+						//-----------------draw state cells---------------------
+							stateCell_x = playBar_x + 1;
+							stateCell_y = margin_top + k * cell_height + 2;
+							if(_puzzles_[i].puzzle[j].correctness[k] == "C"){
+								cellType = "stateCellCorrect";
+							}
+							else if(_puzzles_[i].puzzle[j].correctness[k] == "I"){
+								cellType = "stateCellError";
+							}
+							else if(_puzzles_[i].puzzle[j].correctness[k] == "U"){
+								cellType = "stateCellUnknown";
+							}
+
+							svg.append("g")
+							.append("rect")
+							.attr("class", cellType)
+							.attr("x", stateCell_x)
+							.attr("y", stateCell_y);
+						//------------------------------------------------------
+						}
+						++numplay;
+					}
+
+					}
+
+				//---------------------draw axes------------------------
+					var constructTicker = 0;
+					yScale = d3.scaleLinear()
+					.domain([0, _puzzles_[i].number_stmts-1])
+					.range([0, (_puzzles_[i].number_stmts-1) * cell_height]);
+					yAxis = d3.axisRight()
+					.scale(yScale)
+					.tickSizeOuter(0)
+					.tickValues(d3.range(0, _puzzles_[i].number_stmts))
+					.tickFormat(function(d){
+						var label = _puzzles_[i].correct_stmts[d];
+						var removespace = /\s*/g;
+						var subst = ``;
+						label = label.replace(removespace, subst);
+						regex = /(|{*|}*)(count\d|dotogether|doinorder|Comment|\s*\w+.(.*)\()/;
+						if (regex.test(label)) {
+							matched = regex.exec(label);
+							if(matched[3] != undefined){
+								matched[2] = matched[3];
+							}
+							label = matched[2];
+							if(matched[1] == "{"){
+								constructTicker += 1;
+							}
+							if(matched[1] == "{{"){
+								constructTicker += 2;
+							}
+							if(matched[1] == "}"){
+								constructTicker -= 1;
+							}
+							if(matched[1] == "}}"){
+								constructTicker -= 2;
+							}
+						}
+						if(constructTicker > 0){
+							d3.select(this).attr("x", 30 * constructTicker);
+						}
+						return label;});
+
+					svg.append("g")
+					.attr("class", "yaxis")
+					.attr("transform", "translate(" + (numplay*50+40) + "," + (margin_top + 13) + ")")
+					.call(yAxis);
+				//------------------------------------------------------
+					}
+			}
+
+			createDropdown();
+
+		</script>
+	</body>
+</html>
