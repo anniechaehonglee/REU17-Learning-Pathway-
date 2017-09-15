@@ -1,0 +1,576 @@
+codename,puzzle,action,current_index,next_index,correctness,start_time,closed_time
+compton-drew-data-MidnightZebra,sequential-g,PUZZLE,1/4/2/3/6/5/,1/2/3/4/6/5/,C/I/U/U/U/U/,104,119
+compton-drew-data-MidnightZebra,sequential-g,PUZZLE,1/2/3/4/6/5/,1/2/3/4/5/6/,C/C/C/C/I/U/,129,152
+compton-drew-data-MidnightZebra,sequential-g,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,161,175
+compton-drew-data-MidnightZebra,sequential-g,END,"    this.blueTang.say(We can't let anyone find our treasure!) /
+    this.clownFish.turnToFace(this.shark) /
+    this.clownFish.think(Uh oh) /
+    this.clownFish.say(I think it's too late..) /
+    this.shark.getMouth().turn(TypeExpression.FORWARD, 0.125) /
+    this.shark.move(TypeExpression.FORWARD, 15.0) /",6,6,0,188
+compton-drew-data-MidnightZebra,sequential-d,PUZZLE,1/2/3/-1/5/4/-1/-1/,1/2/3/7/6/4/5/8/,C/C/C/I/U/U/U/U/,57,80
+compton-drew-data-MidnightZebra,sequential-d,PUZZLE,1/2/3/7/6/4/5/8/,1/2/3/6/5/4/8/7/,C/C/C/I/U/U/U/U/,96,115
+compton-drew-data-MidnightZebra,sequential-d,PUZZLE,1/2/3/6/5/4/8/7/,1/2/3/7/5/4/6/8/,C/C/C/I/U/U/U/U/,172,190
+compton-drew-data-MidnightZebra,sequential-d,PUZZLE,1/2/3/7/5/4/6/8/,1/2/3/7/6/5/4/8/,C/C/C/I/U/U/U/U/,218,240
+compton-drew-data-MidnightZebra,sequential-d,PUZZLE,1/2/3/7/6/5/4/8/,1/2/3/7/5/4/6/8/,C/C/C/I/U/U/U/U/,254,271
+compton-drew-data-MidnightZebra,sequential-d,PUZZLE,1/2/3/7/5/4/6/8/,1/2/3/6/5/4/-1/7/,C/C/C/I/U/U/U/U/,292,339
+compton-drew-data-MidnightZebra,sequential-d,PUZZLE,1/2/3/6/5/4/-1/7/,1/2/3/5/6/4/-1/7/,C/C/C/I/U/U/U/U/,344,371
+compton-drew-data-MidnightZebra,sequential-d,PUZZLE,1/2/3/5/6/4/-1/7/,1/2/3/7/5/4/6/8/,C/C/C/I/U/U/U/U/,376,396
+compton-drew-data-MidnightZebra,sequential-d,PUZZLE,1/2/3/7/5/4/6/8/,1/2/3/4/6/5/8/7/,C/C/C/I/U/U/U/U/,408,423
+compton-drew-data-MidnightZebra,sequential-d,PUZZLE,1/2/3/4/6/5/8/7/,1/2/3/4/7/5/6/8/,C/C/C/C/I/U/U/U/,448,465
+compton-drew-data-MidnightZebra,sequential-d,PUZZLE,1/2/3/4/7/5/6/8/,1/2/3/4/6/5/-1/7/,C/C/C/C/I/U/U/U/,474,499
+compton-drew-data-MidnightZebra,sequential-d,PUZZLE,1/2/3/4/6/5/-1/7/,1/2/3/4/7/5/8/6/,C/C/C/C/I/U/U/U/,509,532
+compton-drew-data-MidnightZebra,sequential-d,PUZZLE,1/2/3/4/7/5/8/6/,1/2/3/4/6/5/8/7/,C/C/C/C/I/U/U/U/,550,578
+compton-drew-data-MidnightZebra,sequential-d,PUZZLE,1/2/3/4/6/5/8/7/,1/2/3/4/6/5/8/7/,C/C/C/C/I/U/U/U/,645,-1
+compton-drew-data-MidnightZebra,sequential-d,REFERENCE,1/2/3/4/6/5/8/7/,1/2/3/5/4/6/8/7/,C/C/C/C/I/U/U/U/,663,681
+compton-drew-data-MidnightZebra,sequential-d,PUZZLE,1/2/3/5/4/6/8/7/,1/2/3/5/4/6/8/7/,C/C/C/I/U/U/U/U/,691,-1
+compton-drew-data-MidnightZebra,sequential-d,REFERENCE,1/2/3/5/4/6/8/7/,1/2/3/6/5/7/4/8/,C/C/C/I/U/U/U/U/,711,729
+compton-drew-data-MidnightZebra,sequential-d,PUZZLE,1/2/3/6/5/7/4/8/,1/2/3/5/4/6/-1/7/,C/C/C/I/U/U/U/U/,746,765
+compton-drew-data-MidnightZebra,sequential-d,PUZZLE,1/2/3/5/4/6/-1/7/,1/2/3/5/4/6/-1/7/,C/C/C/I/U/U/U/U/,772,787
+compton-drew-data-MidnightZebra,sequential-d,REFERENCE,1/2/3/5/4/6/-1/7/,1/2/3/4/5/6/-1/7/,C/C/C/I/U/U/U/U/,791,808
+compton-drew-data-MidnightZebra,sequential-d,PUZZLE,1/2/3/4/5/6/-1/7/,1/2/3/4/5/6/8/7/,C/C/C/C/C/C/I/U/,815,831
+compton-drew-data-MidnightZebra,sequential-d,PUZZLE,1/2/3/4/5/6/8/7/,1/2/3/4/5/6/7/8/,C/C/C/C/C/C/I/U/,836,859
+compton-drew-data-MidnightZebra,sequential-d,PUZZLE,1/2/3/4/5/6/7/8/,1/2/3/4/5/6/7/8/,C/C/C/C/C/C/C/C/,881,899
+compton-drew-data-MidnightZebra,sequential-d,END,"    this.monkey.walk(1.5) /
+    this.monkey.jump and spin() /
+    this.monkey.walk up to(this.treasureChest) /
+    this.monkey.raise arms() /
+    this.treasureChest.open slightly() /
+    this.monkey.bang on(this.treasureChest) /
+    this.treasureChest.getChestLid().turn(TypeExpression.BACKWARD, 0.25) /
+    this.treasureMonkey.raise arms() /",7,8,0,907
+compton-drew-data-MidnightZebra,dotogether-m,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/5/7/3/4/6/2/8/9/,I/U/U/U/U/U/U/U/U/,88,102
+compton-drew-data-MidnightZebra,dotogether-m,PUZZLE,1/5/7/3/4/6/2/8/9/,1/5/7/3/4/6/2/8/9/,C/I/U/U/U/U/U/U/U/,167,187
+compton-drew-data-MidnightZebra,dotogether-m,PUZZLE,1/5/7/3/4/6/2/8/9/,1/5/7/4/3/6/2/8/9/,C/I/U/U/U/U/U/U/U/,201,213
+compton-drew-data-MidnightZebra,dotogether-m,PUZZLE,1/5/7/4/3/6/2/8/9/,1/5/7/4/3/6/2/8/9/,C/I/U/U/U/U/U/U/U/,237,246
+compton-drew-data-MidnightZebra,dotogether-m,PUZZLE,1/5/7/4/3/6/2/8/9/,1/-1/6/4/3/5/2/7/8/,C/I/U/U/U/U/U/U/U/,263,272
+compton-drew-data-MidnightZebra,dotogether-m,PUZZLE,1/-1/6/4/3/5/2/7/8/,1/2/7/5/4/6/3/8/9/,C/I/U/U/U/U/U/U/U/,277,284
+compton-drew-data-MidnightZebra,dotogether-m,PUZZLE,1/2/7/5/4/6/3/8/9/,1/2/7/5/4/6/3/8/9/,C/C/C/C/C/C/C/C/C/,387,400
+compton-drew-data-MidnightZebra,dotogether-m,END,"    this.hare.say(1...2...3...JUMP!) /
+    Comment /
+    do together / {
+      this.pig.jump() /
+      this.hare.jump() /
+    }
+    this.caiman.snap jaws() /
+    do together / {
+      this.pig.say(UH OH!) /
+      this.hare.say(UH OH!) /
+    }",6,9,0,407
+compton-drew-data-MidnightZebra,sequential-c,PUZZLE,2/1/3/5/4/-1/,2/1/3/5/4/-1/,I/U/U/U/U/U/,54,-1
+compton-drew-data-MidnightZebra,sequential-c,PUZZLE,2/1/3/5/4/-1/,1/2/3/5/4/-1/,I/U/U/U/U/U/,65,74
+compton-drew-data-MidnightZebra,sequential-c,PUZZLE,1/2/3/5/4/-1/,1/2/3/5/4/6/,C/C/C/I/U/U/,92,105
+compton-drew-data-MidnightZebra,sequential-c,PUZZLE,1/2/3/5/4/6/,1/2/3/5/4/6/,C/C/C/I/U/U/,110,129
+compton-drew-data-MidnightZebra,sequential-c,PUZZLE,1/2/3/5/4/6/,1/2/3/5/4/6/,C/C/C/I/U/U/,134,144
+compton-drew-data-MidnightZebra,sequential-c,PUZZLE,1/2/3/5/4/6/,1/2/3/4/5/6/,C/C/C/I/U/U/,150,168
+compton-drew-data-MidnightZebra,sequential-c,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,175,186
+compton-drew-data-MidnightZebra,sequential-c,END,"    this.hare.swing arm() /
+    this.volleyball.move(TypeExpression.DOWN, 0.6) /
+    this.hare.look down() /
+    this.hare.getRightHip().turn(TypeExpression.FORWARD, 0.25) /
+    this.hare.kick(this.volleyball) /
+    this.net.turn(TypeExpression.BACKWARD, 0.25) /",4,6,0,192
+compton-drew-data-MidnightZebra,dotogether-a,PUZZLE,1/2/3/4/5/6/7/8/,1/2/3/4/5/6/7/8/,C/C/C/C/C/C/C/C/,75,84
+compton-drew-data-MidnightZebra,dotogether-a,END,"    this.penguin.say(Everyone, I'd like you to meet Derek.) /
+    this.DerekTheYeti.say(Hello.) /
+    this.DerekTheYeti.moveToward(this.babyPenguin2, 0.5) /
+    do together / {
+      this.babyPenguin1.jump back() /
+      this.babyPenguin2.jump back() /
+      this.babyPenguin3.jump back() /
+    }
+    this.penguin.say(He's harmless and very kind!) /",1,8,0,90
+compton-drew-data-MidnightZebra,dotogether-n,REFERENCE,-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/,21,-1
+compton-drew-data-MidnightZebra,dotogether-n,REFERENCE,-1/-1/-1/-1/-1/-1/,1/2/3/5/4/6/,I/U/U/U/U/U/,36,43
+compton-drew-data-MidnightZebra,dotogether-n,PUZZLE,1/2/3/5/4/6/,1/2/3/5/4/6/,C/C/C/C/C/C/,71,81
+compton-drew-data-MidnightZebra,dotogether-n,END,"    this.playingCard.say(Alice was just here I promise!!) /
+    this.queenOfHearts.say(We BETTER find her!) /
+    do together / {
+      this.queenOfHearts.walk forward() /
+      this.playingCard.walk forward() /
+    }
+    this.alice.sneak away() /",1,6,0,87
+compton-drew-data-MidnightZebra,dotogether-o,PUZZLE,4/-1/1/2/5/3/,4/-1/1/2/5/3/,I/U/U/U/U/U/,41,-1
+compton-drew-data-MidnightZebra,dotogether-o,REFERENCE,4/-1/1/2/5/3/,4/-1/1/2/5/3/,I/U/U/U/U/U/,51,-1
+compton-drew-data-MidnightZebra,dotogether-o,REFERENCE,4/-1/1/2/5/3/,4/-1/1/2/5/3/,I/U/U/U/U/U/,63,-1
+compton-drew-data-MidnightZebra,dotogether-o,PUZZLE,4/-1/1/2/5/3/,2/-1/1/3/5/4/,I/U/U/U/U/U/,66,77
+compton-drew-data-MidnightZebra,dotogether-o,PUZZLE,2/-1/1/3/5/4/,1/-1/2/3/5/4/,I/U/U/U/U/U/,83,86
+compton-drew-data-MidnightZebra,dotogether-o,PUZZLE,1/-1/2/3/5/4/,1/-1/3/2/5/4/,C/I/U/U/U/U/,91,97
+compton-drew-data-MidnightZebra,dotogether-o,PUZZLE,1/-1/3/2/5/4/,1/2/3/4/6/5/,C/I/U/U/U/U/,115,125
+compton-drew-data-MidnightZebra,dotogether-o,PUZZLE,1/2/3/4/6/5/,1/2/3/4/5/6/,C/C/C/I/U/U/,190,197
+compton-drew-data-MidnightZebra,dotogether-o,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/I/U/U/,212,219
+compton-drew-data-MidnightZebra,dotogether-o,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,231,239
+compton-drew-data-MidnightZebra,dotogether-o,END,"    this.hare.getRightShoulder().turn(TypeExpression.RIGHT, 0.125) /
+    do together / {
+      this.hare.hit(this.volleyball) /
+      this.volleyball.fly away() /
+    }
+    this.hare.getHead().turn(TypeExpression.BACKWARD, 0.125) /
+    this.hare.say(Aww man..) /",6,6,0,242
+compton-drew-data-MidnightZebra,dotogether-e,REFERENCE,1/-1/-1/2/-1/-1/-1/-1/3/,1/3/4/2/7/9/8/5/6/,C/I/U/U/U/U/U/U/U/,93,102
+compton-drew-data-MidnightZebra,dotogether-e,PUZZLE,1/3/4/2/7/9/8/5/6/,1/3/4/2/7/9/8/5/6/,C/I/U/U/U/U/U/U/U/,140,-1
+compton-drew-data-MidnightZebra,dotogether-e,PUZZLE,1/3/4/2/7/9/8/5/6/,1/-1/3/2/6/8/7/5/4/,C/I/U/U/U/U/U/U/U/,155,165
+compton-drew-data-MidnightZebra,dotogether-e,PUZZLE,1/-1/3/2/6/8/7/5/4/,1/2/4/3/7/9/8/5/6/,C/I/U/U/U/U/U/U/U/,188,205
+compton-drew-data-MidnightZebra,dotogether-e,PUZZLE,1/2/4/3/7/9/8/5/6/,1/2/4/3/7/9/8/6/5/,C/C/C/C/I/U/U/U/U/,234,252
+compton-drew-data-MidnightZebra,dotogether-e,PUZZLE,1/2/4/3/7/9/8/6/5/,1/2/3/4/6/9/7/8/5/,C/C/C/C/I/U/U/U/U/,256,272
+compton-drew-data-MidnightZebra,dotogether-e,PUZZLE,1/2/3/4/6/9/7/8/5/,1/2/3/4/6/9/8/7/5/,C/C/C/C/I/U/U/U/U/,284,296
+compton-drew-data-MidnightZebra,dotogether-e,PUZZLE,1/2/3/4/6/9/8/7/5/,1/2/3/4/6/9/8/7/5/,C/C/C/C/I/U/U/U/U/,308,-1
+compton-drew-data-MidnightZebra,dotogether-e,REFERENCE,1/2/3/4/6/9/8/7/5/,1/2/3/4/7/9/8/6/5/,C/C/C/C/I/U/U/U/U/,322,335
+compton-drew-data-MidnightZebra,dotogether-e,PUZZLE,1/2/3/4/7/9/8/6/5/,1/2/3/4/7/9/8/5/6/,C/C/C/C/I/U/U/U/U/,342,351
+compton-drew-data-MidnightZebra,dotogether-e,PUZZLE,1/2/3/4/7/9/8/5/6/,1/2/3/4/5/9/8/6/7/,C/C/C/C/I/U/U/U/U/,364,382
+compton-drew-data-MidnightZebra,dotogether-e,PUZZLE,1/2/3/4/5/9/8/6/7/,1/2/3/4/5/9/8/6/7/,C/C/C/C/C/C/C/C/C/,389,400
+compton-drew-data-MidnightZebra,dotogether-e,END,"    this.bush.rustle() /
+    do together / {
+      this.Witch.getHead().turn(TypeExpression.RIGHT, 0.125) /
+      this.Witch.say(What was that?) /
+    }
+    do together / {
+      this.Troll.legs shake() /
+      this.Troll.bend over() /
+      this.Troll.turn(TypeExpression.RIGHT, 0.5) /
+      this.Troll.think(This place is scary..) /
+    }",6,9,0,407
+compton-drew-data-MidnightZebra,dotogether-c,PUZZLE,1/2/3/-1/4/5/6/7/,1/2/3/4/5/6/7/8/,C/C/C/I/U/U/U/U/,4437,4449
+compton-drew-data-MidnightZebra,dotogether-c,PUZZLE,1/2/3/4/5/6/7/8/,1/2/3/4/5/6/7/8/,C/C/C/C/C/C/C/C/,4462,4470
+compton-drew-data-MidnightZebra,dotogether-c,END,"    this.Troll.say(What's for dinner?) /
+    this.Witch.say(YOU!) /
+    Comment /
+    do together / {
+      this.Troll.moveTo(this.Cauldron) /
+      this.Troll.raise arms and scream() /
+    }
+    this.Troll.turn(TypeExpression.RIGHT, 8.0) /
+    this.Troll.disappear() /",4,8,0,4478
+compton-drew-data-MidnightZebra,dotogether-i,PUZZLE,1/2/3/4/-1/-1/-1/-1/-1/-1/,1/2/3/4/-1/-1/-1/-1/-1/-1/,C/C/C/C/I/U/U/U/U/U/,69,-1
+compton-drew-data-MidnightZebra,dotogether-i,PUZZLE,1/2/3/4/-1/-1/-1/-1/-1/-1/,1/2/3/4/-1/-1/-1/-1/-1/-1/,C/C/C/C/I/U/U/U/U/U/,76,-1
+compton-drew-data-MidnightZebra,dotogether-i,REFERENCE,1/2/3/4/-1/-1/-1/-1/-1/-1/,1/2/3/4/5/-1/7/6/8/9/,C/C/C/C/I/U/U/U/U/U/,81,88
+compton-drew-data-MidnightZebra,dotogether-i,PUZZLE,1/2/3/4/5/-1/7/6/8/9/,1/2/3/4/5/6/8/7/9/10/,C/C/C/C/C/I/U/U/U/U/,114,125
+compton-drew-data-MidnightZebra,dotogether-i,PUZZLE,1/2/3/4/5/6/8/7/9/10/,1/2/3/4/5/6/8/7/9/10/,C/C/C/C/C/C/C/C/C/C/,133,144
+compton-drew-data-MidnightZebra,dotogether-i,END,"    this.tiny yeti.turnToFace(this.big yeti) /
+    do together / {
+      this.tiny yeti.nod() /
+      this.big yeti.nod() /
+    }
+    this.tiny yeti.move(TypeExpression.BACKWARD, 0.5) /
+    do together / {
+      this.tiny yeti.jump to hammer() /
+      this.big yeti.prepare to swing hammer() /
+    }
+    this.big yeti.power swing() /
+    this.tiny yeti.fly away() /",1,10,0,155
+compton-drew-data-MidnightZebra,dotogether-f,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/,1/2/3/4/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/,36,43
+compton-drew-data-MidnightZebra,dotogether-f,PUZZLE,1/2/3/4/-1/-1/-1/-1/,1/2/3/4/-1/-1/5/-1/,C/C/C/C/I/U/U/U/,100,112
+compton-drew-data-MidnightZebra,dotogether-f,PUZZLE,1/2/3/4/-1/-1/5/-1/,1/2/3/4/-1/-1/5/-1/,C/C/C/C/I/U/U/U/,120,130
+compton-drew-data-MidnightZebra,dotogether-f,REFERENCE,1/2/3/4/-1/-1/5/-1/,1/2/3/4/6/5/7/8/,C/C/C/C/I/U/U/U/,132,143
+compton-drew-data-MidnightZebra,dotogether-f,PUZZLE,1/2/3/4/6/5/7/8/,1/2/3/4/6/5/7/8/,C/C/C/C/I/U/U/U/,161,-1
+compton-drew-data-MidnightZebra,dotogether-f,REFERENCE,1/2/3/4/6/5/7/8/,1/2/3/4/6/5/7/8/,C/C/C/C/I/U/U/U/,177,-1
+compton-drew-data-MidnightZebra,dotogether-f,PUZZLE,1/2/3/4/6/5/7/8/,1/2/3/4/6/5/7/8/,C/C/C/C/I/U/U/U/,187,-1
+compton-drew-data-MidnightZebra,dotogether-f,REFERENCE,1/2/3/4/6/5/7/8/,1/2/3/4/5/6/7/8/,C/C/C/C/I/U/U/U/,199,210
+compton-drew-data-MidnightZebra,dotogether-f,PUZZLE,1/2/3/4/5/6/7/8/,1/2/3/4/5/6/7/8/,C/C/C/C/C/C/C/C/,224,275
+compton-drew-data-MidnightZebra,dotogether-f,END,"    this.Witch.say(I will turn you to stone!) /
+    do together / {
+      this.Ogre.move(TypeExpression.DOWN, 0.375) /
+      this.Ogre.bend knees() /
+    }
+    do together / {
+      this.Witch.cast spell() /
+      this.Ogre.getRightShoulder().turn(TypeExpression.LEFT, 0.25) /
+      this.Ogre.setPaint(InstanceCreation) /
+    }",4,8,0,279
+compton-drew-data-MidnightZebra,dotogether-l,REFERENCE,1/2/-1/3/5/4/6/,1/2/4/3/6/5/7/,C/C/I/U/U/U/U/,49,60
+compton-drew-data-MidnightZebra,dotogether-l,PUZZLE,1/2/4/3/6/5/7/,1/3/2/4/6/5/7/,C/C/I/U/U/U/U/,68,80
+compton-drew-data-MidnightZebra,dotogether-l,PUZZLE,1/3/2/4/6/5/7/,1/3/2/4/6/5/7/,C/I/U/U/U/U/U/,94,-1
+compton-drew-data-MidnightZebra,dotogether-l,REFERENCE,1/3/2/4/6/5/7/,1/3/2/4/6/5/7/,C/I/U/U/U/U/U/,138,147
+compton-drew-data-MidnightZebra,dotogether-l,PUZZLE,1/3/2/4/6/5/7/,1/3/2/4/6/5/7/,C/I/U/U/U/U/U/,165,173
+compton-drew-data-MidnightZebra,dotogether-l,PUZZLE,1/3/2/4/6/5/7/,1/2/4/3/6/5/7/,C/I/U/U/U/U/U/,181,189
+compton-drew-data-MidnightZebra,dotogether-l,PUZZLE,1/2/4/3/6/5/7/,1/2/4/3/6/5/7/,C/C/I/U/U/U/U/,202,212
+compton-drew-data-MidnightZebra,dotogether-l,PUZZLE,1/2/4/3/6/5/7/,1/2/4/3/6/5/7/,C/C/I/U/U/U/U/,241,255
+compton-drew-data-MidnightZebra,dotogether-l,PUZZLE,1/2/4/3/6/5/7/,1/2/4/3/6/5/7/,C/C/I/U/U/U/U/,370,-1
+compton-drew-data-MidnightZebra,dotogether-l,REFERENCE,1/2/4/3/6/5/7/,1/2/4/3/6/5/7/,C/C/I/U/U/U/U/,381,390
+compton-drew-data-MidnightZebra,dotogether-l,PUZZLE,1/2/4/3/6/5/7/,1/2/4/3/6/5/7/,C/C/I/U/U/U/U/,414,-1
+compton-drew-data-MidnightZebra,dotogether-l,PUZZLE,1/2/4/3/6/5/7/,1/2/4/3/6/5/7/,C/C/I/U/U/U/U/,432,-1
+compton-drew-data-MidnightZebra,dotogether-l,REFERENCE,1/2/4/3/6/5/7/,1/2/4/3/6/5/7/,C/C/I/U/U/U/U/,442,-1
+compton-drew-data-MidnightZebra,dotogether-l,REFERENCE,1/2/4/3/6/5/7/,1/2/4/3/6/5/7/,C/C/I/U/U/U/U/,454,464
+compton-drew-data-MidnightZebra,dotogether-l,PUZZLE,1/2/4/3/6/5/7/,1/2/4/3/6/5/7/,C/C/I/U/U/U/U/,515,-1
+compton-drew-data-MidnightZebra,dotogether-l,REFERENCE,1/2/4/3/6/5/7/,1/2/3/4/6/5/7/,C/C/I/U/U/U/U/,528,545
+compton-drew-data-MidnightZebra,dotogether-l,PUZZLE,1/2/3/4/6/5/7/,1/2/3/4/6/5/7/,C/C/C/C/C/C/C/,561,574
+compton-drew-data-MidnightZebra,dotogether-l,END,"    this.cheshireCat.say(Okay Alice, your turn now.) /
+    this.alice.move(TypeExpression.BACKWARD, 1.0) /
+    do together / {
+      this.alice.move legs() /
+      this.alice.move(TypeExpression.UP, 1.0) /
+      this.alice.moveToward(this.cheshireCat, 3.0) /
+    }
+    this.alice.say(I'm stuck!) /",4,7,0,584
+compton-drew-data-MidnightZebra,dotogether-b,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,44,53
+compton-drew-data-MidnightZebra,dotogether-b,END,"    this.troll.say(Ahhhhhh) /
+    do together / {
+      this.troll.sneeze and raise arms() /
+      this.boat.move(TypeExpression.BACKWARD, 5.0) /
+    }
+    this.manatee.move(TypeExpression.UP, 0.5) /
+    this.manatee.say(Bless you!) /",6,6,0,57
+compton-drew-data-MidnightZebra,dotogether-g,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/,17,23
+compton-drew-data-MidnightZebra,dotogether-g,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/,7/2/3/4/5/6/1/9/8/,I/U/U/U/U/U/U/U/U/,35,51
+compton-drew-data-MidnightZebra,dotogether-g,PUZZLE,7/2/3/4/5/6/1/9/8/,7/2/3/4/5/6/1/9/8/,C/C/C/C/C/C/C/C/C/,121,128
+compton-drew-data-MidnightZebra,dotogether-g,END,"    do together / {
+      this.yeti.getRightShoulder().turn(TypeExpression.LEFT, 0.375) /
+      this.yeti.getLeftShoulder().turn(TypeExpression.RIGHT, 0.375) /
+    }
+    do together / {
+      this.yeti.getMouth().turn(TypeExpression.FORWARD, 0.25) /
+      this.yeti.resize(1.5) /
+    }
+    do together / {
+      this.babyYeti.getMouth().turn(TypeExpression.FORWARD, 0.25) /
+      this.babyYeti.raise arms() /
+    }",1,9,0,133
+compton-drew-data-MidnightZebra,dotogether-k,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/8/5/3/4/6/7/2/10/9/11/,I/U/U/U/U/U/U/U/U/U/U/,52,59
+compton-drew-data-MidnightZebra,dotogether-k,PUZZLE,1/8/5/3/4/6/7/2/10/9/11/,1/8/5/3/4/6/7/2/10/9/11/,C/C/C/C/C/C/C/C/C/C/I/,440,456
+compton-drew-data-MidnightZebra,dotogether-k,PUZZLE,1/8/5/3/4/6/7/2/10/9/11/,1/8/5/3/4/6/7/2/10/9/11/,C/C/C/C/C/C/C/C/C/C/C/,465,486
+compton-drew-data-MidnightZebra,dotogether-k,END,"    this.witch.cast spell() /
+    do together / {
+      this.cauldron.turn(TypeExpression.RIGHT, 4.0) /
+      this.lid.move(TypeExpression.UP, 1.0) /
+      this.poodle.move(TypeExpression.UP, 1.0) /
+    }
+    this.witch.lower arm() /
+    this.witch.say(Whoops!) /
+    do together / {
+      this.troll.get scared() /
+      this.poodle.bark() /
+    }
+    this.troll.say(eeee yikes!) /",6,11,0,491
+compton-drew-data-MidnightZebra,dotogether-d,REFERENCE,1/-1/-1/2/-1/-1/-1/-1/,1/3/-1/2/-1/4/-1/5/,C/I/U/U/U/U/U/U/,45,53
+compton-drew-data-MidnightZebra,dotogether-d,REFERENCE,1/3/-1/2/-1/4/-1/5/,1/3/-1/2/-1/4/-1/5/,C/I/U/U/U/U/U/U/,83,92
+compton-drew-data-MidnightZebra,dotogether-d,PUZZLE,1/3/-1/2/-1/4/-1/5/,1/2/3/4/5/7/8/6/,C/I/U/U/U/U/U/U/,93,103
+compton-drew-data-MidnightZebra,dotogether-d,PUZZLE,1/2/3/4/5/7/8/6/,1/2/3/4/5/7/8/6/,C/C/C/C/C/C/C/C/,142,151
+compton-drew-data-MidnightZebra,dotogether-d,END,"    this.mandril.think(A treasure chest!) /
+    do together / {
+      this.treasureChest.getChestLid().turn(TypeExpression.BACKWARD, 0.25) /
+      this.treasureChest.say(Hello!) /
+    }
+    do together / {
+      this.mandril.turn(TypeExpression.LEFT, 0.5) /
+      this.mandril.walk(10.0) /
+      this.mandril.say(Ahhhhhh!) /
+    }",6,8,0,155
+compton-drew-data-MidnightZebra,dotogether-j,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/,33,51
+compton-drew-data-MidnightZebra,dotogether-j,REFERENCE,1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/3/4/-1/-1/-1/-1/-1/-1/-1/,C/C/I/I/U/U/U/U/U/U/U/,71,76
+compton-drew-data-MidnightZebra,dotogether-j,REFERENCE,1/2/3/4/-1/-1/-1/-1/-1/-1/-1/,1/2/3/4/5/-1/-1/-1/-1/-1/-1/,C/C/C/C/I/U/U/U/U/U/U/,88,97
+compton-drew-data-MidnightZebra,dotogether-j,REFERENCE,1/2/3/4/5/-1/-1/-1/-1/-1/-1/,1/2/3/4/5/6/7/-1/-1/8/-1/,C/C/C/C/C/I/U/U/U/U/U/,110,124
+compton-drew-data-MidnightZebra,dotogether-j,PUZZLE,1/2/3/4/5/6/7/-1/-1/8/-1/,1/2/3/4/5/6/7/-1/-1/8/-1/,C/C/C/C/C/C/C/C/I/I/U/,155,168
+compton-drew-data-MidnightZebra,dotogether-j,REFERENCE,1/2/3/4/5/6/7/-1/-1/8/-1/,1/2/3/4/5/6/8/10/9/7/11/,C/C/C/C/C/C/C/C/I/I/U/,171,195
+compton-drew-data-MidnightZebra,dotogether-j,PUZZLE,1/2/3/4/5/6/8/10/9/7/11/,1/2/3/4/5/6/8/10/9/7/11/,C/C/C/C/C/C/I/U/U/U/U/,253,-1
+compton-drew-data-MidnightZebra,dotogether-j,PUZZLE,1/2/3/4/5/6/8/10/9/7/11/,1/2/3/4/5/6/7/9/10/8/11/,C/C/C/C/C/C/I/U/U/U/U/,281,299
+compton-drew-data-MidnightZebra,dotogether-j,PUZZLE,1/2/3/4/5/6/7/9/10/8/11/,1/2/3/4/5/6/7/9/10/8/11/,C/C/C/C/C/C/C/C/C/C/C/,323,343
+compton-drew-data-MidnightZebra,dotogether-j,END,"    this.fox.jump out of snow() /
+    do together / {
+      this.snow man.skate around() /
+      this.snow gal.skate around() /
+    }
+    this.fox.wag tail() /
+    this.fox.jump on(this.snow man) /
+    do together / {
+      this.snow gal.twirl around() /
+      this.snow gal.raise up and lower down() /
+      this.snow man.skate around() /
+    }
+    this.fox.dive into snow() /",6,11,0,347
+compton-drew-data-MidnightZebra,dotogether-h,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/U/,196,203
+compton-drew-data-MidnightZebra,dotogether-h,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/U/,209,224
+compton-drew-data-MidnightZebra,dotogether-h,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/4/3/-1/-1/-1/-1/2/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/U/,239,249
+compton-drew-data-MidnightZebra,dotogether-h,PUZZLE,1/-1/4/3/-1/-1/-1/-1/2/-1/-1/-1/,1/-1/4/3/-1/-1/-1/-1/2/-1/-1/-1/,C/C/C/C/I/U/U/U/U/U/U/U/,288,295
+compton-drew-data-MidnightZebra,dotogether-h,REFERENCE,1/-1/4/3/-1/-1/-1/-1/2/-1/-1/-1/,1/-1/4/3/-1/-1/-1/-1/2/-1/-1/-1/,C/C/C/C/I/U/U/U/U/U/U/U/,301,313
+compton-drew-data-MidnightZebra,dotogether-h,PUZZLE,1/-1/4/3/-1/-1/-1/-1/2/-1/-1/-1/,1/-1/4/3/-1/5/-1/6/2/-1/-1/-1/,C/C/C/C/I/U/U/U/U/U/U/U/,326,332
+compton-drew-data-MidnightZebra,dotogether-h,PUZZLE,1/-1/4/3/-1/5/-1/6/2/-1/-1/-1/,1/-1/4/3/6/5/7/8/2/-1/-1/-1/,C/C/C/C/I/U/U/U/U/U/U/U/,354,361
+compton-drew-data-MidnightZebra,dotogether-h,PUZZLE,1/-1/4/3/6/5/7/8/2/-1/-1/-1/,1/-1/4/3/7/5/8/9/2/-1/-1/6/,C/C/C/C/I/U/U/U/U/U/U/U/,379,386
+compton-drew-data-MidnightZebra,dotogether-h,PUZZLE,1/-1/4/3/7/5/8/9/2/-1/-1/6/,1/-1/4/3/7/5/8/9/2/-1/-1/6/,C/C/C/C/I/U/U/U/U/U/U/U/,395,403
+compton-drew-data-MidnightZebra,dotogether-h,REFERENCE,1/-1/4/3/7/5/8/9/2/-1/-1/6/,1/-1/4/3/7/5/8/9/2/-1/-1/6/,C/C/C/C/I/U/U/U/U/U/U/U/,415,426
+compton-drew-data-MidnightZebra,dotogether-h,PUZZLE,1/-1/4/3/7/5/8/9/2/-1/-1/6/,1/-1/4/3/7/5/8/9/2/-1/-1/6/,C/C/C/C/I/U/U/U/U/U/U/U/,435,442
+compton-drew-data-MidnightZebra,dotogether-h,PUZZLE,1/-1/4/3/7/5/8/9/2/-1/-1/6/,1/10/4/3/7/5/8/9/2/11/12/6/,C/C/C/C/I/U/U/U/U/U/U/U/,454,463
+compton-drew-data-MidnightZebra,dotogether-h,PUZZLE,1/10/4/3/7/5/8/9/2/11/12/6/,1/10/4/3/7/5/8/9/2/11/12/6/,C/C/C/C/I/U/U/U/U/U/U/U/,4191,4203
+compton-drew-data-MidnightZebra,dotogether-h,PUZZLE,1/10/4/3/7/5/8/9/2/11/12/6/,1/10/4/3/7/5/9/8/2/11/12/6/,C/C/C/C/I/U/U/U/U/U/U/U/,4220,4229
+compton-drew-data-MidnightZebra,dotogether-h,PUZZLE,1/10/4/3/7/5/9/8/2/11/12/6/,1/10/4/3/6/7/8/9/2/11/12/5/,C/C/C/C/I/U/U/U/U/U/U/U/,4246,4258
+compton-drew-data-MidnightZebra,dotogether-h,PUZZLE,1/10/4/3/6/7/8/9/2/11/12/5/,1/10/4/3/6/7/8/9/2/11/12/5/,C/C/C/C/I/I/U/U/U/U/U/U/,4316,4322
+compton-drew-data-MidnightZebra,dotogether-h,PUZZLE,1/10/4/3/6/7/8/9/2/11/12/5/,1/10/4/3/6/7/8/9/2/11/12/5/,C/C/C/C/I/U/U/U/U/U/U/U/,4333,4344
+compton-drew-data-MidnightZebra,dotogether-h,PUZZLE,1/10/4/3/6/7/8/9/2/11/12/5/,1/8/4/3/7/5/9/10/2/11/12/6/,C/C/C/C/I/U/U/U/U/U/U/U/,4351,4363
+compton-drew-data-MidnightZebra,dotogether-h,PUZZLE,1/8/4/3/7/5/9/10/2/11/12/6/,1/8/4/3/7/5/10/9/2/11/12/6/,C/C/C/C/I/U/U/U/U/U/U/U/,4429,4438
+compton-drew-data-MidnightZebra,dotogether-h,PUZZLE,1/8/4/3/7/5/10/9/2/11/12/6/,1/8/4/3/7/5/10/9/2/11/12/6/,C/C/C/C/I/U/U/U/U/U/U/U/,4468,-1
+compton-drew-data-MidnightZebra,dotogether-h,REFERENCE,1/8/4/3/7/5/10/9/2/11/12/6/,1/8/4/3/7/5/10/9/2/11/12/6/,C/C/C/C/I/U/U/U/U/U/U/U/,4483,-1
+compton-drew-data-MidnightZebra,dotogether-h,PUZZLE,1/8/4/3/7/5/10/9/2/11/12/6/,1/10/4/3/7/6/8/9/2/11/12/5/,C/C/C/C/I/U/U/U/U/U/U/U/,4495,4513
+compton-drew-data-MidnightZebra,dotogether-h,PUZZLE,1/10/4/3/7/6/8/9/2/11/12/5/,1/10/4/3/6/7/8/9/2/11/12/5/,C/C/C/C/I/U/U/U/U/U/U/U/,4527,4537
+compton-drew-data-MidnightZebra,dotogether-h,PUZZLE,1/10/4/3/6/7/8/9/2/11/12/5/,1/10/4/3/6/7/8/9/2/11/12/5/,C/C/C/C/I/U/U/U/U/U/U/U/,4544,4552
+compton-drew-data-MidnightZebra,dotogether-h,REFERENCE,1/10/4/3/6/7/8/9/2/11/12/5/,1/9/4/3/5/6/7/8/2/10/11/12/,C/C/C/C/I/U/U/U/U/U/U/U/,4562,4572
+compton-drew-data-MidnightZebra,dotogether-h,PUZZLE,1/9/4/3/5/6/7/8/2/10/11/12/,1/9/4/3/5/6/7/8/2/10/11/12/,C/C/C/C/C/C/C/C/C/C/C/C/,4577,4586
+compton-drew-data-MidnightZebra,dotogether-h,END,"    this.bunny.bend forward() /
+    do together / {
+      this.bunny.jump() /
+      this.bunny.move(TypeExpression.FORWARD, 1.0) /
+    }
+    this.bunny.disappear() /
+    do together / {
+      this.hat.turn(TypeExpression.RIGHT, 2.0) /
+      this.hat.move(TypeExpression.DOWN, 1.0) /
+    }
+    do together / {
+      this.bunny.appear() /
+      this.bunny.raise arms() /
+      this.bunny.turn(TypeExpression.RIGHT, 2.25) /
+    }",6,12,0,4590
+compton-drew-data-MidnightZebra,repeat-e,REFERENCE,-1/-1/-1/-1/-1/1/2/,-1/-1/-1/-1/-1/1/2/,I/U/U/U/U/U/U/,377,-1
+compton-drew-data-MidnightZebra,repeat-e,REFERENCE,-1/-1/-1/-1/-1/1/2/,-1/-1/-1/-1/-1/1/2/,I/U/U/U/U/U/U/,4393,-1
+compton-drew-data-MidnightZebra,repeat-e,REFERENCE,-1/-1/-1/-1/-1/1/2/,-1/1/-1/-1/-1/2/3/,I/U/U/U/U/U/U/,4396,4412
+compton-drew-data-MidnightZebra,repeat-e,REFERENCE,-1/1/-1/-1/-1/2/3/,1/2/3/4/-1/5/6/,I/U/U/U/U/U/U/,4427,4437
+compton-drew-data-MidnightZebra,repeat-e,PUZZLE,1/2/3/4/-1/5/6/,1/2/3/4/7/5/6/,C/C/C/C/I/U/U/,4457,4469
+compton-drew-data-MidnightZebra,repeat-e,PUZZLE,1/2/3/4/7/5/6/,1/2/3/4/7/5/6/,C/C/C/C/I/U/U/,4477,4495
+compton-drew-data-MidnightZebra,repeat-e,PUZZLE,1/2/3/4/7/5/6/,1/2/3/4/5/6/7/,C/C/C/C/I/U/U/,4504,4523
+compton-drew-data-MidnightZebra,repeat-e,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/C/C/,4535,4550
+compton-drew-data-MidnightZebra,repeat-e,END,"    this.curupira.walk(2.0) /
+    this.curupira.getNeck().turn(TypeExpression.FORWARD, 0.125) /
+    this.curupira.think(Uh oh.) /
+    this.curupira.move(TypeExpression.DOWN, 4.0) /
+    this.mapinguari.place hands on belly() /
+    count 3 / {
+      this.mapinguari.laugh() /
+    }",4,7,0,4554
+compton-drew-data-MidnightZebra,repeat-ee,PUZZLE,1/2/3/4/,1/2/3/4/,C/C/C/C/,86,99
+compton-drew-data-MidnightZebra,repeat-ee,END,"    this.hare.walk(5.0) /
+    count 3 / {
+      this.hare.knock() /
+    }
+    this.hare.say(Anyone home?) /",2,4,0,168
+compton-drew-data-MidnightZebra,repeat-gg,REFERENCE,-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/,58,62
+compton-drew-data-MidnightZebra,repeat-gg,REFERENCE,1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/,74,90
+compton-drew-data-MidnightZebra,repeat-gg,REFERENCE,1/-1/-1/-1/-1/-1/-1/,1/2/4/5/3/6/7/,C/I/U/U/U/U/U/,97,107
+compton-drew-data-MidnightZebra,repeat-gg,PUZZLE,1/2/4/5/3/6/7/,1/3/4/5/2/6/7/,C/C/I/U/U/U/U/,144,152
+compton-drew-data-MidnightZebra,repeat-gg,PUZZLE,1/3/4/5/2/6/7/,1/2/3/4/5/6/7/,C/I/U/U/U/U/U/,163,170
+compton-drew-data-MidnightZebra,repeat-gg,PUZZLE,1/2/3/4/5/6/7/,1/2/3/5/4/6/7/,C/C/C/C/I/U/U/,182,194
+compton-drew-data-MidnightZebra,repeat-gg,PUZZLE,1/2/3/5/4/6/7/,1/2/3/4/5/6/7/,C/C/C/I/U/U/U/,209,219
+compton-drew-data-MidnightZebra,repeat-gg,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/C/C/,233,250
+compton-drew-data-MidnightZebra,repeat-gg,END,"    this.mandril.scare ostrich() /
+    this.ostrichBaby.say(AAAHHHHH!!!!) /
+    count 5 / {
+      this.ostrichBaby.run(3, 0.08) /
+      GlobalFirstInstanceExpression.scene.ostrichBaby.turn(TypeExpression.RIGHT, 0.5) /
+    }
+    this.ostrichBaby.think(I guess this is the end; there's no escape!) /
+    this.fade to black() /",4,7,0,260
+compton-drew-data-MidnightZebra,repeat-m,REFERENCE,1/2/3/-1/-1/-1/-1/,1/2/3/4/-1/-1/-1/,C/C/C/I/U/U/U/,56,69
+compton-drew-data-MidnightZebra,repeat-m,PUZZLE,1/2/3/4/-1/-1/-1/,1/2/3/4/-1/-1/-1/,C/C/C/I/U/U/U/,85,92
+compton-drew-data-MidnightZebra,repeat-m,PUZZLE,1/2/3/4/-1/-1/-1/,1/2/3/4/5/6/7/,C/C/C/C/I/U/U/,104,113
+compton-drew-data-MidnightZebra,repeat-m,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/C/C/,376,391
+compton-drew-data-MidnightZebra,repeat-m,END,"    this.alien.walk(0.5) /
+    count 2 / {
+      this.alien.kick() /
+      this.flying saucer.shake() /
+    }
+    this.flying saucer.fly above(this.alien) /
+    this.flying saucer.beam up(this.alien) /
+    this.flying saucer.fly away() /",6,7,0,396
+compton-drew-data-MidnightZebra,repeat-a,PUZZLE,1/3/2/-1/5/6/-1/4/-1/,1/2/3/-1/5/6/-1/4/-1/,C/I/U/U/U/U/U/U/U/,71,81
+compton-drew-data-MidnightZebra,repeat-a,PUZZLE,1/2/3/-1/5/6/-1/4/-1/,1/2/3/7/5/6/9/4/8/,C/C/C/C/C/C/I/U/U/,113,125
+compton-drew-data-MidnightZebra,repeat-a,PUZZLE,1/2/3/7/5/6/9/4/8/,1/2/3/8/5/6/7/4/9/,C/C/C/C/C/C/I/U/U/,137,153
+compton-drew-data-MidnightZebra,repeat-a,PUZZLE,1/2/3/8/5/6/7/4/9/,1/2/3/8/5/6/7/4/9/,C/C/C/C/C/C/C/C/C/,166,189
+compton-drew-data-MidnightZebra,repeat-a,END,"    this.tiny yeti.run forward() /
+    this.tiny yeti.steal hammer() /
+    this.tiny yeti.jump above yeti() /
+    count 3 / {
+      this.tiny yeti.swing hammer() /
+      this.big yeti.shake head() /
+    }
+    this.tiny yeti.fall to ground() /
+    count 3 / {
+      this.big yeti.cry() /
+    }",6,9,0,193
+compton-drew-data-MidnightZebra,repeat-b,PUZZLE,-1/-1/-1/-1/-1/-1/-1/2/1/-1/,1/2/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/,51,59
+compton-drew-data-MidnightZebra,repeat-b,PUZZLE,1/2/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/3/-1/-1/4/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/,93,100
+compton-drew-data-MidnightZebra,repeat-b,PUZZLE,1/2/3/-1/-1/4/-1/-1/-1/-1/,1/2/3/-1/-1/4/-1/-1/-1/-1/,C/C/C/I/U/U/U/U/U/U/,114,-1
+compton-drew-data-MidnightZebra,repeat-b,REFERENCE,1/2/3/-1/-1/4/-1/-1/-1/-1/,1/2/4/5/6/3/-1/-1/-1/-1/,C/C/C/I/U/U/U/U/U/U/,125,134
+compton-drew-data-MidnightZebra,repeat-b,PUZZLE,1/2/4/5/6/3/-1/-1/-1/-1/,1/2/3/4/5/6/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/,152,163
+compton-drew-data-MidnightZebra,repeat-b,PUZZLE,1/2/3/4/5/6/-1/-1/-1/-1/,1/2/3/4/5/6/-1/-1/-1/-1/,C/C/C/C/C/C/I/U/U/U/,169,-1
+compton-drew-data-MidnightZebra,repeat-b,REFERENCE,1/2/3/4/5/6/-1/-1/-1/-1/,1/2/3/4/5/6/7/8/9/10/,C/C/C/C/C/C/I/U/U/U/,185,201
+compton-drew-data-MidnightZebra,repeat-b,PUZZLE,1/2/3/4/5/6/7/8/9/10/,1/2/3/4/5/6/7/8/9/10/,C/C/C/C/C/C/C/C/C/C/,234,255
+compton-drew-data-MidnightZebra,repeat-b,END,"    this.grey monkey.jump onto(this.couch) /
+    this.grey monkey.turnToFace(this.brown monkey) /
+    count 2 / {
+      this.grey monkey.move arms up and down() /
+      this.brown monkey.move arms up and down() /
+    }
+    this.grey monkey.hop side to side() /
+    count 2 / {
+      this.brown monkey.turn around() /
+      this.brown monkey.jump forward() /
+    }
+    this.grey monkey.lay down() /",5,10,0,263
+compton-drew-data-MidnightZebra,repeat-g,PUZZLE,-1/1/-1/-1/-1/-1/,-1/1/-1/-1/-1/-1/,I/U/U/U/U/U/,26,33
+compton-drew-data-MidnightZebra,repeat-g,PUZZLE,-1/1/-1/-1/-1/-1/,-1/1/-1/-1/-1/-1/,I/U/U/U/U/U/,35,-1
+compton-drew-data-MidnightZebra,repeat-g,REFERENCE,-1/1/-1/-1/-1/-1/,1/2/4/3/-1/-1/,I/U/U/U/U/U/,43,48
+compton-drew-data-MidnightZebra,repeat-g,PUZZLE,1/2/4/3/-1/-1/,1/2/4/3/-1/-1/,C/C/I/U/U/U/,79,88
+compton-drew-data-MidnightZebra,repeat-g,REFERENCE,1/2/4/3/-1/-1/,1/2/4/3/5/6/,C/C/I/U/U/U/,91,98
+compton-drew-data-MidnightZebra,repeat-g,PUZZLE,1/2/4/3/5/6/,1/2/3/4/5/6/,C/C/I/U/U/U/,111,118
+compton-drew-data-MidnightZebra,repeat-g,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,131,142
+compton-drew-data-MidnightZebra,repeat-g,END,"    this.Baby Yeti.raise arms() /
+    count 2 / {
+      this.Baby Yeti.turn(TypeExpression.LEFT, 0.125) /
+      this.Baby Yeti.turn(TypeExpression.RIGHT, 0.125) /
+    }
+    count 3 / {
+      this.Baby Yeti.jump and spin() /
+    }",5,6,0,145
+compton-drew-data-MidnightZebra,repeat-cc,PUZZLE,1/-1/3/4/2/-1/,1/2/5/6/4/3/,C/I/U/U/U/U/,41,50
+compton-drew-data-MidnightZebra,repeat-cc,PUZZLE,1/2/5/6/4/3/,1/4/3/6/2/5/,C/C/I/U/U/U/,65,75
+compton-drew-data-MidnightZebra,repeat-cc,PUZZLE,1/4/3/6/2/5/,1/3/5/6/2/4/,C/I/U/U/U/U/,87,92
+compton-drew-data-MidnightZebra,repeat-cc,PUZZLE,1/3/5/6/2/4/,1/2/4/5/-1/3/,C/I/U/U/U/U/,102,114
+compton-drew-data-MidnightZebra,repeat-cc,PUZZLE,1/2/4/5/-1/3/,1/2/3/4/5/6/,C/C/I/U/U/U/,131,137
+compton-drew-data-MidnightZebra,repeat-cc,PUZZLE,1/2/3/4/5/6/,1/2/5/6/3/4/,C/C/C/C/I/U/,150,158
+compton-drew-data-MidnightZebra,repeat-cc,PUZZLE,1/2/5/6/3/4/,1/2/3/4/5/6/,C/C/I/U/U/U/,165,171
+compton-drew-data-MidnightZebra,repeat-cc,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,182,204
+compton-drew-data-MidnightZebra,repeat-cc,END,"    this.alien.say(It's time to dance!) /
+    count 3 / {
+      this.alien.slide to the left() /
+      this.alien.slide to the right() /
+      count 2 / {
+        this.alien.criss cross legs() /
+      }
+    }",4,6,0,220
+compton-drew-data-MidnightZebra,repeat-dd,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/3/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/,30,35
+compton-drew-data-MidnightZebra,repeat-dd,PUZZLE,1/2/3/-1/-1/-1/-1/-1/-1/,1/2/3/-1/-1/-1/-1/-1/-1/,C/C/C/I/U/U/U/U/U/,80,87
+compton-drew-data-MidnightZebra,repeat-dd,REFERENCE,1/2/3/-1/-1/-1/-1/-1/-1/,1/2/3/-1/-1/-1/-1/-1/-1/,C/C/C/I/U/U/U/U/U/,90,-1
+compton-drew-data-MidnightZebra,repeat-dd,REFERENCE,1/2/3/-1/-1/-1/-1/-1/-1/,1/2/3/4/-1/-1/-1/-1/-1/,C/C/C/I/U/U/U/U/U/,110,120
+compton-drew-data-MidnightZebra,repeat-dd,PUZZLE,1/2/3/4/-1/-1/-1/-1/-1/,1/2/3/4/5/7/6/-1/-1/,C/C/C/C/I/U/U/U/U/,126,135
+compton-drew-data-MidnightZebra,repeat-dd,PUZZLE,1/2/3/4/5/7/6/-1/-1/,1/2/3/4/5/7/6/-1/-1/,C/C/C/C/C/I/U/U/U/,170,186
+compton-drew-data-MidnightZebra,repeat-dd,REFERENCE,1/2/3/4/5/7/6/-1/-1/,1/2/3/4/5/7/6/8/9/,C/C/C/C/C/I/U/U/U/,221,238
+compton-drew-data-MidnightZebra,repeat-dd,PUZZLE,1/2/3/4/5/7/6/8/9/,1/2/3/4/5/7/6/8/9/,C/C/C/C/C/I/U/U/U/,254,-1
+compton-drew-data-MidnightZebra,repeat-dd,REFERENCE,1/2/3/4/5/7/6/8/9/,1/2/3/4/8/5/9/6/7/,C/C/C/C/C/I/U/U/U/,289,314
+compton-drew-data-MidnightZebra,repeat-dd,PUZZLE,1/2/3/4/8/5/9/6/7/,1/2/3/4/6/5/7/8/9/,C/C/C/C/C/I/U/U/U/,327,347
+compton-drew-data-MidnightZebra,repeat-dd,PUZZLE,1/2/3/4/6/5/7/8/9/,1/2/3/4/6/5/7/8/9/,C/C/C/C/C/C/C/C/C/,352,389
+compton-drew-data-MidnightZebra,repeat-dd,END,"    this.hare.say(Ready....Set...) /
+    this.hare.raise arm() /
+    this.hare.say(GO!!) /
+    this.hare.getRightShoulder().turn(TypeExpression.RIGHT, 0.35) /
+    count 2 / {
+      count 2 / {
+        this.rhinos paw ground() /
+      }
+      this.rhinos charge() /
+      this.rhinos turn around() /
+    }",4,9,0,393
+compton-drew-data-MidnightZebra,repeat-hh,PUZZLE,-1/2/-1/3/1/-1/-1/,1/3/-1/4/2/-1/-1/,I/U/U/U/U/U/U/,191,200
+compton-drew-data-MidnightZebra,repeat-hh,PUZZLE,1/3/-1/4/2/-1/-1/,1/2/-1/4/3/-1/-1/,C/I/U/U/U/U/U/,205,217
+compton-drew-data-MidnightZebra,repeat-hh,PUZZLE,1/2/-1/4/3/-1/-1/,1/2/5/4/3/6/7/,C/C/I/U/U/U/U/,228,256
+compton-drew-data-MidnightZebra,repeat-hh,PUZZLE,1/2/5/4/3/6/7/,1/2/5/4/3/6/7/,C/C/I/U/U/U/U/,266,272
+compton-drew-data-MidnightZebra,repeat-hh,PUZZLE,1/2/5/4/3/6/7/,1/2/5/4/3/6/7/,C/C/I/U/U/U/U/,277,292
+compton-drew-data-MidnightZebra,repeat-hh,REFERENCE,1/2/5/4/3/6/7/,1/2/6/5/3/4/7/,C/C/I/U/U/U/U/,307,316
+compton-drew-data-MidnightZebra,repeat-hh,PUZZLE,1/2/6/5/3/4/7/,1/2/5/6/3/4/7/,C/C/I/U/U/U/U/,322,332
+compton-drew-data-MidnightZebra,repeat-hh,PUZZLE,1/2/5/6/3/4/7/,1/2/5/6/3/4/7/,C/C/I/U/U/U/U/,339,-1
+compton-drew-data-MidnightZebra,repeat-hh,REFERENCE,1/2/5/6/3/4/7/,1/2/6/5/3/4/7/,C/C/I/U/U/U/U/,354,374
+compton-drew-data-MidnightZebra,repeat-hh,REFERENCE,1/2/6/5/3/4/7/,1/2/6/5/3/4/7/,C/C/I/U/U/U/U/,386,-1
+compton-drew-data-MidnightZebra,repeat-hh,PUZZLE,1/2/6/5/3/4/7/,1/2/6/5/3/4/7/,C/C/I/U/U/U/U/,401,434
+compton-drew-data-MidnightZebra,repeat-hh,REFERENCE,1/2/6/5/3/4/7/,1/2/6/7/3/4/5/,C/C/I/U/U/U/U/,446,476
+compton-drew-data-MidnightZebra,repeat-hh,PUZZLE,1/2/6/7/3/4/5/,1/2/5/7/3/4/6/,C/C/I/U/U/U/U/,495,508
+compton-drew-data-MidnightZebra,repeat-hh,PUZZLE,1/2/5/7/3/4/6/,1/2/5/7/3/4/6/,C/C/I/U/U/U/U/,517,534
+compton-drew-data-MidnightZebra,repeat-hh,REFERENCE,1/2/5/7/3/4/6/,1/2/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/,543,565
+compton-drew-data-MidnightZebra,repeat-hh,REFERENCE,1/2/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/3/-1/,C/C/I/U/U/U/U/,592,601
+compton-drew-data-MidnightZebra,repeat-hh,PUZZLE,1/2/-1/-1/-1/3/-1/,1/2/-1/-1/-1/3/-1/,C/C/I/U/U/U/U/,623,-1
+compton-drew-data-MidnightZebra,repeat-hh,REFERENCE,1/2/-1/-1/-1/3/-1/,1/2/-1/3/-1/-1/-1/,C/C/I/U/U/U/U/,632,657
+compton-drew-data-MidnightZebra,repeat-hh,PUZZLE,1/2/-1/3/-1/-1/-1/,1/2/-1/3/-1/-1/-1/,C/C/I/U/U/U/U/,665,689
+compton-drew-data-MidnightZebra,repeat-hh,REFERENCE,1/2/-1/3/-1/-1/-1/,1/2/3/4/6/5/7/,C/C/I/U/U/U/U/,701,718
+compton-drew-data-MidnightZebra,repeat-hh,PUZZLE,1/2/3/4/6/5/7/,1/2/3/4/6/5/7/,C/C/C/C/I/U/U/,739,751
+compton-drew-data-MidnightZebra,repeat-hh,PUZZLE,1/2/3/4/6/5/7/,1/2/3/4/6/5/7/,C/C/C/C/I/U/U/,759,768
+compton-drew-data-MidnightZebra,repeat-hh,REFERENCE,1/2/3/4/6/5/7/,1/2/3/4/5/6/7/,C/C/C/C/I/U/U/,770,785
+compton-drew-data-MidnightZebra,repeat-hh,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/C/U/,802,826
+compton-drew-data-MidnightZebra,repeat-hh,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/C/C/,833,853
+compton-drew-data-MidnightZebra,repeat-hh,END,"    this.witch.turn(TypeExpression.RIGHT, 0.125) /
+    this.witch.raise arms() /
+    count 2 / {
+      this.magicStaff.move up and down() /
+      count 3 / {
+        this.cauldron.spin() /
+      }
+    }
+    this.cauldron.explode() /",6,7,0,858
+compton-drew-data-MidnightZebra,repeat-ii,PUZZLE,1/5/2/3/4/6/7/,1/4/2/3/5/6/7/,C/I/U/U/U/U/U/,83,100
+compton-drew-data-MidnightZebra,repeat-ii,PUZZLE,1/4/2/3/5/6/7/,1/5/2/3/4/6/7/,C/I/U/U/U/U/U/,112,128
+compton-drew-data-MidnightZebra,repeat-ii,PUZZLE,1/5/2/3/4/6/7/,1/4/2/3/5/6/7/,C/I/U/U/U/U/U/,147,164
+compton-drew-data-MidnightZebra,repeat-ii,REFERENCE,1/4/2/3/5/6/7/,1/4/2/3/5/6/7/,C/I/U/U/U/U/U/,197,-1
+compton-drew-data-MidnightZebra,repeat-ii,REFERENCE,1/4/2/3/5/6/7/,1/4/2/3/5/7/6/,C/I/U/U/U/U/U/,244,286
+compton-drew-data-MidnightZebra,repeat-ii,PUZZLE,1/4/2/3/5/7/6/,1/3/2/4/5/6/7/,C/I/U/U/U/U/U/,308,319
+compton-drew-data-MidnightZebra,repeat-ii,PUZZLE,1/3/2/4/5/6/7/,1/3/2/4/5/6/7/,C/I/U/U/U/U/U/,369,386
+compton-drew-data-MidnightZebra,repeat-ii,PUZZLE,1/3/2/4/5/6/7/,1/2/-1/3/4/5/6/,C/I/U/U/U/U/U/,394,399
+compton-drew-data-MidnightZebra,repeat-ii,PUZZLE,1/2/-1/3/4/5/6/,1/2/-1/3/4/5/6/,C/C/I/U/U/U/U/,408,413
+compton-drew-data-MidnightZebra,repeat-ii,PUZZLE,1/2/-1/3/4/5/6/,1/2/-1/3/4/5/6/,C/C/I/U/U/U/U/,425,431
+compton-drew-data-MidnightZebra,repeat-ii,PUZZLE,1/2/-1/3/4/5/6/,1/2/5/3/4/6/7/,C/C/I/U/U/U/U/,438,443
+compton-drew-data-MidnightZebra,repeat-ii,PUZZLE,1/2/5/3/4/6/7/,1/2/5/3/4/6/7/,C/C/I/U/U/U/U/,454,460
+compton-drew-data-MidnightZebra,repeat-ii,PUZZLE,1/2/5/3/4/6/7/,1/2/4/3/5/6/7/,C/C/I/U/U/U/U/,465,470
+compton-drew-data-MidnightZebra,repeat-ii,PUZZLE,1/2/4/3/5/6/7/,1/2/-1/3/4/5/6/,C/C/I/U/U/U/U/,481,487
+compton-drew-data-MidnightZebra,repeat-ii,PUZZLE,1/2/-1/3/4/5/6/,1/2/-1/3/4/5/6/,C/C/I/U/U/U/U/,567,-1
+compton-drew-data-MidnightZebra,repeat-ii,REFERENCE,1/2/-1/3/4/5/6/,1/2/-1/3/4/5/6/,C/C/I/U/U/U/U/,591,603
+compton-drew-data-MidnightZebra,repeat-ii,PUZZLE,1/2/-1/3/4/5/6/,1/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/,608,619
+compton-drew-data-MidnightZebra,repeat-ii,REFERENCE,1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/2/3/4/,C/I/U/U/U/U/U/,667,709
+compton-drew-data-MidnightZebra,repeat-ii,PUZZLE,1/-1/-1/-1/2/3/4/,1/-1/-1/-1/2/3/4/,C/I/U/U/U/U/U/,726,-1
+compton-drew-data-MidnightZebra,repeat-ii,REFERENCE,1/-1/-1/-1/2/3/4/,1/5/-1/2/3/4/6/,C/I/U/U/U/U/U/,731,746
+compton-drew-data-MidnightZebra,repeat-ii,PUZZLE,1/5/-1/2/3/4/6/,1/2/-1/5/3/4/6/,C/I/U/U/U/U/U/,777,788
+compton-drew-data-MidnightZebra,repeat-ii,PUZZLE,1/2/-1/5/3/4/6/,1/2/-1/5/3/4/6/,C/C/I/U/U/U/U/,847,859
+compton-drew-data-MidnightZebra,repeat-ii,PUZZLE,1/2/-1/5/3/4/6/,1/2/-1/3/4/5/6/,C/C/I/U/U/U/U/,869,883
+compton-drew-data-MidnightZebra,repeat-ii,PUZZLE,1/2/-1/3/4/5/6/,1/2/3/4/5/6/7/,C/C/I/U/U/U/U/,1001,1025
+compton-drew-data-MidnightZebra,repeat-ii,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/C/C/,1032,1076
+compton-drew-data-MidnightZebra,repeat-ii,END,"    this.troll.say(I really wish I had something to row with) /
+    count 5 / {
+      Comment /
+      count 2 / {
+        this.troll.row() /
+        this.boat.move(TypeExpression.BACKWARD, 0.25) /
+      }
+      this.troll.take a nap() /
+    }",6,7,0,1081
+compton-drew-data-MidnightZebra,repeat-f,REFERENCE,-1/-1/2/1/-1/-1/-1/,3/5/6/1/7/2/4/,I/U/U/U/U/U/U/,135,140
+compton-drew-data-MidnightZebra,repeat-f,PUZZLE,3/5/6/1/7/2/4/,2/5/6/1/7/4/3/,I/U/U/U/U/U/U/,194,198
+compton-drew-data-MidnightZebra,repeat-f,PUZZLE,2/5/6/1/7/4/3/,3/5/6/1/7/4/2/,I/U/U/U/U/U/U/,204,209
+compton-drew-data-MidnightZebra,repeat-f,PUZZLE,3/5/6/1/7/4/2/,4/5/6/1/7/2/3/,I/U/U/U/U/U/U/,215,227
+compton-drew-data-MidnightZebra,repeat-f,PUZZLE,4/5/6/1/7/2/3/,-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/,236,240
+compton-drew-data-MidnightZebra,repeat-f,REFERENCE,-1/-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/,556,-1
+compton-drew-data-MidnightZebra,repeat-f,REFERENCE,-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/2/,I/U/U/U/U/U/U/,573,589
+compton-drew-data-MidnightZebra,repeat-f,PUZZLE,1/-1/-1/-1/-1/-1/2/,1/-1/-1/-1/-1/-1/2/,C/I/U/U/U/U/U/,603,609
+compton-drew-data-MidnightZebra,repeat-f,REFERENCE,1/-1/-1/-1/-1/-1/2/,1/-1/-1/-1/-1/-1/2/,C/I/U/U/U/U/U/,612,-1
+compton-drew-data-MidnightZebra,repeat-f,REFERENCE,1/-1/-1/-1/-1/-1/2/,1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/,627,652
+compton-drew-data-MidnightZebra,repeat-f,PUZZLE,1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/,671,-1
+compton-drew-data-MidnightZebra,repeat-f,PUZZLE,1/-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/1/,C/I/U/U/U/U/U/,681,687
+compton-drew-data-MidnightZebra,repeat-f,PUZZLE,-1/-1/-1/-1/-1/-1/1/,-1/-1/-1/-1/-1/-1/1/,I/U/U/U/U/U/U/,692,-1
+compton-drew-data-MidnightZebra,repeat-f,PUZZLE,-1/-1/-1/-1/-1/-1/1/,-1/-1/-1/-1/-1/-1/1/,I/U/U/U/U/U/U/,705,-1
+compton-drew-data-MidnightZebra,repeat-f,REFERENCE,-1/-1/-1/-1/-1/-1/1/,1/-1/3/-1/4/-1/2/,I/U/U/U/U/U/U/,715,731
+compton-drew-data-MidnightZebra,repeat-f,PUZZLE,1/-1/3/-1/4/-1/2/,1/-1/3/-1/4/-1/2/,C/I/U/U/U/U/U/,761,-1
+compton-drew-data-MidnightZebra,repeat-f,REFERENCE,1/-1/3/-1/4/-1/2/,1/-1/3/-1/4/-1/2/,C/I/U/U/U/U/U/,771,-1
+compton-drew-data-MidnightZebra,repeat-f,REFERENCE,1/-1/3/-1/4/-1/2/,1/-1/3/-1/4/-1/2/,C/I/U/U/U/U/U/,799,-1
+compton-drew-data-MidnightZebra,repeat-f,REFERENCE,1/-1/3/-1/4/-1/2/,1/-1/3/-1/4/-1/2/,C/I/U/U/U/U/U/,831,-1
+compton-drew-data-MidnightZebra,repeat-f,PUZZLE,1/-1/3/-1/4/-1/2/,1/-1/2/-1/4/-1/3/,C/I/U/U/U/U/U/,844,876
+compton-drew-data-MidnightZebra,repeat-f,REFERENCE,1/-1/2/-1/4/-1/3/,1/-1/2/-1/4/-1/3/,C/I/U/U/U/U/U/,980,-1
+compton-drew-data-MidnightZebra,repeat-f,PUZZLE,1/-1/2/-1/4/-1/3/,1/-1/2/-1/4/-1/3/,C/I/U/U/U/U/U/,998,-1
+compton-drew-data-MidnightZebra,repeat-f,PUZZLE,1/-1/2/-1/4/-1/3/,1/-1/2/-1/4/-1/3/,C/I/U/U/U/U/U/,1017,-1
+compton-drew-data-MidnightZebra,repeat-f,REFERENCE,1/-1/2/-1/4/-1/3/,1/-1/2/-1/3/-1/4/,C/I/U/U/U/U/U/,1027,1046
+compton-drew-data-MidnightZebra,repeat-f,PUZZLE,1/-1/2/-1/3/-1/4/,1/-1/2/3/4/-1/5/,C/I/U/U/U/U/U/,1053,1078
+compton-drew-data-MidnightZebra,repeat-f,PUZZLE,1/-1/2/3/4/-1/5/,1/2/3/5/6/4/7/,C/I/U/U/U/U/U/,1088,1104
+compton-drew-data-MidnightZebra,repeat-f,PUZZLE,1/2/3/5/6/4/7/,1/2/3/4/5/6/7/,C/C/C/I/U/U/U/,1119,1127
+compton-drew-data-MidnightZebra,repeat-f,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/C/C/,1135,1149
+compton-drew-data-MidnightZebra,repeat-f,END,"    this.Gray Rhino.getNeck().turn(TypeExpression.FORWARD, 0.0625) /
+    Comment /
+    this.White Rhino.getNeck().turn(TypeExpression.FORWARD, 0.0625) /
+    count 2 / {
+      this.White Rhino.drink water() /
+      Comment /
+      this.Gray Rhino.drink water() /
+    }",6,7,0,1154
+compton-drew-data-MidnightZebra,repeat-ff,PUZZLE,1/2/4/3/-1/5/6/7/,1/2/3/4/-1/5/6/7/,C/C/I/U/U/U/U/U/,758,766
+compton-drew-data-MidnightZebra,repeat-ff,PUZZLE,1/2/3/4/-1/5/6/7/,1/2/3/4/5/6/7/8/,C/C/C/C/I/U/U/U/,772,797
+compton-drew-data-MidnightZebra,repeat-ff,PUZZLE,1/2/3/4/5/6/7/8/,1/2/3/4/5/6/7/8/,C/C/C/C/I/U/U/U/,803,962
+compton-drew-data-MidnightZebra,repeat-ff,PUZZLE,1/2/3/4/5/6/7/8/,1/2/3/4/5/6/7/8/,C/C/C/C/C/C/C/C/,976,992
+compton-drew-data-MidnightZebra,repeat-ff,END,"    this.phoenix.say(I can do this, I know I can!) /
+    count 5 / {
+      count 3 / {
+        this.phoenix.flap wings(0.125) /
+      }
+      Comment /
+      this.phoenix.glide() /
+    }
+    Comment /
+    this.phoenix.land on rock() /",6,8,0,996

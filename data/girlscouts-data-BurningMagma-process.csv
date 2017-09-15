@@ -1,0 +1,726 @@
+codename,puzzle,action,current_index,next_index,correctness,start_time,closed_time
+girlscouts-data-BurningMagma,sequential-c,REFERENCE,-1/-1/-1/-1/-1/-1/,1/2/3/4/5/6/,I/U/U/U/U/U/,39,60
+girlscouts-data-BurningMagma,sequential-c,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,118,131
+girlscouts-data-BurningMagma,sequential-c,END,"    this.hare.swing arm() /
+    this.volleyball.move(TypeExpression.DOWN, 0.6) /
+    this.hare.look down() /
+    this.hare.getRightHip().turn(TypeExpression.FORWARD, 0.25) /
+    this.hare.kick(this.volleyball) /
+    this.net.turn(TypeExpression.BACKWARD, 0.25) /",2,6,0,164
+girlscouts-data-BurningMagma,sequential-g,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/C/C/,1948,1967
+girlscouts-data-BurningMagma,sequential-g,END,"    this.blueTang.say(We can't let anyone find our treasure!) /
+    this.clownFish.turnToFace(this.shark) /
+    this.clownFish.think(Uh oh) /
+    this.clownFish.turnToFace(this.blueTang) /
+    this.clownFish.say(I think it's too late..) /
+    this.shark.getMouth().turn(TypeExpression.FORWARD, 0.125) /
+    this.shark.move(TypeExpression.FORWARD, 15.0) /",3,7,0,1978
+girlscouts-data-BurningMagma,dotogether-a,PUZZLE,1/2/3/-1/4/5/6/7/,1/2/3/-1/4/5/6/7/,C/C/C/I/U/U/U/U/,85,-1
+girlscouts-data-BurningMagma,dotogether-a,REFERENCE,1/2/3/-1/4/5/6/7/,1/2/3/4/5/7/6/8/,C/C/C/I/U/U/U/U/,98,111
+girlscouts-data-BurningMagma,dotogether-a,PUZZLE,1/2/3/4/5/7/6/8/,1/2/3/4/5/7/6/8/,C/C/C/C/C/C/C/C/,163,174
+girlscouts-data-BurningMagma,dotogether-a,END,"    this.penguin.say(Everyone, I'd like you to meet Derek.) /
+    this.DerekTheYeti.say(Hello.) /
+    this.DerekTheYeti.moveToward(this.babyPenguin2, 0.5) /
+    do together / {
+      this.babyPenguin1.jump back() /
+      this.babyPenguin2.jump back() /
+      this.babyPenguin3.jump back() /
+    }
+    this.penguin.say(He's harmless and very kind!) /",5,8,0,186
+girlscouts-data-BurningMagma,dotogether-b,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,85,97
+girlscouts-data-BurningMagma,dotogether-b,END,"    this.troll.say(Ahhhhhh) /
+    do together / {
+      this.troll.sneeze and raise arms() /
+      this.boat.move(TypeExpression.BACKWARD, 5.0) /
+    }
+    this.manatee.move(TypeExpression.UP, 0.5) /
+    this.manatee.say(Bless you!) /",3,6,0,112
+girlscouts-data-BurningMagma,dotogether-m,PUZZLE,1/2/3/4/5/6/7/8/,1/2/3/4/5/6/7/8/,C/C/C/C/C/C/C/C/,112,125
+girlscouts-data-BurningMagma,dotogether-m,END,"    this.hare.say(1...2...3...JUMP!) /
+    do together / {
+      this.pig.jump() /
+      this.hare.jump() /
+    }
+    this.caiman.snap jaws() /
+    do together / {
+      this.pig.say(UH OH!) /
+      this.hare.say(UH OH!) /
+    }",3,8,0,134
+girlscouts-data-BurningMagma,dotogether-n,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,69,81
+girlscouts-data-BurningMagma,dotogether-n,END,"    this.playingCard.say(Alice was just here I promise!!) /
+    this.queenOfHearts.say(We BETTER find her!) /
+    do together / {
+      this.queenOfHearts.walk forward() /
+      this.playingCard.walk forward() /
+    }
+    this.alice.sneak away() /",2,6,0,90
+girlscouts-data-BurningMagma,dotogether-e,REFERENCE,1/2/3/4/5/-1/-1/-1/-1/,1/2/3/4/6/9/8/5/7/,C/C/C/C/C/I/I/I/I/,85,98
+girlscouts-data-BurningMagma,dotogether-e,PUZZLE,1/2/3/4/6/9/8/5/7/,1/2/3/4/6/8/7/9/5/,C/C/C/C/I/U/U/U/U/,136,156
+girlscouts-data-BurningMagma,dotogether-e,PUZZLE,1/2/3/4/6/8/7/9/5/,1/2/3/4/7/9/8/5/6/,C/C/C/C/I/U/U/U/U/,190,208
+girlscouts-data-BurningMagma,dotogether-e,PUZZLE,1/2/3/4/7/9/8/5/6/,1/2/3/4/7/9/6/5/8/,C/C/C/C/I/U/U/U/U/,233,247
+girlscouts-data-BurningMagma,dotogether-e,PUZZLE,1/2/3/4/7/9/6/5/8/,1/2/3/4/7/9/6/5/8/,C/C/C/C/I/U/U/U/U/,268,280
+girlscouts-data-BurningMagma,dotogether-e,REFERENCE,1/2/3/4/7/9/6/5/8/,1/2/3/4/6/8/9/7/5/,C/C/C/C/I/U/U/U/U/,286,300
+girlscouts-data-BurningMagma,dotogether-e,PUZZLE,1/2/3/4/6/8/9/7/5/,1/2/3/4/5/7/8/6/9/,C/C/C/C/I/U/U/U/U/,507,523
+girlscouts-data-BurningMagma,dotogether-e,PUZZLE,1/2/3/4/5/7/8/6/9/,1/2/3/4/5/7/8/6/9/,C/C/C/C/C/C/C/C/I/,530,542
+girlscouts-data-BurningMagma,dotogether-e,PUZZLE,1/2/3/4/5/7/8/6/9/,1/2/3/4/5/7/8/6/9/,C/C/C/C/C/C/C/C/C/,548,564
+girlscouts-data-BurningMagma,dotogether-e,END,"    this.bush.rustle() /
+    do together / {
+      this.Witch.getHead().turn(TypeExpression.RIGHT, 0.125) /
+      this.Witch.say(What was that?) /
+    }
+    do together / {
+      this.Troll.legs shake() /
+      this.Troll.bend over() /
+      this.Troll.turn(TypeExpression.RIGHT, 0.5) /
+      this.Troll.think(This place is scary..) /
+    }",8,9,0,573
+girlscouts-data-BurningMagma,dotogether-c,PUZZLE,1/2/4/3/6/5/7/,1/2/4/3/6/5/7/,C/C/I/U/U/U/U/,112,-1
+girlscouts-data-BurningMagma,dotogether-c,REFERENCE,1/2/4/3/6/5/7/,1/2/4/3/6/5/7/,C/C/I/U/U/U/U/,124,135
+girlscouts-data-BurningMagma,dotogether-c,PUZZLE,1/2/4/3/6/5/7/,1/2/3/4/6/5/7/,C/C/I/U/U/U/U/,144,153
+girlscouts-data-BurningMagma,dotogether-c,PUZZLE,1/2/3/4/6/5/7/,1/2/3/4/5/6/7/,C/C/C/C/I/I/U/,174,184
+girlscouts-data-BurningMagma,dotogether-c,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/C/C/,210,220
+girlscouts-data-BurningMagma,dotogether-c,END,"    this.Troll.say(What's for dinner?) /
+    this.Witch.say(YOU!) /
+    do together / {
+      this.Troll.moveTo(this.Cauldron) /
+      this.Troll.raise arms and scream() /
+    }
+    this.Troll.turn(TypeExpression.RIGHT, 8.0) /
+    this.Troll.disappear() /",6,7,0,225
+girlscouts-data-BurningMagma,dotogether-i,REFERENCE,-1/1/-1/2/-1/-1/-1/-1/-1/-1/,-1/1/-1/2/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/,59,-1
+girlscouts-data-BurningMagma,dotogether-i,REFERENCE,-1/1/-1/2/-1/-1/-1/-1/-1/-1/,-1/1/-1/2/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/,67,-1
+girlscouts-data-BurningMagma,dotogether-i,REFERENCE,-1/1/-1/2/-1/-1/-1/-1/-1/-1/,1/2/4/3/5/9/7/6/10/8/,I/U/U/U/U/U/U/U/U/U/,74,84
+girlscouts-data-BurningMagma,dotogether-i,PUZZLE,1/2/4/3/5/9/7/6/10/8/,1/2/4/3/5/9/7/6/10/8/,C/C/C/C/C/I/U/U/U/U/,198,-1
+girlscouts-data-BurningMagma,dotogether-i,PUZZLE,1/2/4/3/5/9/7/6/10/8/,1/2/4/3/5/8/7/6/9/10/,C/C/C/C/C/I/U/U/U/U/,214,230
+girlscouts-data-BurningMagma,dotogether-i,PUZZLE,1/2/4/3/5/8/7/6/9/10/,1/2/4/3/5/7/9/6/8/10/,C/C/C/C/C/I/U/U/U/U/,242,252
+girlscouts-data-BurningMagma,dotogether-i,PUZZLE,1/2/4/3/5/7/9/6/8/10/,1/2/4/3/5/6/7/8/9/10/,C/C/C/C/C/I/U/U/U/U/,262,277
+girlscouts-data-BurningMagma,dotogether-i,PUZZLE,1/2/4/3/5/6/7/8/9/10/,1/2/4/3/5/6/7/8/9/10/,C/C/C/C/C/C/C/C/C/C/,297,306
+girlscouts-data-BurningMagma,dotogether-i,END,"    this.tiny yeti.turnToFace(this.big yeti) /
+    do together / {
+      this.tiny yeti.nod() /
+      this.big yeti.nod() /
+    }
+    this.tiny yeti.move(TypeExpression.BACKWARD, 0.5) /
+    do together / {
+      this.tiny yeti.jump to hammer() /
+      this.big yeti.prepare to swing hammer() /
+    }
+    this.big yeti.power swing() /
+    this.tiny yeti.fly away() /",3,10,0,336
+girlscouts-data-BurningMagma,dotogether-l,REFERENCE,-1/-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/,64,-1
+girlscouts-data-BurningMagma,dotogether-l,REFERENCE,-1/-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/,83,-1
+girlscouts-data-BurningMagma,dotogether-l,REFERENCE,-1/-1/-1/-1/-1/-1/-1/,2/3/4/6/5/1/7/,I/U/U/U/U/U/U/,90,107
+girlscouts-data-BurningMagma,dotogether-l,PUZZLE,2/3/4/6/5/1/7/,2/3/4/6/5/1/7/,I/U/U/U/U/U/U/,196,-1
+girlscouts-data-BurningMagma,dotogether-l,REFERENCE,2/3/4/6/5/1/7/,1/2/3/6/5/4/7/,I/U/U/U/U/U/U/,208,227
+girlscouts-data-BurningMagma,dotogether-l,PUZZLE,1/2/3/6/5/4/7/,1/2/3/6/5/4/7/,C/C/C/C/C/C/C/,245,257
+girlscouts-data-BurningMagma,dotogether-l,END,"    this.cheshireCat.say(Okay Alice, your turn now.) /
+    this.alice.move(TypeExpression.BACKWARD, 1.0) /
+    do together / {
+      this.alice.move legs() /
+      this.alice.move(TypeExpression.UP, 1.0) /
+      this.alice.moveToward(this.cheshireCat, 3.0) /
+    }
+    this.alice.say(I'm stuck!) /",6,7,0,263
+girlscouts-data-BurningMagma,dotogether-j,REFERENCE,1/2/-1/4/-1/-1/-1/-1/-1/3/-1/,1/2/-1/4/5/6/7/8/9/3/10/,C/C/C/C/I/U/U/U/U/U/U/,108,122
+girlscouts-data-BurningMagma,dotogether-j,PUZZLE,1/2/-1/4/5/6/7/8/9/3/10/,1/2/-1/4/5/6/7/8/10/3/9/,C/C/C/C/C/C/C/C/C/I/U/,172,194
+girlscouts-data-BurningMagma,dotogether-j,PUZZLE,1/2/-1/4/5/6/7/8/10/3/9/,1/2/-1/4/5/6/7/8/9/3/10/,C/C/C/C/C/C/C/C/I/I/I/,203,220
+girlscouts-data-BurningMagma,dotogether-j,REFERENCE,1/2/-1/4/5/6/7/8/9/3/10/,1/2/-1/4/5/6/7/8/9/3/10/,C/C/C/C/C/C/C/C/C/I/U/,234,255
+girlscouts-data-BurningMagma,dotogether-j,PUZZLE,1/2/-1/4/5/6/7/8/9/3/10/,1/2/-1/4/5/6/7/9/8/3/10/,C/C/C/C/C/C/C/C/C/I/U/,259,275
+girlscouts-data-BurningMagma,dotogether-j,PUZZLE,1/2/-1/4/5/6/7/9/8/3/10/,1/2/-1/4/5/6/8/10/9/3/7/,C/C/C/C/C/C/C/C/C/I/U/,286,303
+girlscouts-data-BurningMagma,dotogether-j,PUZZLE,1/2/-1/4/5/6/8/10/9/3/7/,1/2/-1/4/5/6/7/10/8/3/9/,C/C/C/C/C/C/I/U/U/U/U/,308,326
+girlscouts-data-BurningMagma,dotogether-j,PUZZLE,1/2/-1/4/5/6/7/10/8/3/9/,1/2/-1/4/5/6/7/9/8/3/10/,C/C/C/C/C/C/C/C/I/C/I/,334,355
+girlscouts-data-BurningMagma,dotogether-j,PUZZLE,1/2/-1/4/5/6/7/9/8/3/10/,1/2/-1/4/5/6/7/9/8/3/10/,C/C/C/C/C/C/C/C/C/I/I/,378,396
+girlscouts-data-BurningMagma,dotogether-j,REFERENCE,1/2/-1/4/5/6/7/9/8/3/10/,1/2/-1/3/4/5/6/8/7/9/10/,C/C/C/C/C/C/C/C/C/I/I/,398,418
+girlscouts-data-BurningMagma,dotogether-j,PUZZLE,1/2/-1/3/4/5/6/8/7/9/10/,1/2/4/3/5/6/7/9/8/10/11/,C/C/C/I/U/U/U/U/U/U/U/,431,444
+girlscouts-data-BurningMagma,dotogether-j,PUZZLE,1/2/4/3/5/6/7/9/8/10/11/,1/2/4/3/5/6/7/9/8/10/11/,C/C/C/C/C/C/C/C/C/C/I/,463,-1
+girlscouts-data-BurningMagma,dotogether-j,REFERENCE,1/2/4/3/5/6/7/9/8/10/11/,1/2/4/3/5/6/7/9/8/10/11/,C/C/C/C/C/C/C/C/C/C/I/,481,497
+girlscouts-data-BurningMagma,dotogether-j,PUZZLE,1/2/4/3/5/6/7/9/8/10/11/,1/2/4/3/5/6/7/9/8/10/11/,C/C/C/C/C/C/C/C/C/C/C/,505,526
+girlscouts-data-BurningMagma,dotogether-j,END,"    this.fox.jump out of snow() /
+    do together / {
+      this.snow man.skate around() /
+      this.snow gal.skate around() /
+    }
+    this.fox.wag tail() /
+    this.fox.jump on(this.snow man) /
+    do together / {
+      this.snow gal.twirl around() /
+      this.snow gal.raise up and lower down() /
+      this.snow man.skate around() /
+    }
+    this.fox.dive into snow() /",9,11,0,529
+girlscouts-data-BurningMagma,dotogether-g,PUZZLE,1/2/3/4/6/5/7/8/9/,1/2/3/4/6/5/7/8/9/,C/C/C/C/C/C/C/C/C/,134,141
+girlscouts-data-BurningMagma,dotogether-g,END,"    do together / {
+      this.yeti.getRightShoulder().turn(TypeExpression.LEFT, 0.375) /
+      this.yeti.getLeftShoulder().turn(TypeExpression.RIGHT, 0.375) /
+    }
+    do together / {
+      this.yeti.getMouth().turn(TypeExpression.FORWARD, 0.25) /
+      this.yeti.resize(1.5) /
+    }
+    do together / {
+      this.babyYeti.getMouth().turn(TypeExpression.FORWARD, 0.25) /
+      this.babyYeti.raise arms() /
+    }",1,9,0,145
+girlscouts-data-BurningMagma,dotogether-d,PUZZLE,3/4/5/6/1/7/2/8/,1/2/3/4/5/7/8/6/,I/U/U/U/U/U/U/U/,125,134
+girlscouts-data-BurningMagma,dotogether-d,PUZZLE,1/2/3/4/5/7/8/6/,1/2/3/4/5/7/8/6/,C/C/C/C/C/C/C/C/,166,177
+girlscouts-data-BurningMagma,dotogether-d,END,"    this.mandril.think(A treasure chest!) /
+    do together / {
+      this.treasureChest.getChestLid().turn(TypeExpression.BACKWARD, 0.25) /
+      this.treasureChest.say(Hello!) /
+    }
+    do together / {
+      this.mandril.turn(TypeExpression.LEFT, 0.5) /
+      this.mandril.walk(10.0) /
+      this.mandril.say(Ahhhhhh!) /
+    }",3,8,0,183
+girlscouts-data-BurningMagma,dotogether-f,REFERENCE,-1/-1/-1/-1/1/-1/-1/-1/,1/6/5/4/3/2/7/8/,I/U/U/U/U/U/U/U/,45,58
+girlscouts-data-BurningMagma,dotogether-f,PUZZLE,1/6/5/4/3/2/7/8/,1/6/4/3/2/5/7/8/,C/I/U/U/U/U/U/U/,116,130
+girlscouts-data-BurningMagma,dotogether-f,PUZZLE,1/6/4/3/2/5/7/8/,1/6/4/3/2/5/7/8/,C/C/C/C/I/U/U/U/,143,156
+girlscouts-data-BurningMagma,dotogether-f,PUZZLE,1/6/4/3/2/5/7/8/,1/6/4/3/2/5/7/8/,C/C/C/C/I/U/U/U/,169,178
+girlscouts-data-BurningMagma,dotogether-f,REFERENCE,1/6/4/3/2/5/7/8/,1/6/5/3/2/4/7/8/,C/C/C/C/I/U/U/U/,191,201
+girlscouts-data-BurningMagma,dotogether-f,PUZZLE,1/6/5/3/2/4/7/8/,1/6/5/3/2/4/7/8/,C/C/C/I/C/U/U/U/,208,215
+girlscouts-data-BurningMagma,dotogether-f,REFERENCE,1/6/5/3/2/4/7/8/,1/6/4/5/2/3/7/8/,C/C/C/I/C/U/U/U/,226,239
+girlscouts-data-BurningMagma,dotogether-f,PUZZLE,1/6/4/5/2/3/7/8/,1/6/4/5/2/3/7/8/,C/C/I/C/C/U/U/U/,318,-1
+girlscouts-data-BurningMagma,dotogether-f,REFERENCE,1/6/4/5/2/3/7/8/,1/6/3/4/2/5/7/8/,C/C/I/C/C/U/U/U/,328,336
+girlscouts-data-BurningMagma,dotogether-f,PUZZLE,1/6/3/4/2/5/7/8/,1/6/3/4/2/5/7/8/,C/C/C/C/I/U/U/U/,346,-1
+girlscouts-data-BurningMagma,dotogether-f,REFERENCE,1/6/3/4/2/5/7/8/,1/5/3/4/2/7/6/8/,C/C/C/C/I/U/U/U/,355,366
+girlscouts-data-BurningMagma,dotogether-f,PUZZLE,1/5/3/4/2/7/6/8/,1/5/3/4/2/7/6/8/,C/C/C/C/C/C/C/C/,387,397
+girlscouts-data-BurningMagma,dotogether-f,END,"    this.Witch.say(I will turn you to stone!) /
+    do together / {
+      this.Ogre.move(TypeExpression.DOWN, 0.375) /
+      this.Ogre.bend knees() /
+    }
+    do together / {
+      this.Witch.cast spell() /
+      this.Ogre.getRightShoulder().turn(TypeExpression.LEFT, 0.25) /
+      this.Ogre.setPaint(InstanceCreation) /
+    }",6,8,0,401
+girlscouts-data-BurningMagma,sequential-d,PUZZLE,8/1/3/2/6/5/4/7/,1/2/4/3/7/6/5/8/,I/U/U/U/U/U/U/U/,154,161
+girlscouts-data-BurningMagma,sequential-d,PUZZLE,1/2/4/3/7/6/5/8/,1/2/3/7/6/5/4/8/,C/C/I/U/U/U/U/U/,171,184
+girlscouts-data-BurningMagma,sequential-d,PUZZLE,1/2/3/7/6/5/4/8/,1/2/3/6/8/4/5/7/,C/C/C/I/U/U/U/U/,201,222
+girlscouts-data-BurningMagma,sequential-d,PUZZLE,1/2/3/6/8/4/5/7/,1/2/3/6/8/4/5/7/,C/C/C/I/U/U/U/U/,246,-1
+girlscouts-data-BurningMagma,sequential-d,REFERENCE,1/2/3/6/8/4/5/7/,1/2/3/7/6/5/4/8/,C/C/C/I/U/U/U/U/,263,280
+girlscouts-data-BurningMagma,sequential-d,PUZZLE,1/2/3/7/6/5/4/8/,1/2/3/7/6/5/4/8/,C/C/C/I/U/U/U/U/,299,-1
+girlscouts-data-BurningMagma,sequential-d,REFERENCE,1/2/3/7/6/5/4/8/,1/2/3/7/6/4/5/8/,C/C/C/I/U/U/U/U/,318,338
+girlscouts-data-BurningMagma,sequential-d,PUZZLE,1/2/3/7/6/4/5/8/,1/2/3/7/6/4/5/8/,C/C/C/I/U/U/U/U/,349,-1
+girlscouts-data-BurningMagma,sequential-d,REFERENCE,1/2/3/7/6/4/5/8/,1/2/3/6/7/4/5/8/,C/C/C/I/U/U/U/U/,367,388
+girlscouts-data-BurningMagma,sequential-d,PUZZLE,1/2/3/6/7/4/5/8/,1/2/3/6/7/5/4/8/,C/C/C/I/U/U/U/U/,407,427
+girlscouts-data-BurningMagma,sequential-d,PUZZLE,1/2/3/6/7/5/4/8/,1/2/3/6/7/5/4/8/,C/C/C/I/U/U/U/U/,444,-1
+girlscouts-data-BurningMagma,sequential-d,REFERENCE,1/2/3/6/7/5/4/8/,1/2/3/6/-1/5/4/7/,C/C/C/I/U/U/U/U/,466,488
+girlscouts-data-BurningMagma,sequential-d,PUZZLE,1/2/3/6/-1/5/4/7/,1/2/3/6/-1/5/4/7/,C/C/C/I/U/U/U/U/,535,-1
+girlscouts-data-BurningMagma,sequential-d,REFERENCE,1/2/3/6/-1/5/4/7/,1/2/3/4/6/5/-1/7/,C/C/C/I/U/U/U/U/,555,573
+girlscouts-data-BurningMagma,sequential-d,PUZZLE,1/2/3/4/6/5/-1/7/,1/2/3/4/5/6/7/8/,C/C/C/C/I/U/U/U/,1008,1025
+girlscouts-data-BurningMagma,sequential-d,PUZZLE,1/2/3/4/5/6/7/8/,1/2/3/4/5/6/7/8/,C/C/C/C/C/C/C/C/,1045,1061
+girlscouts-data-BurningMagma,sequential-d,END,"    this.monkey.walk(1.5) /
+    this.monkey.jump and spin() /
+    this.monkey.walk up to(this.treasureChest) /
+    this.monkey.raise arms() /
+    this.treasureChest.getChestLid().turn(TypeExpression.BACKWARD, 0.0125) /
+    this.monkey.bang on(this.treasureChest) /
+    this.treasureChest.getChestLid().turn(TypeExpression.BACKWARD, 0.25) /
+    this.treasureMonkey.raise arms() /",7,8,0,1066
+girlscouts-data-BurningMagma,dotogether-k,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/,21,35
+girlscouts-data-BurningMagma,dotogether-k,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/,72,78
+girlscouts-data-BurningMagma,dotogether-k,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/2/3/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/,130,138
+girlscouts-data-BurningMagma,dotogether-k,REFERENCE,1/-1/-1/2/3/-1/-1/-1/-1/-1/-1/,1/7/5/3/4/6/-1/2/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/,155,167
+girlscouts-data-BurningMagma,dotogether-k,REFERENCE,1/7/5/3/4/6/-1/2/-1/-1/-1/,1/8/5/3/4/6/7/2/10/9/11/,C/C/C/C/C/C/I/U/U/U/U/,310,321
+girlscouts-data-BurningMagma,dotogether-k,PUZZLE,1/8/5/3/4/6/7/2/10/9/11/,1/8/5/3/4/6/7/2/10/9/11/,C/C/C/C/C/C/C/C/C/C/I/,349,364
+girlscouts-data-BurningMagma,dotogether-k,PUZZLE,1/8/5/3/4/6/7/2/10/9/11/,1/8/5/3/4/6/7/2/10/9/11/,C/C/C/C/C/C/C/C/C/C/C/,369,384
+girlscouts-data-BurningMagma,dotogether-k,END,"    this.witch.cast spell() /
+    do together / {
+      this.cauldron.turn(TypeExpression.RIGHT, 4.0) /
+      this.lid.move(TypeExpression.UP, 1.0) /
+      this.poodle.move(TypeExpression.UP, 1.0) /
+    }
+    this.witch.lower arm() /
+    this.witch.say(Whoops!) /
+    do together / {
+      this.troll.get scared() /
+      this.poodle.bark() /
+    }
+    this.troll.say(eeee yikes!) /",1,11,0,389
+girlscouts-data-BurningMagma,dotogether-h,PUZZLE,1/9/4/3/5/6/8/7/2/10/11/-1/,1/9/4/3/5/6/8/7/2/10/11/12/,C/C/C/C/C/C/C/C/C/C/C/I/,286,298
+girlscouts-data-BurningMagma,dotogether-h,PUZZLE,1/9/4/3/5/6/8/7/2/10/11/12/,1/9/4/3/5/6/8/7/2/10/11/12/,C/C/C/C/C/C/C/C/C/C/C/I/,306,323
+girlscouts-data-BurningMagma,dotogether-h,PUZZLE,1/9/4/3/5/6/8/7/2/10/11/12/,1/9/4/3/5/6/8/7/2/10/11/12/,C/C/C/C/C/C/C/C/C/C/C/C/,332,343
+girlscouts-data-BurningMagma,dotogether-h,END,"    this.bunny.bend forward() /
+    do together / {
+      this.bunny.jump() /
+      this.bunny.move(TypeExpression.FORWARD, 1.0) /
+    }
+    this.bunny.disappear() /
+    do together / {
+      this.hat.turn(TypeExpression.RIGHT, 2.0) /
+      this.hat.move(TypeExpression.DOWN, 1.0) /
+    }
+    do together / {
+      this.bunny.appear() /
+      this.bunny.raise arms() /
+      this.bunny.turn(TypeExpression.RIGHT, 2.25) /
+    }",5,12,0,351
+girlscouts-data-BurningMagma,repeat-gg,PUZZLE,1/2/3/5/4/6/7/,1/2/3/4/5/6/7/,C/C/C/I/U/U/U/,194,212
+girlscouts-data-BurningMagma,repeat-gg,PUZZLE,1/2/3/4/5/6/7/,1/2/4/5/3/7/6/,C/C/C/C/I/U/U/,225,247
+girlscouts-data-BurningMagma,repeat-gg,PUZZLE,1/2/4/5/3/7/6/,1/2/3/4/5/6/7/,C/C/I/U/U/U/U/,293,315
+girlscouts-data-BurningMagma,repeat-gg,PUZZLE,1/2/3/4/5/6/7/,1/2/-1/4/3/5/6/,C/C/C/C/I/U/U/,339,351
+girlscouts-data-BurningMagma,repeat-gg,PUZZLE,1/2/-1/4/3/5/6/,1/2/-1/4/3/5/6/,C/C/I/U/U/U/U/,389,-1
+girlscouts-data-BurningMagma,repeat-gg,PUZZLE,1/2/-1/4/3/5/6/,1/2/3/4/5/6/7/,C/C/I/U/U/U/U/,389,425
+girlscouts-data-BurningMagma,repeat-gg,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/C/C/,447,475
+girlscouts-data-BurningMagma,repeat-gg,END,"    this.mandril.scare ostrich() /
+    this.ostrichBaby.say(AAAHHHHH!!!!) /
+    count 5 / {
+      this.ostrichBaby.run(3, 0.08) /
+      GlobalFirstInstanceExpression.scene.ostrichBaby.turn(TypeExpression.RIGHT, 0.5) /
+    }
+    this.ostrichBaby.think(I guess this is the end; there's no escape!) /
+    this.fade to black() /",3,7,0,481
+girlscouts-data-BurningMagma,repeat-e,PUZZLE,7/4/6/5/2/1/3/,1/2/3/4/5/6/7/,I/U/U/U/U/U/U/,59,92
+girlscouts-data-BurningMagma,repeat-e,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/C/C/,183,218
+girlscouts-data-BurningMagma,repeat-e,END,"    this.curupira.walk(2.0) /
+    this.curupira.getNeck().turn(TypeExpression.FORWARD, 0.125) /
+    this.curupira.think(Uh oh.) /
+    this.curupira.move(TypeExpression.DOWN, 4.0) /
+    this.mapinguari.place hands on belly() /
+    count 3 / {
+      this.mapinguari.laugh() /
+    }",1,7,0,228
+girlscouts-data-BurningMagma,repeat-m,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/C/C/,73,88
+girlscouts-data-BurningMagma,repeat-m,END,"    this.alien.walk(0.5) /
+    count 2 / {
+      this.alien.kick() /
+      this.flying saucer.shake() /
+    }
+    this.flying saucer.fly above(this.alien) /
+    this.flying saucer.beam up(this.alien) /
+    this.flying saucer.fly away() /",1,7,0,94
+girlscouts-data-BurningMagma,repeat-f,REFERENCE,-1/-1/-1/-1/-1/,5/4/3/1/2/,I/U/U/U/U/,39,44
+girlscouts-data-BurningMagma,repeat-f,PUZZLE,5/4/3/1/2/,5/4/3/2/1/,I/U/U/U/U/,1331,1340
+girlscouts-data-BurningMagma,repeat-f,PUZZLE,5/4/3/2/1/,5/4/1/2/3/,I/U/U/U/U/,1346,1349
+girlscouts-data-BurningMagma,repeat-f,PUZZLE,5/4/1/2/3/,5/4/1/2/3/,I/U/U/U/U/,1368,1373
+girlscouts-data-BurningMagma,repeat-f,PUZZLE,5/4/1/2/3/,5/4/1/3/2/,I/U/U/U/U/,1381,1384
+girlscouts-data-BurningMagma,repeat-f,PUZZLE,5/4/1/3/2/,2/1/3/5/4/,I/U/U/U/U/,1393,1398
+girlscouts-data-BurningMagma,repeat-f,PUZZLE,2/1/3/5/4/,1/2/3/5/4/,I/U/U/U/U/,1411,1415
+girlscouts-data-BurningMagma,repeat-f,PUZZLE,1/2/3/5/4/,4/5/1/3/2/,C/C/C/I/U/,1458,1529
+girlscouts-data-BurningMagma,repeat-f,PUZZLE,4/5/1/3/2/,2/1/3/5/4/,I/U/U/U/U/,1596,1610
+girlscouts-data-BurningMagma,repeat-f,PUZZLE,2/1/3/5/4/,1/2/3/4/5/,I/U/U/U/U/,1618,1627
+girlscouts-data-BurningMagma,repeat-f,PUZZLE,1/2/3/4/5/,1/2/3/4/5/,C/C/C/C/C/,1681,3140
+girlscouts-data-BurningMagma,repeat-f,END,"    this.Gray Rhino.getNeck().turn(TypeExpression.FORWARD, 0.0625) /
+    this.White Rhino.getNeck().turn(TypeExpression.FORWARD, 0.0625) /
+    count 2 / {
+      this.White Rhino.drink water() /
+      this.Gray Rhino.drink water() /
+    }",1,5,0,3165
+girlscouts-data-BurningMagma,repeat-ee,PUZZLE,1/2/3/4/,1/2/3/4/,C/C/C/C/,61,75
+girlscouts-data-BurningMagma,repeat-ee,END,"    this.hare.walk(5.0) /
+    count 3 / {
+      this.hare.knock() /
+    }
+    this.hare.say(Anyone home?) /",1,4,0,79
+girlscouts-data-BurningMagma,repeat-g,PUZZLE,1/2/6/3/4/5/,1/2/3/6/4/5/,C/C/I/U/U/U/,94,101
+girlscouts-data-BurningMagma,repeat-g,PUZZLE,1/2/3/6/4/5/,1/2/3/6/5/4/,C/C/C/I/U/U/,114,123
+girlscouts-data-BurningMagma,repeat-g,PUZZLE,1/2/3/6/5/4/,1/2/3/4/5/6/,C/C/C/I/U/U/,141,148
+girlscouts-data-BurningMagma,repeat-g,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,173,184
+girlscouts-data-BurningMagma,repeat-g,END,"    this.Baby Yeti.raise arms() /
+    count 2 / {
+      this.Baby Yeti.turn(TypeExpression.LEFT, 0.125) /
+      this.Baby Yeti.turn(TypeExpression.RIGHT, 0.125) /
+    }
+    count 3 / {
+      this.Baby Yeti.jump and spin() /
+    }",2,6,0,190
+girlscouts-data-BurningMagma,repeat-a,PUZZLE,1/2/4/7/6/9/3/5/8/,1/2/3/6/5/8/9/4/7/,C/C/I/U/U/U/U/U/U/,141,153
+girlscouts-data-BurningMagma,repeat-a,PUZZLE,1/2/3/6/5/8/9/4/7/,1/2/3/7/5/9/6/4/8/,C/C/C/C/C/I/U/U/U/,174,198
+girlscouts-data-BurningMagma,repeat-a,PUZZLE,1/2/3/7/5/9/6/4/8/,1/2/3/8/5/6/7/4/9/,C/C/C/C/C/I/U/U/U/,205,220
+girlscouts-data-BurningMagma,repeat-a,PUZZLE,1/2/3/8/5/6/7/4/9/,1/2/3/8/5/6/7/4/9/,C/C/C/C/C/C/C/C/C/,228,254
+girlscouts-data-BurningMagma,repeat-a,END,"    this.tiny yeti.run forward() /
+    this.tiny yeti.steal hammer() /
+    this.tiny yeti.jump above yeti() /
+    count 3 / {
+      this.tiny yeti.swing hammer() /
+      this.big yeti.shake head() /
+    }
+    this.tiny yeti.fall to ground() /
+    count 3 / {
+      this.big yeti.cry() /
+    }",3,9,0,259
+girlscouts-data-BurningMagma,repeat-b,REFERENCE,1/2/-1/-1/-1/-1/3/-1/-1/-1/,1/2/3/5/4/6/7/8/9/10/,C/C/C/I/U/U/U/U/U/U/,103,117
+girlscouts-data-BurningMagma,repeat-b,PUZZLE,1/2/3/5/4/6/7/8/9/10/,1/2/3/5/4/6/7/8/9/10/,C/C/C/I/U/U/U/U/U/U/,222,-1
+girlscouts-data-BurningMagma,repeat-b,PUZZLE,1/2/3/5/4/6/7/8/9/10/,1/2/3/5/4/6/7/8/9/10/,C/C/C/I/U/U/U/U/U/U/,241,-1
+girlscouts-data-BurningMagma,repeat-b,REFERENCE,1/2/3/5/4/6/7/8/9/10/,1/2/3/4/5/6/7/8/9/10/,C/C/C/I/U/U/U/U/U/U/,249,256
+girlscouts-data-BurningMagma,repeat-b,PUZZLE,1/2/3/4/5/6/7/8/9/10/,1/2/3/4/5/6/7/8/9/10/,C/C/C/C/C/C/C/C/C/C/,265,287
+girlscouts-data-BurningMagma,repeat-b,END,"    this.grey monkey.jump onto(this.couch) /
+    this.grey monkey.turnToFace(this.brown monkey) /
+    count 2 / {
+      this.grey monkey.move arms up and down() /
+      this.brown monkey.move arms up and down() /
+    }
+    this.grey monkey.hop side to side() /
+    count 2 / {
+      this.brown monkey.turn around() /
+      this.brown monkey.jump forward() /
+    }
+    this.grey monkey.lay down() /",3,10,0,293
+girlscouts-data-BurningMagma,repeat-hh,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/I/U/U/,84,-1
+girlscouts-data-BurningMagma,repeat-hh,REFERENCE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/I/U/U/,97,113
+girlscouts-data-BurningMagma,repeat-hh,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/C/C/,124,145
+girlscouts-data-BurningMagma,repeat-hh,END,"    this.witch.turn(TypeExpression.RIGHT, 0.125) /
+    this.witch.raise arms() /
+    count 2 / {
+      this.magicStaff.move up and down() /
+      count 3 / {
+        this.cauldron.spin() /
+      }
+    }
+    this.cauldron.explode() /",2,7,0,150
+girlscouts-data-BurningMagma,repeat-dd,PUZZLE,2/3/4/1/5/7/6/8/,2/3/4/1/5/7/6/8/,I/U/U/U/U/U/U/U/,101,-1
+girlscouts-data-BurningMagma,repeat-dd,REFERENCE,2/3/4/1/5/7/6/8/,1/2/3/-1/4/6/5/7/,I/U/U/U/U/U/U/U/,112,117
+girlscouts-data-BurningMagma,repeat-dd,PUZZLE,1/2/3/-1/4/6/5/7/,1/2/4/3/5/7/6/8/,C/C/C/I/U/U/U/U/,129,143
+girlscouts-data-BurningMagma,repeat-dd,PUZZLE,1/2/4/3/5/7/6/8/,1/2/4/3/5/7/6/8/,C/C/I/U/U/U/U/U/,150,-1
+girlscouts-data-BurningMagma,repeat-dd,REFERENCE,1/2/4/3/5/7/6/8/,1/2/3/4/5/7/6/8/,C/C/I/U/U/U/U/U/,164,177
+girlscouts-data-BurningMagma,repeat-dd,PUZZLE,1/2/3/4/5/7/6/8/,1/2/3/4/5/7/6/8/,C/C/C/C/C/I/U/U/,183,-1
+girlscouts-data-BurningMagma,repeat-dd,REFERENCE,1/2/3/4/5/7/6/8/,1/2/3/4/5/7/6/8/,C/C/C/C/C/I/U/U/,206,238
+girlscouts-data-BurningMagma,repeat-dd,PUZZLE,1/2/3/4/5/7/6/8/,1/2/3/4/-1/5/6/7/,C/C/C/C/C/I/U/U/,243,254
+girlscouts-data-BurningMagma,repeat-dd,PUZZLE,1/2/3/4/-1/5/6/7/,1/2/3/6/4/7/5/8/,C/C/C/C/C/I/U/U/,268,280
+girlscouts-data-BurningMagma,repeat-dd,PUZZLE,1/2/3/6/4/7/5/8/,1/2/3/6/4/7/5/8/,C/C/C/I/U/U/U/U/,292,-1
+girlscouts-data-BurningMagma,repeat-dd,REFERENCE,1/2/3/6/4/7/5/8/,1/2/3/4/5/-1/6/7/,C/C/C/I/U/U/U/U/,301,326
+girlscouts-data-BurningMagma,repeat-dd,PUZZLE,1/2/3/4/5/-1/6/7/,1/2/3/4/5/-1/6/7/,C/C/C/C/C/I/U/U/,346,-1
+girlscouts-data-BurningMagma,repeat-dd,REFERENCE,1/2/3/4/5/-1/6/7/,1/2/3/4/5/7/6/8/,C/C/C/C/C/I/U/U/,374,410
+girlscouts-data-BurningMagma,repeat-dd,PUZZLE,1/2/3/4/5/7/6/8/,1/2/3/4/6/5/7/8/,C/C/C/C/C/I/U/U/,419,444
+girlscouts-data-BurningMagma,repeat-dd,PUZZLE,1/2/3/4/6/5/7/8/,1/2/3/4/6/5/7/8/,C/C/C/C/C/C/C/C/,458,495
+girlscouts-data-BurningMagma,repeat-dd,END,"    this.hare.say(Ready....Set...) /
+    this.hare.raise arm() /
+    this.hare.say(GO!!) /
+    this.hare.getRightShoulder().turn(TypeExpression.RIGHT, 0.35) /
+    count 2 / {
+      count 2 / {
+        this.rhinos paw ground() /
+      }
+      this.rhinos charge() /
+    }",8,8,0,502
+girlscouts-data-BurningMagma,repeat-ii,PUZZLE,1/2/5/3/4/6/,1/4/2/3/5/6/,C/C/I/U/U/U/,106,123
+girlscouts-data-BurningMagma,repeat-ii,PUZZLE,1/4/2/3/5/6/,1/-1/2/3/4/5/,C/I/U/U/U/U/,156,177
+girlscouts-data-BurningMagma,repeat-ii,PUZZLE,1/-1/2/3/4/5/,1/3/5/4/6/2/,C/I/U/U/U/U/,203,215
+girlscouts-data-BurningMagma,repeat-ii,PUZZLE,1/3/5/4/6/2/,1/2/5/3/4/6/,C/I/U/U/U/U/,233,246
+girlscouts-data-BurningMagma,repeat-ii,PUZZLE,1/2/5/3/4/6/,1/5/2/3/4/6/,C/C/I/U/U/U/,298,307
+girlscouts-data-BurningMagma,repeat-ii,PUZZLE,1/5/2/3/4/6/,1/5/2/3/4/6/,C/I/U/U/U/U/,328,-1
+girlscouts-data-BurningMagma,repeat-ii,REFERENCE,1/5/2/3/4/6/,1/2/3/4/5/6/,C/I/U/U/U/U/,342,380
+girlscouts-data-BurningMagma,repeat-ii,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,401,445
+girlscouts-data-BurningMagma,repeat-ii,END,"    this.troll.say(I really wish I had something to row with) /
+    count 5 / {
+      count 2 / {
+        this.troll.row() /
+        this.boat.move(TypeExpression.BACKWARD, 0.25) /
+      }
+      this.troll.take a nap() /
+    }",7,6,0,452
+girlscouts-data-BurningMagma,repeat-c,PUZZLE,1/2/3/4/7/5/6/8/9/,1/2/3/4/5/6/7/8/9/,C/C/C/C/I/U/U/U/U/,80,89
+girlscouts-data-BurningMagma,repeat-c,PUZZLE,1/2/3/4/5/6/7/8/9/,1/2/3/4/5/6/7/8/9/,C/C/C/C/C/C/C/C/C/,98,122
+girlscouts-data-BurningMagma,repeat-c,END,"    this.dolphin.approach(this.fishing boat) /
+    count 2 / {
+      this.dolphin.bump(this.fishing boat) /
+      this.fishing boat.shake() /
+      this.fishing boat.move(TypeExpression.DOWN, 0.1) /
+      count 2 / {
+        this.rabbit.jump around() /
+      }
+    }
+    this.fishing boat.sink completely() /
+    this.rabbit.ride(this.dolphin) /",2,9,0,130
+girlscouts-data-BurningMagma,repeat-ff,PUZZLE,1/2/4/5/3/6/,1/4/2/3/5/6/,C/C/I/U/U/U/,86,93
+girlscouts-data-BurningMagma,repeat-ff,PUZZLE,1/4/2/3/5/6/,1/3/2/5/4/6/,C/I/U/U/U/U/,112,127
+girlscouts-data-BurningMagma,repeat-ff,PUZZLE,1/3/2/5/4/6/,1/3/2/5/4/6/,C/I/U/U/U/U/,145,152
+girlscouts-data-BurningMagma,repeat-ff,REFERENCE,1/3/2/5/4/6/,1/4/2/3/5/6/,C/I/U/U/U/U/,154,160
+girlscouts-data-BurningMagma,repeat-ff,PUZZLE,1/4/2/3/5/6/,1/2/3/4/5/6/,C/I/U/U/U/U/,176,184
+girlscouts-data-BurningMagma,repeat-ff,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,203,218
+girlscouts-data-BurningMagma,repeat-ff,END,"    this.phoenix.say(I can do this, I know I can!) /
+    count 5 / {
+      count 3 / {
+        this.phoenix.flap wings(0.125) /
+      }
+      this.phoenix.glide() /
+    }
+    this.phoenix.land on rock() /",4,6,0,222
+girlscouts-data-BurningMagma,repeat-o,PUZZLE,1/2/3/5/4/10/9/11/6/7/8/,1/2/3/5/4/10/9/11/6/7/8/,C/C/C/C/C/I/U/U/U/U/U/,323,-1
+girlscouts-data-BurningMagma,repeat-o,REFERENCE,1/2/3/5/4/10/9/11/6/7/8/,1/2/3/5/4/7/6/8/9/10/11/,C/C/C/C/C/I/U/U/U/U/U/,335,426
+girlscouts-data-BurningMagma,repeat-o,PUZZLE,1/2/3/5/4/7/6/8/9/10/11/,1/2/3/5/4/7/6/8/9/10/11/,C/C/C/C/C/I/U/U/U/U/U/,432,-1
+girlscouts-data-BurningMagma,repeat-o,REFERENCE,1/2/3/5/4/7/6/8/9/10/11/,1/2/3/5/4/8/7/9/6/10/11/,C/C/C/C/C/I/U/U/U/U/U/,447,462
+girlscouts-data-BurningMagma,repeat-o,PUZZLE,1/2/3/5/4/8/7/9/6/10/11/,1/2/3/5/4/7/6/8/9/10/11/,C/C/C/C/C/I/U/U/U/U/U/,489,504
+girlscouts-data-BurningMagma,repeat-o,PUZZLE,1/2/3/5/4/7/6/8/9/10/11/,1/2/3/5/4/6/7/8/9/10/11/,C/C/C/C/C/I/U/U/U/U/U/,644,657
+girlscouts-data-BurningMagma,repeat-o,PUZZLE,1/2/3/5/4/6/7/8/9/10/11/,1/2/3/5/4/6/7/8/9/10/11/,C/C/C/C/C/C/C/C/C/C/C/,662,688
+girlscouts-data-BurningMagma,repeat-o,END,"    this.troll.say(I have a bad feeling) /
+    count 2 / {
+      do together / {
+        this.cauldron.shake() /
+        this.lid.shoot up and down() /
+      }
+    }
+    this.witch.say(?) /
+    this.witch.move(TypeExpression.FORWARD, 0.5) /
+    this.cauldron.shrink and disappear() /
+    do together / {
+      this.troll.jump back() /
+      this.witch.jump back() /
+    }",2,11,0,702
+girlscouts-data-BurningMagma,repeat-j,PUZZLE,1/2/4/3/5/6/,1/2/3/4/5/6/,C/C/I/U/U/U/,52,71
+girlscouts-data-BurningMagma,repeat-j,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,82,93
+girlscouts-data-BurningMagma,repeat-j,END,"    this.witch.activate(this.cauldron) /
+    count 3 / {
+      this.cauldron.jump and spin() /
+      do together / {
+        this.witch.jump backwards() /
+        this.troll.jump backwards() /
+      }
+    }",1,6,0,97
+girlscouts-data-BurningMagma,repeat-w,PUZZLE,1/3/2/5/4/,1/-1/2/3/4/,C/I/U/U/U/,59,88
+girlscouts-data-BurningMagma,repeat-w,PUZZLE,1/-1/2/3/4/,3/1/4/5/2/,C/I/U/U/U/,121,139
+girlscouts-data-BurningMagma,repeat-w,PUZZLE,3/1/4/5/2/,3/1/4/5/2/,I/U/U/U/U/,157,-1
+girlscouts-data-BurningMagma,repeat-w,PUZZLE,3/1/4/5/2/,2/1/4/5/3/,I/U/U/U/U/,168,181
+girlscouts-data-BurningMagma,repeat-w,PUZZLE,2/1/4/5/3/,1/3/2/5/4/,I/U/U/U/U/,200,211
+girlscouts-data-BurningMagma,repeat-w,PUZZLE,1/3/2/5/4/,1/3/2/4/5/,C/I/U/U/U/,2173,2185
+girlscouts-data-BurningMagma,repeat-w,PUZZLE,1/3/2/4/5/,3/2/1/4/5/,C/I/U/U/U/,2190,2198
+girlscouts-data-BurningMagma,repeat-w,PUZZLE,3/2/1/4/5/,1/3/2/4/5/,I/U/U/U/U/,2233,2244
+girlscouts-data-BurningMagma,repeat-w,PUZZLE,1/3/2/4/5/,1/3/2/4/5/,C/I/U/U/U/,2302,-1
+girlscouts-data-BurningMagma,repeat-w,REFERENCE,1/3/2/4/5/,3/1/4/5/2/,C/I/U/U/U/,2310,2324
+girlscouts-data-BurningMagma,repeat-w,PUZZLE,3/1/4/5/2/,3/1/4/5/2/,I/U/U/U/U/,2342,-1
+girlscouts-data-BurningMagma,repeat-w,REFERENCE,3/1/4/5/2/,2/1/4/5/3/,I/U/U/U/U/,2347,2361
+girlscouts-data-BurningMagma,repeat-w,PUZZLE,2/1/4/5/3/,1/2/4/5/3/,I/U/U/U/U/,2374,2388
+girlscouts-data-BurningMagma,repeat-w,PUZZLE,1/2/4/5/3/,1/2/4/5/3/,C/C/C/C/C/,2395,2406
+girlscouts-data-BurningMagma,repeat-w,END,"    this.hare.pick up(this.basketball) /
+    do together / {
+      count 10 / {
+        this.hare.dribble ball once(this.basketball) /
+      }
+      this.hare.walk(2.0) /
+    }",7,5,0,2412
+girlscouts-data-BurningMagma,repeat-l,PUZZLE,2/3/1/6/4/5/,2/3/1/6/4/5/,I/U/U/U/U/U/,123,-1
+girlscouts-data-BurningMagma,repeat-l,REFERENCE,2/3/1/6/4/5/,1/2/3/4/5/6/,I/U/U/U/U/U/,135,145
+girlscouts-data-BurningMagma,repeat-l,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,183,206
+girlscouts-data-BurningMagma,repeat-l,END,"    this.cat.turn(TypeExpression.RIGHT, 0.5) /
+    this.cat.raise arms() /
+    do together / {
+      this.alien.turnToFace(this.cat) /
+      count 12 / {
+        this.cat.type at keyboard() /
+      }
+    }",1,6,0,210
+girlscouts-data-BurningMagma,repeat-x,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/3/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/,44,51
+girlscouts-data-BurningMagma,repeat-x,REFERENCE,1/2/-1/3/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/4/5/6/-1/3/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/U/U/,71,79
+girlscouts-data-BurningMagma,repeat-x,PUZZLE,1/2/-1/4/5/6/-1/3/-1/-1/-1/-1/,1/2/-1/4/5/6/-1/3/-1/-1/-1/-1/,C/C/C/C/C/C/I/U/U/U/U/U/,98,-1
+girlscouts-data-BurningMagma,repeat-x,REFERENCE,1/2/-1/4/5/6/-1/3/-1/-1/-1/-1/,1/2/8/4/5/6/7/3/10/9/11/12/,C/C/C/C/C/C/I/U/U/U/U/U/,109,128
+girlscouts-data-BurningMagma,repeat-x,PUZZLE,1/2/8/4/5/6/7/3/10/9/11/12/,1/2/8/4/5/6/7/3/10/9/11/12/,C/C/C/C/C/C/C/C/C/C/C/C/,161,178
+girlscouts-data-BurningMagma,repeat-x,END,"    this.alienRobot.land on ground() /
+    this.alien.turnToFace(this.alienRobot) /
+    do together / {
+      this.alien.say(Yay, you're home!) /
+      count 3 / {
+        this.alienRobot.jump() /
+      }
+    }
+    this.alien.think(Hmmm I wish I could make you bigger...) /
+    do together / {
+      this.alien.cast alien magic() /
+      this.alien.say(Abbbbra Ka-Da-Bra) /
+    }
+    this.alienRobot.resize(3.0) /
+    this.alienRobot.face camera() /",1,12,0,182
+girlscouts-data-BurningMagma,repeat-q,PUZZLE,1/2/3/6/7/4/5/,1/2/3/6/7/4/5/,C/C/C/C/C/C/C/,79,102
+girlscouts-data-BurningMagma,repeat-q,END,"    this.ogre.sit down() /
+    this.ogre.go to sleep() /
+    do together / {
+      count 2 / {
+        this.ogre.snore() /
+      }
+      this.tortoise.walk up and toss flower() /
+      this.desertTortoise.crawl() /
+    }",1,7,0,105
+girlscouts-data-BurningMagma,repeat-n,REFERENCE,1/-1/3/-1/4/-1/-1/2/-1/-1/,1/8/4/3/5/7/6/2/9/10/,C/C/C/I/I/U/U/U/U/U/,73,78
+girlscouts-data-BurningMagma,repeat-n,PUZZLE,1/8/4/3/5/7/6/2/9/10/,1/8/4/3/5/7/6/2/9/10/,C/C/C/C/I/U/U/U/U/U/,116,-1
+girlscouts-data-BurningMagma,repeat-n,REFERENCE,1/8/4/3/5/7/6/2/9/10/,1/8/4/2/5/7/6/3/9/10/,C/C/C/C/I/U/U/U/U/U/,127,139
+girlscouts-data-BurningMagma,repeat-n,PUZZLE,1/8/4/2/5/7/6/3/9/10/,5/8/7/6/4/2/1/3/9/10/,C/I/U/U/U/U/U/U/U/U/,150,156
+girlscouts-data-BurningMagma,repeat-n,PUZZLE,5/8/7/6/4/2/1/3/9/10/,5/8/7/6/4/2/1/3/9/10/,I/U/U/U/U/U/U/U/U/U/,210,-1
+girlscouts-data-BurningMagma,repeat-n,REFERENCE,5/8/7/6/4/2/1/3/9/10/,5/8/7/6/4/2/1/3/9/10/,I/U/U/U/U/U/U/U/U/U/,217,-1
+girlscouts-data-BurningMagma,repeat-n,REFERENCE,5/8/7/6/4/2/1/3/9/10/,5/8/7/6/4/2/1/3/9/10/,I/U/U/U/U/U/U/U/U/U/,224,-1
+girlscouts-data-BurningMagma,repeat-n,PUZZLE,5/8/7/6/4/2/1/3/9/10/,3/7/5/4/2/10/6/1/8/9/,I/U/U/U/U/U/U/U/U/U/,226,247
+girlscouts-data-BurningMagma,repeat-n,REFERENCE,3/7/5/4/2/10/6/1/8/9/,3/8/5/4/2/6/7/1/9/10/,I/U/U/U/U/U/U/U/U/U/,373,384
+girlscouts-data-BurningMagma,repeat-n,PUZZLE,3/8/5/4/2/6/7/1/9/10/,3/8/4/5/2/6/7/1/9/10/,I/U/U/U/U/U/U/U/U/U/,391,402
+girlscouts-data-BurningMagma,repeat-n,PUZZLE,3/8/4/5/2/6/7/1/9/10/,2/8/3/4/5/6/7/1/9/10/,I/U/U/U/U/U/U/U/U/U/,406,413
+girlscouts-data-BurningMagma,repeat-n,PUZZLE,2/8/3/4/5/6/7/1/9/10/,3/8/2/4/5/6/7/1/9/10/,I/U/U/U/U/U/U/U/U/U/,494,504
+girlscouts-data-BurningMagma,repeat-n,PUZZLE,3/8/2/4/5/6/7/1/9/10/,4/8/2/3/5/6/7/1/9/10/,I/U/U/U/U/U/U/U/U/U/,512,519
+girlscouts-data-BurningMagma,repeat-n,PUZZLE,4/8/2/3/5/6/7/1/9/10/,4/8/2/3/5/6/7/1/9/10/,I/U/U/U/U/U/U/U/U/U/,533,539
+girlscouts-data-BurningMagma,repeat-n,PUZZLE,4/8/2/3/5/6/7/1/9/10/,4/8/2/3/5/6/7/1/9/10/,I/U/U/U/U/U/U/U/U/U/,547,552
+girlscouts-data-BurningMagma,repeat-n,REFERENCE,4/8/2/3/5/6/7/1/9/10/,4/8/3/2/5/6/7/1/9/10/,I/U/U/U/U/U/U/U/U/U/,556,562
+girlscouts-data-BurningMagma,repeat-n,PUZZLE,4/8/3/2/5/6/7/1/9/10/,4/8/3/2/5/6/7/1/9/10/,I/U/U/U/U/U/U/U/U/U/,568,-1
+girlscouts-data-BurningMagma,repeat-n,REFERENCE,4/8/3/2/5/6/7/1/9/10/,4/8/3/2/5/6/7/1/9/10/,I/U/U/U/U/U/U/U/U/U/,607,-1
+girlscouts-data-BurningMagma,repeat-n,REFERENCE,4/8/3/2/5/6/7/1/9/10/,3/7/2/1/4/5/6/-1/8/9/,I/U/U/U/U/U/U/U/U/U/,620,629
+girlscouts-data-BurningMagma,repeat-n,PUZZLE,3/7/2/1/4/5/6/-1/8/9/,4/8/3/2/5/6/7/1/9/10/,I/U/U/U/U/U/U/U/U/U/,658,666
+girlscouts-data-BurningMagma,repeat-n,PUZZLE,4/8/3/2/5/6/7/1/9/10/,4/8/3/2/5/6/7/1/9/10/,I/U/U/U/U/U/U/U/U/U/,683,-1
+girlscouts-data-BurningMagma,repeat-n,REFERENCE,4/8/3/2/5/6/7/1/9/10/,4/8/1/3/5/6/7/2/9/10/,I/U/U/U/U/U/U/U/U/U/,692,698
+girlscouts-data-BurningMagma,repeat-n,PUZZLE,4/8/1/3/5/6/7/2/9/10/,4/8/2/3/5/6/7/1/9/10/,I/U/U/U/U/U/U/U/U/U/,713,718
+girlscouts-data-BurningMagma,repeat-n,PUZZLE,4/8/2/3/5/6/7/1/9/10/,4/8/2/3/5/6/7/1/9/10/,I/U/U/U/U/U/U/U/U/U/,731,742
+girlscouts-data-BurningMagma,repeat-n,REFERENCE,4/8/2/3/5/6/7/1/9/10/,4/8/2/3/5/6/7/1/9/10/,I/U/U/U/U/U/U/U/U/U/,765,782
+girlscouts-data-BurningMagma,repeat-n,PUZZLE,4/8/2/3/5/6/7/1/9/10/,4/8/2/3/5/6/7/1/9/10/,I/U/U/U/U/U/U/U/U/U/,786,-1
+girlscouts-data-BurningMagma,repeat-n,REFERENCE,4/8/2/3/5/6/7/1/9/10/,4/8/2/3/5/6/7/1/9/10/,I/U/U/U/U/U/U/U/U/U/,803,-1
+girlscouts-data-BurningMagma,repeat-n,PUZZLE,4/8/2/3/5/6/7/1/9/10/,3/8/2/4/5/6/7/1/9/10/,I/U/U/U/U/U/U/U/U/U/,820,836
+girlscouts-data-BurningMagma,repeat-n,PUZZLE,3/8/2/4/5/6/7/1/9/10/,1/8/2/3/4/6/7/5/9/10/,I/U/U/U/U/U/U/U/U/U/,848,857
+girlscouts-data-BurningMagma,repeat-n,PUZZLE,1/8/2/3/4/6/7/5/9/10/,1/8/3/2/4/6/7/5/9/10/,C/I/U/U/U/U/U/U/U/U/,882,890
+girlscouts-data-BurningMagma,repeat-n,PUZZLE,1/8/3/2/4/6/7/5/9/10/,2/8/3/1/4/6/7/5/9/10/,C/I/U/U/U/U/U/U/U/U/,899,907
+girlscouts-data-BurningMagma,repeat-n,PUZZLE,2/8/3/1/4/6/7/5/9/10/,2/8/3/1/4/6/7/5/9/10/,I/U/U/U/U/U/U/U/U/U/,920,-1
+girlscouts-data-BurningMagma,repeat-n,REFERENCE,2/8/3/1/4/6/7/5/9/10/,1/8/4/5/2/6/7/3/9/10/,I/U/U/U/U/U/U/U/U/U/,929,952
+girlscouts-data-BurningMagma,repeat-n,PUZZLE,1/8/4/5/2/6/7/3/9/10/,1/8/4/5/2/6/7/3/9/10/,C/I/U/U/U/U/U/U/U/U/,1003,1010
+girlscouts-data-BurningMagma,repeat-n,PUZZLE,1/8/4/5/2/6/7/3/9/10/,1/8/4/3/5/6/7/2/9/10/,C/I/U/U/U/U/U/U/U/U/,1015,1023
+girlscouts-data-BurningMagma,repeat-n,PUZZLE,1/8/4/3/5/6/7/2/9/10/,1/8/4/3/5/6/7/2/9/10/,C/C/C/C/C/C/C/C/C/C/,1042,1059
+girlscouts-data-BurningMagma,repeat-n,END,"    count 2 / {
+      do together / {
+        this.big yeti.swing hammer() /
+        this.tiny yeti.lean back() /
+      }
+      this.tiny yeti.shrink() /
+    }
+    this.big yeti.drop hammer() /
+    this.tiny yeti.jump and grow(2.0) /
+    do together / {
+      this.tiny yeti.take a bow() /
+      this.big yeti.take a bow() /
+    }",7,10,0,1066
+girlscouts-data-BurningMagma,repeat-r,PUZZLE,1/8/2/3/4/10/5/9/6/7/,1/8/2/3/4/10/5/9/6/7/,C/I/U/U/U/U/U/U/U/U/,213,247
+girlscouts-data-BurningMagma,repeat-r,REFERENCE,1/8/2/3/4/10/5/9/6/7/,1/6/4/5/3/8/2/7/9/10/,C/I/U/U/U/U/U/U/U/U/,257,277
+girlscouts-data-BurningMagma,repeat-r,PUZZLE,1/6/4/5/3/8/2/7/9/10/,1/6/4/5/3/8/2/7/9/10/,C/C/C/C/C/I/U/U/U/U/,506,-1
+girlscouts-data-BurningMagma,repeat-r,REFERENCE,1/6/4/5/3/8/2/7/9/10/,1/8/4/5/3/6/2/7/10/9/,C/C/C/C/C/I/U/U/U/U/,632,654
+girlscouts-data-BurningMagma,repeat-r,PUZZLE,1/8/4/5/3/6/2/7/10/9/,1/8/4/5/3/6/2/7/10/9/,C/C/C/C/C/I/U/U/U/U/,686,704
+girlscouts-data-BurningMagma,repeat-r,PUZZLE,1/8/4/5/3/6/2/7/10/9/,1/7/4/5/3/6/2/8/10/9/,C/C/C/C/C/C/I/U/U/U/,712,731
+girlscouts-data-BurningMagma,repeat-r,PUZZLE,1/7/4/5/3/6/2/8/10/9/,1/7/4/5/3/6/2/8/10/9/,C/C/C/C/C/C/C/C/C/C/,951,1037
+girlscouts-data-BurningMagma,repeat-r,END,"    this.bunny.say(We've located the treasure!) /
+    do together / {
+      count 3 / {
+        this.pirateShip.move(TypeExpression.FORWARD, 25.0) /
+      }
+      this.camera.move(TypeExpression.FORWARD, 75.0) /
+    }
+    this.camera fly to island() /
+    do together / {
+      this.treasureChest.getChestLid().turn(TypeExpression.BACKWARD, 0.25) /
+      this.coinPile.appear() /
+      this.coinStack.appear() /
+    }",3,10,0,1049
+girlscouts-data-BurningMagma,repeat-z,PUZZLE,1/2/4/-1/3/-1/5/6/7/8/9/11/10/,1/2/5/3/4/6/7/8/9/10/11/13/12/,C/C/I/U/U/U/U/U/U/U/U/U/U/,221,231
+girlscouts-data-BurningMagma,repeat-z,PUZZLE,1/2/5/3/4/6/7/8/9/10/11/13/12/,1/2/4/5/3/6/7/8/9/10/11/13/12/,C/C/I/U/U/U/U/U/U/U/U/U/U/,251,259
+girlscouts-data-BurningMagma,repeat-z,REFERENCE,1/2/4/5/3/6/7/8/9/10/11/13/12/,1/2/3/4/5/6/7/8/9/10/11/13/12/,C/C/I/U/U/U/U/U/U/U/U/U/U/,290,302
+girlscouts-data-BurningMagma,repeat-z,PUZZLE,1/2/3/4/5/6/7/8/9/10/11/13/12/,1/2/3/4/5/6/7/8/9/10/11/13/12/,C/C/C/C/C/C/C/C/C/C/C/C/C/,371,390
+girlscouts-data-BurningMagma,repeat-z,END,"    this.Martha.slide(2.0) /
+    this.Martha.say(Oh Frankie, you're home.) /
+    this.Frankie.hands in air() /
+    do together / {
+      this.Frankie.say(Look what I learned how to do today!) /
+      count 3 / {
+        this.Frankie.turn(TypeExpression.RIGHT, 3.0) /
+      }
+    }
+    this.Martha.say(That is really cool sweetheart. ) /
+    this.Martha.say(I learned this when I was your age.) /
+    count 2 / {
+      do together / {
+        this.Martha.resize(2.0) /
+        this.Martha.turn(TypeExpression.LEFT, 3.0) /
+      }
+    }",4,13,0,395
+girlscouts-data-BurningMagma,repeat-y,REFERENCE,-1/1/-1/-1/-1/-1/-1/-1/-1/,1/2/3/4/6/5/7/-1/-1/,I/U/U/U/U/U/U/U/U/,42,49
+girlscouts-data-BurningMagma,repeat-y,PUZZLE,1/2/3/4/6/5/7/-1/-1/,1/2/3/-1/4/5/6/-1/-1/,C/C/C/C/I/C/I/I/U/,104,125
+girlscouts-data-BurningMagma,repeat-y,PUZZLE,1/2/3/-1/4/5/6/-1/-1/,1/2/3/5/4/6/7/-1/-1/,C/C/C/I/U/U/U/U/U/,159,173
+girlscouts-data-BurningMagma,repeat-y,PUZZLE,1/2/3/5/4/6/7/-1/-1/,3/4/5/7/6/1/2/-1/-1/,C/C/C/I/U/U/U/U/U/,189,212
+girlscouts-data-BurningMagma,repeat-y,PUZZLE,3/4/5/7/6/1/2/-1/-1/,1/2/3/4/5/6/7/-1/-1/,I/U/U/U/U/U/U/U/U/,234,260
+girlscouts-data-BurningMagma,repeat-y,PUZZLE,1/2/3/4/5/6/7/-1/-1/,1/2/3/4/5/6/7/8/9/,C/C/C/C/C/C/C/I/U/,285,304
+girlscouts-data-BurningMagma,repeat-y,PUZZLE,1/2/3/4/5/6/7/8/9/,1/2/3/4/5/6/7/8/9/,C/C/C/C/C/C/C/C/C/,315,336
+girlscouts-data-BurningMagma,repeat-y,END,"    do together / {
+      this.blueDragon.stand up() /
+      this.redDragon.raise leg and spin() /
+    }
+    do together / {
+      count 3 / {
+        this.redDragon.lift up legs() /
+      }
+      this.redDragon.jump up and down() /
+    }
+    this.redDragon.turnToFace(this.blueDragon) /
+    this.blueDragon.hide() /",5,9,0,351
+girlscouts-data-BurningMagma,repeat-s,PUZZLE,1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/U/U/U/U/,91,-1
+girlscouts-data-BurningMagma,repeat-s,REFERENCE,1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/3/4/5/-1/6/-1/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/U/U/U/U/,101,117
+girlscouts-data-BurningMagma,repeat-s,PUZZLE,1/2/3/4/5/-1/6/-1/-1/-1/-1/-1/-1/-1/,1/2/5/6/3/-1/4/-1/-1/-1/-1/-1/-1/-1/,C/C/C/C/C/I/I/U/U/U/U/U/U/U/,163,176
+girlscouts-data-BurningMagma,repeat-s,PUZZLE,1/2/5/6/3/-1/4/-1/-1/-1/-1/-1/-1/-1/,1/2/4/6/7/5/3/-1/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/U/U/U/U/,184,197
+girlscouts-data-BurningMagma,repeat-s,PUZZLE,1/2/4/6/7/5/3/-1/-1/-1/-1/-1/-1/-1/,1/2/3/4/6/5/7/-1/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/U/U/U/U/,226,237
+girlscouts-data-BurningMagma,repeat-s,PUZZLE,1/2/3/4/6/5/7/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/4/3/5/-1/-1/-1/-1/-1/-1/-1/,C/C/C/C/C/C/I/U/U/U/U/U/U/U/,261,280
+girlscouts-data-BurningMagma,repeat-s,PUZZLE,1/2/-1/-1/4/3/5/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/4/3/5/-1/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/U/U/U/U/,293,-1
+girlscouts-data-BurningMagma,repeat-s,REFERENCE,1/2/-1/-1/4/3/5/-1/-1/-1/-1/-1/-1/-1/,1/2/3/7/5/4/6/-1/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/U/U/U/U/,299,330
+girlscouts-data-BurningMagma,repeat-s,PUZZLE,1/2/3/7/5/4/6/-1/-1/-1/-1/-1/-1/-1/,1/2/3/4/5/6/7/-1/-1/-1/-1/-1/-1/-1/,C/C/C/I/U/U/U/U/U/U/U/U/U/U/,368,381
+girlscouts-data-BurningMagma,repeat-s,PUZZLE,1/2/3/4/5/6/7/-1/-1/-1/-1/-1/-1/-1/,1/2/3/4/5/6/7/-1/-1/-1/-1/-1/-1/-1/,C/C/C/C/C/C/I/U/U/U/U/U/U/U/,396,413
+girlscouts-data-BurningMagma,repeat-s,PUZZLE,1/2/3/4/5/6/7/-1/-1/-1/-1/-1/-1/-1/,1/2/3/4/5/6/7/8/9/-1/-1/-1/-1/-1/,C/C/C/C/C/C/C/I/U/U/U/U/U/U/,420,438
+girlscouts-data-BurningMagma,repeat-s,PUZZLE,1/2/3/4/5/6/7/8/9/-1/-1/-1/-1/-1/,1/2/3/4/5/6/7/8/9/10/-1/12/-1/11/,C/C/C/C/C/C/C/C/C/I/U/U/U/U/,455,479
+girlscouts-data-BurningMagma,repeat-s,PUZZLE,1/2/3/4/5/6/7/8/9/10/-1/12/-1/11/,1/2/3/4/5/6/7/8/9/10/11/14/12/13/,C/C/C/C/C/C/C/C/C/C/I/U/U/U/,493,519
+girlscouts-data-BurningMagma,repeat-s,PUZZLE,1/2/3/4/5/6/7/8/9/10/11/14/12/13/,1/2/3/4/5/6/7/8/9/10/11/14/12/13/,C/C/C/C/C/C/C/C/C/C/C/C/C/C/,539,568
+girlscouts-data-BurningMagma,repeat-s,END,"    this.pig.say(You may begin.) /
+    this.bigBadWolf.skate around() /
+    count 2 / {
+      do together / {
+        this.bigBadWolf.spin() /
+        this.bigBadWolf.move(TypeExpression.DOWN, 0.25) /
+      }
+      this.bigBadWolf.say(Uh oh.) /
+    }
+    this.bigBadWolf.getNeck().turn(TypeExpression.FORWARD, 0.125) /
+    this.bigBadWolf.say(Help, please!) /
+    this.phoenix.land on wolf() /
+    do together / {
+      this.phoenix.move(TypeExpression.UP, 6.0) /
+      count 2 / {
+        this.phoenix.flap wings() /
+      }
+    }",7,14,0,573
+girlscouts-data-BurningMagma,repeat-p,PUZZLE,1/-1/2/4/3/-1/-1/-1/-1/-1/-1/,1/-1/2/4/3/-1/-1/-1/-1/-1/-1/,C/C/I/I/I/U/U/U/U/U/U/,75,81
+girlscouts-data-BurningMagma,repeat-p,PUZZLE,1/-1/2/4/3/-1/-1/-1/-1/-1/-1/,-1/-1/1/4/3/2/-1/-1/-1/-1/-1/,C/C/I/I/U/U/U/U/U/U/U/,155,163
+girlscouts-data-BurningMagma,repeat-p,PUZZLE,-1/-1/1/4/3/2/-1/-1/-1/-1/-1/,-1/-1/1/4/3/2/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/,252,-1
+girlscouts-data-BurningMagma,repeat-p,REFERENCE,-1/-1/1/4/3/2/-1/-1/-1/-1/-1/,-1/-1/1/4/3/2/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/,262,-1
+girlscouts-data-BurningMagma,repeat-p,REFERENCE,-1/-1/1/4/3/2/-1/-1/-1/-1/-1/,-1/-1/1/4/3/2/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/,269,-1
+girlscouts-data-BurningMagma,repeat-p,PUZZLE,-1/-1/1/4/3/2/-1/-1/-1/-1/-1/,-1/-1/1/3/4/2/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/,278,283
+girlscouts-data-BurningMagma,repeat-p,PUZZLE,-1/-1/1/3/4/2/-1/-1/-1/-1/-1/,-1/-1/3/2/4/1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/,289,296
+girlscouts-data-BurningMagma,repeat-p,PUZZLE,-1/-1/3/2/4/1/-1/-1/-1/-1/-1/,-1/-1/1/3/4/2/-1/-1/-1/-1/-1/,C/I/C/I/I/U/U/U/U/U/U/,308,318
+girlscouts-data-BurningMagma,repeat-p,PUZZLE,-1/-1/1/3/4/2/-1/-1/-1/-1/-1/,-1/-1/1/2/3/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/,354,361
+girlscouts-data-BurningMagma,repeat-p,PUZZLE,-1/-1/1/2/3/-1/-1/-1/-1/-1/-1/,-1/-1/1/2/3/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/,372,-1
+girlscouts-data-BurningMagma,repeat-p,REFERENCE,-1/-1/1/2/3/-1/-1/-1/-1/-1/-1/,-1/-1/1/2/3/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/,399,-1
+girlscouts-data-BurningMagma,repeat-p,PUZZLE,-1/-1/1/2/3/-1/-1/-1/-1/-1/-1/,-1/-1/1/2/3/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/,413,-1
+girlscouts-data-BurningMagma,repeat-p,PUZZLE,-1/-1/1/2/3/-1/-1/-1/-1/-1/-1/,4/-1/1/2/3/-1/5/6/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/,421,425
+girlscouts-data-BurningMagma,repeat-p,REFERENCE,4/-1/1/2/3/-1/5/6/-1/-1/-1/,6/2/3/4/5/1/7/8/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/,465,480
+girlscouts-data-BurningMagma,repeat-p,PUZZLE,6/2/3/4/5/1/7/8/-1/-1/-1/,6/2/3/4/5/1/7/8/9/10/11/,C/C/C/C/C/C/C/C/I/U/U/,498,514
+girlscouts-data-BurningMagma,repeat-p,PUZZLE,6/2/3/4/5/1/7/8/9/10/11/,6/2/3/4/5/1/7/8/9/10/11/,C/C/C/C/C/C/C/C/C/C/C/,529,548
+girlscouts-data-BurningMagma,repeat-p,END,"    do together / {
+      this.shark.move(TypeExpression.FORWARD, 25.0) /
+      count 4 / {
+        this.fish.swim forward() /
+        this.fish.turn around() /
+      }
+    }
+    do together / {
+      this.fish.turnToFace(this.shark) /
+      this.shark.turnToFace(this.fish) /
+    }
+    this.shark.open mouth() /
+    this.shark.moveTo(this.fish) /
+    this.shark.close mouth() /",5,11,0,555
+girlscouts-data-BurningMagma,repeat-i,PUZZLE,1/2/3/4/5/7/6/,1/2/3/4/5/7/6/,C/C/C/C/C/C/C/,43,61
+girlscouts-data-BurningMagma,repeat-i,END,"    count 3 / {
+      this.penguin.turn(TypeExpression.RIGHT, 0.5) /
+      this.penguin.move(TypeExpression.FORWARD, 1.0) /
+    }
+    count 3 / {
+      do together / {
+        this.penguin.flutter wings() /
+        this.penguin.jump() /
+      }
+    }",3,7,0,67
+girlscouts-data-BurningMagma,repeat-i,PUZZLE,1/2/3/4/5/7/6/,1/2/3/4/5/7/6/,C/C/C/C/C/C/C/,43,61
+girlscouts-data-BurningMagma,repeat-i,END,"    count 3 / {
+      this.penguin.turn(TypeExpression.RIGHT, 0.5) /
+      this.penguin.move(TypeExpression.FORWARD, 1.0) /
+    }
+    count 3 / {
+      do together / {
+        this.penguin.flutter wings() /
+        this.penguin.jump() /
+      }
+    }",1,7,0,72

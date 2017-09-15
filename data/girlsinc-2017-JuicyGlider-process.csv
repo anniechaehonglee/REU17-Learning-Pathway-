@@ -1,0 +1,842 @@
+codename,puzzle,action,current_index,next_index,correctness,start_time,closed_time
+girlsinc-2017-JuicyGlider,sequential-g,REFERENCE,-1/-1/-1/-1/-1/-1/-1/,1/2/3/4/-1/5/6/,I/U/U/U/U/U/U/,111,113
+girlsinc-2017-JuicyGlider,sequential-g,PUZZLE,1/2/3/4/-1/5/6/,1/2/3/4/-1/6/5/,C/C/C/C/I/U/U/,156,168
+girlsinc-2017-JuicyGlider,sequential-g,REFERENCE,1/2/3/4/-1/6/5/,1/2/3/4/-1/5/6/,C/C/C/C/I/U/U/,171,185
+girlsinc-2017-JuicyGlider,sequential-g,PUZZLE,1/2/3/4/-1/5/6/,1/2/3/4/-1/5/6/,C/C/C/C/I/U/U/,192,205
+girlsinc-2017-JuicyGlider,sequential-g,REFERENCE,1/2/3/4/-1/5/6/,1/2/3/4/5/6/7/,C/C/C/C/I/U/U/,206,216
+girlsinc-2017-JuicyGlider,sequential-g,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/C/C/,222,236
+girlsinc-2017-JuicyGlider,sequential-g,END,"    this.blueTang.say(We can't let anyone find our treasure!) /
+    this.clownFish.turnToFace(this.shark) /
+    this.clownFish.think(Uh oh) /
+    this.clownFish.turnToFace(this.blueTang) /
+    this.clownFish.say(I think it's too late..) /
+    this.shark.getMouth().turn(TypeExpression.FORWARD, 0.125) /
+    this.shark.move(TypeExpression.FORWARD, 15.0) /",4,7,0,247
+girlsinc-2017-JuicyGlider,sequential-c,REFERENCE,-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/,I/U/U/U/U/U/,11,14
+girlsinc-2017-JuicyGlider,sequential-c,REFERENCE,1/2/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/,C/C/I/U/U/U/,23,29
+girlsinc-2017-JuicyGlider,sequential-c,REFERENCE,1/2/-1/-1/-1/-1/,1/2/3/-1/4/-1/,C/C/I/U/U/U/,32,37
+girlsinc-2017-JuicyGlider,sequential-c,REFERENCE,1/2/3/-1/4/-1/,1/2/3/6/4/5/,C/C/C/I/U/U/,43,53
+girlsinc-2017-JuicyGlider,sequential-c,PUZZLE,1/2/3/6/4/5/,1/2/3/6/4/5/,C/C/C/I/U/U/,59,68
+girlsinc-2017-JuicyGlider,sequential-c,REFERENCE,1/2/3/6/4/5/,1/2/3/6/4/5/,C/C/C/I/U/U/,70,79
+girlsinc-2017-JuicyGlider,sequential-c,REFERENCE,1/2/3/6/4/5/,1/2/3/5/4/6/,C/C/C/I/U/U/,81,91
+girlsinc-2017-JuicyGlider,sequential-c,PUZZLE,1/2/3/5/4/6/,1/2/3/5/4/6/,C/C/C/I/U/U/,97,-1
+girlsinc-2017-JuicyGlider,sequential-c,REFERENCE,1/2/3/5/4/6/,1/2/3/5/4/6/,C/C/C/I/U/U/,108,118
+girlsinc-2017-JuicyGlider,sequential-c,PUZZLE,1/2/3/5/4/6/,1/2/3/4/5/6/,C/C/C/I/U/U/,137,146
+girlsinc-2017-JuicyGlider,sequential-c,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,159,170
+girlsinc-2017-JuicyGlider,sequential-c,END,"    this.hare.swing arm() /
+    this.volleyball.move(TypeExpression.DOWN, 0.6) /
+    this.hare.look down() /
+    this.hare.getRightHip().turn(TypeExpression.FORWARD, 0.25) /
+    this.hare.kick(this.volleyball) /
+    this.net.turn(TypeExpression.BACKWARD, 0.25) /",5,6,0,200
+girlsinc-2017-JuicyGlider,dotogether-a,PUZZLE,1/2/3/4/5/6/7/8/,1/2/3/4/5/6/7/8/,C/C/C/C/C/C/C/C/,75,89
+girlsinc-2017-JuicyGlider,dotogether-a,END,"    this.penguin.say(Everyone, I'd like you to meet Derek.) /
+    this.DerekTheYeti.say(Hello.) /
+    this.DerekTheYeti.moveToward(this.babyPenguin2, 0.5) /
+    do together / {
+      this.babyPenguin1.jump back() /
+      this.babyPenguin2.jump back() /
+      this.babyPenguin3.jump back() /
+    }
+    this.penguin.say(He's harmless and very kind!) /",1,8,0,91
+girlsinc-2017-JuicyGlider,dotogether-o,REFERENCE,-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/,26,-1
+girlsinc-2017-JuicyGlider,dotogether-o,REFERENCE,-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/,32,35
+girlsinc-2017-JuicyGlider,dotogether-o,REFERENCE,-1/-1/-1/-1/-1/-1/,2/1/4/5/3/6/,I/U/U/U/U/U/,44,48
+girlsinc-2017-JuicyGlider,dotogether-o,PUZZLE,2/1/4/5/3/6/,2/1/4/5/3/6/,I/U/U/U/U/U/,79,83
+girlsinc-2017-JuicyGlider,dotogether-o,REFERENCE,2/1/4/5/3/6/,3/2/1/5/4/6/,I/U/U/U/U/U/,94,98
+girlsinc-2017-JuicyGlider,dotogether-o,PUZZLE,3/2/1/5/4/6/,-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/,109,111
+girlsinc-2017-JuicyGlider,dotogether-o,REFERENCE,-1/-1/-1/-1/-1/-1/,2/1/4/5/3/6/,I/U/U/U/U/U/,122,126
+girlsinc-2017-JuicyGlider,dotogether-o,PUZZLE,2/1/4/5/3/6/,3/1/2/5/4/6/,I/U/U/U/U/U/,161,163
+girlsinc-2017-JuicyGlider,dotogether-o,PUZZLE,3/1/2/5/4/6/,3/1/2/5/4/6/,I/U/U/U/U/U/,169,172
+girlsinc-2017-JuicyGlider,dotogether-o,PUZZLE,3/1/2/5/4/6/,3/1/4/5/2/6/,I/U/U/U/U/U/,202,204
+girlsinc-2017-JuicyGlider,dotogether-o,PUZZLE,3/1/4/5/2/6/,-1/-1/-1/1/-1/2/,I/U/U/U/U/U/,209,211
+girlsinc-2017-JuicyGlider,dotogether-o,REFERENCE,-1/-1/-1/1/-1/2/,3/1/2/5/4/6/,I/U/U/U/U/U/,228,232
+girlsinc-2017-JuicyGlider,dotogether-o,PUZZLE,3/1/2/5/4/6/,2/1/3/5/4/6/,I/U/U/U/U/U/,247,249
+girlsinc-2017-JuicyGlider,dotogether-o,PUZZLE,2/1/3/5/4/6/,-1/-1/-1/1/-1/2/,I/U/U/U/U/U/,253,255
+girlsinc-2017-JuicyGlider,dotogether-o,REFERENCE,-1/-1/-1/1/-1/2/,1/-1/-1/2/3/4/,I/U/U/U/U/U/,313,322
+girlsinc-2017-JuicyGlider,dotogether-o,REFERENCE,1/-1/-1/2/3/4/,1/-1/2/3/4/5/,C/I/U/U/U/U/,329,330
+girlsinc-2017-JuicyGlider,dotogether-o,PUZZLE,1/-1/2/3/4/5/,1/-1/2/3/4/5/,C/I/U/U/U/U/,333,340
+girlsinc-2017-JuicyGlider,dotogether-o,PUZZLE,1/-1/2/3/4/5/,1/-1/3/2/4/5/,C/I/U/U/U/U/,346,352
+girlsinc-2017-JuicyGlider,dotogether-o,PUZZLE,1/-1/3/2/4/5/,1/-1/2/3/4/5/,C/I/U/U/U/U/,357,360
+girlsinc-2017-JuicyGlider,dotogether-o,PUZZLE,1/-1/2/3/4/5/,1/-1/2/3/4/5/,C/I/U/U/U/U/,367,371
+girlsinc-2017-JuicyGlider,dotogether-o,PUZZLE,1/-1/2/3/4/5/,1/-1/2/3/4/5/,C/I/U/U/U/U/,380,387
+girlsinc-2017-JuicyGlider,dotogether-o,REFERENCE,1/-1/2/3/4/5/,1/-1/2/3/4/5/,C/I/U/U/U/U/,389,396
+girlsinc-2017-JuicyGlider,dotogether-o,PUZZLE,1/-1/2/3/4/5/,1/-1/2/3/4/5/,C/I/U/U/U/U/,398,403
+girlsinc-2017-JuicyGlider,dotogether-o,REFERENCE,1/-1/2/3/4/5/,2/1/3/4/5/6/,C/I/U/U/U/U/,405,412
+girlsinc-2017-JuicyGlider,dotogether-o,REFERENCE,2/1/3/4/5/6/,4/1/5/6/2/3/,I/U/U/U/U/U/,427,434
+girlsinc-2017-JuicyGlider,dotogether-o,PUZZLE,4/1/5/6/2/3/,4/1/5/6/2/3/,I/U/U/U/U/U/,443,447
+girlsinc-2017-JuicyGlider,dotogether-o,REFERENCE,4/1/5/6/2/3/,1/4/2/3/5/6/,I/U/U/U/U/U/,449,452
+girlsinc-2017-JuicyGlider,dotogether-o,PUZZLE,1/4/2/3/5/6/,1/4/2/3/5/6/,C/I/U/U/U/U/,464,-1
+girlsinc-2017-JuicyGlider,dotogether-o,PUZZLE,1/4/2/3/5/6/,1/4/2/3/5/6/,C/I/U/U/U/U/,473,482
+girlsinc-2017-JuicyGlider,dotogether-o,REFERENCE,1/4/2/3/5/6/,1/4/2/3/5/6/,C/I/U/U/U/U/,489,-1
+girlsinc-2017-JuicyGlider,dotogether-o,REFERENCE,1/4/2/3/5/6/,2/1/3/4/5/6/,C/I/U/U/U/U/,498,502
+girlsinc-2017-JuicyGlider,dotogether-o,PUZZLE,2/1/3/4/5/6/,2/1/3/4/5/6/,I/U/U/U/U/U/,519,523
+girlsinc-2017-JuicyGlider,dotogether-o,REFERENCE,2/1/3/4/5/6/,1/2/3/4/5/6/,I/U/U/U/U/U/,524,528
+girlsinc-2017-JuicyGlider,dotogether-o,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,535,542
+girlsinc-2017-JuicyGlider,dotogether-o,END,"    this.hare.getRightShoulder().turn(TypeExpression.RIGHT, 0.125) /
+    do together / {
+      this.hare.hit(this.volleyball) /
+      this.volleyball.fly away() /
+    }
+    this.hare.getHead().turn(TypeExpression.BACKWARD, 0.125) /
+    this.hare.say(Aww man..) /",8,6,0,546
+girlsinc-2017-JuicyGlider,sequential-d,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/,24,26
+girlsinc-2017-JuicyGlider,sequential-d,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/,33,-1
+girlsinc-2017-JuicyGlider,sequential-d,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/3/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/,40,46
+girlsinc-2017-JuicyGlider,sequential-d,REFERENCE,1/2/-1/3/-1/-1/-1/-1/,1/2/-1/3/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/,63,69
+girlsinc-2017-JuicyGlider,sequential-d,REFERENCE,1/2/-1/3/-1/-1/-1/-1/,1/2/-1/3/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/,78,83
+girlsinc-2017-JuicyGlider,sequential-d,REFERENCE,1/2/-1/3/-1/-1/-1/-1/,1/2/4/3/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/,88,96
+girlsinc-2017-JuicyGlider,sequential-d,REFERENCE,1/2/4/3/-1/-1/-1/-1/,1/2/4/3/-1/6/-1/5/,C/C/I/U/U/U/U/U/,98,109
+girlsinc-2017-JuicyGlider,sequential-d,REFERENCE,1/2/4/3/-1/6/-1/5/,1/2/4/3/-1/6/-1/5/,C/C/I/U/U/U/U/U/,114,-1
+girlsinc-2017-JuicyGlider,sequential-d,REFERENCE,1/2/4/3/-1/6/-1/5/,1/2/4/3/-1/6/-1/5/,C/C/I/U/U/U/U/U/,136,148
+girlsinc-2017-JuicyGlider,sequential-d,PUZZLE,1/2/4/3/-1/6/-1/5/,1/2/3/-1/-1/5/-1/4/,C/C/I/U/U/U/U/U/,149,158
+girlsinc-2017-JuicyGlider,sequential-d,REFERENCE,1/2/3/-1/-1/5/-1/4/,1/2/4/-1/-1/6/3/5/,C/C/C/I/U/U/U/U/,176,181
+girlsinc-2017-JuicyGlider,sequential-d,PUZZLE,1/2/4/-1/-1/6/3/5/,1/2/3/-1/-1/5/-1/4/,C/C/I/U/U/U/U/U/,184,198
+girlsinc-2017-JuicyGlider,sequential-d,PUZZLE,1/2/3/-1/-1/5/-1/4/,1/2/3/-1/-1/4/-1/-1/,C/C/C/I/U/U/U/U/,201,211
+girlsinc-2017-JuicyGlider,sequential-d,PUZZLE,1/2/3/-1/-1/4/-1/-1/,1/2/3/-1/-1/4/-1/-1/,C/C/C/I/U/U/U/U/,290,294
+girlsinc-2017-JuicyGlider,sequential-d,REFERENCE,1/2/3/-1/-1/4/-1/-1/,1/2/3/-1/-1/4/-1/-1/,C/C/C/I/U/U/U/U/,295,311
+girlsinc-2017-JuicyGlider,sequential-d,REFERENCE,1/2/3/-1/-1/4/-1/-1/,1/2/3/4/-1/5/-1/-1/,C/C/C/I/U/U/U/U/,312,322
+girlsinc-2017-JuicyGlider,sequential-d,REFERENCE,1/2/3/4/-1/5/-1/-1/,1/2/3/4/-1/6/5/-1/,C/C/C/C/I/U/U/U/,328,340
+girlsinc-2017-JuicyGlider,sequential-d,REFERENCE,1/2/3/4/-1/6/5/-1/,1/2/3/4/-1/6/5/-1/,C/C/C/C/I/U/U/U/,350,366
+girlsinc-2017-JuicyGlider,sequential-d,REFERENCE,1/2/3/4/-1/6/5/-1/,1/2/3/4/7/6/5/8/,C/C/C/C/I/U/U/U/,368,384
+girlsinc-2017-JuicyGlider,sequential-d,PUZZLE,1/2/3/4/7/6/5/8/,1/2/3/4/7/5/6/8/,C/C/C/C/I/U/U/U/,391,403
+girlsinc-2017-JuicyGlider,sequential-d,PUZZLE,1/2/3/4/7/5/6/8/,1/2/3/4/5/6/7/8/,C/C/C/C/I/U/U/U/,407,418
+girlsinc-2017-JuicyGlider,sequential-d,PUZZLE,1/2/3/4/5/6/7/8/,1/2/3/4/5/6/7/8/,C/C/C/C/C/C/C/C/,424,438
+girlsinc-2017-JuicyGlider,sequential-d,END,"    this.monkey.walk(1.5) /
+    this.monkey.jump and spin() /
+    this.monkey.walk up to(this.treasureChest) /
+    this.monkey.raise arms() /
+    this.treasureChest.getChestLid().turn(TypeExpression.BACKWARD, 0.0125) /
+    this.monkey.bang on(this.treasureChest) /
+    this.treasureChest.getChestLid().turn(TypeExpression.BACKWARD, 0.25) /
+    this.treasureMonkey.raise arms() /",7,8,0,444
+girlsinc-2017-JuicyGlider,dotogether-b,PUZZLE,1/2/4/3/5/6/,1/2/4/3/5/6/,C/C/C/C/C/C/,37,43
+girlsinc-2017-JuicyGlider,dotogether-b,END,"    this.troll.say(Ahhhhhh) /
+    do together / {
+      this.troll.sneeze and raise arms() /
+      this.boat.move(TypeExpression.BACKWARD, 5.0) /
+    }
+    this.manatee.move(TypeExpression.UP, 0.5) /
+    this.manatee.say(Bless you!) /",2,6,0,47
+girlsinc-2017-JuicyGlider,dotogether-e,REFERENCE,1/-1/3/4/2/-1/-1/-1/-1/,1/5/3/4/2/7/-1/6/-1/,C/C/C/C/I/U/U/U/U/,72,80
+girlsinc-2017-JuicyGlider,dotogether-e,REFERENCE,1/5/3/4/2/7/-1/6/-1/,1/5/3/4/2/7/8/6/9/,C/C/C/C/C/C/C/I/I/,90,99
+girlsinc-2017-JuicyGlider,dotogether-e,PUZZLE,1/5/3/4/2/7/8/6/9/,1/5/3/4/2/7/8/6/9/,C/C/C/C/C/C/C/C/I/,105,114
+girlsinc-2017-JuicyGlider,dotogether-e,PUZZLE,1/5/3/4/2/7/8/6/9/,1/5/3/4/2/7/8/6/9/,C/C/C/C/C/C/C/C/C/,117,135
+girlsinc-2017-JuicyGlider,dotogether-e,END,"    this.bush.rustle() /
+    do together / {
+      this.Witch.getHead().turn(TypeExpression.RIGHT, 0.125) /
+      this.Witch.say(What was that?) /
+    }
+    do together / {
+      this.Troll.legs shake() /
+      this.Troll.bend over() /
+      this.Troll.turn(TypeExpression.RIGHT, 0.5) /
+      this.Troll.think(This place is scary..) /
+    }",4,9,0,157
+girlsinc-2017-JuicyGlider,dotogether-d,PUZZLE,1/6/3/4/2/8/7/5/,1/6/3/4/2/8/7/5/,C/C/C/C/I/U/U/U/,77,-1
+girlsinc-2017-JuicyGlider,dotogether-d,REFERENCE,1/6/3/4/2/8/7/5/,1/5/3/4/2/7/8/6/,C/C/C/C/I/U/U/U/,87,94
+girlsinc-2017-JuicyGlider,dotogether-d,PUZZLE,1/5/3/4/2/7/8/6/,1/5/3/4/2/7/8/6/,C/C/C/C/C/C/C/I/,101,-1
+girlsinc-2017-JuicyGlider,dotogether-d,REFERENCE,1/5/3/4/2/7/8/6/,1/5/3/4/2/7/8/6/,C/C/C/C/C/C/C/I/,112,-1
+girlsinc-2017-JuicyGlider,dotogether-d,REFERENCE,1/5/3/4/2/7/8/6/,1/5/3/4/2/7/8/6/,C/C/C/C/C/C/C/I/,119,126
+girlsinc-2017-JuicyGlider,dotogether-d,PUZZLE,1/5/3/4/2/7/8/6/,1/5/3/4/2/7/8/6/,C/C/C/C/C/C/C/C/,130,137
+girlsinc-2017-JuicyGlider,dotogether-d,END,"    this.mandril.think(A treasure chest!) /
+    do together / {
+      this.treasureChest.getChestLid().turn(TypeExpression.BACKWARD, 0.25) /
+      this.treasureChest.say(Hello!) /
+    }
+    do together / {
+      this.mandril.turn(TypeExpression.LEFT, 0.5) /
+      this.mandril.walk(10.0) /
+      this.mandril.say(Ahhhhhh!) /
+    }",3,8,0,140
+girlsinc-2017-JuicyGlider,dotogether-m,PUZZLE,1/2/3/4/5/6/7/8/,1/2/3/4/5/6/7/8/,C/C/C/C/C/C/C/C/,44,55
+girlsinc-2017-JuicyGlider,dotogether-m,END,"    this.hare.say(1...2...3...JUMP!) /
+    do together / {
+      this.pig.jump() /
+      this.hare.jump() /
+    }
+    this.caiman.snap jaws() /
+    do together / {
+      this.pig.say(UH OH!) /
+      this.hare.say(UH OH!) /
+    }",2,8,0,59
+girlsinc-2017-JuicyGlider,dotogether-i,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/4/3/-1/2/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/,21,23
+girlsinc-2017-JuicyGlider,dotogether-i,REFERENCE,1/-1/4/3/-1/2/-1/-1/-1/-1/,1/-1/4/3/-1/2/5/-1/-1/-1/,C/C/C/C/I/U/U/U/U/U/,37,46
+girlsinc-2017-JuicyGlider,dotogether-i,REFERENCE,1/-1/4/3/-1/2/5/-1/-1/-1/,1/-1/4/3/-1/2/5/-1/-1/-1/,C/C/C/C/I/U/U/U/U/U/,55,61
+girlsinc-2017-JuicyGlider,dotogether-i,REFERENCE,1/-1/4/3/-1/2/5/-1/-1/-1/,1/7/4/3/5/2/6/9/8/10/,C/C/C/C/I/U/U/U/U/U/,67,71
+girlsinc-2017-JuicyGlider,dotogether-i,PUZZLE,1/7/4/3/5/2/6/9/8/10/,1/7/4/3/5/2/6/9/8/10/,C/C/C/C/C/I/U/U/U/U/,102,-1
+girlsinc-2017-JuicyGlider,dotogether-i,REFERENCE,1/7/4/3/5/2/6/9/8/10/,1/7/4/3/5/2/6/9/8/10/,C/C/C/C/C/I/U/U/U/U/,113,-1
+girlsinc-2017-JuicyGlider,dotogether-i,REFERENCE,1/7/4/3/5/2/6/9/8/10/,1/6/4/3/5/2/7/8/9/10/,C/C/C/C/C/I/U/U/U/U/,122,127
+girlsinc-2017-JuicyGlider,dotogether-i,REFERENCE,1/6/4/3/5/2/7/8/9/10/,1/6/4/3/5/2/7/8/9/10/,C/C/C/C/C/C/C/C/C/C/,144,-1
+girlsinc-2017-JuicyGlider,dotogether-i,PUZZLE,1/6/4/3/5/2/7/8/9/10/,1/6/4/3/5/2/7/8/9/10/,C/C/C/C/C/C/C/C/C/C/,145,182
+girlsinc-2017-JuicyGlider,dotogether-i,END,"    this.tiny yeti.turnToFace(this.big yeti) /
+    do together / {
+      this.tiny yeti.nod() /
+      this.big yeti.nod() /
+    }
+    this.tiny yeti.move(TypeExpression.BACKWARD, 0.5) /
+    do together / {
+      this.tiny yeti.jump to hammer() /
+      this.big yeti.prepare to swing hammer() /
+    }
+    this.big yeti.power swing() /
+    this.tiny yeti.fly away() /",2,10,0,185
+girlsinc-2017-JuicyGlider,dotogether-l,REFERENCE,1/2/-1/-1/-1/-1/-1/,1/2/3/4/6/5/7/,C/C/I/U/U/U/U/,19,25
+girlsinc-2017-JuicyGlider,dotogether-l,PUZZLE,1/2/3/4/6/5/7/,1/2/3/4/6/5/7/,C/C/C/C/C/I/U/,38,45
+girlsinc-2017-JuicyGlider,dotogether-l,PUZZLE,1/2/3/4/6/5/7/,1/2/3/4/6/5/7/,C/C/C/C/C/C/C/,48,57
+girlsinc-2017-JuicyGlider,dotogether-l,END,"    this.cheshireCat.say(Okay Alice, your turn now.) /
+    this.alice.move(TypeExpression.BACKWARD, 1.0) /
+    do together / {
+      this.alice.move legs() /
+      this.alice.move(TypeExpression.UP, 1.0) /
+      this.alice.moveToward(this.cheshireCat, 3.0) /
+    }
+    this.alice.say(I'm stuck!) /",2,7,0,60
+girlsinc-2017-JuicyGlider,dotogether-c,PUZZLE,1/2/3/4/6/5/7/,1/2/3/4/6/5/7/,C/C/C/C/I/I/U/,25,-1
+girlsinc-2017-JuicyGlider,dotogether-c,REFERENCE,1/2/3/4/6/5/7/,1/2/3/4/6/5/7/,C/C/C/C/I/I/U/,32,38
+girlsinc-2017-JuicyGlider,dotogether-c,REFERENCE,1/2/3/4/6/5/7/,1/2/3/4/6/5/7/,C/C/C/C/I/I/U/,42,53
+girlsinc-2017-JuicyGlider,dotogether-c,PUZZLE,1/2/3/4/6/5/7/,1/2/4/3/6/5/7/,C/C/C/C/I/C/U/,56,61
+girlsinc-2017-JuicyGlider,dotogether-c,PUZZLE,1/2/4/3/6/5/7/,1/2/3/4/6/5/7/,C/C/I/U/U/U/U/,68,73
+girlsinc-2017-JuicyGlider,dotogether-c,PUZZLE,1/2/3/4/6/5/7/,1/2/3/5/6/4/7/,C/C/C/C/I/C/U/,79,85
+girlsinc-2017-JuicyGlider,dotogether-c,PUZZLE,1/2/3/5/6/4/7/,1/2/3/6/4/5/7/,C/C/C/I/C/C/U/,96,101
+girlsinc-2017-JuicyGlider,dotogether-c,PUZZLE,1/2/3/6/4/5/7/,1/2/3/6/4/5/7/,C/C/C/C/I/C/U/,107,113
+girlsinc-2017-JuicyGlider,dotogether-c,REFERENCE,1/2/3/6/4/5/7/,1/2/4/3/5/6/7/,C/C/C/C/I/C/U/,115,120
+girlsinc-2017-JuicyGlider,dotogether-c,PUZZLE,1/2/4/3/5/6/7/,1/2/4/3/6/5/7/,C/C/I/U/U/U/U/,124,130
+girlsinc-2017-JuicyGlider,dotogether-c,PUZZLE,1/2/4/3/6/5/7/,1/2/3/6/5/4/7/,C/C/I/U/U/U/U/,133,138
+girlsinc-2017-JuicyGlider,dotogether-c,PUZZLE,1/2/3/6/5/4/7/,1/2/5/4/7/6/3/,C/C/C/I/C/I/U/,142,144
+girlsinc-2017-JuicyGlider,dotogether-c,PUZZLE,1/2/5/4/7/6/3/,1/2/4/3/6/5/7/,C/C/I/U/U/U/U/,149,155
+girlsinc-2017-JuicyGlider,dotogether-c,REFERENCE,1/2/4/3/6/5/7/,1/2/4/3/6/5/7/,C/C/I/U/U/U/U/,159,167
+girlsinc-2017-JuicyGlider,dotogether-c,PUZZLE,1/2/4/3/6/5/7/,1/2/3/4/6/5/7/,C/C/I/U/U/U/U/,169,174
+girlsinc-2017-JuicyGlider,dotogether-c,PUZZLE,1/2/3/4/6/5/7/,1/2/3/4/6/5/7/,C/C/C/C/I/C/U/,176,183
+girlsinc-2017-JuicyGlider,dotogether-c,PUZZLE,1/2/3/4/6/5/7/,1/2/3/4/6/5/7/,C/C/C/C/I/C/I/,186,191
+girlsinc-2017-JuicyGlider,dotogether-c,REFERENCE,1/2/3/4/6/5/7/,1/2/3/4/6/5/7/,C/C/C/C/I/C/U/,193,200
+girlsinc-2017-JuicyGlider,dotogether-c,PUZZLE,1/2/3/4/6/5/7/,1/2/3/4/6/5/7/,C/C/C/C/I/C/U/,202,215
+girlsinc-2017-JuicyGlider,dotogether-c,PUZZLE,1/2/3/4/6/5/7/,1/2/3/4/6/5/7/,C/C/C/C/I/C/U/,216,-1
+girlsinc-2017-JuicyGlider,dotogether-c,REFERENCE,1/2/3/4/6/5/7/,1/2/3/4/5/6/7/,C/C/C/C/I/C/U/,224,229
+girlsinc-2017-JuicyGlider,dotogether-c,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/I/U/,233,-1
+girlsinc-2017-JuicyGlider,dotogether-c,REFERENCE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/I/U/,240,-1
+girlsinc-2017-JuicyGlider,dotogether-c,PUZZLE,1/2/3/4/5/6/7/,1/2/3/5/6/4/7/,C/C/C/C/C/I/U/,248,253
+girlsinc-2017-JuicyGlider,dotogether-c,PUZZLE,1/2/3/5/6/4/7/,1/2/3/5/6/4/7/,C/C/C/I/C/C/U/,257,-1
+girlsinc-2017-JuicyGlider,dotogether-c,REFERENCE,1/2/3/5/6/4/7/,1/2/3/6/5/4/7/,C/C/C/I/C/C/U/,271,278
+girlsinc-2017-JuicyGlider,dotogether-c,PUZZLE,1/2/3/6/5/4/7/,1/2/3/6/5/4/7/,C/C/C/I/C/C/U/,294,-1
+girlsinc-2017-JuicyGlider,dotogether-c,REFERENCE,1/2/3/6/5/4/7/,1/2/3/6/5/4/7/,C/C/C/I/C/C/U/,315,-1
+girlsinc-2017-JuicyGlider,dotogether-c,PUZZLE,1/2/3/6/5/4/7/,1/2/3/6/5/4/7/,C/C/C/I/C/C/U/,326,-1
+girlsinc-2017-JuicyGlider,dotogether-c,REFERENCE,1/2/3/6/5/4/7/,1/2/4/3/6/5/7/,C/C/C/I/C/C/U/,331,339
+girlsinc-2017-JuicyGlider,dotogether-c,PUZZLE,1/2/4/3/6/5/7/,1/2/4/3/6/5/7/,C/C/I/U/U/U/U/,365,-1
+girlsinc-2017-JuicyGlider,dotogether-c,REFERENCE,1/2/4/3/6/5/7/,1/2/3/5/6/4/7/,C/C/I/U/U/U/U/,377,386
+girlsinc-2017-JuicyGlider,dotogether-c,PUZZLE,1/2/3/5/6/4/7/,1/2/3/5/6/4/7/,C/C/C/I/C/I/U/,390,-1
+girlsinc-2017-JuicyGlider,dotogether-c,PUZZLE,1/2/3/5/6/4/7/,1/2/3/5/6/4/7/,C/C/C/I/C/I/U/,399,-1
+girlsinc-2017-JuicyGlider,dotogether-c,REFERENCE,1/2/3/5/6/4/7/,1/2/4/3/6/5/7/,C/C/C/I/C/I/U/,405,415
+girlsinc-2017-JuicyGlider,dotogether-c,PUZZLE,1/2/4/3/6/5/7/,1/2/4/3/6/5/7/,C/C/I/U/U/U/U/,445,-1
+girlsinc-2017-JuicyGlider,dotogether-c,REFERENCE,1/2/4/3/6/5/7/,1/2/4/3/6/5/7/,C/C/I/U/U/U/U/,455,-1
+girlsinc-2017-JuicyGlider,dotogether-c,REFERENCE,1/2/4/3/6/5/7/,1/2/4/3/6/5/7/,C/C/I/U/U/U/U/,464,-1
+girlsinc-2017-JuicyGlider,dotogether-c,PUZZLE,1/2/4/3/6/5/7/,1/2/4/3/6/5/7/,C/C/I/U/U/U/U/,470,-1
+girlsinc-2017-JuicyGlider,dotogether-c,REFERENCE,1/2/4/3/6/5/7/,1/2/3/5/4/6/7/,C/C/I/U/U/U/U/,476,482
+girlsinc-2017-JuicyGlider,dotogether-c,PUZZLE,1/2/3/5/4/6/7/,1/2/3/5/4/6/7/,C/C/C/C/C/C/C/,488,494
+girlsinc-2017-JuicyGlider,dotogether-c,END,"    this.Troll.say(What's for dinner?) /
+    this.Witch.say(YOU!) /
+    do together / {
+      this.Troll.moveTo(this.Cauldron) /
+      this.Troll.raise arms and scream() /
+    }
+    this.Troll.turn(TypeExpression.RIGHT, 8.0) /
+    this.Troll.disappear() /",5,7,0,499
+girlsinc-2017-JuicyGlider,dotogether-f,PUZZLE,1/-1/-1/2/-1/-1/-1/-1/,1/-1/-1/2/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/,23,-1
+girlsinc-2017-JuicyGlider,dotogether-f,REFERENCE,1/-1/-1/2/-1/-1/-1/-1/,1/-1/-1/3/2/-1/-1/-1/,C/I/U/U/U/U/U/U/,25,31
+girlsinc-2017-JuicyGlider,dotogether-f,REFERENCE,1/-1/-1/3/2/-1/-1/-1/,1/-1/-1/3/2/-1/-1/-1/,C/C/C/I/U/U/U/U/,39,44
+girlsinc-2017-JuicyGlider,dotogether-f,REFERENCE,1/-1/-1/3/2/-1/-1/-1/,1/-1/-1/2/-1/3/-1/-1/,C/C/C/I/U/U/U/U/,46,52
+girlsinc-2017-JuicyGlider,dotogether-f,REFERENCE,1/-1/-1/2/-1/3/-1/-1/,1/-1/-1/2/-1/3/-1/-1/,C/I/U/U/U/U/U/U/,61,-1
+girlsinc-2017-JuicyGlider,dotogether-f,REFERENCE,1/-1/-1/2/-1/3/-1/-1/,1/-1/-1/2/-1/3/-1/-1/,C/I/U/U/U/U/U/U/,66,-1
+girlsinc-2017-JuicyGlider,dotogether-f,REFERENCE,1/-1/-1/2/-1/3/-1/-1/,1/-1/-1/2/3/4/-1/-1/,C/I/U/U/U/U/U/U/,75,82
+girlsinc-2017-JuicyGlider,dotogether-f,REFERENCE,1/-1/-1/2/3/4/-1/-1/,1/-1/5/2/3/4/-1/-1/,C/I/U/U/U/U/U/U/,91,100
+girlsinc-2017-JuicyGlider,dotogether-f,REFERENCE,1/-1/5/2/3/4/-1/-1/,1/6/5/2/3/4/8/7/,C/I/U/U/U/U/U/U/,110,117
+girlsinc-2017-JuicyGlider,dotogether-f,PUZZLE,1/6/5/2/3/4/8/7/,1/6/5/2/3/4/8/7/,C/I/U/U/U/U/U/U/,129,-1
+girlsinc-2017-JuicyGlider,dotogether-f,PUZZLE,1/6/5/2/3/4/8/7/,1/6/4/3/2/5/8/7/,C/I/U/U/U/U/U/U/,136,140
+girlsinc-2017-JuicyGlider,dotogether-f,PUZZLE,1/6/4/3/2/5/8/7/,1/5/4/3/2/6/8/7/,C/C/C/C/I/U/U/U/,151,161
+girlsinc-2017-JuicyGlider,dotogether-f,PUZZLE,1/5/4/3/2/6/8/7/,1/5/4/3/2/6/8/7/,C/C/C/C/C/C/C/C/,164,171
+girlsinc-2017-JuicyGlider,dotogether-f,END,"    this.Witch.say(I will turn you to stone!) /
+    do together / {
+      this.Ogre.move(TypeExpression.DOWN, 0.375) /
+      this.Ogre.bend knees() /
+    }
+    do together / {
+      this.Witch.cast spell() /
+      this.Ogre.getRightShoulder().turn(TypeExpression.LEFT, 0.25) /
+      this.Ogre.setPaint(InstanceCreation) /
+    }",2,8,0,174
+girlsinc-2017-JuicyGlider,dotogether-j,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/4/-1/-1/-1/-1/-1/3/-1/,C/I/U/U/U/U/U/U/U/U/U/,28,32
+girlsinc-2017-JuicyGlider,dotogether-j,REFERENCE,1/2/-1/4/-1/-1/-1/-1/-1/3/-1/,1/2/-1/4/-1/-1/5/-1/-1/3/6/,C/C/C/C/I/U/U/U/U/U/U/,40,48
+girlsinc-2017-JuicyGlider,dotogether-j,PUZZLE,1/2/-1/4/-1/-1/5/-1/-1/3/6/,1/2/-1/4/-1/-1/-1/-1/-1/3/-1/,C/C/C/C/I/U/U/U/U/U/U/,58,68
+girlsinc-2017-JuicyGlider,dotogether-j,PUZZLE,1/2/-1/4/-1/-1/-1/-1/-1/3/-1/,1/2/-1/4/-1/-1/-1/-1/-1/3/-1/,C/C/C/C/I/U/U/U/U/U/U/,73,-1
+girlsinc-2017-JuicyGlider,dotogether-j,REFERENCE,1/2/-1/4/-1/-1/-1/-1/-1/3/-1/,1/2/-1/4/5/-1/-1/-1/-1/3/-1/,C/C/C/C/I/U/U/U/U/U/U/,75,82
+girlsinc-2017-JuicyGlider,dotogether-j,PUZZLE,1/2/-1/4/5/-1/-1/-1/-1/3/-1/,1/2/-1/4/5/-1/-1/-1/-1/3/-1/,C/C/C/C/C/I/U/U/U/U/U/,89,-1
+girlsinc-2017-JuicyGlider,dotogether-j,REFERENCE,1/2/-1/4/5/-1/-1/-1/-1/3/-1/,1/2/-1/4/6/7/5/-1/-1/3/-1/,C/C/C/C/C/I/U/U/U/U/U/,100,108
+girlsinc-2017-JuicyGlider,dotogether-j,PUZZLE,1/2/-1/4/6/7/5/-1/-1/3/-1/,1/2/9/4/6/5/7/8/10/3/11/,C/C/C/C/I/U/U/U/U/U/U/,121,126
+girlsinc-2017-JuicyGlider,dotogether-j,PUZZLE,1/2/9/4/6/5/7/8/10/3/11/,1/2/9/4/6/5/7/8/10/3/11/,C/C/C/C/I/U/U/U/U/U/U/,143,-1
+girlsinc-2017-JuicyGlider,dotogether-j,REFERENCE,1/2/9/4/6/5/7/8/10/3/11/,1/2/9/4/5/6/7/8/10/3/11/,C/C/C/C/I/U/U/U/U/U/U/,157,166
+girlsinc-2017-JuicyGlider,dotogether-j,PUZZLE,1/2/9/4/5/6/7/8/10/3/11/,1/2/9/4/5/6/7/8/10/3/11/,C/C/C/C/C/C/C/C/C/C/C/,168,185
+girlsinc-2017-JuicyGlider,dotogether-j,END,"    this.fox.jump out of snow() /
+    do together / {
+      this.snow man.skate around() /
+      this.snow gal.skate around() /
+    }
+    this.fox.wag tail() /
+    this.fox.jump on(this.snow man) /
+    do together / {
+      this.snow gal.twirl around() /
+      this.snow gal.raise up and lower down() /
+      this.snow man.skate around() /
+    }
+    this.fox.dive into snow() /",3,11,0,188
+girlsinc-2017-JuicyGlider,dotogether-g,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/3/4/-1/-1/2/-1/-1/-1/,I/U/U/U/U/U/U/U/U/,12,14
+girlsinc-2017-JuicyGlider,dotogether-g,REFERENCE,1/3/4/-1/-1/2/-1/-1/-1/,1/2/3/-1/-1/4/-1/-1/-1/,C/I/C/C/U/U/U/U/U/,31,34
+girlsinc-2017-JuicyGlider,dotogether-g,REFERENCE,1/2/3/-1/-1/4/-1/-1/-1/,3/1/2/-1/5/4/-1/-1/-1/,C/C/C/I/U/U/U/U/U/,37,41
+girlsinc-2017-JuicyGlider,dotogether-g,PUZZLE,3/1/2/-1/5/4/-1/-1/-1/,1/3/2/-1/5/4/-1/-1/-1/,I/U/U/U/U/U/U/U/U/,50,52
+girlsinc-2017-JuicyGlider,dotogether-g,PUZZLE,1/3/2/-1/5/4/-1/-1/-1/,1/3/2/-1/4/5/-1/-1/-1/,C/C/C/I/U/U/U/U/U/,64,68
+girlsinc-2017-JuicyGlider,dotogether-g,REFERENCE,1/3/2/-1/4/5/-1/-1/-1/,1/3/2/-1/4/5/-1/-1/-1/,C/C/C/I/U/U/U/U/U/,73,-1
+girlsinc-2017-JuicyGlider,dotogether-g,PUZZLE,1/3/2/-1/4/5/-1/-1/-1/,1/3/2/-1/4/5/-1/-1/-1/,C/C/C/I/U/U/U/U/U/,76,-1
+girlsinc-2017-JuicyGlider,dotogether-g,REFERENCE,1/3/2/-1/4/5/-1/-1/-1/,1/3/2/7/5/6/4/8/9/,C/C/C/I/U/U/U/U/U/,80,82
+girlsinc-2017-JuicyGlider,dotogether-g,PUZZLE,1/3/2/7/5/6/4/8/9/,1/3/2/7/5/6/4/8/9/,C/C/C/C/C/C/C/C/C/,95,111
+girlsinc-2017-JuicyGlider,dotogether-g,END,"    do together / {
+      this.yeti.getRightShoulder().turn(TypeExpression.LEFT, 0.375) /
+      this.yeti.getLeftShoulder().turn(TypeExpression.RIGHT, 0.375) /
+    }
+    do together / {
+      this.yeti.getMouth().turn(TypeExpression.FORWARD, 0.25) /
+      this.yeti.resize(1.5) /
+    }
+    do together / {
+      this.babyYeti.getMouth().turn(TypeExpression.FORWARD, 0.25) /
+      this.babyYeti.raise arms() /
+    }",2,9,0,115
+girlsinc-2017-JuicyGlider,dotogether-n,PUZZLE,1/2/3/5/4/6/,1/2/3/5/4/6/,C/C/C/C/C/C/,27,37
+girlsinc-2017-JuicyGlider,dotogether-n,END,"    this.playingCard.say(Alice was just here I promise!!) /
+    this.queenOfHearts.say(We BETTER find her!) /
+    do together / {
+      this.queenOfHearts.walk forward() /
+      this.playingCard.walk forward() /
+    }
+    this.alice.sneak away() /",2,6,0,47
+girlsinc-2017-JuicyGlider,dotogether-k,PUZZLE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/,58,-1
+girlsinc-2017-JuicyGlider,dotogether-k,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/,61,63
+girlsinc-2017-JuicyGlider,dotogether-k,PUZZLE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/,71,-1
+girlsinc-2017-JuicyGlider,dotogether-k,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/,73,-1
+girlsinc-2017-JuicyGlider,dotogether-k,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/,74,-1
+girlsinc-2017-JuicyGlider,dotogether-k,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/,75,-1
+girlsinc-2017-JuicyGlider,dotogether-k,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/,75,80
+girlsinc-2017-JuicyGlider,dotogether-k,PUZZLE,-1/-1/-1/-1/-1/1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/,87,90
+girlsinc-2017-JuicyGlider,dotogether-k,PUZZLE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/,102,-1
+girlsinc-2017-JuicyGlider,dotogether-k,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/4/3/-1/-1/2/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/,108,114
+girlsinc-2017-JuicyGlider,dotogether-k,PUZZLE,1/-1/-1/4/3/-1/-1/2/-1/-1/-1/,1/-1/-1/4/3/-1/6/2/-1/5/-1/,C/C/C/C/I/U/U/U/U/U/U/,124,132
+girlsinc-2017-JuicyGlider,dotogether-k,REFERENCE,1/-1/-1/4/3/-1/6/2/-1/5/-1/,1/-1/-1/4/3/6/7/2/-1/5/-1/,C/C/C/C/I/I/U/U/U/U/U/,142,150
+girlsinc-2017-JuicyGlider,dotogether-k,PUZZLE,1/-1/-1/4/3/6/7/2/-1/5/-1/,1/-1/-1/4/3/6/7/2/-1/5/-1/,C/C/C/C/I/I/U/U/U/U/U/,165,-1
+girlsinc-2017-JuicyGlider,dotogether-k,REFERENCE,1/-1/-1/4/3/6/7/2/-1/5/-1/,1/-1/-1/4/3/6/7/2/-1/5/-1/,C/C/C/C/I/I/U/U/U/U/U/,177,-1
+girlsinc-2017-JuicyGlider,dotogether-k,REFERENCE,1/-1/-1/4/3/6/7/2/-1/5/-1/,1/-1/-1/4/3/5/6/2/-1/-1/-1/,C/C/C/C/I/I/U/U/U/U/U/,187,199
+girlsinc-2017-JuicyGlider,dotogether-k,PUZZLE,1/-1/-1/4/3/5/6/2/-1/-1/-1/,1/-1/-1/4/3/5/6/2/-1/-1/-1/,C/C/C/C/I/U/U/U/U/U/U/,203,212
+girlsinc-2017-JuicyGlider,dotogether-k,REFERENCE,1/-1/-1/4/3/5/6/2/-1/-1/-1/,1/-1/5/4/3/6/7/2/-1/-1/-1/,C/C/C/C/I/U/U/U/U/U/U/,214,228
+girlsinc-2017-JuicyGlider,dotogether-k,PUZZLE,1/-1/5/4/3/6/7/2/-1/-1/-1/,1/9/5/4/3/6/7/2/10/8/11/,C/C/C/C/C/C/C/I/U/U/U/,231,241
+girlsinc-2017-JuicyGlider,dotogether-k,PUZZLE,1/9/5/4/3/6/7/2/10/8/11/,1/9/5/4/3/6/7/2/10/8/11/,C/C/C/C/C/C/C/I/U/U/U/,250,-1
+girlsinc-2017-JuicyGlider,dotogether-k,PUZZLE,1/9/5/4/3/6/7/2/10/8/11/,1/9/5/4/3/6/7/2/10/8/11/,C/C/C/C/C/C/C/I/U/U/U/,264,-1
+girlsinc-2017-JuicyGlider,dotogether-k,REFERENCE,1/9/5/4/3/6/7/2/10/8/11/,1/8/5/4/3/6/7/2/10/9/11/,C/C/C/C/C/C/C/I/U/U/U/,276,287
+girlsinc-2017-JuicyGlider,dotogether-k,PUZZLE,1/8/5/4/3/6/7/2/10/9/11/,1/8/5/4/3/6/7/2/10/9/11/,C/C/C/C/C/C/C/C/C/C/I/,291,-1
+girlsinc-2017-JuicyGlider,dotogether-k,REFERENCE,1/8/5/4/3/6/7/2/10/9/11/,1/9/5/4/3/6/7/2/10/8/11/,C/C/C/C/C/C/C/C/C/C/I/,305,315
+girlsinc-2017-JuicyGlider,dotogether-k,PUZZLE,1/9/5/4/3/6/7/2/10/8/11/,1/9/5/4/3/6/7/2/8/11/10/,C/C/C/C/C/C/C/I/U/U/U/,321,333
+girlsinc-2017-JuicyGlider,dotogether-k,PUZZLE,1/9/5/4/3/6/7/2/8/11/10/,1/8/5/4/3/6/7/2/9/11/10/,C/C/C/C/C/C/C/I/U/U/U/,338,351
+girlsinc-2017-JuicyGlider,dotogether-k,PUZZLE,1/8/5/4/3/6/7/2/9/11/10/,1/8/5/4/3/6/7/2/9/11/10/,C/C/C/C/C/C/C/C/C/I/C/,353,-1
+girlsinc-2017-JuicyGlider,dotogether-k,REFERENCE,1/8/5/4/3/6/7/2/9/11/10/,1/8/5/4/3/6/7/2/9/10/11/,C/C/C/C/C/C/C/C/C/I/C/,368,379
+girlsinc-2017-JuicyGlider,dotogether-k,PUZZLE,1/8/5/4/3/6/7/2/9/10/11/,1/8/5/4/3/6/7/2/9/10/11/,C/C/C/C/C/C/C/C/C/C/C/,382,395
+girlsinc-2017-JuicyGlider,dotogether-k,END,"    this.witch.cast spell() /
+    do together / {
+      this.cauldron.turn(TypeExpression.RIGHT, 4.0) /
+      this.lid.move(TypeExpression.UP, 1.0) /
+      this.poodle.move(TypeExpression.UP, 1.0) /
+    }
+    this.witch.lower arm() /
+    this.witch.say(Whoops!) /
+    do together / {
+      this.troll.get scared() /
+      this.poodle.bark() /
+    }
+    this.troll.say(eeee yikes!) /",3,11,0,398
+girlsinc-2017-JuicyGlider,dotogether-h,PUZZLE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/,18,-1
+girlsinc-2017-JuicyGlider,dotogether-h,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/3/4/-1/-1/-1/-1/2/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/,22,25
+girlsinc-2017-JuicyGlider,dotogether-h,PUZZLE,1/-1/3/4/-1/-1/-1/-1/2/-1/-1/-1/,1/-1/3/4/-1/-1/-1/-1/2/-1/-1/-1/,C/C/C/C/I/U/U/U/U/U/U/U/,41,-1
+girlsinc-2017-JuicyGlider,dotogether-h,REFERENCE,1/-1/3/4/-1/-1/-1/-1/2/-1/-1/-1/,1/-1/3/4/5/-1/-1/-1/2/6/7/-1/,C/C/C/C/I/U/U/U/U/U/U/U/,47,53
+girlsinc-2017-JuicyGlider,dotogether-h,PUZZLE,1/-1/3/4/5/-1/-1/-1/2/6/7/-1/,1/-1/3/4/5/-1/-1/-1/2/6/7/-1/,C/C/C/C/C/I/U/U/U/U/U/U/,63,-1
+girlsinc-2017-JuicyGlider,dotogether-h,REFERENCE,1/-1/3/4/5/-1/-1/-1/2/6/7/-1/,1/-1/3/4/5/-1/-1/-1/2/6/7/-1/,C/C/C/C/C/I/U/U/U/U/U/U/,71,-1
+girlsinc-2017-JuicyGlider,dotogether-h,REFERENCE,1/-1/3/4/5/-1/-1/-1/2/6/7/-1/,1/-1/3/4/5/-1/-1/-1/2/6/7/-1/,C/C/C/C/C/I/U/U/U/U/U/U/,83,-1
+girlsinc-2017-JuicyGlider,dotogether-h,REFERENCE,1/-1/3/4/5/-1/-1/-1/2/6/7/-1/,1/-1/3/4/5/-1/-1/-1/2/6/7/-1/,C/C/C/C/C/I/U/U/U/U/U/U/,107,-1
+girlsinc-2017-JuicyGlider,dotogether-h,REFERENCE,1/-1/3/4/5/-1/-1/-1/2/6/7/-1/,1/-1/3/4/5/-1/-1/-1/2/6/7/-1/,C/C/C/C/C/I/U/U/U/U/U/U/,107,-1
+girlsinc-2017-JuicyGlider,dotogether-h,REFERENCE,1/-1/3/4/5/-1/-1/-1/2/6/7/-1/,1/-1/3/4/7/5/-1/6/2/8/9/-1/,C/C/C/C/C/I/U/U/U/U/U/U/,108,114
+girlsinc-2017-JuicyGlider,dotogether-h,PUZZLE,1/-1/3/4/7/5/-1/6/2/8/9/-1/,1/-1/3/4/8/5/6/7/2/9/10/-1/,C/C/C/C/I/U/U/U/U/U/U/U/,124,132
+girlsinc-2017-JuicyGlider,dotogether-h,PUZZLE,1/-1/3/4/8/5/6/7/2/9/10/-1/,1/-1/3/4/8/5/6/7/2/-1/-1/-1/,C/C/C/C/I/U/U/U/U/U/U/U/,137,148
+girlsinc-2017-JuicyGlider,dotogether-h,PUZZLE,1/-1/3/4/8/5/6/7/2/-1/-1/-1/,1/-1/3/4/5/6/7/8/2/-1/-1/-1/,C/C/C/C/I/U/U/U/U/U/U/U/,153,158
+girlsinc-2017-JuicyGlider,dotogether-h,PUZZLE,1/-1/3/4/5/6/7/8/2/-1/-1/-1/,1/-1/3/4/5/6/7/-1/2/-1/-1/-1/,C/C/C/C/C/C/C/C/I/U/U/U/,162,169
+girlsinc-2017-JuicyGlider,dotogether-h,PUZZLE,1/-1/3/4/5/6/7/-1/2/-1/-1/-1/,1/-1/3/4/5/6/7/-1/2/-1/-1/-1/,C/C/C/C/C/C/C/I/U/U/U/U/,172,-1
+girlsinc-2017-JuicyGlider,dotogether-h,REFERENCE,1/-1/3/4/5/6/7/-1/2/-1/-1/-1/,1/-1/3/4/5/6/7/-1/2/-1/-1/-1/,C/C/C/C/C/C/C/I/U/U/U/U/,176,183
+girlsinc-2017-JuicyGlider,dotogether-h,PUZZLE,1/-1/3/4/5/6/7/-1/2/-1/-1/-1/,1/-1/3/4/5/-1/6/-1/2/-1/-1/-1/,C/C/C/C/C/C/C/I/U/U/U/U/,193,199
+girlsinc-2017-JuicyGlider,dotogether-h,PUZZLE,1/-1/3/4/5/-1/6/-1/2/-1/-1/-1/,1/-1/3/4/5/-1/6/7/2/-1/-1/-1/,C/C/C/C/C/I/U/U/U/U/U/U/,204,210
+girlsinc-2017-JuicyGlider,dotogether-h,PUZZLE,1/-1/3/4/5/-1/6/7/2/-1/-1/-1/,1/-1/3/4/6/5/7/8/2/-1/-1/-1/,C/C/C/C/C/I/U/U/U/U/U/U/,215,220
+girlsinc-2017-JuicyGlider,dotogether-h,PUZZLE,1/-1/3/4/6/5/7/8/2/-1/-1/-1/,1/-1/3/4/5/6/7/8/2/-1/-1/-1/,C/C/C/C/I/U/U/U/U/U/U/U/,228,233
+girlsinc-2017-JuicyGlider,dotogether-h,PUZZLE,1/-1/3/4/5/6/7/8/2/-1/-1/-1/,1/-1/3/4/5/6/7/8/2/-1/-1/-1/,C/C/C/C/C/C/C/C/I/U/U/U/,236,242
+girlsinc-2017-JuicyGlider,dotogether-h,REFERENCE,1/-1/3/4/5/6/7/8/2/-1/-1/-1/,1/9/3/4/5/6/7/8/2/10/11/12/,C/C/C/C/C/C/C/C/I/U/U/U/,245,253
+girlsinc-2017-JuicyGlider,dotogether-h,PUZZLE,1/9/3/4/5/6/7/8/2/10/11/12/,1/9/3/4/5/6/7/8/2/10/11/12/,C/C/C/C/C/C/C/C/C/C/C/C/,261,267
+girlsinc-2017-JuicyGlider,dotogether-h,END,"    this.bunny.bend forward() /
+    do together / {
+      this.bunny.jump() /
+      this.bunny.move(TypeExpression.FORWARD, 1.0) /
+    }
+    this.bunny.disappear() /
+    do together / {
+      this.hat.turn(TypeExpression.RIGHT, 2.0) /
+      this.hat.move(TypeExpression.DOWN, 1.0) /
+    }
+    do together / {
+      this.bunny.appear() /
+      this.bunny.raise arms() /
+      this.bunny.turn(TypeExpression.RIGHT, 2.25) /
+    }",5,12,0,271
+girlsinc-2017-JuicyGlider,repeat-gg,REFERENCE,-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/,45,51
+girlsinc-2017-JuicyGlider,repeat-gg,REFERENCE,1/2/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/,71,-1
+girlsinc-2017-JuicyGlider,repeat-gg,REFERENCE,1/2/-1/-1/-1/-1/-1/,1/2/3/5/4/6/7/,C/C/I/U/U/U/U/,76,91
+girlsinc-2017-JuicyGlider,repeat-gg,PUZZLE,1/2/3/5/4/6/7/,1/2/4/3/5/6/7/,C/C/C/I/U/U/U/,103,110
+girlsinc-2017-JuicyGlider,repeat-gg,PUZZLE,1/2/4/3/5/6/7/,1/2/3/4/5/6/7/,C/C/I/U/U/U/U/,118,125
+girlsinc-2017-JuicyGlider,repeat-gg,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/C/C/,136,152
+girlsinc-2017-JuicyGlider,repeat-gg,END,"    this.mandril.scare ostrich() /
+    this.ostrichBaby.say(AAAHHHHH!!!!) /
+    count 5 / {
+      this.ostrichBaby.run(3, 0.08) /
+      GlobalFirstInstanceExpression.scene.ostrichBaby.turn(TypeExpression.RIGHT, 0.5) /
+    }
+    this.ostrichBaby.think(I guess this is the end; there's no escape!) /
+    this.fade to black() /",2,7,0,155
+girlsinc-2017-JuicyGlider,repeat-e,REFERENCE,1/-1/3/2/-1/-1/-1/,1/-1/2/3/-1/-1/-1/,C/I/U/U/U/U/U/,33,41
+girlsinc-2017-JuicyGlider,repeat-e,PUZZLE,1/-1/2/3/-1/-1/-1/,1/-1/2/3/-1/-1/-1/,C/I/U/U/U/U/U/,44,56
+girlsinc-2017-JuicyGlider,repeat-e,REFERENCE,1/-1/2/3/-1/-1/-1/,1/-1/2/3/4/-1/5/,C/I/U/U/U/U/U/,63,77
+girlsinc-2017-JuicyGlider,repeat-e,REFERENCE,1/-1/2/3/4/-1/5/,1/7/2/3/4/5/6/,C/I/U/U/U/U/U/,89,105
+girlsinc-2017-JuicyGlider,repeat-e,PUZZLE,1/7/2/3/4/5/6/,1/7/3/2/4/5/6/,C/I/U/U/U/U/U/,113,122
+girlsinc-2017-JuicyGlider,repeat-e,PUZZLE,1/7/3/2/4/5/6/,1/7/3/2/4/5/6/,C/I/U/U/U/U/U/,125,-1
+girlsinc-2017-JuicyGlider,repeat-e,PUZZLE,1/7/3/2/4/5/6/,1/7/2/3/4/5/6/,C/I/U/U/U/U/U/,144,151
+girlsinc-2017-JuicyGlider,repeat-e,REFERENCE,1/7/2/3/4/5/6/,1/2/3/4/5/6/7/,C/I/U/U/U/U/U/,154,162
+girlsinc-2017-JuicyGlider,repeat-e,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/C/C/,165,180
+girlsinc-2017-JuicyGlider,repeat-e,END,"    this.curupira.walk(2.0) /
+    this.curupira.getNeck().turn(TypeExpression.FORWARD, 0.125) /
+    this.curupira.think(Uh oh.) /
+    this.curupira.move(TypeExpression.DOWN, 4.0) /
+    this.mapinguari.place hands on belly() /
+    count 3 / {
+      this.mapinguari.laugh() /
+    }",3,7,0,183
+girlsinc-2017-JuicyGlider,repeat-f,REFERENCE,-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/,I/U/U/U/U/,148,153
+girlsinc-2017-JuicyGlider,repeat-f,REFERENCE,-1/-1/-1/-1/-1/,2/1/-1/-1/-1/,I/U/U/U/U/,175,179
+girlsinc-2017-JuicyGlider,repeat-f,REFERENCE,2/1/-1/-1/-1/,1/2/3/5/4/,I/U/U/U/U/,189,191
+girlsinc-2017-JuicyGlider,repeat-f,PUZZLE,1/2/3/5/4/,1/2/3/5/4/,C/C/C/I/U/,208,216
+girlsinc-2017-JuicyGlider,repeat-f,PUZZLE,1/2/3/5/4/,1/2/3/5/4/,C/C/C/I/U/,220,-1
+girlsinc-2017-JuicyGlider,repeat-f,REFERENCE,1/2/3/5/4/,1/2/3/4/5/,C/C/C/I/U/,221,229
+girlsinc-2017-JuicyGlider,repeat-f,PUZZLE,1/2/3/4/5/,1/2/3/4/5/,C/C/C/C/C/,232,244
+girlsinc-2017-JuicyGlider,repeat-f,END,"    this.Gray Rhino.getNeck().turn(TypeExpression.FORWARD, 0.0625) /
+    this.White Rhino.getNeck().turn(TypeExpression.FORWARD, 0.0625) /
+    count 2 / {
+      this.White Rhino.drink water() /
+      this.Gray Rhino.drink water() /
+    }",3,5,0,248
+girlsinc-2017-JuicyGlider,repeat-ee,PUZZLE,1/2/3/4/,1/2/3/4/,C/C/C/C/,49,82
+girlsinc-2017-JuicyGlider,repeat-ee,END,"    this.hare.walk(5.0) /
+    count 3 / {
+      this.hare.knock() /
+    }
+    this.hare.say(Anyone home?) /",1,4,0,86
+girlsinc-2017-JuicyGlider,repeat-m,PUZZLE,1/3/2/4/5/6/7/,1/3/2/4/5/6/7/,C/I/U/U/U/U/U/,43,-1
+girlsinc-2017-JuicyGlider,repeat-m,REFERENCE,1/3/2/4/5/6/7/,1/3/2/4/5/6/7/,C/I/U/U/U/U/U/,48,-1
+girlsinc-2017-JuicyGlider,repeat-m,PUZZLE,1/3/2/4/5/6/7/,1/2/3/4/5/6/7/,C/I/U/U/U/U/U/,55,56
+girlsinc-2017-JuicyGlider,repeat-m,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/C/C/,59,72
+girlsinc-2017-JuicyGlider,repeat-m,END,"    this.alien.walk(0.5) /
+    count 2 / {
+      this.alien.kick() /
+      this.flying saucer.shake() /
+    }
+    this.flying saucer.fly above(this.alien) /
+    this.flying saucer.beam up(this.alien) /
+    this.flying saucer.fly away() /",1,7,0,76
+girlsinc-2017-JuicyGlider,repeat-a,REFERENCE,1/2/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/3/-1/-1/,C/C/I/U/U/U/U/U/U/,30,34
+girlsinc-2017-JuicyGlider,repeat-a,PUZZLE,1/2/-1/-1/-1/-1/3/-1/-1/,1/2/-1/-1/-1/-1/3/-1/-1/,C/C/I/U/U/U/U/U/U/,41,-1
+girlsinc-2017-JuicyGlider,repeat-a,PUZZLE,1/2/-1/-1/-1/-1/3/-1/-1/,1/2/-1/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/,48,52
+girlsinc-2017-JuicyGlider,repeat-a,REFERENCE,1/2/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/,58,62
+girlsinc-2017-JuicyGlider,repeat-a,REFERENCE,1/2/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/,66,-1
+girlsinc-2017-JuicyGlider,repeat-a,PUZZLE,1/2/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/,93,-1
+girlsinc-2017-JuicyGlider,repeat-a,REFERENCE,1/2/-1/-1/-1/-1/-1/-1/-1/,1/2/3/6/5/8/9/4/7/,C/C/I/U/U/U/U/U/U/,98,114
+girlsinc-2017-JuicyGlider,repeat-a,PUZZLE,1/2/3/6/5/8/9/4/7/,1/2/3/7/5/6/9/4/8/,C/C/C/C/C/I/U/U/U/,352,361
+girlsinc-2017-JuicyGlider,repeat-a,PUZZLE,1/2/3/7/5/6/9/4/8/,1/2/3/7/5/6/9/4/8/,C/C/C/C/C/C/I/U/U/,366,-1
+girlsinc-2017-JuicyGlider,repeat-a,REFERENCE,1/2/3/7/5/6/9/4/8/,1/2/3/8/5/6/7/4/9/,C/C/C/C/C/C/I/U/U/,395,407
+girlsinc-2017-JuicyGlider,repeat-a,PUZZLE,1/2/3/8/5/6/7/4/9/,1/2/3/8/5/6/7/4/9/,C/C/C/C/C/C/C/C/C/,409,439
+girlsinc-2017-JuicyGlider,repeat-a,END,"    this.tiny yeti.run forward() /
+    this.tiny yeti.steal hammer() /
+    this.tiny yeti.jump above yeti() /
+    count 3 / {
+      this.tiny yeti.swing hammer() /
+      this.big yeti.shake head() /
+    }
+    this.tiny yeti.fall to ground() /
+    count 3 / {
+      this.big yeti.cry() /
+    }",4,9,0,441
+girlsinc-2017-JuicyGlider,repeat-b,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/,69,-1
+girlsinc-2017-JuicyGlider,repeat-b,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/,84,87
+girlsinc-2017-JuicyGlider,repeat-b,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/3/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/,98,102
+girlsinc-2017-JuicyGlider,repeat-b,REFERENCE,1/2/-1/3/-1/-1/-1/-1/-1/-1/,1/2/3/4/5/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/,114,120
+girlsinc-2017-JuicyGlider,repeat-b,PUZZLE,1/2/3/4/5/-1/-1/-1/-1/-1/,1/2/3/4/5/-1/-1/-1/-1/-1/,C/C/C/C/C/I/U/U/U/U/,155,-1
+girlsinc-2017-JuicyGlider,repeat-b,PUZZLE,1/2/3/4/5/-1/-1/-1/-1/-1/,1/2/3/4/5/-1/-1/-1/-1/-1/,C/C/C/C/C/I/U/U/U/U/,256,267
+girlsinc-2017-JuicyGlider,repeat-b,REFERENCE,1/2/3/4/5/-1/-1/-1/-1/-1/,1/2/3/4/5/-1/-1/-1/-1/-1/,C/C/C/C/C/I/U/U/U/U/,268,-1
+girlsinc-2017-JuicyGlider,repeat-b,REFERENCE,1/2/3/4/5/-1/-1/-1/-1/-1/,1/2/3/4/5/6/-1/-1/-1/-1/,C/C/C/C/C/I/U/U/U/U/,330,340
+girlsinc-2017-JuicyGlider,repeat-b,REFERENCE,1/2/3/4/5/6/-1/-1/-1/-1/,1/2/3/4/5/7/6/8/9/10/,C/C/C/C/C/C/I/U/U/U/,562,576
+girlsinc-2017-JuicyGlider,repeat-b,PUZZLE,1/2/3/4/5/7/6/8/9/10/,1/2/3/4/5/6/-1/7/8/9/,C/C/C/C/C/I/U/U/U/U/,594,609
+girlsinc-2017-JuicyGlider,repeat-b,PUZZLE,1/2/3/4/5/6/-1/7/8/9/,1/2/3/4/5/6/-1/7/8/9/,C/C/C/C/C/C/I/U/U/U/,612,-1
+girlsinc-2017-JuicyGlider,repeat-b,REFERENCE,1/2/3/4/5/6/-1/7/8/9/,1/2/3/4/5/6/-1/7/8/9/,C/C/C/C/C/C/I/U/U/U/,618,-1
+girlsinc-2017-JuicyGlider,repeat-b,REFERENCE,1/2/3/4/5/6/-1/7/8/9/,1/2/3/4/5/6/-1/7/8/9/,C/C/C/C/C/C/I/U/U/U/,619,-1
+girlsinc-2017-JuicyGlider,repeat-b,REFERENCE,1/2/3/4/5/6/-1/7/8/9/,1/2/3/4/5/6/7/8/9/10/,C/C/C/C/C/C/I/U/U/U/,619,635
+girlsinc-2017-JuicyGlider,repeat-b,PUZZLE,1/2/3/4/5/6/7/8/9/10/,1/2/3/4/5/6/7/8/9/10/,C/C/C/C/C/C/C/C/C/C/,640,1095
+girlsinc-2017-JuicyGlider,repeat-b,END,"    this.grey monkey.jump onto(this.couch) /
+    this.grey monkey.turnToFace(this.brown monkey) /
+    count 2 / {
+      this.grey monkey.move arms up and down() /
+      this.brown monkey.move arms up and down() /
+    }
+    this.grey monkey.hop side to side() /
+    count 2 / {
+      this.brown monkey.turn around() /
+      this.brown monkey.jump forward() /
+    }
+    this.grey monkey.lay down() /",3,10,0,1098
+girlsinc-2017-JuicyGlider,repeat-g,REFERENCE,-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/,19,-1
+girlsinc-2017-JuicyGlider,repeat-g,REFERENCE,-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/,25,-1
+girlsinc-2017-JuicyGlider,repeat-g,REFERENCE,-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/,34,37
+girlsinc-2017-JuicyGlider,repeat-g,REFERENCE,1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/,40,-1
+girlsinc-2017-JuicyGlider,repeat-g,REFERENCE,1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/,45,-1
+girlsinc-2017-JuicyGlider,repeat-g,REFERENCE,1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/,47,-1
+girlsinc-2017-JuicyGlider,repeat-g,REFERENCE,1/-1/-1/-1/-1/-1/,1/2/3/4/5/6/,C/I/U/U/U/U/,58,61
+girlsinc-2017-JuicyGlider,repeat-g,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,79,87
+girlsinc-2017-JuicyGlider,repeat-g,END,"    this.Baby Yeti.raise arms() /
+    count 2 / {
+      this.Baby Yeti.turn(TypeExpression.LEFT, 0.125) /
+      this.Baby Yeti.turn(TypeExpression.RIGHT, 0.125) /
+    }
+    count 3 / {
+      this.Baby Yeti.jump and spin() /
+    }",2,6,0,99
+girlsinc-2017-JuicyGlider,repeat-hh,REFERENCE,-1/-1/-1/-1/-1/-1/-1/,1/2/3/-1/4/5/6/,I/U/U/U/U/U/U/,24,26
+girlsinc-2017-JuicyGlider,repeat-hh,REFERENCE,1/2/3/-1/4/5/6/,1/2/5/6/3/4/7/,C/C/C/I/U/U/U/,50,59
+girlsinc-2017-JuicyGlider,repeat-hh,PUZZLE,1/2/5/6/3/4/7/,1/2/5/6/3/4/7/,C/C/I/U/U/U/U/,67,-1
+girlsinc-2017-JuicyGlider,repeat-hh,REFERENCE,1/2/5/6/3/4/7/,1/2/3/4/5/6/7/,C/C/I/U/U/U/U/,79,97
+girlsinc-2017-JuicyGlider,repeat-hh,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/I/U/U/,100,109
+girlsinc-2017-JuicyGlider,repeat-hh,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/I/U/U/,114,-1
+girlsinc-2017-JuicyGlider,repeat-hh,REFERENCE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/I/U/U/,123,134
+girlsinc-2017-JuicyGlider,repeat-hh,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/C/C/,141,196
+girlsinc-2017-JuicyGlider,repeat-hh,END,"    this.witch.turn(TypeExpression.RIGHT, 0.125) /
+    this.witch.raise arms() /
+    count 2 / {
+      this.magicStaff.move up and down() /
+      count 3 / {
+        this.cauldron.spin() /
+      }
+    }
+    this.cauldron.explode() /",3,7,0,200
+girlsinc-2017-JuicyGlider,repeat-dd,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/,1/2/3/5/6/4/7/8/,I/U/U/U/U/U/U/U/,27,29
+girlsinc-2017-JuicyGlider,repeat-dd,PUZZLE,1/2/3/5/6/4/7/8/,1/2/3/-1/5/4/6/7/,C/C/C/I/U/U/U/U/,60,72
+girlsinc-2017-JuicyGlider,repeat-dd,REFERENCE,1/2/3/-1/5/4/6/7/,1/2/3/4/6/5/7/8/,C/C/C/I/U/U/U/U/,75,81
+girlsinc-2017-JuicyGlider,repeat-dd,PUZZLE,1/2/3/4/6/5/7/8/,1/2/3/4/6/5/7/8/,C/C/C/C/C/C/C/I/,85,104
+girlsinc-2017-JuicyGlider,repeat-dd,REFERENCE,1/2/3/4/6/5/7/8/,1/2/3/4/5/7/6/8/,C/C/C/C/C/C/C/I/,107,120
+girlsinc-2017-JuicyGlider,repeat-dd,PUZZLE,1/2/3/4/5/7/6/8/,1/2/3/4/5/7/6/8/,C/C/C/C/C/I/U/U/,127,-1
+girlsinc-2017-JuicyGlider,repeat-dd,REFERENCE,1/2/3/4/5/7/6/8/,1/2/3/4/5/7/6/8/,C/C/C/C/C/I/U/U/,135,-1
+girlsinc-2017-JuicyGlider,repeat-dd,PUZZLE,1/2/3/4/5/7/6/8/,1/2/3/4/5/7/6/8/,C/C/C/C/C/I/U/U/,150,-1
+girlsinc-2017-JuicyGlider,repeat-dd,REFERENCE,1/2/3/4/5/7/6/8/,1/2/3/4/5/7/6/8/,C/C/C/C/C/I/U/U/,163,-1
+girlsinc-2017-JuicyGlider,repeat-dd,PUZZLE,1/2/3/4/5/7/6/8/,1/2/3/4/5/7/6/8/,C/C/C/C/C/I/U/U/,164,-1
+girlsinc-2017-JuicyGlider,repeat-dd,REFERENCE,1/2/3/4/5/7/6/8/,1/2/3/4/5/6/8/7/,C/C/C/C/C/I/U/U/,165,180
+girlsinc-2017-JuicyGlider,repeat-dd,PUZZLE,1/2/3/4/5/6/8/7/,1/2/3/4/5/6/8/7/,C/C/C/C/C/C/I/U/,185,-1
+girlsinc-2017-JuicyGlider,repeat-dd,REFERENCE,1/2/3/4/5/6/8/7/,1/2/3/4/5/6/8/7/,C/C/C/C/C/C/I/U/,194,-1
+girlsinc-2017-JuicyGlider,repeat-dd,REFERENCE,1/2/3/4/5/6/8/7/,1/2/3/4/5/6/8/7/,C/C/C/C/C/C/I/U/,205,-1
+girlsinc-2017-JuicyGlider,repeat-dd,REFERENCE,1/2/3/4/5/6/8/7/,1/2/3/4/5/7/6/8/,C/C/C/C/C/C/I/U/,210,237
+girlsinc-2017-JuicyGlider,repeat-dd,PUZZLE,1/2/3/4/5/7/6/8/,1/2/3/4/5/7/6/8/,C/C/C/C/C/I/U/U/,240,283
+girlsinc-2017-JuicyGlider,repeat-dd,PUZZLE,1/2/3/4/5/7/6/8/,1/2/3/4/5/7/6/8/,C/C/C/C/C/I/U/U/,296,-1
+girlsinc-2017-JuicyGlider,repeat-dd,REFERENCE,1/2/3/4/5/7/6/8/,1/2/3/4/5/7/6/8/,C/C/C/C/C/I/U/U/,300,-1
+girlsinc-2017-JuicyGlider,repeat-dd,REFERENCE,1/2/3/4/5/7/6/8/,1/2/3/4/5/6/8/7/,C/C/C/C/C/I/U/U/,307,339
+girlsinc-2017-JuicyGlider,repeat-dd,PUZZLE,1/2/3/4/5/6/8/7/,1/2/3/4/5/6/8/7/,C/C/C/C/C/C/I/U/,347,-1
+girlsinc-2017-JuicyGlider,repeat-dd,PUZZLE,1/2/3/4/5/6/8/7/,1/2/3/4/5/6/8/7/,C/C/C/C/C/C/I/U/,356,-1
+girlsinc-2017-JuicyGlider,repeat-dd,PUZZLE,1/2/3/4/5/6/8/7/,1/2/3/4/5/6/8/7/,C/C/C/C/C/C/I/U/,367,369
+girlsinc-2017-JuicyGlider,repeat-dd,PUZZLE,1/2/3/4/5/6/8/7/,1/2/3/4/5/6/8/7/,C/C/C/C/C/C/I/U/,374,401
+girlsinc-2017-JuicyGlider,repeat-dd,PUZZLE,1/2/3/4/5/6/8/7/,1/2/3/4/5/7/6/8/,C/C/C/C/C/C/I/U/,405,414
+girlsinc-2017-JuicyGlider,repeat-dd,PUZZLE,1/2/3/4/5/7/6/8/,1/2/3/4/5/6/8/7/,C/C/C/C/C/I/U/U/,418,427
+girlsinc-2017-JuicyGlider,repeat-dd,PUZZLE,1/2/3/4/5/6/8/7/,1/2/3/4/5/6/8/7/,C/C/C/C/C/C/I/U/,430,-1
+girlsinc-2017-JuicyGlider,repeat-dd,REFERENCE,1/2/3/4/5/6/8/7/,1/2/3/4/5/6/8/7/,C/C/C/C/C/C/I/U/,436,-1
+girlsinc-2017-JuicyGlider,repeat-dd,REFERENCE,1/2/3/4/5/6/8/7/,1/2/3/4/5/6/8/7/,C/C/C/C/C/C/I/U/,452,-1
+girlsinc-2017-JuicyGlider,repeat-dd,PUZZLE,1/2/3/4/5/6/8/7/,1/2/3/4/5/6/7/8/,C/C/C/C/C/C/I/U/,482,490
+girlsinc-2017-JuicyGlider,repeat-dd,PUZZLE,1/2/3/4/5/6/7/8/,1/2/3/4/5/6/7/8/,C/C/C/C/C/C/C/C/,496,524
+girlsinc-2017-JuicyGlider,repeat-dd,END,"    this.hare.say(Ready....Set...) /
+    this.hare.raise arm() /
+    this.hare.say(GO!!) /
+    this.hare.getRightShoulder().turn(TypeExpression.RIGHT, 0.35) /
+    count 2 / {
+      count 2 / {
+        this.rhinos paw ground() /
+      }
+      this.rhinos charge() /
+    }",5,8,0,528
+girlsinc-2017-JuicyGlider,repeat-cc,PUZZLE,1/5/4/3/2/6/,1/5/3/4/2/6/,C/I/U/U/U/U/,49,53
+girlsinc-2017-JuicyGlider,repeat-cc,PUZZLE,1/5/3/4/2/6/,1/5/3/4/2/6/,C/I/U/U/U/U/,56,66
+girlsinc-2017-JuicyGlider,repeat-cc,PUZZLE,1/5/3/4/2/6/,1/5/3/4/2/6/,C/I/U/U/U/U/,69,76
+girlsinc-2017-JuicyGlider,repeat-cc,REFERENCE,1/5/3/4/2/6/,1/3/4/5/2/6/,C/I/U/U/U/U/,79,84
+girlsinc-2017-JuicyGlider,repeat-cc,PUZZLE,1/3/4/5/2/6/,1/2/3/4/5/6/,C/I/U/U/U/U/,96,103
+girlsinc-2017-JuicyGlider,repeat-cc,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,125,140
+girlsinc-2017-JuicyGlider,repeat-cc,END,"    this.alien.say(It's time to dance!) /
+    count 3 / {
+      this.alien.slide to the left() /
+      this.alien.slide to the right() /
+      count 2 / {
+        this.alien.criss cross legs() /
+      }
+    }",3,6,0,146
+girlsinc-2017-JuicyGlider,repeat-c,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/,7,10
+girlsinc-2017-JuicyGlider,repeat-c,PUZZLE,1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/,25,-1
+girlsinc-2017-JuicyGlider,repeat-c,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/2/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/,27,30
+girlsinc-2017-JuicyGlider,repeat-c,REFERENCE,1/-1/2/-1/-1/-1/-1/-1/-1/,1/2/3/4/5/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/,34,37
+girlsinc-2017-JuicyGlider,repeat-c,PUZZLE,1/2/3/4/5/-1/-1/-1/-1/,1/2/3/4/7/5/6/-1/-1/,C/C/C/C/I/U/U/U/U/,57,64
+girlsinc-2017-JuicyGlider,repeat-c,PUZZLE,1/2/3/4/7/5/6/-1/-1/,1/2/3/4/7/5/6/-1/-1/,C/C/C/C/I/U/U/U/U/,69,74
+girlsinc-2017-JuicyGlider,repeat-c,PUZZLE,1/2/3/4/7/5/6/-1/-1/,1/2/3/4/5/6/7/-1/-1/,C/C/C/C/I/U/U/U/U/,81,87
+girlsinc-2017-JuicyGlider,repeat-c,REFERENCE,1/2/3/4/5/6/7/-1/-1/,1/2/3/5/4/6/7/-1/-1/,C/C/C/C/C/I/U/U/U/,91,95
+girlsinc-2017-JuicyGlider,repeat-c,REFERENCE,1/2/3/5/4/6/7/-1/-1/,1/2/3/4/5/6/7/-1/-1/,C/C/C/I/U/U/U/U/U/,104,107
+girlsinc-2017-JuicyGlider,repeat-c,PUZZLE,1/2/3/4/5/6/7/-1/-1/,1/2/3/4/5/6/7/8/9/,C/C/C/C/C/I/U/U/U/,110,115
+girlsinc-2017-JuicyGlider,repeat-c,PUZZLE,1/2/3/4/5/6/7/8/9/,1/2/3/4/5/6/7/8/9/,C/C/C/C/C/C/C/C/C/,126,141
+girlsinc-2017-JuicyGlider,repeat-c,END,"    this.dolphin.approach(this.fishing boat) /
+    count 2 / {
+      this.dolphin.bump(this.fishing boat) /
+      this.fishing boat.shake() /
+      this.fishing boat.move(TypeExpression.DOWN, 0.1) /
+      count 2 / {
+        this.rabbit.jump around() /
+      }
+    }
+    this.fishing boat.sink completely() /
+    this.rabbit.ride(this.dolphin) /",2,9,0,144
+girlsinc-2017-JuicyGlider,repeat-ii,PUZZLE,1/2/3/4/6/5/,1/2/3/4/5/6/,C/C/C/C/I/U/,39,45
+girlsinc-2017-JuicyGlider,repeat-ii,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/I/,48,56
+girlsinc-2017-JuicyGlider,repeat-ii,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/I/,58,-1
+girlsinc-2017-JuicyGlider,repeat-ii,REFERENCE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/I/,62,68
+girlsinc-2017-JuicyGlider,repeat-ii,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,72,165
+girlsinc-2017-JuicyGlider,repeat-ii,END,"    this.troll.say(I really wish I had something to row with) /
+    count 5 / {
+      count 2 / {
+        this.troll.row() /
+        this.boat.move(TypeExpression.BACKWARD, 0.25) /
+      }
+      this.troll.take a nap() /
+    }",3,6,0,169
+girlsinc-2017-JuicyGlider,repeat-ff,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/I/U/,58,70
+girlsinc-2017-JuicyGlider,repeat-ff,PUZZLE,1/2/3/4/5/6/,1/2/-1/-1/-1/3/,C/C/C/C/I/U/,101,109
+girlsinc-2017-JuicyGlider,repeat-ff,PUZZLE,1/2/-1/-1/-1/3/,1/-1/2/3/4/5/,C/C/I/U/U/U/,116,121
+girlsinc-2017-JuicyGlider,repeat-ff,PUZZLE,1/-1/2/3/4/5/,1/-1/2/3/4/5/,C/I/U/U/U/U/,126,-1
+girlsinc-2017-JuicyGlider,repeat-ff,REFERENCE,1/-1/2/3/4/5/,1/-1/2/3/4/5/,C/I/U/U/U/U/,129,141
+girlsinc-2017-JuicyGlider,repeat-ff,REFERENCE,1/-1/2/3/4/5/,1/3/2/4/5/6/,C/I/U/U/U/U/,142,154
+girlsinc-2017-JuicyGlider,repeat-ff,PUZZLE,1/3/2/4/5/6/,1/3/2/4/5/6/,C/I/U/U/U/U/,161,171
+girlsinc-2017-JuicyGlider,repeat-ff,PUZZLE,1/3/2/4/5/6/,1/3/2/4/5/6/,C/I/U/U/U/U/,174,-1
+girlsinc-2017-JuicyGlider,repeat-ff,REFERENCE,1/3/2/4/5/6/,1/4/3/2/5/6/,C/I/U/U/U/U/,178,183
+girlsinc-2017-JuicyGlider,repeat-ff,PUZZLE,1/4/3/2/5/6/,1/4/3/2/5/6/,C/I/U/U/U/U/,188,-1
+girlsinc-2017-JuicyGlider,repeat-ff,PUZZLE,1/4/3/2/5/6/,1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/,189,194
+girlsinc-2017-JuicyGlider,repeat-ff,PUZZLE,1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/,256,-1
+girlsinc-2017-JuicyGlider,repeat-ff,REFERENCE,1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/,260,-1
+girlsinc-2017-JuicyGlider,repeat-ff,REFERENCE,1/-1/-1/-1/-1/-1/,1/3/2/4/5/6/,C/I/U/U/U/U/,274,285
+girlsinc-2017-JuicyGlider,repeat-ff,PUZZLE,1/3/2/4/5/6/,1/4/2/3/5/6/,C/I/U/U/U/U/,303,311
+girlsinc-2017-JuicyGlider,repeat-ff,PUZZLE,1/4/2/3/5/6/,1/4/2/3/5/6/,C/I/U/U/U/U/,315,-1
+girlsinc-2017-JuicyGlider,repeat-ff,REFERENCE,1/4/2/3/5/6/,1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/,323,341
+girlsinc-2017-JuicyGlider,repeat-ff,PUZZLE,1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/,357,-1
+girlsinc-2017-JuicyGlider,repeat-ff,REFERENCE,1/-1/-1/-1/-1/-1/,1/4/2/3/5/6/,C/I/U/U/U/U/,362,370
+girlsinc-2017-JuicyGlider,repeat-ff,PUZZLE,1/4/2/3/5/6/,1/3/2/4/5/6/,C/I/U/U/U/U/,387,393
+girlsinc-2017-JuicyGlider,repeat-ff,PUZZLE,1/3/2/4/5/6/,1/-1/2/3/4/5/,C/I/U/U/U/U/,420,424
+girlsinc-2017-JuicyGlider,repeat-ff,PUZZLE,1/-1/2/3/4/5/,1/-1/2/3/-1/4/,C/I/U/U/U/U/,431,435
+girlsinc-2017-JuicyGlider,repeat-ff,PUZZLE,1/-1/2/3/-1/4/,1/-1/2/3/4/5/,C/I/U/U/U/U/,439,442
+girlsinc-2017-JuicyGlider,repeat-ff,PUZZLE,1/-1/2/3/4/5/,1/4/2/3/5/6/,C/I/U/U/U/U/,445,449
+girlsinc-2017-JuicyGlider,repeat-ff,PUZZLE,1/4/2/3/5/6/,1/4/2/3/5/6/,C/I/U/U/U/U/,455,461
+girlsinc-2017-JuicyGlider,repeat-ff,PUZZLE,1/4/2/3/5/6/,1/4/2/3/5/6/,C/I/U/U/U/U/,528,-1
+girlsinc-2017-JuicyGlider,repeat-ff,REFERENCE,1/4/2/3/5/6/,1/-1/2/3/4/5/,C/I/U/U/U/U/,531,537
+girlsinc-2017-JuicyGlider,repeat-ff,PUZZLE,1/-1/2/3/4/5/,1/-1/2/3/4/5/,C/I/U/U/U/U/,562,569
+girlsinc-2017-JuicyGlider,repeat-ff,PUZZLE,1/-1/2/3/4/5/,1/-1/2/3/4/5/,C/I/U/U/U/U/,571,577
+girlsinc-2017-JuicyGlider,repeat-ff,REFERENCE,1/-1/2/3/4/5/,1/-1/2/3/4/5/,C/I/U/U/U/U/,584,591
+girlsinc-2017-JuicyGlider,repeat-ff,PUZZLE,1/-1/2/3/4/5/,1/-1/2/3/4/5/,C/I/U/U/U/U/,593,598
+girlsinc-2017-JuicyGlider,repeat-ff,REFERENCE,1/-1/2/3/4/5/,1/4/2/3/5/6/,C/I/U/U/U/U/,612,620
+girlsinc-2017-JuicyGlider,repeat-ff,PUZZLE,1/4/2/3/5/6/,1/4/2/3/5/6/,C/I/U/U/U/U/,624,629
+girlsinc-2017-JuicyGlider,repeat-ff,PUZZLE,1/4/2/3/5/6/,1/-1/-1/-1/-1/2/,C/I/U/U/U/U/,632,637
+girlsinc-2017-JuicyGlider,repeat-ff,REFERENCE,1/-1/-1/-1/-1/2/,1/-1/-1/2/-1/-1/,C/I/U/U/U/U/,652,655
+girlsinc-2017-JuicyGlider,repeat-ff,PUZZLE,1/-1/-1/2/-1/-1/,1/-1/2/3/-1/-1/,C/I/U/U/U/U/,659,663
+girlsinc-2017-JuicyGlider,repeat-ff,PUZZLE,1/-1/2/3/-1/-1/,1/-1/2/3/4/-1/,C/I/U/U/U/U/,667,671
+girlsinc-2017-JuicyGlider,repeat-ff,PUZZLE,1/-1/2/3/4/-1/,1/-1/2/3/4/-1/,C/I/U/U/U/U/,674,679
+girlsinc-2017-JuicyGlider,repeat-ff,PUZZLE,1/-1/2/3/4/-1/,1/-1/2/3/4/-1/,C/I/U/U/U/U/,682,688
+girlsinc-2017-JuicyGlider,repeat-ff,PUZZLE,1/-1/2/3/4/-1/,1/-1/2/3/4/-1/,C/I/U/U/U/U/,694,-1
+girlsinc-2017-JuicyGlider,repeat-ff,REFERENCE,1/-1/2/3/4/-1/,1/4/2/3/5/6/,C/I/U/U/U/U/,699,711
+girlsinc-2017-JuicyGlider,repeat-ff,PUZZLE,1/4/2/3/5/6/,1/2/3/4/5/6/,C/I/U/U/U/U/,722,729
+girlsinc-2017-JuicyGlider,repeat-ff,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,751,762
+girlsinc-2017-JuicyGlider,repeat-ff,END,"    this.phoenix.say(I can do this, I know I can!) /
+    count 5 / {
+      count 3 / {
+        this.phoenix.flap wings(0.125) /
+      }
+      this.phoenix.glide() /
+    }
+    this.phoenix.land on rock() /",6,6,0,766
+girlsinc-2017-JuicyGlider,repeat-j,REFERENCE,-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/,9,17
+girlsinc-2017-JuicyGlider,repeat-j,REFERENCE,1/-1/-1/-1/-1/-1/,1/2/3/4/5/6/,C/I/U/U/U/U/,26,29
+girlsinc-2017-JuicyGlider,repeat-j,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,45,53
+girlsinc-2017-JuicyGlider,repeat-j,END,"    this.witch.activate(this.cauldron) /
+    count 3 / {
+      this.cauldron.jump and spin() /
+      do together / {
+        this.witch.jump backwards() /
+        this.troll.jump backwards() /
+      }
+    }",1,6,0,56
+girlsinc-2017-JuicyGlider,repeat-o,PUZZLE,1/2/3/4/-1/6/7/8/5/-1/-1/,1/2/3/4/5/7/8/9/6/-1/-1/,C/C/C/C/I/U/U/U/U/U/U/,33,39
+girlsinc-2017-JuicyGlider,repeat-o,PUZZLE,1/2/3/4/5/7/8/9/6/-1/-1/,1/2/3/4/5/7/8/6/-1/-1/-1/,C/C/C/C/C/I/U/U/U/U/U/,43,51
+girlsinc-2017-JuicyGlider,repeat-o,REFERENCE,1/2/3/4/5/7/8/6/-1/-1/-1/,1/2/3/4/5/6/7/8/9/10/11/,C/C/C/C/C/I/U/U/U/U/U/,55,64
+girlsinc-2017-JuicyGlider,repeat-o,PUZZLE,1/2/3/4/5/6/7/8/9/10/11/,1/2/3/4/5/6/7/8/9/10/11/,C/C/C/C/C/C/C/C/C/C/C/,75,89
+girlsinc-2017-JuicyGlider,repeat-o,END,"    this.troll.say(I have a bad feeling) /
+    count 2 / {
+      do together / {
+        this.cauldron.shake() /
+        this.lid.shoot up and down() /
+      }
+    }
+    this.witch.say(?) /
+    this.witch.move(TypeExpression.FORWARD, 0.5) /
+    this.cauldron.shrink and disappear() /
+    do together / {
+      this.troll.jump back() /
+      this.witch.jump back() /
+    }",3,11,0,95
+girlsinc-2017-JuicyGlider,repeat-i,REFERENCE,-1/-1/-1/-1/-1/-1/-1/,1/2/3/4/5/7/6/,I/U/U/U/U/U/U/,18,31
+girlsinc-2017-JuicyGlider,repeat-i,PUZZLE,1/2/3/4/5/7/6/,1/2/3/4/5/7/6/,C/C/C/C/C/C/C/,63,76
+girlsinc-2017-JuicyGlider,repeat-i,END,"    count 3 / {
+      this.penguin.turn(TypeExpression.RIGHT, 0.5) /
+      this.penguin.move(TypeExpression.FORWARD, 1.0) /
+    }
+    count 3 / {
+      do together / {
+        this.penguin.flutter wings() /
+        this.penguin.jump() /
+      }
+    }",1,7,0,78
+girlsinc-2017-JuicyGlider,repeat-n,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/,19,21
+girlsinc-2017-JuicyGlider,repeat-n,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/5/2/3/4/7/6/8/9/10/,I/U/U/U/U/U/U/U/U/U/,24,31
+girlsinc-2017-JuicyGlider,repeat-n,PUZZLE,1/5/2/3/4/7/6/8/9/10/,1/5/2/3/4/7/6/8/9/10/,C/I/U/U/U/U/U/U/U/U/,78,84
+girlsinc-2017-JuicyGlider,repeat-n,PUZZLE,1/5/2/3/4/7/6/8/9/10/,1/5/2/3/4/7/6/8/9/10/,C/I/U/U/U/U/U/U/U/U/,90,-1
+girlsinc-2017-JuicyGlider,repeat-n,REFERENCE,1/5/2/3/4/7/6/8/9/10/,1/5/2/3/4/7/6/8/9/10/,C/I/U/U/U/U/U/U/U/U/,97,102
+girlsinc-2017-JuicyGlider,repeat-n,PUZZLE,1/5/2/3/4/7/6/8/9/10/,1/5/2/3/4/7/6/8/9/10/,C/I/U/U/U/U/U/U/U/U/,105,109
+girlsinc-2017-JuicyGlider,repeat-n,REFERENCE,1/5/2/3/4/7/6/8/9/10/,1/5/2/4/3/7/6/8/9/10/,C/I/U/U/U/U/U/U/U/U/,110,114
+girlsinc-2017-JuicyGlider,repeat-n,PUZZLE,1/5/2/4/3/7/6/8/9/10/,1/5/2/4/3/7/6/8/9/10/,C/I/U/U/U/U/U/U/U/U/,124,-1
+girlsinc-2017-JuicyGlider,repeat-n,REFERENCE,1/5/2/4/3/7/6/8/9/10/,-1/1/3/-1/2/-1/-1/4/5/6/,C/I/U/U/U/U/U/U/U/U/,128,133
+girlsinc-2017-JuicyGlider,repeat-n,PUZZLE,-1/1/3/-1/2/-1/-1/4/5/6/,-1/1/2/-1/3/-1/-1/4/5/6/,I/U/U/U/U/U/U/U/U/U/,157,159
+girlsinc-2017-JuicyGlider,repeat-n,PUZZLE,-1/1/2/-1/3/-1/-1/4/5/6/,-1/1/2/3/-1/-1/-1/4/5/6/,I/U/U/U/U/U/U/U/U/U/,163,165
+girlsinc-2017-JuicyGlider,repeat-n,PUZZLE,-1/1/2/3/-1/-1/-1/4/5/6/,-1/1/2/3/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/,168,173
+girlsinc-2017-JuicyGlider,repeat-n,PUZZLE,-1/1/2/3/-1/-1/-1/-1/-1/-1/,-1/1/2/3/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/,175,-1
+girlsinc-2017-JuicyGlider,repeat-n,REFERENCE,-1/1/2/3/-1/-1/-1/-1/-1/-1/,-1/1/2/3/4/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/,178,182
+girlsinc-2017-JuicyGlider,repeat-n,PUZZLE,-1/1/2/3/4/-1/-1/-1/-1/-1/,-1/1/2/3/4/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/,188,-1
+girlsinc-2017-JuicyGlider,repeat-n,REFERENCE,-1/1/2/3/4/-1/-1/-1/-1/-1/,-1/1/2/3/4/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/,191,-1
+girlsinc-2017-JuicyGlider,repeat-n,REFERENCE,-1/1/2/3/4/-1/-1/-1/-1/-1/,1/2/3/-1/4/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/,198,200
+girlsinc-2017-JuicyGlider,repeat-n,PUZZLE,1/2/3/-1/4/-1/-1/-1/-1/-1/,1/2/3/-1/4/-1/-1/-1/-1/-1/,C/C/C/I/I/U/U/U/U/U/,233,-1
+girlsinc-2017-JuicyGlider,repeat-n,REFERENCE,1/2/3/-1/4/-1/-1/-1/-1/-1/,1/2/3/-1/4/-1/-1/-1/-1/-1/,C/C/C/I/I/U/U/U/U/U/,243,-1
+girlsinc-2017-JuicyGlider,repeat-n,PUZZLE,1/2/3/-1/4/-1/-1/-1/-1/-1/,1/2/3/-1/4/-1/-1/-1/-1/-1/,C/C/C/I/I/U/U/U/U/U/,247,-1
+girlsinc-2017-JuicyGlider,repeat-n,REFERENCE,1/2/3/-1/4/-1/-1/-1/-1/-1/,1/2/3/-1/4/-1/-1/-1/-1/-1/,C/C/C/I/I/U/U/U/U/U/,248,-1
+girlsinc-2017-JuicyGlider,repeat-n,PUZZLE,1/2/3/-1/4/-1/-1/-1/-1/-1/,1/2/3/-1/4/-1/-1/-1/-1/-1/,C/C/C/I/I/U/U/U/U/U/,249,-1
+girlsinc-2017-JuicyGlider,repeat-n,REFERENCE,1/2/3/-1/4/-1/-1/-1/-1/-1/,1/2/3/6/4/5/7/8/10/9/,C/C/C/I/I/U/U/U/U/U/,251,265
+girlsinc-2017-JuicyGlider,repeat-n,PUZZLE,1/2/3/6/4/5/7/8/10/9/,1/-1/3/5/2/4/6/7/9/8/,C/C/C/I/I/U/U/U/U/U/,280,285
+girlsinc-2017-JuicyGlider,repeat-n,PUZZLE,1/-1/3/5/2/4/6/7/9/8/,1/3/2/5/4/6/7/8/10/9/,C/I/U/U/U/U/U/U/U/U/,293,296
+girlsinc-2017-JuicyGlider,repeat-n,PUZZLE,1/3/2/5/4/6/7/8/10/9/,1/2/3/4/5/6/7/8/10/9/,C/I/U/U/U/U/U/U/U/U/,310,313
+girlsinc-2017-JuicyGlider,repeat-n,PUZZLE,1/2/3/4/5/6/7/8/10/9/,1/2/3/4/5/6/7/8/10/9/,C/C/C/C/C/C/C/C/C/C/,317,332
+girlsinc-2017-JuicyGlider,repeat-n,END,"    count 2 / {
+      do together / {
+        this.big yeti.swing hammer() /
+        this.tiny yeti.lean back() /
+      }
+      this.tiny yeti.shrink() /
+    }
+    this.big yeti.drop hammer() /
+    this.tiny yeti.jump and grow(2.0) /
+    do together / {
+      this.tiny yeti.take a bow() /
+      this.big yeti.take a bow() /
+    }",4,10,0,335
+girlsinc-2017-JuicyGlider,repeat-w,PUZZLE,1/2/4/5/3/,1/2/4/5/3/,C/C/C/C/C/,28,35
+girlsinc-2017-JuicyGlider,repeat-w,END,"    this.hare.pick up(this.basketball) /
+    do together / {
+      count 10 / {
+        this.hare.dribble ball once(this.basketball) /
+      }
+      this.hare.walk(2.0) /
+    }",1,5,0,38
+girlsinc-2017-JuicyGlider,repeat-q,PUZZLE,1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/,9,-1
+girlsinc-2017-JuicyGlider,repeat-q,REFERENCE,1/-1/-1/-1/-1/-1/-1/,1/2/4/5/3/6/7/,C/I/U/U/U/U/U/,12,16
+girlsinc-2017-JuicyGlider,repeat-q,PUZZLE,1/2/4/5/3/6/7/,1/2/4/5/3/6/7/,C/C/I/U/U/U/U/,30,-1
+girlsinc-2017-JuicyGlider,repeat-q,REFERENCE,1/2/4/5/3/6/7/,1/2/3/4/5/6/7/,C/C/I/U/U/U/U/,35,50
+girlsinc-2017-JuicyGlider,repeat-q,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/C/I/,58,-1
+girlsinc-2017-JuicyGlider,repeat-q,REFERENCE,1/2/3/4/5/6/7/,1/2/4/5/6/3/7/,C/C/C/C/C/C/I/,74,82
+girlsinc-2017-JuicyGlider,repeat-q,PUZZLE,1/2/4/5/6/3/7/,1/2/4/5/6/3/7/,C/C/I/U/U/U/U/,88,-1
+girlsinc-2017-JuicyGlider,repeat-q,REFERENCE,1/2/4/5/6/3/7/,1/2/4/5/7/3/6/,C/C/I/U/U/U/U/,129,138
+girlsinc-2017-JuicyGlider,repeat-q,PUZZLE,1/2/4/5/7/3/6/,1/2/4/5/7/3/6/,C/C/I/U/U/U/U/,143,-1
+girlsinc-2017-JuicyGlider,repeat-q,REFERENCE,1/2/4/5/7/3/6/,1/2/3/5/6/4/7/,C/C/I/U/U/U/U/,150,157
+girlsinc-2017-JuicyGlider,repeat-q,PUZZLE,1/2/3/5/6/4/7/,1/2/3/5/6/4/7/,C/C/C/C/C/C/I/,182,-1
+girlsinc-2017-JuicyGlider,repeat-q,REFERENCE,1/2/3/5/6/4/7/,1/2/3/5/6/4/7/,C/C/C/C/C/C/I/,193,-1
+girlsinc-2017-JuicyGlider,repeat-q,REFERENCE,1/2/3/5/6/4/7/,1/2/3/5/6/4/7/,C/C/C/C/C/C/I/,200,205
+girlsinc-2017-JuicyGlider,repeat-q,PUZZLE,1/2/3/5/6/4/7/,1/2/3/5/6/4/7/,C/C/C/C/C/C/C/,211,230
+girlsinc-2017-JuicyGlider,repeat-q,END,"    this.ogre.sit down() /
+    this.ogre.go to sleep() /
+    do together / {
+      count 2 / {
+        this.ogre.snore() /
+      }
+      this.tortoise.walk up and toss flower() /
+      this.desertTortoise.crawl() /
+    }",5,7,0,237
+girlsinc-2017-JuicyGlider,repeat-x,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/U/,10,12
+girlsinc-2017-JuicyGlider,repeat-x,PUZZLE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/,29,33
+girlsinc-2017-JuicyGlider,repeat-x,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/3/-1/4/-1/2/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/,68,75
+girlsinc-2017-JuicyGlider,repeat-x,PUZZLE,1/-1/-1/3/-1/4/-1/2/-1/-1/-1/-1/,1/-1/-1/3/-1/4/-1/2/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/,119,-1
+girlsinc-2017-JuicyGlider,repeat-x,REFERENCE,1/-1/-1/3/-1/4/-1/2/-1/-1/-1/-1/,1/-1/-1/3/4/5/-1/2/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/,129,136
+girlsinc-2017-JuicyGlider,repeat-x,PUZZLE,1/-1/-1/3/4/5/-1/2/-1/-1/-1/-1/,1/-1/-1/3/4/5/-1/2/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/,173,-1
+girlsinc-2017-JuicyGlider,repeat-x,PUZZLE,1/-1/-1/3/4/5/-1/2/-1/-1/-1/-1/,1/-1/-1/3/4/5/-1/2/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/,180,-1
+girlsinc-2017-JuicyGlider,repeat-x,REFERENCE,1/-1/-1/3/4/5/-1/2/-1/-1/-1/-1/,1/-1/-1/3/4/5/-1/2/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/,181,-1
+girlsinc-2017-JuicyGlider,repeat-x,REFERENCE,1/-1/-1/3/4/5/-1/2/-1/-1/-1/-1/,1/2/-1/3/4/5/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/,190,197
+girlsinc-2017-JuicyGlider,repeat-x,PUZZLE,1/2/-1/3/4/5/-1/-1/-1/-1/-1/-1/,1/2/-1/3/4/5/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/U/U/,237,-1
+girlsinc-2017-JuicyGlider,repeat-x,PUZZLE,1/2/-1/3/4/5/-1/-1/-1/-1/-1/-1/,1/2/-1/3/4/5/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/U/U/,245,-1
+girlsinc-2017-JuicyGlider,repeat-x,REFERENCE,1/2/-1/3/4/5/-1/-1/-1/-1/-1/-1/,1/2/-1/3/4/5/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/U/U/,247,-1
+girlsinc-2017-JuicyGlider,repeat-x,REFERENCE,1/2/-1/3/4/5/-1/-1/-1/-1/-1/-1/,1/2/-1/4/3/5/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/U/U/,255,262
+girlsinc-2017-JuicyGlider,repeat-x,PUZZLE,1/2/-1/4/3/5/-1/-1/-1/-1/-1/-1/,1/2/3/4/5/6/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/U/U/,271,280
+girlsinc-2017-JuicyGlider,repeat-x,PUZZLE,1/2/3/4/5/6/-1/-1/-1/-1/-1/-1/,1/2/3/4/5/6/7/-1/-1/-1/-1/-1/,C/C/C/C/C/C/I/U/U/U/U/U/,296,304
+girlsinc-2017-JuicyGlider,repeat-x,REFERENCE,1/2/3/4/5/6/7/-1/-1/-1/-1/-1/,1/2/3/4/5/6/7/8/10/9/-1/-1/,C/C/C/C/C/C/C/I/U/U/U/U/,310,321
+girlsinc-2017-JuicyGlider,repeat-x,REFERENCE,1/2/3/4/5/6/7/8/10/9/-1/-1/,1/2/3/4/5/6/7/8/10/9/11/12/,C/C/C/C/C/C/C/C/C/C/I/U/,336,348
+girlsinc-2017-JuicyGlider,repeat-x,PUZZLE,1/2/3/4/5/6/7/8/10/9/11/12/,1/2/3/4/5/6/7/8/10/9/11/12/,C/C/C/C/C/C/C/C/C/C/C/C/,352,372
+girlsinc-2017-JuicyGlider,repeat-x,END,"    this.alienRobot.land on ground() /
+    this.alien.turnToFace(this.alienRobot) /
+    do together / {
+      this.alien.say(Yay, you're home!) /
+      count 3 / {
+        this.alienRobot.jump() /
+      }
+    }
+    this.alien.think(Hmmm I wish I could make you bigger...) /
+    do together / {
+      this.alien.cast alien magic() /
+      this.alien.say(Abbbbra Ka-Da-Bra) /
+    }
+    this.alienRobot.resize(3.0) /
+    this.alienRobot.face camera() /",3,12,0,375
+girlsinc-2017-JuicyGlider,repeat-l,REFERENCE,-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/,9,-1
+girlsinc-2017-JuicyGlider,repeat-l,REFERENCE,-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/,65,-1
+girlsinc-2017-JuicyGlider,repeat-l,REFERENCE,-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/,71,-1
+girlsinc-2017-JuicyGlider,repeat-l,REFERENCE,-1/-1/-1/-1/-1/-1/,1/2/-1/-1/3/4/,I/U/U/U/U/U/,75,77
+girlsinc-2017-JuicyGlider,repeat-l,PUZZLE,1/2/-1/-1/3/4/,1/2/-1/-1/3/4/,C/C/I/U/U/U/,94,-1
+girlsinc-2017-JuicyGlider,repeat-l,REFERENCE,1/2/-1/-1/3/4/,1/2/3/6/4/5/,C/C/I/U/U/U/,100,108
+girlsinc-2017-JuicyGlider,repeat-l,PUZZLE,1/2/3/6/4/5/,1/2/3/6/4/5/,C/C/C/C/C/C/,117,150
+girlsinc-2017-JuicyGlider,repeat-l,END,"    this.cat.turn(TypeExpression.RIGHT, 0.5) /
+    this.cat.raise arms() /
+    do together / {
+      this.alien.turnToFace(this.cat) /
+      count 12 / {
+        this.cat.type at keyboard() /
+      }
+    }",2,6,0,152
