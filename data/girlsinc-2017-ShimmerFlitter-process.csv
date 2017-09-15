@@ -1,0 +1,1288 @@
+codename,puzzle,action,current_index,next_index,correctness,start_time,closed_time
+girlsinc-2017-ShimmerFlitter,sequential-c,REFERENCE,-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/,58,71
+girlsinc-2017-ShimmerFlitter,sequential-c,REFERENCE,-1/-1/-1/-1/-1/-1/,-1/-1/1/-1/-1/-1/,I/U/U/U/U/U/,121,134
+girlsinc-2017-ShimmerFlitter,sequential-c,REFERENCE,-1/-1/1/-1/-1/-1/,1/3/2/-1/-1/-1/,I/U/U/U/U/U/,168,174
+girlsinc-2017-ShimmerFlitter,sequential-c,REFERENCE,1/3/2/-1/-1/-1/,1/2/3/4/5/6/,C/I/U/U/U/U/,200,210
+girlsinc-2017-ShimmerFlitter,sequential-c,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,223,234
+girlsinc-2017-ShimmerFlitter,sequential-c,END,"    this.hare.swing arm() /
+    this.volleyball.move(TypeExpression.DOWN, 0.6) /
+    this.hare.look down() /
+    this.hare.getRightHip().turn(TypeExpression.FORWARD, 0.25) /
+    this.hare.kick(this.volleyball) /
+    this.net.turn(TypeExpression.BACKWARD, 0.25) /",6,6,0,245
+girlsinc-2017-ShimmerFlitter,sequential-g,REFERENCE,-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/,21,30
+girlsinc-2017-ShimmerFlitter,sequential-g,REFERENCE,1/-1/-1/-1/-1/-1/-1/,1/2/3/-1/-1/-1/-1/,C/I/U/U/U/U/U/,38,43
+girlsinc-2017-ShimmerFlitter,sequential-g,REFERENCE,1/2/3/-1/-1/-1/-1/,1/2/3/-1/-1/-1/-1/,C/C/C/I/U/U/U/,64,-1
+girlsinc-2017-ShimmerFlitter,sequential-g,PUZZLE,1/2/3/-1/-1/-1/-1/,1/2/3/-1/4/-1/-1/,C/C/C/I/U/U/U/,72,80
+girlsinc-2017-ShimmerFlitter,sequential-g,REFERENCE,1/2/3/-1/4/-1/-1/,1/2/3/4/5/7/6/,C/C/C/I/U/U/U/,96,108
+girlsinc-2017-ShimmerFlitter,sequential-g,PUZZLE,1/2/3/4/5/7/6/,1/2/3/4/5/6/7/,C/C/C/C/C/I/U/,129,144
+girlsinc-2017-ShimmerFlitter,sequential-g,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/C/C/,150,162
+girlsinc-2017-ShimmerFlitter,sequential-g,END,"    this.blueTang.say(We can't let anyone find our treasure!) /
+    this.clownFish.turnToFace(this.shark) /
+    this.clownFish.think(Uh oh) /
+    this.clownFish.turnToFace(this.blueTang) /
+    this.clownFish.say(I think it's too late..) /
+    this.shark.getMouth().turn(TypeExpression.FORWARD, 0.125) /
+    this.shark.move(TypeExpression.FORWARD, 15.0) /",6,7,0,165
+girlsinc-2017-ShimmerFlitter,sequential-d,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/,13,-1
+girlsinc-2017-ShimmerFlitter,sequential-d,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/,32,35
+girlsinc-2017-ShimmerFlitter,sequential-d,PUZZLE,1/2/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/,56,64
+girlsinc-2017-ShimmerFlitter,sequential-d,REFERENCE,1/2/-1/-1/-1/-1/-1/-1/,1/2/3/4/-1/5/-1/6/,C/C/I/U/U/U/U/U/,73,85
+girlsinc-2017-ShimmerFlitter,sequential-d,PUZZLE,1/2/3/4/-1/5/-1/6/,1/2/3/4/-1/5/6/7/,C/C/C/C/I/U/U/U/,105,121
+girlsinc-2017-ShimmerFlitter,sequential-d,PUZZLE,1/2/3/4/-1/5/6/7/,1/2/3/4/-1/5/6/7/,C/C/C/C/I/U/U/U/,141,-1
+girlsinc-2017-ShimmerFlitter,sequential-d,REFERENCE,1/2/3/4/-1/5/6/7/,1/2/3/4/6/5/8/7/,C/C/C/C/I/U/U/U/,154,166
+girlsinc-2017-ShimmerFlitter,sequential-d,PUZZLE,1/2/3/4/6/5/8/7/,1/2/3/4/5/6/8/7/,C/C/C/C/I/U/U/U/,180,192
+girlsinc-2017-ShimmerFlitter,sequential-d,REFERENCE,1/2/3/4/5/6/8/7/,1/2/3/4/5/6/8/7/,C/C/C/C/C/C/I/U/,199,215
+girlsinc-2017-ShimmerFlitter,sequential-d,PUZZLE,1/2/3/4/5/6/8/7/,1/2/3/4/5/6/8/7/,C/C/C/C/C/C/I/U/,224,240
+girlsinc-2017-ShimmerFlitter,sequential-d,PUZZLE,1/2/3/4/5/6/8/7/,1/2/3/4/5/6/7/8/,C/C/C/C/C/C/I/U/,244,261
+girlsinc-2017-ShimmerFlitter,sequential-d,PUZZLE,1/2/3/4/5/6/7/8/,1/2/3/4/5/6/7/8/,C/C/C/C/C/C/C/C/,268,285
+girlsinc-2017-ShimmerFlitter,sequential-d,END,"    this.monkey.walk(1.5) /
+    this.monkey.jump and spin() /
+    this.monkey.walk up to(this.treasureChest) /
+    this.monkey.raise arms() /
+    this.treasureChest.getChestLid().turn(TypeExpression.BACKWARD, 0.0125) /
+    this.monkey.bang on(this.treasureChest) /
+    this.treasureChest.getChestLid().turn(TypeExpression.BACKWARD, 0.25) /
+    this.treasureMonkey.raise arms() /",6,8,0,288
+girlsinc-2017-ShimmerFlitter,dotogether-b,REFERENCE,-1/-1/-1/-1/-1/-1/,1/2/3/4/5/6/,I/U/U/U/U/U/,14,19
+girlsinc-2017-ShimmerFlitter,dotogether-b,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,49,59
+girlsinc-2017-ShimmerFlitter,dotogether-b,END,"    this.troll.say(Ahhhhhh) /
+    do together / {
+      this.troll.sneeze and raise arms() /
+      this.boat.move(TypeExpression.BACKWARD, 5.0) /
+    }
+    this.manatee.move(TypeExpression.UP, 0.5) /
+    this.manatee.say(Bless you!) /",1,6,0,63
+girlsinc-2017-ShimmerFlitter,dotogether-a,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/,22,25
+girlsinc-2017-ShimmerFlitter,dotogether-a,REFERENCE,1/2/-1/-1/-1/-1/-1/-1/,1/2/3/4/5/6/-1/-1/,C/C/I/U/U/U/U/U/,34,38
+girlsinc-2017-ShimmerFlitter,dotogether-a,PUZZLE,1/2/3/4/5/6/-1/-1/,1/2/3/4/5/6/-1/-1/,C/C/C/C/C/C/I/U/,63,71
+girlsinc-2017-ShimmerFlitter,dotogether-a,REFERENCE,1/2/3/4/5/6/-1/-1/,1/2/3/4/5/6/7/8/,C/C/C/C/C/C/I/U/,73,82
+girlsinc-2017-ShimmerFlitter,dotogether-a,PUZZLE,1/2/3/4/5/6/7/8/,1/2/3/4/5/6/7/8/,C/C/C/C/C/C/C/C/,91,99
+girlsinc-2017-ShimmerFlitter,dotogether-a,END,"    this.penguin.say(Everyone, I'd like you to meet Derek.) /
+    this.DerekTheYeti.say(Hello.) /
+    this.DerekTheYeti.moveToward(this.babyPenguin2, 0.5) /
+    do together / {
+      this.babyPenguin1.jump back() /
+      this.babyPenguin2.jump back() /
+      this.babyPenguin3.jump back() /
+    }
+    this.penguin.say(He's harmless and very kind!) /",3,8,0,102
+girlsinc-2017-ShimmerFlitter,dotogether-n,REFERENCE,-1/-1/-1/-1/-1/-1/,1/2/3/4/5/6/,I/U/U/U/U/U/,11,14
+girlsinc-2017-ShimmerFlitter,dotogether-n,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,29,38
+girlsinc-2017-ShimmerFlitter,dotogether-n,END,"    this.playingCard.say(Alice was just here I promise!!) /
+    this.queenOfHearts.say(We BETTER find her!) /
+    do together / {
+      this.queenOfHearts.walk forward() /
+      this.playingCard.walk forward() /
+    }
+    this.alice.sneak away() /",2,6,0,42
+girlsinc-2017-ShimmerFlitter,dotogether-o,REFERENCE,-1/-1/-1/-1/-1/-1/,1/-1/2/-1/-1/-1/,I/U/U/U/U/U/,12,14
+girlsinc-2017-ShimmerFlitter,dotogether-o,PUZZLE,1/-1/2/-1/-1/-1/,1/2/3/4/-1/-1/,C/I/U/U/U/U/,26,32
+girlsinc-2017-ShimmerFlitter,dotogether-o,PUZZLE,1/2/3/4/-1/-1/,1/2/3/4/-1/-1/,C/C/C/C/I/U/,42,-1
+girlsinc-2017-ShimmerFlitter,dotogether-o,REFERENCE,1/2/3/4/-1/-1/,1/2/3/4/5/6/,C/C/C/C/I/U/,47,50
+girlsinc-2017-ShimmerFlitter,dotogether-o,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,56,63
+girlsinc-2017-ShimmerFlitter,dotogether-o,END,"    this.hare.getRightShoulder().turn(TypeExpression.RIGHT, 0.125) /
+    do together / {
+      this.hare.hit(this.volleyball) /
+      this.volleyball.fly away() /
+    }
+    this.hare.getHead().turn(TypeExpression.BACKWARD, 0.125) /
+    this.hare.say(Aww man..) /",4,6,0,68
+girlsinc-2017-ShimmerFlitter,dotogether-m,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/,26,-1
+girlsinc-2017-ShimmerFlitter,dotogether-m,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/,1/2/4/3/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/,39,43
+girlsinc-2017-ShimmerFlitter,dotogether-m,PUZZLE,1/2/4/3/-1/-1/-1/-1/,1/2/4/3/-1/-1/-1/-1/,C/C/C/C/I/U/U/U/,54,60
+girlsinc-2017-ShimmerFlitter,dotogether-m,REFERENCE,1/2/4/3/-1/-1/-1/-1/,1/2/4/3/5/6/8/7/,C/C/C/C/I/U/U/U/,61,70
+girlsinc-2017-ShimmerFlitter,dotogether-m,PUZZLE,1/2/4/3/5/6/8/7/,1/2/4/3/5/6/8/7/,C/C/C/C/C/C/C/C/,79,93
+girlsinc-2017-ShimmerFlitter,dotogether-m,END,"    this.hare.say(1...2...3...JUMP!) /
+    do together / {
+      this.pig.jump() /
+      this.hare.jump() /
+    }
+    this.caiman.snap jaws() /
+    do together / {
+      this.pig.say(UH OH!) /
+      this.hare.say(UH OH!) /
+    }",2,8,0,98
+girlsinc-2017-ShimmerFlitter,dotogether-d,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/,8,12
+girlsinc-2017-ShimmerFlitter,dotogether-d,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/4/3/2/-1/-1/-1/,I/U/U/U/U/U/U/U/,13,17
+girlsinc-2017-ShimmerFlitter,dotogether-d,REFERENCE,1/-1/4/3/2/-1/-1/-1/,1/5/4/3/2/7/-1/6/,C/C/C/C/I/U/U/U/,31,37
+girlsinc-2017-ShimmerFlitter,dotogether-d,PUZZLE,1/5/4/3/2/7/-1/6/,1/5/4/3/2/7/-1/6/,C/C/C/C/C/C/C/I/,52,-1
+girlsinc-2017-ShimmerFlitter,dotogether-d,REFERENCE,1/5/4/3/2/7/-1/6/,1/5/4/3/2/8/7/6/,C/C/C/C/C/C/C/I/,60,64
+girlsinc-2017-ShimmerFlitter,dotogether-d,PUZZLE,1/5/4/3/2/8/7/6/,1/5/4/3/2/8/7/6/,C/C/C/C/C/C/C/C/,69,77
+girlsinc-2017-ShimmerFlitter,dotogether-d,END,"    this.mandril.think(A treasure chest!) /
+    do together / {
+      this.treasureChest.getChestLid().turn(TypeExpression.BACKWARD, 0.25) /
+      this.treasureChest.say(Hello!) /
+    }
+    do together / {
+      this.mandril.turn(TypeExpression.LEFT, 0.5) /
+      this.mandril.walk(10.0) /
+      this.mandril.say(Ahhhhhh!) /
+    }",4,8,0,81
+girlsinc-2017-ShimmerFlitter,dotogether-e,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/,13,17
+girlsinc-2017-ShimmerFlitter,dotogether-e,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/2/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/,22,27
+girlsinc-2017-ShimmerFlitter,dotogether-e,REFERENCE,1/-1/-1/2/-1/-1/-1/-1/-1/,1/-1/4/3/2/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/,36,42
+girlsinc-2017-ShimmerFlitter,dotogether-e,REFERENCE,1/-1/4/3/2/-1/-1/-1/-1/,1/-1/4/3/2/-1/-1/-1/-1/,C/C/C/C/I/U/U/U/U/,50,60
+girlsinc-2017-ShimmerFlitter,dotogether-e,REFERENCE,1/-1/4/3/2/-1/-1/-1/-1/,1/-1/4/3/2/-1/-1/-1/-1/,C/C/C/C/I/U/U/U/U/,62,73
+girlsinc-2017-ShimmerFlitter,dotogether-e,REFERENCE,1/-1/4/3/2/-1/-1/-1/-1/,1/5/4/3/2/8/7/6/9/,C/C/C/C/I/U/U/U/U/,77,84
+girlsinc-2017-ShimmerFlitter,dotogether-e,PUZZLE,1/5/4/3/2/8/7/6/9/,1/5/4/3/2/8/7/6/9/,C/C/C/C/C/C/C/C/C/,102,112
+girlsinc-2017-ShimmerFlitter,dotogether-e,END,"    this.bush.rustle() /
+    do together / {
+      this.Witch.getHead().turn(TypeExpression.RIGHT, 0.125) /
+      this.Witch.say(What was that?) /
+    }
+    do together / {
+      this.Troll.legs shake() /
+      this.Troll.bend over() /
+      this.Troll.turn(TypeExpression.RIGHT, 0.5) /
+      this.Troll.think(This place is scary..) /
+    }",4,9,0,115
+girlsinc-2017-ShimmerFlitter,dotogether-c,REFERENCE,-1/-1/-1/-1/-1/-1/-1/,1/2/3/5/4/-1/-1/,I/U/U/U/U/U/U/,10,14
+girlsinc-2017-ShimmerFlitter,dotogether-c,PUZZLE,1/2/3/5/4/-1/-1/,1/2/3/5/4/-1/-1/,C/C/C/C/C/I/U/,38,-1
+girlsinc-2017-ShimmerFlitter,dotogether-c,REFERENCE,1/2/3/5/4/-1/-1/,1/2/3/5/4/6/7/,C/C/C/C/C/I/U/,45,52
+girlsinc-2017-ShimmerFlitter,dotogether-c,PUZZLE,1/2/3/5/4/6/7/,1/2/3/5/4/6/7/,C/C/C/C/C/C/C/,58,66
+girlsinc-2017-ShimmerFlitter,dotogether-c,END,"    this.Troll.say(What's for dinner?) /
+    this.Witch.say(YOU!) /
+    do together / {
+      this.Troll.moveTo(this.Cauldron) /
+      this.Troll.raise arms and scream() /
+    }
+    this.Troll.turn(TypeExpression.RIGHT, 8.0) /
+    this.Troll.disappear() /",4,7,0,80
+girlsinc-2017-ShimmerFlitter,dotogether-l,REFERENCE,1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/,9,14
+girlsinc-2017-ShimmerFlitter,dotogether-l,REFERENCE,1/2/-1/-1/-1/-1/-1/,1/2/3/7/4/5/6/,C/C/I/U/U/U/U/,25,32
+girlsinc-2017-ShimmerFlitter,dotogether-l,PUZZLE,1/2/3/7/4/5/6/,1/2/3/7/4/5/6/,C/C/C/C/I/I/U/,47,57
+girlsinc-2017-ShimmerFlitter,dotogether-l,PUZZLE,1/2/3/7/4/5/6/,1/2/3/7/4/5/6/,C/C/C/C/C/I/U/,60,-1
+girlsinc-2017-ShimmerFlitter,dotogether-l,REFERENCE,1/2/3/7/4/5/6/,1/2/3/6/4/5/7/,C/C/C/C/C/I/U/,69,76
+girlsinc-2017-ShimmerFlitter,dotogether-l,PUZZLE,1/2/3/6/4/5/7/,1/2/3/6/4/5/7/,C/C/C/C/C/C/C/,80,90
+girlsinc-2017-ShimmerFlitter,dotogether-l,END,"    this.cheshireCat.say(Okay Alice, your turn now.) /
+    this.alice.move(TypeExpression.BACKWARD, 1.0) /
+    do together / {
+      this.alice.move legs() /
+      this.alice.move(TypeExpression.UP, 1.0) /
+      this.alice.moveToward(this.cheshireCat, 3.0) /
+    }
+    this.alice.say(I'm stuck!) /",4,7,0,94
+girlsinc-2017-ShimmerFlitter,dotogether-f,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/,10,-1
+girlsinc-2017-ShimmerFlitter,dotogether-f,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/2/-1/-1/-1/,C/I/U/U/U/U/U/U/,16,22
+girlsinc-2017-ShimmerFlitter,dotogether-f,REFERENCE,1/-1/-1/-1/2/-1/-1/-1/,1/-1/4/3/2/-1/-1/-1/,C/C/I/I/U/U/U/U/,32,37
+girlsinc-2017-ShimmerFlitter,dotogether-f,PUZZLE,1/-1/4/3/2/-1/-1/-1/,1/-1/4/3/2/-1/-1/-1/,C/C/C/C/I/U/U/U/,50,-1
+girlsinc-2017-ShimmerFlitter,dotogether-f,REFERENCE,1/-1/4/3/2/-1/-1/-1/,1/-1/4/3/2/5/7/6/,C/C/C/C/I/U/U/U/,56,64
+girlsinc-2017-ShimmerFlitter,dotogether-f,PUZZLE,1/-1/4/3/2/5/7/6/,1/-1/4/3/2/5/7/6/,C/C/C/C/I/U/U/U/,71,-1
+girlsinc-2017-ShimmerFlitter,dotogether-f,REFERENCE,1/-1/4/3/2/5/7/6/,1/-1/4/3/2/5/7/6/,C/C/C/C/I/U/U/U/,77,-1
+girlsinc-2017-ShimmerFlitter,dotogether-f,REFERENCE,1/-1/4/3/2/5/7/6/,1/-1/4/3/2/5/7/6/,C/C/C/C/I/U/U/U/,88,96
+girlsinc-2017-ShimmerFlitter,dotogether-f,REFERENCE,1/-1/4/3/2/5/7/6/,1/6/4/3/2/5/8/7/,C/C/C/C/I/U/U/U/,102,110
+girlsinc-2017-ShimmerFlitter,dotogether-f,PUZZLE,1/6/4/3/2/5/8/7/,1/6/4/3/2/5/8/7/,C/C/C/C/I/U/U/U/,117,-1
+girlsinc-2017-ShimmerFlitter,dotogether-f,REFERENCE,1/6/4/3/2/5/8/7/,1/5/4/3/2/6/8/7/,C/C/C/C/I/U/U/U/,125,131
+girlsinc-2017-ShimmerFlitter,dotogether-f,PUZZLE,1/5/4/3/2/6/8/7/,1/5/4/3/2/6/8/7/,C/C/C/C/C/C/C/C/,135,142
+girlsinc-2017-ShimmerFlitter,dotogether-f,END,"    this.Witch.say(I will turn you to stone!) /
+    do together / {
+      this.Ogre.move(TypeExpression.DOWN, 0.375) /
+      this.Ogre.bend knees() /
+    }
+    do together / {
+      this.Witch.cast spell() /
+      this.Ogre.getRightShoulder().turn(TypeExpression.LEFT, 0.25) /
+      this.Ogre.setPaint(InstanceCreation) /
+    }",6,8,0,146
+girlsinc-2017-ShimmerFlitter,dotogether-i,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/,6,9
+girlsinc-2017-ShimmerFlitter,dotogether-i,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/,11,15
+girlsinc-2017-ShimmerFlitter,dotogether-i,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/4/3/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/,17,19
+girlsinc-2017-ShimmerFlitter,dotogether-i,REFERENCE,1/2/4/3/-1/-1/-1/-1/-1/-1/,1/2/4/3/-1/-1/-1/-1/-1/-1/,C/C/C/C/I/U/U/U/U/U/,51,-1
+girlsinc-2017-ShimmerFlitter,dotogether-i,REFERENCE,1/2/4/3/-1/-1/-1/-1/-1/-1/,1/2/4/3/5/6/-1/-1/-1/-1/,C/C/C/C/I/U/U/U/U/U/,58,62
+girlsinc-2017-ShimmerFlitter,dotogether-i,REFERENCE,1/2/4/3/5/6/-1/-1/-1/-1/,1/2/4/3/5/6/9/7/8/10/,C/C/C/C/C/C/I/I/U/U/,76,82
+girlsinc-2017-ShimmerFlitter,dotogether-i,PUZZLE,1/2/4/3/5/6/9/7/8/10/,1/2/4/3/5/6/9/7/8/10/,C/C/C/C/C/C/C/I/C/U/,97,104
+girlsinc-2017-ShimmerFlitter,dotogether-i,REFERENCE,1/2/4/3/5/6/9/7/8/10/,1/2/4/3/5/6/8/7/9/10/,C/C/C/C/C/C/C/I/C/U/,112,120
+girlsinc-2017-ShimmerFlitter,dotogether-i,PUZZLE,1/2/4/3/5/6/8/7/9/10/,1/2/4/3/5/6/8/7/9/10/,C/C/C/C/C/C/C/C/C/C/,123,131
+girlsinc-2017-ShimmerFlitter,dotogether-i,END,"    this.tiny yeti.turnToFace(this.big yeti) /
+    do together / {
+      this.tiny yeti.nod() /
+      this.big yeti.nod() /
+    }
+    this.tiny yeti.move(TypeExpression.BACKWARD, 0.5) /
+    do together / {
+      this.tiny yeti.jump to hammer() /
+      this.big yeti.prepare to swing hammer() /
+    }
+    this.big yeti.power swing() /
+    this.tiny yeti.fly away() /",6,10,0,134
+girlsinc-2017-ShimmerFlitter,dotogether-j,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/,9,13
+girlsinc-2017-ShimmerFlitter,dotogether-j,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/,29,32
+girlsinc-2017-ShimmerFlitter,dotogether-j,PUZZLE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/,36,39
+girlsinc-2017-ShimmerFlitter,dotogether-j,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/3/-1/-1/-1/2/4/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/,41,46
+girlsinc-2017-ShimmerFlitter,dotogether-j,REFERENCE,1/-1/3/-1/-1/-1/2/4/-1/-1/-1/,1/-1/3/-1/-1/-1/2/4/-1/-1/-1/,C/C/C/I/U/U/U/U/U/U/U/,58,61
+girlsinc-2017-ShimmerFlitter,dotogether-j,PUZZLE,1/-1/3/-1/-1/-1/2/4/-1/-1/-1/,1/-1/3/4/-1/-1/2/5/-1/-1/-1/,C/C/C/I/U/U/U/U/U/U/U/,63,69
+girlsinc-2017-ShimmerFlitter,dotogether-j,PUZZLE,1/-1/3/4/-1/-1/2/5/-1/-1/-1/,1/-1/3/4/-1/-1/2/5/-1/-1/-1/,C/C/C/C/I/U/U/U/U/U/U/,86,-1
+girlsinc-2017-ShimmerFlitter,dotogether-j,REFERENCE,1/-1/3/4/-1/-1/2/5/-1/-1/-1/,1/-1/3/4/-1/-1/2/5/-1/-1/-1/,C/C/C/C/I/U/U/U/U/U/U/,92,-1
+girlsinc-2017-ShimmerFlitter,dotogether-j,REFERENCE,1/-1/3/4/-1/-1/2/5/-1/-1/-1/,1/-1/3/4/5/6/2/-1/-1/-1/-1/,C/C/C/C/I/U/U/U/U/U/U/,102,110
+girlsinc-2017-ShimmerFlitter,dotogether-j,PUZZLE,1/-1/3/4/5/6/2/-1/-1/-1/-1/,1/-1/3/4/5/6/2/-1/-1/-1/-1/,C/C/C/C/C/C/I/U/U/U/U/,126,-1
+girlsinc-2017-ShimmerFlitter,dotogether-j,REFERENCE,1/-1/3/4/5/6/2/-1/-1/-1/-1/,1/7/3/4/5/6/2/8/9/10/11/,C/C/C/C/C/C/I/U/U/U/U/,140,154
+girlsinc-2017-ShimmerFlitter,dotogether-j,PUZZLE,1/7/3/4/5/6/2/8/9/10/11/,1/7/3/4/5/6/2/8/9/10/11/,C/C/C/C/C/C/C/C/C/C/C/,176,194
+girlsinc-2017-ShimmerFlitter,dotogether-j,END,"    this.fox.jump out of snow() /
+    do together / {
+      this.snow man.skate around() /
+      this.snow gal.skate around() /
+    }
+    this.fox.wag tail() /
+    this.fox.jump on(this.snow man) /
+    do together / {
+      this.snow gal.twirl around() /
+      this.snow gal.raise up and lower down() /
+      this.snow man.skate around() /
+    }
+    this.fox.dive into snow() /",4,11,0,197
+girlsinc-2017-ShimmerFlitter,dotogether-g,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/,15,-1
+girlsinc-2017-ShimmerFlitter,dotogether-g,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/,19,22
+girlsinc-2017-ShimmerFlitter,dotogether-g,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/3/2/-1/-1/4/-1/-1/-1/,I/U/U/U/U/U/U/U/U/,42,56
+girlsinc-2017-ShimmerFlitter,dotogether-g,PUZZLE,1/3/2/-1/-1/4/-1/-1/-1/,1/3/2/-1/-1/4/-1/-1/-1/,C/C/C/I/U/U/U/U/U/,70,-1
+girlsinc-2017-ShimmerFlitter,dotogether-g,PUZZLE,1/3/2/-1/-1/4/-1/-1/-1/,1/3/2/-1/5/4/-1/-1/-1/,C/C/C/I/U/U/U/U/U/,74,79
+girlsinc-2017-ShimmerFlitter,dotogether-g,PUZZLE,1/3/2/-1/5/4/-1/-1/-1/,1/3/2/-1/5/4/-1/-1/-1/,C/C/C/I/I/U/U/U/U/,90,-1
+girlsinc-2017-ShimmerFlitter,dotogether-g,REFERENCE,1/3/2/-1/5/4/-1/-1/-1/,1/3/2/-1/5/4/-1/-1/-1/,C/C/C/I/I/U/U/U/U/,93,-1
+girlsinc-2017-ShimmerFlitter,dotogether-g,REFERENCE,1/3/2/-1/5/4/-1/-1/-1/,1/3/2/-1/4/5/-1/-1/-1/,C/C/C/I/I/U/U/U/U/,103,106
+girlsinc-2017-ShimmerFlitter,dotogether-g,PUZZLE,1/3/2/-1/4/5/-1/-1/-1/,1/3/2/-1/4/5/-1/-1/-1/,C/C/C/I/U/U/U/U/U/,110,-1
+girlsinc-2017-ShimmerFlitter,dotogether-g,REFERENCE,1/3/2/-1/4/5/-1/-1/-1/,1/3/2/-1/4/5/-1/-1/-1/,C/C/C/I/U/U/U/U/U/,115,-1
+girlsinc-2017-ShimmerFlitter,dotogether-g,REFERENCE,1/3/2/-1/4/5/-1/-1/-1/,1/3/2/4/5/6/-1/-1/-1/,C/C/C/I/U/U/U/U/U/,119,122
+girlsinc-2017-ShimmerFlitter,dotogether-g,PUZZLE,1/3/2/4/5/6/-1/-1/-1/,1/3/2/4/5/6/7/8/9/,C/C/C/C/C/C/I/U/U/,130,138
+girlsinc-2017-ShimmerFlitter,dotogether-g,PUZZLE,1/3/2/4/5/6/7/8/9/,1/3/2/4/5/6/7/8/9/,C/C/C/C/C/C/C/C/C/,151,156
+girlsinc-2017-ShimmerFlitter,dotogether-g,END,"    do together / {
+      this.yeti.getRightShoulder().turn(TypeExpression.LEFT, 0.375) /
+      this.yeti.getLeftShoulder().turn(TypeExpression.RIGHT, 0.375) /
+    }
+    do together / {
+      this.yeti.getMouth().turn(TypeExpression.FORWARD, 0.25) /
+      this.yeti.resize(1.5) /
+    }
+    do together / {
+      this.babyYeti.getMouth().turn(TypeExpression.FORWARD, 0.25) /
+      this.babyYeti.raise arms() /
+    }",6,9,0,161
+girlsinc-2017-ShimmerFlitter,dotogether-k,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/,6,-1
+girlsinc-2017-ShimmerFlitter,dotogether-k,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/,12,16
+girlsinc-2017-ShimmerFlitter,dotogether-k,PUZZLE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/,31,-1
+girlsinc-2017-ShimmerFlitter,dotogether-k,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/,35,40
+girlsinc-2017-ShimmerFlitter,dotogether-k,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/3/4/5/6/-1/2/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/,46,53
+girlsinc-2017-ShimmerFlitter,dotogether-k,PUZZLE,1/-1/3/4/5/6/-1/2/-1/-1/-1/,1/-1/3/4/5/6/-1/2/-1/-1/-1/,C/C/C/C/C/C/I/U/U/U/U/,74,-1
+girlsinc-2017-ShimmerFlitter,dotogether-k,REFERENCE,1/-1/3/4/5/6/-1/2/-1/-1/-1/,1/8/3/4/5/6/7/2/10/9/-1/,C/C/C/C/C/C/I/U/U/U/U/,82,93
+girlsinc-2017-ShimmerFlitter,dotogether-k,PUZZLE,1/8/3/4/5/6/7/2/10/9/-1/,1/8/3/4/5/6/7/2/10/9/-1/,C/C/C/C/C/C/C/C/C/C/I/,104,-1
+girlsinc-2017-ShimmerFlitter,dotogether-k,REFERENCE,1/8/3/4/5/6/7/2/10/9/-1/,1/8/3/4/5/6/7/2/10/9/11/,C/C/C/C/C/C/C/C/C/C/I/,118,132
+girlsinc-2017-ShimmerFlitter,dotogether-k,PUZZLE,1/8/3/4/5/6/7/2/10/9/11/,1/8/3/4/5/6/7/2/10/9/11/,C/C/C/C/C/C/C/C/C/C/C/,137,150
+girlsinc-2017-ShimmerFlitter,dotogether-k,END,"    this.witch.cast spell() /
+    do together / {
+      this.cauldron.turn(TypeExpression.RIGHT, 4.0) /
+      this.lid.move(TypeExpression.UP, 1.0) /
+      this.poodle.move(TypeExpression.UP, 1.0) /
+    }
+    this.witch.lower arm() /
+    this.witch.say(Whoops!) /
+    do together / {
+      this.troll.get scared() /
+      this.poodle.bark() /
+    }
+    this.troll.say(eeee yikes!) /",4,11,0,153
+girlsinc-2017-ShimmerFlitter,dotogether-h,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/U/,6,9
+girlsinc-2017-ShimmerFlitter,dotogether-h,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/,15,19
+girlsinc-2017-ShimmerFlitter,dotogether-h,PUZZLE,1/-1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/3/4/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/,28,32
+girlsinc-2017-ShimmerFlitter,dotogether-h,PUZZLE,1/2/3/4/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/3/4/5/-1/-1/-1/-1/-1/-1/-1/,C/C/C/C/I/U/U/U/U/U/U/U/,53,57
+girlsinc-2017-ShimmerFlitter,dotogether-h,PUZZLE,1/2/3/4/5/-1/-1/-1/-1/-1/-1/-1/,1/2/3/4/5/-1/-1/-1/-1/-1/-1/-1/,C/C/C/C/C/I/U/U/U/U/U/U/,63,-1
+girlsinc-2017-ShimmerFlitter,dotogether-h,REFERENCE,1/2/3/4/5/-1/-1/-1/-1/-1/-1/-1/,1/2/3/4/5/6/8/7/-1/-1/-1/-1/,C/C/C/C/C/I/U/U/U/U/U/U/,68,76
+girlsinc-2017-ShimmerFlitter,dotogether-h,PUZZLE,1/2/3/4/5/6/8/7/-1/-1/-1/-1/,1/2/3/4/5/6/8/7/9/10/12/11/,C/C/C/C/C/C/C/C/I/U/U/U/,88,97
+girlsinc-2017-ShimmerFlitter,dotogether-h,PUZZLE,1/2/3/4/5/6/8/7/9/10/12/11/,1/2/3/4/5/6/8/7/9/10/12/11/,C/C/C/C/C/C/C/C/C/C/C/C/,109,117
+girlsinc-2017-ShimmerFlitter,dotogether-h,END,"    this.bunny.bend forward() /
+    do together / {
+      this.bunny.jump() /
+      this.bunny.move(TypeExpression.FORWARD, 1.0) /
+    }
+    this.bunny.disappear() /
+    do together / {
+      this.hat.turn(TypeExpression.RIGHT, 2.0) /
+      this.hat.move(TypeExpression.DOWN, 1.0) /
+    }
+    do together / {
+      this.bunny.appear() /
+      this.bunny.raise arms() /
+      this.bunny.turn(TypeExpression.RIGHT, 2.25) /
+    }",4,12,0,123
+girlsinc-2017-ShimmerFlitter,repeat-gg,REFERENCE,-1/-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/,8,13
+girlsinc-2017-ShimmerFlitter,repeat-gg,REFERENCE,-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/,19,35
+girlsinc-2017-ShimmerFlitter,repeat-gg,REFERENCE,1/2/-1/-1/-1/-1/-1/,1/2/3/4/-1/5/-1/,C/C/I/U/U/U/U/,61,74
+girlsinc-2017-ShimmerFlitter,repeat-gg,PUZZLE,1/2/3/4/-1/5/-1/,1/2/4/5/3/6/-1/,C/C/C/C/I/U/U/,90,97
+girlsinc-2017-ShimmerFlitter,repeat-gg,PUZZLE,1/2/4/5/3/6/-1/,1/2/3/4/5/6/7/,C/C/I/U/U/U/U/,106,112
+girlsinc-2017-ShimmerFlitter,repeat-gg,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/C/C/,123,139
+girlsinc-2017-ShimmerFlitter,repeat-gg,END,"    this.mandril.scare ostrich() /
+    this.ostrichBaby.say(AAAHHHHH!!!!) /
+    count 5 / {
+      this.ostrichBaby.run(3, 0.08) /
+      GlobalFirstInstanceExpression.scene.ostrichBaby.turn(TypeExpression.RIGHT, 0.5) /
+    }
+    this.ostrichBaby.think(I guess this is the end; there's no escape!) /
+    this.fade to black() /",4,7,0,144
+girlsinc-2017-ShimmerFlitter,repeat-ee,REFERENCE,-1/-1/-1/-1/,1/2/3/4/,I/U/U/U/,5,10
+girlsinc-2017-ShimmerFlitter,repeat-ee,PUZZLE,1/2/3/4/,1/2/3/4/,C/C/C/C/,23,34
+girlsinc-2017-ShimmerFlitter,repeat-ee,END,"    this.hare.walk(5.0) /
+    count 3 / {
+      this.hare.knock() /
+    }
+    this.hare.say(Anyone home?) /",2,4,0,37
+girlsinc-2017-ShimmerFlitter,repeat-f,REFERENCE,-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/,I/U/U/U/U/,5,9
+girlsinc-2017-ShimmerFlitter,repeat-f,REFERENCE,-1/-1/-1/-1/-1/,-1/-1/-1/2/1/,I/U/U/U/U/,14,18
+girlsinc-2017-ShimmerFlitter,repeat-f,REFERENCE,-1/-1/-1/2/1/,5/4/3/2/1/,I/U/U/U/U/,26,39
+girlsinc-2017-ShimmerFlitter,repeat-f,PUZZLE,5/4/3/2/1/,5/4/3/2/1/,I/U/U/U/U/,51,54
+girlsinc-2017-ShimmerFlitter,repeat-f,REFERENCE,5/4/3/2/1/,5/4/3/2/1/,I/U/U/U/U/,58,-1
+girlsinc-2017-ShimmerFlitter,repeat-f,REFERENCE,5/4/3/2/1/,5/3/1/2/4/,I/U/U/U/U/,75,82
+girlsinc-2017-ShimmerFlitter,repeat-f,PUZZLE,5/3/1/2/4/,5/3/1/2/4/,I/U/U/U/U/,89,-1
+girlsinc-2017-ShimmerFlitter,repeat-f,REFERENCE,5/3/1/2/4/,5/3/1/2/4/,I/U/U/U/U/,91,-1
+girlsinc-2017-ShimmerFlitter,repeat-f,REFERENCE,5/3/1/2/4/,5/3/1/2/4/,I/U/U/U/U/,106,-1
+girlsinc-2017-ShimmerFlitter,repeat-f,PUZZLE,5/3/1/2/4/,2/5/1/4/3/,I/U/U/U/U/,112,115
+girlsinc-2017-ShimmerFlitter,repeat-f,REFERENCE,2/5/1/4/3/,2/5/1/4/3/,I/U/U/U/U/,130,-1
+girlsinc-2017-ShimmerFlitter,repeat-f,PUZZLE,2/5/1/4/3/,2/5/1/4/3/,I/U/U/U/U/,131,-1
+girlsinc-2017-ShimmerFlitter,repeat-f,REFERENCE,2/5/1/4/3/,3/5/1/4/2/,I/U/U/U/U/,133,142
+girlsinc-2017-ShimmerFlitter,repeat-f,REFERENCE,3/5/1/4/2/,3/5/1/4/2/,I/U/U/U/U/,165,-1
+girlsinc-2017-ShimmerFlitter,repeat-f,PUZZLE,3/5/1/4/2/,3/5/1/4/2/,I/U/U/U/U/,177,-1
+girlsinc-2017-ShimmerFlitter,repeat-f,REFERENCE,3/5/1/4/2/,4/5/1/3/2/,I/U/U/U/U/,179,182
+girlsinc-2017-ShimmerFlitter,repeat-f,REFERENCE,4/5/1/3/2/,4/5/1/3/2/,I/U/U/U/U/,185,-1
+girlsinc-2017-ShimmerFlitter,repeat-f,PUZZLE,4/5/1/3/2/,4/5/1/3/2/,I/U/U/U/U/,188,-1
+girlsinc-2017-ShimmerFlitter,repeat-f,REFERENCE,4/5/1/3/2/,4/5/3/2/1/,I/U/U/U/U/,189,192
+girlsinc-2017-ShimmerFlitter,repeat-f,REFERENCE,4/5/3/2/1/,4/5/3/2/1/,I/U/U/U/U/,197,-1
+girlsinc-2017-ShimmerFlitter,repeat-f,PUZZLE,4/5/3/2/1/,4/5/3/2/1/,I/U/U/U/U/,199,-1
+girlsinc-2017-ShimmerFlitter,repeat-f,REFERENCE,4/5/3/2/1/,1/2/3/5/4/,I/U/U/U/U/,200,204
+girlsinc-2017-ShimmerFlitter,repeat-f,REFERENCE,1/2/3/5/4/,1/2/3/5/4/,C/C/C/I/U/,213,-1
+girlsinc-2017-ShimmerFlitter,repeat-f,PUZZLE,1/2/3/5/4/,1/2/3/5/4/,C/C/C/I/U/,215,-1
+girlsinc-2017-ShimmerFlitter,repeat-f,REFERENCE,1/2/3/5/4/,1/2/3/5/4/,C/C/C/I/U/,218,-1
+girlsinc-2017-ShimmerFlitter,repeat-f,PUZZLE,1/2/3/5/4/,1/2/3/5/4/,C/C/C/I/U/,222,-1
+girlsinc-2017-ShimmerFlitter,repeat-f,REFERENCE,1/2/3/5/4/,1/2/3/5/4/,C/C/C/I/U/,228,-1
+girlsinc-2017-ShimmerFlitter,repeat-f,PUZZLE,1/2/3/5/4/,1/3/4/5/2/,C/C/C/I/U/,231,236
+girlsinc-2017-ShimmerFlitter,repeat-f,REFERENCE,1/3/4/5/2/,1/3/4/5/2/,C/I/U/U/U/,256,265
+girlsinc-2017-ShimmerFlitter,repeat-f,REFERENCE,1/3/4/5/2/,1/3/4/5/2/,C/I/U/U/U/,266,-1
+girlsinc-2017-ShimmerFlitter,repeat-f,PUZZLE,1/3/4/5/2/,1/3/4/5/2/,C/I/U/U/U/,267,-1
+girlsinc-2017-ShimmerFlitter,repeat-f,REFERENCE,1/3/4/5/2/,1/4/3/5/2/,C/I/U/U/U/,270,272
+girlsinc-2017-ShimmerFlitter,repeat-f,REFERENCE,1/4/3/5/2/,1/4/3/5/2/,C/I/U/U/U/,289,-1
+girlsinc-2017-ShimmerFlitter,repeat-f,PUZZLE,1/4/3/5/2/,1/3/4/5/2/,C/I/U/U/U/,291,295
+girlsinc-2017-ShimmerFlitter,repeat-f,REFERENCE,1/3/4/5/2/,1/3/4/5/2/,C/I/U/U/U/,303,-1
+girlsinc-2017-ShimmerFlitter,repeat-f,PUZZLE,1/3/4/5/2/,1/3/4/5/2/,C/I/U/U/U/,305,-1
+girlsinc-2017-ShimmerFlitter,repeat-f,REFERENCE,1/3/4/5/2/,1/4/5/3/2/,C/I/U/U/U/,308,311
+girlsinc-2017-ShimmerFlitter,repeat-f,REFERENCE,1/4/5/3/2/,1/4/5/3/2/,C/I/U/U/U/,318,-1
+girlsinc-2017-ShimmerFlitter,repeat-f,PUZZLE,1/4/5/3/2/,1/3/5/4/2/,C/I/U/U/U/,322,325
+girlsinc-2017-ShimmerFlitter,repeat-f,REFERENCE,1/3/5/4/2/,1/3/5/4/2/,C/I/U/U/U/,331,-1
+girlsinc-2017-ShimmerFlitter,repeat-f,PUZZLE,1/3/5/4/2/,4/2/5/3/1/,C/I/U/U/U/,335,338
+girlsinc-2017-ShimmerFlitter,repeat-f,REFERENCE,4/2/5/3/1/,4/2/5/3/1/,I/U/U/U/U/,347,-1
+girlsinc-2017-ShimmerFlitter,repeat-f,PUZZLE,4/2/5/3/1/,1/2/5/4/3/,I/U/U/U/U/,349,352
+girlsinc-2017-ShimmerFlitter,repeat-f,PUZZLE,1/2/5/4/3/,1/2/5/4/3/,C/C/I/U/U/,362,-1
+girlsinc-2017-ShimmerFlitter,repeat-f,REFERENCE,1/2/5/4/3/,1/2/5/4/3/,C/C/I/U/U/,367,-1
+girlsinc-2017-ShimmerFlitter,repeat-f,REFERENCE,1/2/5/4/3/,1/2/3/4/5/,C/C/I/U/U/,373,379
+girlsinc-2017-ShimmerFlitter,repeat-f,REFERENCE,1/2/3/4/5/,1/2/3/4/5/,C/C/C/C/I/,388,-1
+girlsinc-2017-ShimmerFlitter,repeat-f,PUZZLE,1/2/3/4/5/,1/2/3/4/5/,C/C/C/C/I/,392,-1
+girlsinc-2017-ShimmerFlitter,repeat-f,REFERENCE,1/2/3/4/5/,1/2/3/4/5/,C/C/C/C/I/,401,409
+girlsinc-2017-ShimmerFlitter,repeat-f,REFERENCE,1/2/3/4/5/,1/2/3/4/5/,C/C/C/C/C/,417,-1
+girlsinc-2017-ShimmerFlitter,repeat-f,PUZZLE,1/2/3/4/5/,1/2/3/4/5/,C/C/C/C/C/,421,432
+girlsinc-2017-ShimmerFlitter,repeat-f,END,"    this.Gray Rhino.getNeck().turn(TypeExpression.FORWARD, 0.0625) /
+    this.White Rhino.getNeck().turn(TypeExpression.FORWARD, 0.0625) /
+    count 2 / {
+      this.White Rhino.drink water() /
+      this.Gray Rhino.drink water() /
+    }",8,5,0,435
+girlsinc-2017-ShimmerFlitter,repeat-e,REFERENCE,-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/,10,14
+girlsinc-2017-ShimmerFlitter,repeat-e,REFERENCE,1/-1/-1/-1/-1/-1/-1/,1/-1/2/-1/-1/-1/-1/,C/I/U/U/U/U/U/,44,52
+girlsinc-2017-ShimmerFlitter,repeat-e,REFERENCE,1/-1/2/-1/-1/-1/-1/,1/-1/2/-1/-1/-1/-1/,C/I/U/U/U/U/U/,65,-1
+girlsinc-2017-ShimmerFlitter,repeat-e,PUZZLE,1/-1/2/-1/-1/-1/-1/,1/-1/3/2/-1/-1/-1/,C/I/U/U/U/U/U/,68,75
+girlsinc-2017-ShimmerFlitter,repeat-e,REFERENCE,1/-1/3/2/-1/-1/-1/,1/-1/3/2/-1/-1/-1/,C/I/U/U/U/U/U/,82,-1
+girlsinc-2017-ShimmerFlitter,repeat-e,PUZZLE,1/-1/3/2/-1/-1/-1/,1/2/3/4/-1/-1/-1/,C/I/U/U/U/U/U/,92,100
+girlsinc-2017-ShimmerFlitter,repeat-e,REFERENCE,1/2/3/4/-1/-1/-1/,1/2/3/4/-1/-1/-1/,C/C/C/C/I/U/U/,111,-1
+girlsinc-2017-ShimmerFlitter,repeat-e,PUZZLE,1/2/3/4/-1/-1/-1/,1/2/3/4/-1/-1/-1/,C/C/C/C/I/U/U/,113,-1
+girlsinc-2017-ShimmerFlitter,repeat-e,REFERENCE,1/2/3/4/-1/-1/-1/,1/2/3/4/5/6/7/,C/C/C/C/I/U/U/,124,137
+girlsinc-2017-ShimmerFlitter,repeat-e,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/C/C/,144,157
+girlsinc-2017-ShimmerFlitter,repeat-e,END,"    this.curupira.walk(2.0) /
+    this.curupira.getNeck().turn(TypeExpression.FORWARD, 0.125) /
+    this.curupira.think(Uh oh.) /
+    this.curupira.move(TypeExpression.DOWN, 4.0) /
+    this.mapinguari.place hands on belly() /
+    count 3 / {
+      this.mapinguari.laugh() /
+    }",4,7,0,161
+girlsinc-2017-ShimmerFlitter,repeat-m,REFERENCE,-1/-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/,24,30
+girlsinc-2017-ShimmerFlitter,repeat-m,REFERENCE,-1/-1/-1/-1/-1/-1/-1/,1/-1/2/3/-1/-1/-1/,I/U/U/U/U/U/U/,51,56
+girlsinc-2017-ShimmerFlitter,repeat-m,PUZZLE,1/-1/2/3/-1/-1/-1/,1/-1/2/3/-1/-1/-1/,C/I/U/U/U/U/U/,66,-1
+girlsinc-2017-ShimmerFlitter,repeat-m,REFERENCE,1/-1/2/3/-1/-1/-1/,1/-1/2/3/-1/-1/-1/,C/I/U/U/U/U/U/,71,-1
+girlsinc-2017-ShimmerFlitter,repeat-m,PUZZLE,1/-1/2/3/-1/-1/-1/,1/-1/2/3/-1/-1/-1/,C/I/U/U/U/U/U/,76,-1
+girlsinc-2017-ShimmerFlitter,repeat-m,REFERENCE,1/-1/2/3/-1/-1/-1/,1/-1/2/3/-1/-1/-1/,C/I/U/U/U/U/U/,80,-1
+girlsinc-2017-ShimmerFlitter,repeat-m,REFERENCE,1/-1/2/3/-1/-1/-1/,1/-1/2/3/-1/-1/-1/,C/I/U/U/U/U/U/,86,-1
+girlsinc-2017-ShimmerFlitter,repeat-m,PUZZLE,1/-1/2/3/-1/-1/-1/,1/-1/2/3/-1/-1/-1/,C/I/U/U/U/U/U/,92,-1
+girlsinc-2017-ShimmerFlitter,repeat-m,REFERENCE,1/-1/2/3/-1/-1/-1/,1/-1/2/3/-1/-1/-1/,C/I/U/U/U/U/U/,97,-1
+girlsinc-2017-ShimmerFlitter,repeat-m,REFERENCE,1/-1/2/3/-1/-1/-1/,1/-1/2/3/-1/-1/-1/,C/I/U/U/U/U/U/,107,-1
+girlsinc-2017-ShimmerFlitter,repeat-m,PUZZLE,1/-1/2/3/-1/-1/-1/,1/-1/2/3/-1/-1/-1/,C/I/U/U/U/U/U/,111,-1
+girlsinc-2017-ShimmerFlitter,repeat-m,REFERENCE,1/-1/2/3/-1/-1/-1/,1/2/3/4/-1/-1/-1/,C/I/U/U/U/U/U/,118,125
+girlsinc-2017-ShimmerFlitter,repeat-m,PUZZLE,1/2/3/4/-1/-1/-1/,1/2/3/4/-1/-1/-1/,C/C/C/I/U/U/U/,133,-1
+girlsinc-2017-ShimmerFlitter,repeat-m,REFERENCE,1/2/3/4/-1/-1/-1/,1/2/3/4/-1/-1/-1/,C/C/C/I/U/U/U/,135,142
+girlsinc-2017-ShimmerFlitter,repeat-m,PUZZLE,1/2/3/4/-1/-1/-1/,1/2/3/4/-1/-1/-1/,C/C/C/C/I/U/U/,145,-1
+girlsinc-2017-ShimmerFlitter,repeat-m,REFERENCE,1/2/3/4/-1/-1/-1/,1/2/3/4/5/6/7/,C/C/C/C/I/U/U/,152,163
+girlsinc-2017-ShimmerFlitter,repeat-m,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/C/C/,172,185
+girlsinc-2017-ShimmerFlitter,repeat-m,END,"    this.alien.walk(0.5) /
+    count 2 / {
+      this.alien.kick() /
+      this.flying saucer.shake() /
+    }
+    this.flying saucer.fly above(this.alien) /
+    this.flying saucer.beam up(this.alien) /
+    this.flying saucer.fly away() /",4,7,0,188
+girlsinc-2017-ShimmerFlitter,repeat-g,REFERENCE,-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/,7,-1
+girlsinc-2017-ShimmerFlitter,repeat-g,REFERENCE,-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/,13,15
+girlsinc-2017-ShimmerFlitter,repeat-g,REFERENCE,1/-1/-1/-1/-1/-1/,1/2/3/-1/-1/-1/,C/I/U/U/U/U/,27,39
+girlsinc-2017-ShimmerFlitter,repeat-g,PUZZLE,1/2/3/-1/-1/-1/,1/2/3/4/-1/-1/,C/C/C/I/U/U/,55,64
+girlsinc-2017-ShimmerFlitter,repeat-g,PUZZLE,1/2/3/4/-1/-1/,1/2/3/4/5/6/,C/C/C/C/I/U/,68,74
+girlsinc-2017-ShimmerFlitter,repeat-g,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,82,92
+girlsinc-2017-ShimmerFlitter,repeat-g,END,"    this.Baby Yeti.raise arms() /
+    count 2 / {
+      this.Baby Yeti.turn(TypeExpression.LEFT, 0.125) /
+      this.Baby Yeti.turn(TypeExpression.RIGHT, 0.125) /
+    }
+    count 3 / {
+      this.Baby Yeti.jump and spin() /
+    }",4,6,0,95
+girlsinc-2017-ShimmerFlitter,repeat-a,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/,12,-1
+girlsinc-2017-ShimmerFlitter,repeat-a,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/,14,16
+girlsinc-2017-ShimmerFlitter,repeat-a,PUZZLE,1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/,23,-1
+girlsinc-2017-ShimmerFlitter,repeat-a,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/,1/3/2/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/,24,27
+girlsinc-2017-ShimmerFlitter,repeat-a,REFERENCE,1/3/2/-1/-1/-1/-1/-1/-1/,1/3/2/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/,36,-1
+girlsinc-2017-ShimmerFlitter,repeat-a,PUZZLE,1/3/2/-1/-1/-1/-1/-1/-1/,1/3/2/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/,38,43
+girlsinc-2017-ShimmerFlitter,repeat-a,REFERENCE,1/3/2/-1/-1/-1/-1/-1/-1/,1/3/2/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/,57,62
+girlsinc-2017-ShimmerFlitter,repeat-a,REFERENCE,1/3/2/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/,72,76
+girlsinc-2017-ShimmerFlitter,repeat-a,PUZZLE,1/2/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/,83,-1
+girlsinc-2017-ShimmerFlitter,repeat-a,REFERENCE,1/2/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/,85,-1
+girlsinc-2017-ShimmerFlitter,repeat-a,REFERENCE,1/2/-1/-1/-1/-1/-1/-1/-1/,1/2/3/4/5/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/,101,108
+girlsinc-2017-ShimmerFlitter,repeat-a,PUZZLE,1/2/3/4/5/-1/-1/-1/-1/,1/2/3/4/5/6/-1/-1/-1/,C/C/C/C/C/I/U/U/U/,120,129
+girlsinc-2017-ShimmerFlitter,repeat-a,PUZZLE,1/2/3/4/5/6/-1/-1/-1/,1/2/3/4/5/6/7/8/9/,C/C/C/C/C/C/I/U/U/,135,147
+girlsinc-2017-ShimmerFlitter,repeat-a,PUZZLE,1/2/3/4/5/6/7/8/9/,1/2/3/4/5/6/7/8/9/,C/C/C/C/C/C/C/C/C/,153,178
+girlsinc-2017-ShimmerFlitter,repeat-a,END,"    this.tiny yeti.run forward() /
+    this.tiny yeti.steal hammer() /
+    this.tiny yeti.jump above yeti() /
+    count 3 / {
+      this.tiny yeti.swing hammer() /
+      this.big yeti.shake head() /
+    }
+    this.tiny yeti.fall to ground() /
+    count 3 / {
+      this.big yeti.cry() /
+    }",4,9,0,180
+girlsinc-2017-ShimmerFlitter,repeat-b,PUZZLE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/,4,-1
+girlsinc-2017-ShimmerFlitter,repeat-b,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/,6,8
+girlsinc-2017-ShimmerFlitter,repeat-b,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/3/4/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/,14,20
+girlsinc-2017-ShimmerFlitter,repeat-b,PUZZLE,1/2/-1/3/4/-1/-1/-1/-1/-1/,1/2/-1/3/4/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/,38,-1
+girlsinc-2017-ShimmerFlitter,repeat-b,REFERENCE,1/2/-1/3/4/-1/-1/-1/-1/-1/,1/2/-1/4/5/-1/3/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/,40,49
+girlsinc-2017-ShimmerFlitter,repeat-b,REFERENCE,1/2/-1/4/5/-1/3/-1/-1/-1/,1/2/-1/4/5/6/3/-1/-1/-1/,C/C/C/C/C/I/U/U/U/U/,60,78
+girlsinc-2017-ShimmerFlitter,repeat-b,REFERENCE,1/2/-1/4/5/6/3/-1/-1/-1/,1/2/-1/4/5/6/3/-1/-1/-1/,C/C/C/C/C/C/I/U/U/U/,93,-1
+girlsinc-2017-ShimmerFlitter,repeat-b,PUZZLE,1/2/-1/4/5/6/3/-1/-1/-1/,1/2/-1/4/5/6/3/-1/-1/-1/,C/C/C/C/C/C/I/U/U/U/,95,-1
+girlsinc-2017-ShimmerFlitter,repeat-b,REFERENCE,1/2/-1/4/5/6/3/-1/-1/-1/,1/2/8/4/5/6/3/7/9/10/,C/C/C/C/C/C/I/U/U/U/,107,119
+girlsinc-2017-ShimmerFlitter,repeat-b,PUZZLE,1/2/8/4/5/6/3/7/9/10/,1/2/8/4/5/6/3/7/9/10/,C/C/C/C/C/C/I/U/U/U/,128,-1
+girlsinc-2017-ShimmerFlitter,repeat-b,REFERENCE,1/2/8/4/5/6/3/7/9/10/,1/2/6/4/5/7/3/8/9/10/,C/C/C/C/C/C/I/U/U/U/,142,145
+girlsinc-2017-ShimmerFlitter,repeat-b,PUZZLE,1/2/6/4/5/7/3/8/9/10/,1/2/7/4/5/6/3/8/9/10/,C/C/C/C/C/I/U/U/U/U/,150,164
+girlsinc-2017-ShimmerFlitter,repeat-b,PUZZLE,1/2/7/4/5/6/3/8/9/10/,1/2/7/4/5/6/3/8/9/10/,C/C/C/C/C/C/C/C/C/C/,177,196
+girlsinc-2017-ShimmerFlitter,repeat-b,END,"    this.grey monkey.jump onto(this.couch) /
+    this.grey monkey.turnToFace(this.brown monkey) /
+    count 2 / {
+      this.grey monkey.move arms up and down() /
+      this.brown monkey.move arms up and down() /
+    }
+    this.grey monkey.hop side to side() /
+    count 2 / {
+      this.brown monkey.turn around() /
+      this.brown monkey.jump forward() /
+    }
+    this.grey monkey.lay down() /",4,10,0,199
+girlsinc-2017-ShimmerFlitter,repeat-c,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/,37,41
+girlsinc-2017-ShimmerFlitter,repeat-c,PUZZLE,1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/,49,-1
+girlsinc-2017-ShimmerFlitter,repeat-c,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/2/3/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/,52,55
+girlsinc-2017-ShimmerFlitter,repeat-c,PUZZLE,1/-1/2/3/-1/-1/-1/-1/-1/,1/-1/2/3/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/,63,-1
+girlsinc-2017-ShimmerFlitter,repeat-c,REFERENCE,1/-1/2/3/-1/-1/-1/-1/-1/,1/-1/2/3/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/,66,-1
+girlsinc-2017-ShimmerFlitter,repeat-c,PUZZLE,1/-1/2/3/-1/-1/-1/-1/-1/,1/-1/2/3/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/,72,-1
+girlsinc-2017-ShimmerFlitter,repeat-c,REFERENCE,1/-1/2/3/-1/-1/-1/-1/-1/,1/-1/2/3/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/,79,-1
+girlsinc-2017-ShimmerFlitter,repeat-c,REFERENCE,1/-1/2/3/-1/-1/-1/-1/-1/,1/-1/2/3/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/,82,-1
+girlsinc-2017-ShimmerFlitter,repeat-c,PUZZLE,1/-1/2/3/-1/-1/-1/-1/-1/,1/-1/2/3/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/,85,-1
+girlsinc-2017-ShimmerFlitter,repeat-c,REFERENCE,1/-1/2/3/-1/-1/-1/-1/-1/,1/-1/2/3/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/,88,-1
+girlsinc-2017-ShimmerFlitter,repeat-c,PUZZLE,1/-1/2/3/-1/-1/-1/-1/-1/,1/-1/2/3/-1/4/5/-1/-1/,C/I/U/U/U/U/U/U/U/,90,94
+girlsinc-2017-ShimmerFlitter,repeat-c,REFERENCE,1/-1/2/3/-1/4/5/-1/-1/,1/-1/2/3/4/5/6/-1/-1/,C/I/U/U/U/U/U/U/U/,107,115
+girlsinc-2017-ShimmerFlitter,repeat-c,PUZZLE,1/-1/2/3/4/5/6/-1/-1/,1/3/2/4/5/6/7/-1/-1/,C/I/U/U/U/U/U/U/U/,121,126
+girlsinc-2017-ShimmerFlitter,repeat-c,PUZZLE,1/3/2/4/5/6/7/-1/-1/,1/2/3/4/5/6/7/9/8/,C/I/U/U/U/U/U/U/U/,134,144
+girlsinc-2017-ShimmerFlitter,repeat-c,PUZZLE,1/2/3/4/5/6/7/9/8/,1/2/3/4/5/6/7/9/8/,C/C/C/I/U/U/U/U/U/,161,168
+girlsinc-2017-ShimmerFlitter,repeat-c,PUZZLE,1/2/3/4/5/6/7/9/8/,1/2/3/4/5/6/7/9/8/,C/C/C/C/I/U/U/U/U/,175,181
+girlsinc-2017-ShimmerFlitter,repeat-c,PUZZLE,1/2/3/4/5/6/7/9/8/,1/2/3/4/5/6/7/9/8/,C/C/C/I/U/U/U/U/U/,184,-1
+girlsinc-2017-ShimmerFlitter,repeat-c,REFERENCE,1/2/3/4/5/6/7/9/8/,1/-1/2/3/4/5/6/8/7/,C/C/C/I/U/U/U/U/U/,190,192
+girlsinc-2017-ShimmerFlitter,repeat-c,PUZZLE,1/-1/2/3/4/5/6/8/7/,1/3/2/4/5/6/7/9/8/,C/I/U/U/U/U/U/U/U/,198,202
+girlsinc-2017-ShimmerFlitter,repeat-c,PUZZLE,1/3/2/4/5/6/7/9/8/,1/3/2/4/5/6/7/9/8/,C/I/U/U/U/U/U/U/U/,214,-1
+girlsinc-2017-ShimmerFlitter,repeat-c,REFERENCE,1/3/2/4/5/6/7/9/8/,1/3/2/4/5/6/7/9/8/,C/I/U/U/U/U/U/U/U/,217,-1
+girlsinc-2017-ShimmerFlitter,repeat-c,REFERENCE,1/3/2/4/5/6/7/9/8/,1/3/2/4/5/6/7/9/8/,C/I/U/U/U/U/U/U/U/,221,-1
+girlsinc-2017-ShimmerFlitter,repeat-c,PUZZLE,1/3/2/4/5/6/7/9/8/,1/3/2/4/5/6/7/9/8/,C/I/U/U/U/U/U/U/U/,224,-1
+girlsinc-2017-ShimmerFlitter,repeat-c,REFERENCE,1/3/2/4/5/6/7/9/8/,1/3/2/4/5/6/7/8/9/,C/I/U/U/U/U/U/U/U/,229,245
+girlsinc-2017-ShimmerFlitter,repeat-c,PUZZLE,1/3/2/4/5/6/7/8/9/,1/3/2/4/5/6/7/8/9/,C/I/U/U/U/U/U/U/U/,260,-1
+girlsinc-2017-ShimmerFlitter,repeat-c,REFERENCE,1/3/2/4/5/6/7/8/9/,1/3/2/4/5/6/7/8/9/,C/I/U/U/U/U/U/U/U/,263,-1
+girlsinc-2017-ShimmerFlitter,repeat-c,REFERENCE,1/3/2/4/5/6/7/8/9/,1/3/2/4/5/6/7/8/9/,C/I/U/U/U/U/U/U/U/,268,-1
+girlsinc-2017-ShimmerFlitter,repeat-c,REFERENCE,1/3/2/4/5/6/7/8/9/,1/2/3/4/5/6/7/8/9/,C/I/U/U/U/U/U/U/U/,270,274
+girlsinc-2017-ShimmerFlitter,repeat-c,PUZZLE,1/2/3/4/5/6/7/8/9/,1/2/3/4/5/6/7/8/9/,C/C/C/C/I/U/U/U/U/,294,300
+girlsinc-2017-ShimmerFlitter,repeat-c,REFERENCE,1/2/3/4/5/6/7/8/9/,1/2/3/4/5/6/7/8/9/,C/C/C/C/I/U/U/U/U/,317,-1
+girlsinc-2017-ShimmerFlitter,repeat-c,PUZZLE,1/2/3/4/5/6/7/8/9/,1/2/3/4/5/6/7/8/9/,C/C/C/C/I/U/U/U/U/,319,-1
+girlsinc-2017-ShimmerFlitter,repeat-c,REFERENCE,1/2/3/4/5/6/7/8/9/,1/3/2/4/5/6/7/8/9/,C/C/C/C/I/U/U/U/U/,323,325
+girlsinc-2017-ShimmerFlitter,repeat-c,PUZZLE,1/3/2/4/5/6/7/8/9/,1/2/3/4/5/6/7/8/9/,C/I/U/U/U/U/U/U/U/,357,361
+girlsinc-2017-ShimmerFlitter,repeat-c,PUZZLE,1/2/3/4/5/6/7/8/9/,1/2/3/4/5/6/7/8/9/,C/C/C/C/I/U/U/U/U/,363,367
+girlsinc-2017-ShimmerFlitter,repeat-c,PUZZLE,1/2/3/4/5/6/7/8/9/,1/2/3/5/4/6/7/8/9/,C/C/C/I/U/U/U/U/U/,372,376
+girlsinc-2017-ShimmerFlitter,repeat-c,PUZZLE,1/2/3/5/4/6/7/8/9/,1/-1/2/3/4/5/6/7/8/,C/C/C/I/U/U/U/U/U/,380,386
+girlsinc-2017-ShimmerFlitter,repeat-c,PUZZLE,1/-1/2/3/4/5/6/7/8/,1/-1/2/3/4/5/6/7/8/,C/I/U/U/U/U/U/U/U/,409,-1
+girlsinc-2017-ShimmerFlitter,repeat-c,REFERENCE,1/-1/2/3/4/5/6/7/8/,1/-1/2/3/4/5/6/7/8/,C/I/U/U/U/U/U/U/U/,414,-1
+girlsinc-2017-ShimmerFlitter,repeat-c,REFERENCE,1/-1/2/3/4/5/6/7/8/,1/-1/2/3/4/5/6/7/8/,C/I/U/U/U/U/U/U/U/,419,-1
+girlsinc-2017-ShimmerFlitter,repeat-c,REFERENCE,1/-1/2/3/4/5/6/7/8/,1/-1/2/3/4/5/6/7/8/,C/I/U/U/U/U/U/U/U/,428,-1
+girlsinc-2017-ShimmerFlitter,repeat-c,PUZZLE,1/-1/2/3/4/5/6/7/8/,1/-1/2/3/4/5/6/7/8/,C/I/U/U/U/U/U/U/U/,430,-1
+girlsinc-2017-ShimmerFlitter,repeat-c,REFERENCE,1/-1/2/3/4/5/6/7/8/,1/-1/2/3/4/5/6/7/8/,C/I/U/U/U/U/U/U/U/,432,-1
+girlsinc-2017-ShimmerFlitter,repeat-c,PUZZLE,1/-1/2/3/4/5/6/7/8/,1/-1/2/3/4/5/6/7/8/,C/I/U/U/U/U/U/U/U/,434,-1
+girlsinc-2017-ShimmerFlitter,repeat-c,REFERENCE,1/-1/2/3/4/5/6/7/8/,1/-1/2/3/4/5/6/7/8/,C/I/U/U/U/U/U/U/U/,437,-1
+girlsinc-2017-ShimmerFlitter,repeat-c,PUZZLE,1/-1/2/3/4/5/6/7/8/,1/-1/2/3/4/5/6/7/8/,C/I/U/U/U/U/U/U/U/,441,-1
+girlsinc-2017-ShimmerFlitter,repeat-c,REFERENCE,1/-1/2/3/4/5/6/7/8/,1/-1/2/3/4/5/6/7/8/,C/I/U/U/U/U/U/U/U/,447,-1
+girlsinc-2017-ShimmerFlitter,repeat-c,PUZZLE,1/-1/2/3/4/5/6/7/8/,1/-1/2/3/4/5/6/7/8/,C/I/U/U/U/U/U/U/U/,450,453
+girlsinc-2017-ShimmerFlitter,repeat-c,REFERENCE,1/-1/2/3/4/5/6/7/8/,1/2/3/4/5/6/7/8/9/,C/I/U/U/U/U/U/U/U/,491,502
+girlsinc-2017-ShimmerFlitter,repeat-c,PUZZLE,1/2/3/4/5/6/7/8/9/,1/2/3/4/5/6/7/8/9/,C/C/C/C/C/I/U/U/U/,516,522
+girlsinc-2017-ShimmerFlitter,repeat-c,PUZZLE,1/2/3/4/5/6/7/8/9/,1/2/3/4/5/6/7/8/9/,C/C/C/C/C/I/U/U/U/,533,-1
+girlsinc-2017-ShimmerFlitter,repeat-c,REFERENCE,1/2/3/4/5/6/7/8/9/,1/2/3/4/5/6/7/8/9/,C/C/C/C/C/I/U/U/U/,535,547
+girlsinc-2017-ShimmerFlitter,repeat-c,PUZZLE,1/2/3/4/5/6/7/8/9/,1/2/3/4/5/6/7/8/9/,C/C/C/C/C/C/C/C/C/,550,570
+girlsinc-2017-ShimmerFlitter,repeat-c,END,"    this.dolphin.approach(this.fishing boat) /
+    count 2 / {
+      this.dolphin.bump(this.fishing boat) /
+      this.fishing boat.shake() /
+      this.fishing boat.move(TypeExpression.DOWN, 0.1) /
+      count 2 / {
+        this.rabbit.jump around() /
+      }
+    }
+    this.fishing boat.sink completely() /
+    this.rabbit.ride(this.dolphin) /",7,9,0,572
+girlsinc-2017-ShimmerFlitter,repeat-cc,REFERENCE,-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/,9,11
+girlsinc-2017-ShimmerFlitter,repeat-cc,REFERENCE,1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/,14,19
+girlsinc-2017-ShimmerFlitter,repeat-cc,REFERENCE,1/-1/-1/-1/-1/-1/,1/-1/-1/2/-1/-1/,C/I/U/U/U/U/,24,27
+girlsinc-2017-ShimmerFlitter,repeat-cc,PUZZLE,1/-1/-1/2/-1/-1/,1/-1/2/3/-1/-1/,C/I/U/U/U/U/,32,35
+girlsinc-2017-ShimmerFlitter,repeat-cc,PUZZLE,1/-1/2/3/-1/-1/,1/-1/2/3/-1/-1/,C/I/U/U/U/U/,43,-1
+girlsinc-2017-ShimmerFlitter,repeat-cc,REFERENCE,1/-1/2/3/-1/-1/,1/2/3/4/-1/5/,C/I/U/U/U/U/,47,62
+girlsinc-2017-ShimmerFlitter,repeat-cc,PUZZLE,1/2/3/4/-1/5/,1/2/3/4/5/6/,C/C/C/C/I/U/,72,81
+girlsinc-2017-ShimmerFlitter,repeat-cc,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,85,104
+girlsinc-2017-ShimmerFlitter,repeat-cc,END,"    this.alien.say(It's time to dance!) /
+    count 3 / {
+      this.alien.slide to the left() /
+      this.alien.slide to the right() /
+      count 2 / {
+        this.alien.criss cross legs() /
+      }
+    }",4,6,0,107
+girlsinc-2017-ShimmerFlitter,repeat-dd,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/,1/2/3/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/,23,27
+girlsinc-2017-ShimmerFlitter,repeat-dd,PUZZLE,1/2/3/-1/-1/-1/-1/-1/,1/2/3/-1/-1/-1/-1/-1/,C/C/C/I/U/U/U/U/,37,-1
+girlsinc-2017-ShimmerFlitter,repeat-dd,REFERENCE,1/2/3/-1/-1/-1/-1/-1/,1/2/3/-1/-1/4/5/-1/,C/C/C/I/U/U/U/U/,41,53
+girlsinc-2017-ShimmerFlitter,repeat-dd,PUZZLE,1/2/3/-1/-1/4/5/-1/,1/2/3/-1/-1/4/5/-1/,C/C/C/I/U/U/U/U/,73,-1
+girlsinc-2017-ShimmerFlitter,repeat-dd,REFERENCE,1/2/3/-1/-1/4/5/-1/,1/2/3/-1/-1/4/5/-1/,C/C/C/I/U/U/U/U/,80,-1
+girlsinc-2017-ShimmerFlitter,repeat-dd,PUZZLE,1/2/3/-1/-1/4/5/-1/,1/2/3/-1/-1/4/5/-1/,C/C/C/I/U/U/U/U/,90,-1
+girlsinc-2017-ShimmerFlitter,repeat-dd,REFERENCE,1/2/3/-1/-1/4/5/-1/,1/2/4/3/-1/5/6/-1/,C/C/C/I/U/U/U/U/,96,102
+girlsinc-2017-ShimmerFlitter,repeat-dd,PUZZLE,1/2/4/3/-1/5/6/-1/,1/2/4/3/-1/5/6/-1/,C/C/I/U/U/U/U/U/,109,-1
+girlsinc-2017-ShimmerFlitter,repeat-dd,REFERENCE,1/2/4/3/-1/5/6/-1/,1/2/3/4/-1/5/6/-1/,C/C/I/U/U/U/U/U/,114,117
+girlsinc-2017-ShimmerFlitter,repeat-dd,PUZZLE,1/2/3/4/-1/5/6/-1/,1/2/3/4/-1/5/6/-1/,C/C/C/C/C/I/U/U/,121,-1
+girlsinc-2017-ShimmerFlitter,repeat-dd,REFERENCE,1/2/3/4/-1/5/6/-1/,1/2/3/4/5/6/7/8/,C/C/C/C/C/I/U/U/,133,157
+girlsinc-2017-ShimmerFlitter,repeat-dd,PUZZLE,1/2/3/4/5/6/7/8/,1/2/3/4/5/6/7/8/,C/C/C/C/C/C/C/C/,174,209
+girlsinc-2017-ShimmerFlitter,repeat-dd,END,"    this.hare.say(Ready....Set...) /
+    this.hare.raise arm() /
+    this.hare.say(GO!!) /
+    this.hare.getRightShoulder().turn(TypeExpression.RIGHT, 0.35) /
+    count 2 / {
+      count 2 / {
+        this.rhinos paw ground() /
+      }
+      this.rhinos charge() /
+    }",4,8,0,212
+girlsinc-2017-ShimmerFlitter,repeat-hh,REFERENCE,-1/-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/,25,-1
+girlsinc-2017-ShimmerFlitter,repeat-hh,REFERENCE,-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/,30,32
+girlsinc-2017-ShimmerFlitter,repeat-hh,PUZZLE,1/2/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/,39,-1
+girlsinc-2017-ShimmerFlitter,repeat-hh,REFERENCE,1/2/-1/-1/-1/-1/-1/,1/2/-1/3/-1/-1/-1/,C/C/I/U/U/U/U/,43,50
+girlsinc-2017-ShimmerFlitter,repeat-hh,PUZZLE,1/2/-1/3/-1/-1/-1/,1/2/-1/3/-1/-1/-1/,C/C/I/U/U/U/U/,55,-1
+girlsinc-2017-ShimmerFlitter,repeat-hh,REFERENCE,1/2/-1/3/-1/-1/-1/,1/2/4/5/3/6/7/,C/C/I/U/U/U/U/,61,71
+girlsinc-2017-ShimmerFlitter,repeat-hh,PUZZLE,1/2/4/5/3/6/7/,1/2/4/5/3/6/7/,C/C/I/U/U/U/U/,99,-1
+girlsinc-2017-ShimmerFlitter,repeat-hh,REFERENCE,1/2/4/5/3/6/7/,1/2/3/4/5/6/7/,C/C/I/U/U/U/U/,106,112
+girlsinc-2017-ShimmerFlitter,repeat-hh,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/C/C/,146,163
+girlsinc-2017-ShimmerFlitter,repeat-hh,END,"    this.witch.turn(TypeExpression.RIGHT, 0.125) /
+    this.witch.raise arms() /
+    count 2 / {
+      this.magicStaff.move up and down() /
+      count 3 / {
+        this.cauldron.spin() /
+      }
+    }
+    this.cauldron.explode() /",4,7,0,167
+girlsinc-2017-ShimmerFlitter,repeat-ii,REFERENCE,1/-1/2/3/-1/-1/,1/2/3/4/5/6/,C/I/U/U/U/U/,18,33
+girlsinc-2017-ShimmerFlitter,repeat-ii,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/I/,47,-1
+girlsinc-2017-ShimmerFlitter,repeat-ii,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/I/,53,58
+girlsinc-2017-ShimmerFlitter,repeat-ii,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/I/U/,67,-1
+girlsinc-2017-ShimmerFlitter,repeat-ii,REFERENCE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/I/U/,72,78
+girlsinc-2017-ShimmerFlitter,repeat-ii,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,81,117
+girlsinc-2017-ShimmerFlitter,repeat-ii,END,"    this.troll.say(I really wish I had something to row with) /
+    count 5 / {
+      count 2 / {
+        this.troll.row() /
+        this.boat.move(TypeExpression.BACKWARD, 0.25) /
+      }
+      this.troll.take a nap() /
+    }",4,6,0,121
+girlsinc-2017-ShimmerFlitter,repeat-ff,REFERENCE,-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/,8,11
+girlsinc-2017-ShimmerFlitter,repeat-ff,REFERENCE,1/-1/-1/-1/-1/-1/,1/-1/-1/2/3/-1/,C/I/U/U/U/U/,15,20
+girlsinc-2017-ShimmerFlitter,repeat-ff,REFERENCE,1/-1/-1/2/3/-1/,1/-1/-1/2/3/-1/,C/I/U/U/U/U/,27,34
+girlsinc-2017-ShimmerFlitter,repeat-ff,REFERENCE,1/-1/-1/2/3/-1/,1/-1/-1/2/3/-1/,C/I/U/U/U/U/,37,-1
+girlsinc-2017-ShimmerFlitter,repeat-ff,REFERENCE,1/-1/-1/2/3/-1/,1/2/3/4/5/6/,C/I/U/U/U/U/,54,58
+girlsinc-2017-ShimmerFlitter,repeat-ff,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,78,94
+girlsinc-2017-ShimmerFlitter,repeat-ff,END,"    this.phoenix.say(I can do this, I know I can!) /
+    count 5 / {
+      count 3 / {
+        this.phoenix.flap wings(0.125) /
+      }
+      this.phoenix.glide() /
+    }
+    this.phoenix.land on rock() /",4,6,0,96
+girlsinc-2017-ShimmerFlitter,repeat-j,REFERENCE,-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/,7,9
+girlsinc-2017-ShimmerFlitter,repeat-j,PUZZLE,1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/,14,-1
+girlsinc-2017-ShimmerFlitter,repeat-j,REFERENCE,1/-1/-1/-1/-1/-1/,1/2/4/3/5/6/,C/I/U/U/U/U/,18,24
+girlsinc-2017-ShimmerFlitter,repeat-j,PUZZLE,1/2/4/3/5/6/,1/2/4/3/5/6/,C/C/I/U/U/U/,37,-1
+girlsinc-2017-ShimmerFlitter,repeat-j,REFERENCE,1/2/4/3/5/6/,1/2/3/4/5/6/,C/C/I/U/U/U/,41,49
+girlsinc-2017-ShimmerFlitter,repeat-j,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,59,67
+girlsinc-2017-ShimmerFlitter,repeat-j,END,"    this.witch.activate(this.cauldron) /
+    count 3 / {
+      this.cauldron.jump and spin() /
+      do together / {
+        this.witch.jump backwards() /
+        this.troll.jump backwards() /
+      }
+    }",4,6,0,69
+girlsinc-2017-ShimmerFlitter,repeat-i,REFERENCE,-1/-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/,8,-1
+girlsinc-2017-ShimmerFlitter,repeat-i,REFERENCE,-1/-1/-1/-1/-1/-1/-1/,1/2/3/-1/-1/-1/-1/,I/U/U/U/U/U/U/,12,18
+girlsinc-2017-ShimmerFlitter,repeat-i,PUZZLE,1/2/3/-1/-1/-1/-1/,1/2/3/-1/-1/-1/-1/,C/C/C/I/U/U/U/,30,-1
+girlsinc-2017-ShimmerFlitter,repeat-i,REFERENCE,1/2/3/-1/-1/-1/-1/,1/2/3/4/5/7/6/,C/C/C/I/U/U/U/,33,42
+girlsinc-2017-ShimmerFlitter,repeat-i,PUZZLE,1/2/3/4/5/7/6/,1/2/3/4/5/7/6/,C/C/C/C/C/C/C/,49,62
+girlsinc-2017-ShimmerFlitter,repeat-i,END,"    count 3 / {
+      this.penguin.turn(TypeExpression.RIGHT, 0.5) /
+      this.penguin.move(TypeExpression.FORWARD, 1.0) /
+    }
+    count 3 / {
+      do together / {
+        this.penguin.flutter wings() /
+        this.penguin.jump() /
+      }
+    }",2,7,0,64
+girlsinc-2017-ShimmerFlitter,repeat-o,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/,10,13
+girlsinc-2017-ShimmerFlitter,repeat-o,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/3/4/5/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/,16,24
+girlsinc-2017-ShimmerFlitter,repeat-o,PUZZLE,1/2/3/4/5/-1/-1/-1/-1/-1/-1/,1/2/3/4/5/-1/-1/-1/-1/-1/-1/,C/C/C/C/C/I/U/U/U/U/U/,34,-1
+girlsinc-2017-ShimmerFlitter,repeat-o,REFERENCE,1/2/3/4/5/-1/-1/-1/-1/-1/-1/,1/2/3/4/5/6/7/-1/-1/-1/-1/,C/C/C/C/C/I/U/U/U/U/U/,40,49
+girlsinc-2017-ShimmerFlitter,repeat-o,PUZZLE,1/2/3/4/5/6/7/-1/-1/-1/-1/,1/2/3/4/5/6/7/-1/-1/-1/-1/,C/C/C/C/C/C/C/I/U/U/U/,55,-1
+girlsinc-2017-ShimmerFlitter,repeat-o,REFERENCE,1/2/3/4/5/6/7/-1/-1/-1/-1/,1/2/3/4/5/6/7/8/9/10/11/,C/C/C/C/C/C/C/I/U/U/U/,64,77
+girlsinc-2017-ShimmerFlitter,repeat-o,PUZZLE,1/2/3/4/5/6/7/8/9/10/11/,1/2/3/4/5/6/7/8/9/10/11/,C/C/C/C/C/C/C/C/C/C/C/,84,97
+girlsinc-2017-ShimmerFlitter,repeat-o,END,"    this.troll.say(I have a bad feeling) /
+    count 2 / {
+      do together / {
+        this.cauldron.shake() /
+        this.lid.shoot up and down() /
+      }
+    }
+    this.witch.say(?) /
+    this.witch.move(TypeExpression.FORWARD, 0.5) /
+    this.cauldron.shrink and disappear() /
+    do together / {
+      this.troll.jump back() /
+      this.witch.jump back() /
+    }",2,11,0,100
+girlsinc-2017-ShimmerFlitter,repeat-n,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/,5,9
+girlsinc-2017-ShimmerFlitter,repeat-n,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,-1/-1/2/3/-1/-1/-1/1/-1/-1/,I/U/U/U/U/U/U/U/U/U/,21,25
+girlsinc-2017-ShimmerFlitter,repeat-n,PUZZLE,-1/-1/2/3/-1/-1/-1/1/-1/-1/,-1/-1/3/2/-1/-1/-1/1/-1/-1/,I/U/U/U/U/U/U/U/U/U/,37,41
+girlsinc-2017-ShimmerFlitter,repeat-n,PUZZLE,-1/-1/3/2/-1/-1/-1/1/-1/-1/,-1/-1/3/2/-1/-1/-1/1/-1/-1/,I/U/U/U/U/U/U/U/U/U/,44,-1
+girlsinc-2017-ShimmerFlitter,repeat-n,REFERENCE,-1/-1/3/2/-1/-1/-1/1/-1/-1/,-1/-1/3/2/-1/-1/-1/1/-1/-1/,I/U/U/U/U/U/U/U/U/U/,46,-1
+girlsinc-2017-ShimmerFlitter,repeat-n,REFERENCE,-1/-1/3/2/-1/-1/-1/1/-1/-1/,1/2/4/3/-1/-1/5/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/,53,61
+girlsinc-2017-ShimmerFlitter,repeat-n,PUZZLE,1/2/4/3/-1/-1/5/-1/-1/-1/,1/2/4/3/5/-1/-1/-1/-1/-1/,C/C/C/C/I/U/U/U/U/U/,83,88
+girlsinc-2017-ShimmerFlitter,repeat-n,PUZZLE,1/2/4/3/5/-1/-1/-1/-1/-1/,1/2/4/3/5/-1/-1/-1/-1/-1/,C/C/C/C/C/I/U/U/U/U/,94,-1
+girlsinc-2017-ShimmerFlitter,repeat-n,REFERENCE,1/2/4/3/5/-1/-1/-1/-1/-1/,1/2/4/3/5/6/7/8/9/10/,C/C/C/C/C/I/U/U/U/U/,101,111
+girlsinc-2017-ShimmerFlitter,repeat-n,PUZZLE,1/2/4/3/5/6/7/8/9/10/,1/2/4/3/5/6/7/8/9/10/,C/C/C/C/C/C/C/C/C/C/,122,141
+girlsinc-2017-ShimmerFlitter,repeat-n,END,"    count 2 / {
+      do together / {
+        this.big yeti.swing hammer() /
+        this.tiny yeti.lean back() /
+      }
+      this.tiny yeti.shrink() /
+    }
+    this.big yeti.drop hammer() /
+    this.tiny yeti.jump and grow(2.0) /
+    do together / {
+      this.tiny yeti.take a bow() /
+      this.big yeti.take a bow() /
+    }",4,10,0,144
+girlsinc-2017-ShimmerFlitter,repeat-w,REFERENCE,-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/,I/U/U/U/U/,6,9
+girlsinc-2017-ShimmerFlitter,repeat-w,REFERENCE,-1/-1/-1/-1/-1/,1/3/2/4/5/,I/U/U/U/U/,13,19
+girlsinc-2017-ShimmerFlitter,repeat-w,PUZZLE,1/3/2/4/5/,1/3/2/4/5/,C/I/U/U/U/,33,-1
+girlsinc-2017-ShimmerFlitter,repeat-w,REFERENCE,1/3/2/4/5/,1/3/2/4/5/,C/I/U/U/U/,39,-1
+girlsinc-2017-ShimmerFlitter,repeat-w,PUZZLE,1/3/2/4/5/,1/-1/2/3/4/,C/I/U/U/U/,48,54
+girlsinc-2017-ShimmerFlitter,repeat-w,PUZZLE,1/-1/2/3/4/,1/3/2/4/5/,C/I/U/U/U/,78,84
+girlsinc-2017-ShimmerFlitter,repeat-w,PUZZLE,1/3/2/4/5/,1/4/2/3/5/,C/I/U/U/U/,98,104
+girlsinc-2017-ShimmerFlitter,repeat-w,PUZZLE,1/4/2/3/5/,1/4/2/3/5/,C/I/U/U/U/,112,119
+girlsinc-2017-ShimmerFlitter,repeat-w,REFERENCE,1/4/2/3/5/,1/2/4/5/3/,C/I/U/U/U/,122,131
+girlsinc-2017-ShimmerFlitter,repeat-w,PUZZLE,1/2/4/5/3/,1/2/4/5/3/,C/C/C/C/C/,163,174
+girlsinc-2017-ShimmerFlitter,repeat-w,END,"    this.hare.pick up(this.basketball) /
+    do together / {
+      count 10 / {
+        this.hare.dribble ball once(this.basketball) /
+      }
+      this.hare.walk(2.0) /
+    }",6,5,0,177
+girlsinc-2017-ShimmerFlitter,repeat-x,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/U/,18,23
+girlsinc-2017-ShimmerFlitter,repeat-x,PUZZLE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/,30,-1
+girlsinc-2017-ShimmerFlitter,repeat-x,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/,34,41
+girlsinc-2017-ShimmerFlitter,repeat-x,REFERENCE,1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/3/4/-1/5/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/U/U/,52,58
+girlsinc-2017-ShimmerFlitter,repeat-x,REFERENCE,1/2/3/4/-1/5/-1/-1/-1/-1/-1/-1/,1/2/3/4/-1/5/6/-1/-1/-1/-1/-1/,C/C/C/C/I/I/U/U/U/U/U/U/,68,78
+girlsinc-2017-ShimmerFlitter,repeat-x,REFERENCE,1/2/3/4/-1/5/6/-1/-1/-1/-1/-1/,1/2/3/4/-1/5/6/-1/7/-1/-1/-1/,C/C/C/C/I/I/U/U/U/U/U/U/,94,107
+girlsinc-2017-ShimmerFlitter,repeat-x,REFERENCE,1/2/3/4/-1/5/6/-1/7/-1/-1/-1/,1/2/3/4/-1/5/6/-1/7/-1/8/-1/,C/C/C/C/I/I/U/U/U/U/U/U/,117,136
+girlsinc-2017-ShimmerFlitter,repeat-x,PUZZLE,1/2/3/4/-1/5/6/-1/7/-1/8/-1/,1/2/3/4/5/6/7/-1/8/-1/9/-1/,C/C/C/C/I/I/U/U/U/U/U/U/,140,148
+girlsinc-2017-ShimmerFlitter,repeat-x,PUZZLE,1/2/3/4/5/6/7/-1/8/-1/9/-1/,1/2/3/4/5/6/7/8/9/10/11/-1/,C/C/C/C/C/C/C/I/U/U/U/U/,157,171
+girlsinc-2017-ShimmerFlitter,repeat-x,PUZZLE,1/2/3/4/5/6/7/8/9/10/11/-1/,1/2/3/4/5/6/7/8/9/10/11/12/,C/C/C/C/C/C/C/C/C/C/C/I/,180,194
+girlsinc-2017-ShimmerFlitter,repeat-x,PUZZLE,1/2/3/4/5/6/7/8/9/10/11/12/,1/2/3/4/5/6/7/8/9/10/11/12/,C/C/C/C/C/C/C/C/C/C/C/C/,196,216
+girlsinc-2017-ShimmerFlitter,repeat-x,END,"    this.alienRobot.land on ground() /
+    this.alien.turnToFace(this.alienRobot) /
+    do together / {
+      this.alien.say(Yay, you're home!) /
+      count 3 / {
+        this.alienRobot.jump() /
+      }
+    }
+    this.alien.think(Hmmm I wish I could make you bigger...) /
+    do together / {
+      this.alien.cast alien magic() /
+      this.alien.say(Abbbbra Ka-Da-Bra) /
+    }
+    this.alienRobot.resize(3.0) /
+    this.alienRobot.face camera() /",4,12,0,220
+girlsinc-2017-ShimmerFlitter,repeat-l,REFERENCE,-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/,I/U/U/U/U/U/,11,14
+girlsinc-2017-ShimmerFlitter,repeat-l,PUZZLE,1/2/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/,C/C/I/U/U/U/,19,-1
+girlsinc-2017-ShimmerFlitter,repeat-l,REFERENCE,1/2/-1/-1/-1/-1/,1/2/3/6/4/5/,C/C/I/U/U/U/,21,28
+girlsinc-2017-ShimmerFlitter,repeat-l,PUZZLE,1/2/3/6/4/5/,1/2/3/6/4/5/,C/C/C/C/C/C/,51,61
+girlsinc-2017-ShimmerFlitter,repeat-l,END,"    this.cat.turn(TypeExpression.RIGHT, 0.5) /
+    this.cat.raise arms() /
+    do together / {
+      this.alien.turnToFace(this.cat) /
+      count 12 / {
+        this.cat.type at keyboard() /
+      }
+    }",2,6,0,63
+girlsinc-2017-ShimmerFlitter,repeat-q,REFERENCE,-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/,12,14
+girlsinc-2017-ShimmerFlitter,repeat-q,REFERENCE,1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/,19,-1
+girlsinc-2017-ShimmerFlitter,repeat-q,REFERENCE,1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/,28,33
+girlsinc-2017-ShimmerFlitter,repeat-q,PUZZLE,1/2/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/,42,-1
+girlsinc-2017-ShimmerFlitter,repeat-q,REFERENCE,1/2/-1/-1/-1/-1/-1/,1/2/3/4/-1/-1/-1/,C/C/I/U/U/U/U/,46,52
+girlsinc-2017-ShimmerFlitter,repeat-q,PUZZLE,1/2/3/4/-1/-1/-1/,1/2/3/4/-1/-1/-1/,C/C/C/C/I/I/I/,58,-1
+girlsinc-2017-ShimmerFlitter,repeat-q,REFERENCE,1/2/3/4/-1/-1/-1/,1/2/3/4/5/6/-1/,C/C/C/C/I/I/I/,59,70
+girlsinc-2017-ShimmerFlitter,repeat-q,REFERENCE,1/2/3/4/5/6/-1/,1/2/3/4/5/6/-1/,C/C/C/C/C/C/I/,75,90
+girlsinc-2017-ShimmerFlitter,repeat-q,PUZZLE,1/2/3/4/5/6/-1/,1/2/3/4/5/6/-1/,C/C/C/C/C/C/I/,93,98
+girlsinc-2017-ShimmerFlitter,repeat-q,PUZZLE,1/2/3/4/5/6/-1/,1/2/3/4/5/6/-1/,C/C/C/C/C/C/I/,101,-1
+girlsinc-2017-ShimmerFlitter,repeat-q,REFERENCE,1/2/3/4/5/6/-1/,1/2/3/4/5/7/6/,C/C/C/C/C/C/I/,103,109
+girlsinc-2017-ShimmerFlitter,repeat-q,REFERENCE,1/2/3/4/5/7/6/,1/2/3/4/5/7/6/,C/C/C/C/C/C/C/,120,125
+girlsinc-2017-ShimmerFlitter,repeat-q,END,"    this.ogre.sit down() /
+    this.ogre.go to sleep() /
+    do together / {
+      count 2 / {
+        this.ogre.snore() /
+      }
+      this.tortoise.walk up and toss flower() /
+      this.desertTortoise.crawl() /
+    }",4,7,0,131
+girlsinc-2017-ShimmerFlitter,repeat-y,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/,6,-1
+girlsinc-2017-ShimmerFlitter,repeat-y,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/,12,-1
+girlsinc-2017-ShimmerFlitter,repeat-y,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/,14,16
+girlsinc-2017-ShimmerFlitter,repeat-y,PUZZLE,1/2/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/,29,31
+girlsinc-2017-ShimmerFlitter,repeat-y,REFERENCE,1/2/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/3/-1/-1/-1/,C/C/I/U/U/U/U/U/U/,32,35
+girlsinc-2017-ShimmerFlitter,repeat-y,PUZZLE,1/2/-1/-1/-1/3/-1/-1/-1/,1/2/-1/-1/-1/3/-1/-1/-1/,C/C/I/I/U/U/U/U/U/,38,-1
+girlsinc-2017-ShimmerFlitter,repeat-y,REFERENCE,1/2/-1/-1/-1/3/-1/-1/-1/,1/2/3/-1/-1/-1/-1/-1/-1/,C/C/I/I/U/U/U/U/U/,44,46
+girlsinc-2017-ShimmerFlitter,repeat-y,PUZZLE,1/2/3/-1/-1/-1/-1/-1/-1/,1/2/3/-1/-1/-1/-1/-1/-1/,C/C/C/I/U/U/U/U/U/,57,-1
+girlsinc-2017-ShimmerFlitter,repeat-y,REFERENCE,1/2/3/-1/-1/-1/-1/-1/-1/,1/2/3/-1/4/5/-1/-1/-1/,C/C/C/I/U/U/U/U/U/,61,69
+girlsinc-2017-ShimmerFlitter,repeat-y,REFERENCE,1/2/3/-1/4/5/-1/-1/-1/,1/2/3/-1/4/5/-1/-1/-1/,C/C/C/I/U/U/U/U/U/,77,-1
+girlsinc-2017-ShimmerFlitter,repeat-y,PUZZLE,1/2/3/-1/4/5/-1/-1/-1/,1/2/3/4/5/6/7/-1/-1/,C/C/C/I/U/U/U/U/U/,84,90
+girlsinc-2017-ShimmerFlitter,repeat-y,PUZZLE,1/2/3/4/5/6/7/-1/-1/,1/2/3/4/5/6/7/-1/-1/,C/C/C/C/C/C/C/I/U/,101,-1
+girlsinc-2017-ShimmerFlitter,repeat-y,REFERENCE,1/2/3/4/5/6/7/-1/-1/,1/2/3/4/5/6/7/8/9/,C/C/C/C/C/C/C/I/U/,104,122
+girlsinc-2017-ShimmerFlitter,repeat-y,PUZZLE,1/2/3/4/5/6/7/8/9/,1/2/3/4/5/6/7/8/9/,C/C/C/C/C/C/C/C/C/,128,147
+girlsinc-2017-ShimmerFlitter,repeat-y,END,"    do together / {
+      this.blueDragon.stand up() /
+      this.redDragon.raise leg and spin() /
+    }
+    do together / {
+      count 3 / {
+        this.redDragon.lift up legs() /
+      }
+      this.redDragon.jump up and down() /
+    }
+    this.redDragon.turnToFace(this.blueDragon) /
+    this.blueDragon.hide() /",4,9,0,150
+girlsinc-2017-ShimmerFlitter,repeat-r,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/,7,-1
+girlsinc-2017-ShimmerFlitter,repeat-r,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/,24,26
+girlsinc-2017-ShimmerFlitter,repeat-r,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/,28,-1
+girlsinc-2017-ShimmerFlitter,repeat-r,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/2/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/,38,42
+girlsinc-2017-ShimmerFlitter,repeat-r,REFERENCE,1/-1/-1/-1/-1/-1/2/-1/-1/-1/,1/-1/2/4/3/-1/-1/-1/-1/-1/,C/C/I/I/U/U/U/U/U/U/,73,77
+girlsinc-2017-ShimmerFlitter,repeat-r,PUZZLE,1/-1/2/4/3/-1/-1/-1/-1/-1/,1/-1/2/4/3/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/,89,94
+girlsinc-2017-ShimmerFlitter,repeat-r,REFERENCE,1/-1/2/4/3/-1/-1/-1/-1/-1/,1/-1/2/5/4/6/3/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/,147,159
+girlsinc-2017-ShimmerFlitter,repeat-r,PUZZLE,1/-1/2/5/4/6/3/-1/-1/-1/,1/-1/2/5/4/6/3/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/,186,-1
+girlsinc-2017-ShimmerFlitter,repeat-r,REFERENCE,1/-1/2/5/4/6/3/-1/-1/-1/,1/-1/4/5/3/6/2/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/,192,218
+girlsinc-2017-ShimmerFlitter,repeat-r,PUZZLE,1/-1/4/5/3/6/2/-1/-1/-1/,1/8/4/5/3/6/2/7/10/9/,C/C/C/C/C/C/I/U/U/U/,262,268
+girlsinc-2017-ShimmerFlitter,repeat-r,PUZZLE,1/8/4/5/3/6/2/7/10/9/,1/8/4/5/3/6/2/7/10/9/,C/C/C/C/C/C/I/U/U/U/,293,-1
+girlsinc-2017-ShimmerFlitter,repeat-r,REFERENCE,1/8/4/5/3/6/2/7/10/9/,1/7/4/5/3/6/2/8/10/9/,C/C/C/C/C/C/I/U/U/U/,310,327
+girlsinc-2017-ShimmerFlitter,repeat-r,PUZZLE,1/7/4/5/3/6/2/8/10/9/,1/7/4/5/3/6/2/8/10/9/,C/C/C/C/C/C/C/C/C/C/,331,348
+girlsinc-2017-ShimmerFlitter,repeat-r,END,"    this.bunny.say(We've located the treasure!) /
+    do together / {
+      count 3 / {
+        this.pirateShip.move(TypeExpression.FORWARD, 25.0) /
+      }
+      this.camera.move(TypeExpression.FORWARD, 75.0) /
+    }
+    this.camera fly to island() /
+    do together / {
+      this.treasureChest.getChestLid().turn(TypeExpression.BACKWARD, 0.25) /
+      this.coinPile.appear() /
+      this.coinStack.appear() /
+    }",6,10,0,350
+girlsinc-2017-ShimmerFlitter,repeat-p,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,-1/1/-1/-1/2/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/,8,14
+girlsinc-2017-ShimmerFlitter,repeat-p,PUZZLE,-1/1/-1/-1/2/-1/-1/-1/-1/-1/-1/,-1/1/2/-1/3/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/,27,30
+girlsinc-2017-ShimmerFlitter,repeat-p,REFERENCE,-1/1/2/-1/3/-1/-1/-1/-1/-1/-1/,-1/1/2/3/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/,36,45
+girlsinc-2017-ShimmerFlitter,repeat-p,PUZZLE,-1/1/2/3/-1/-1/-1/-1/-1/-1/-1/,-1/-1/1/2/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/,73,75
+girlsinc-2017-ShimmerFlitter,repeat-p,PUZZLE,-1/-1/1/2/-1/-1/-1/-1/-1/-1/-1/,-1/-1/1/2/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/,79,82
+girlsinc-2017-ShimmerFlitter,repeat-p,REFERENCE,-1/-1/1/2/-1/-1/-1/-1/-1/-1/-1/,-1/-1/1/2/3/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/,95,99
+girlsinc-2017-ShimmerFlitter,repeat-p,PUZZLE,-1/-1/1/2/3/-1/-1/-1/-1/-1/-1/,-1/-1/1/2/3/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/,103,-1
+girlsinc-2017-ShimmerFlitter,repeat-p,REFERENCE,-1/-1/1/2/3/-1/-1/-1/-1/-1/-1/,-1/-1/1/2/3/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/,107,110
+girlsinc-2017-ShimmerFlitter,repeat-p,REFERENCE,-1/-1/1/2/3/-1/-1/-1/-1/-1/-1/,1/5/2/3/4/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/,114,116
+girlsinc-2017-ShimmerFlitter,repeat-p,PUZZLE,1/5/2/3/4/-1/-1/-1/-1/-1/-1/,1/5/2/3/4/-1/-1/-1/-1/-1/-1/,C/C/C/C/C/I/U/U/U/U/U/,126,-1
+girlsinc-2017-ShimmerFlitter,repeat-p,REFERENCE,1/5/2/3/4/-1/-1/-1/-1/-1/-1/,1/5/2/3/4/6/7/8/9/10/11/,C/C/C/C/C/I/U/U/U/U/U/,128,145
+girlsinc-2017-ShimmerFlitter,repeat-p,PUZZLE,1/5/2/3/4/6/7/8/9/10/11/,1/5/2/3/4/6/7/8/9/10/11/,C/C/C/C/C/C/C/C/C/C/C/,163,181
+girlsinc-2017-ShimmerFlitter,repeat-p,END,"    do together / {
+      this.shark.move(TypeExpression.FORWARD, 25.0) /
+      count 4 / {
+        this.fish.swim forward() /
+        this.fish.turn around() /
+      }
+    }
+    do together / {
+      this.fish.turnToFace(this.shark) /
+      this.shark.turnToFace(this.fish) /
+    }
+    this.shark.open mouth() /
+    this.shark.moveTo(this.fish) /
+    this.shark.close mouth() /",4,11,0,184
+girlsinc-2017-ShimmerFlitter,repeat-s,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/U/U/U/,200,203
+girlsinc-2017-ShimmerFlitter,repeat-s,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/U/U/,253,-1
+girlsinc-2017-ShimmerFlitter,repeat-s,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/U/U/,261,-1
+girlsinc-2017-ShimmerFlitter,repeat-s,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/U/U/,268,273
+girlsinc-2017-ShimmerFlitter,repeat-s,REFERENCE,1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/U/U/U/U/,285,-1
+girlsinc-2017-ShimmerFlitter,repeat-s,PUZZLE,1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/U/U/U/U/,288,-1
+girlsinc-2017-ShimmerFlitter,repeat-s,REFERENCE,1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/3/-1/-1/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/U/U/U/U/,291,302
+girlsinc-2017-ShimmerFlitter,repeat-s,REFERENCE,1/2/-1/-1/-1/3/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/5/6/7/-1/-1/-1/3/-1/4/-1/,C/C/I/U/U/U/U/U/U/U/U/U/U/U/,323,334
+girlsinc-2017-ShimmerFlitter,repeat-s,PUZZLE,1/2/-1/-1/5/6/7/-1/-1/-1/3/-1/4/-1/,1/2/-1/-1/5/6/7/-1/-1/-1/3/-1/4/-1/,C/C/I/U/U/U/U/U/U/U/U/U/U/U/,356,-1
+girlsinc-2017-ShimmerFlitter,repeat-s,REFERENCE,1/2/-1/-1/5/6/7/-1/-1/-1/3/-1/4/-1/,1/2/3/4/5/6/7/-1/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/U/U/U/U/,365,382
+girlsinc-2017-ShimmerFlitter,repeat-s,PUZZLE,1/2/3/4/5/6/7/-1/-1/-1/-1/-1/-1/-1/,1/2/3/4/5/6/7/-1/-1/-1/-1/-1/-1/-1/,C/C/C/C/C/C/I/U/U/U/U/U/U/U/,400,-1
+girlsinc-2017-ShimmerFlitter,repeat-s,REFERENCE,1/2/3/4/5/6/7/-1/-1/-1/-1/-1/-1/-1/,1/2/3/4/5/6/7/-1/-1/-1/-1/-1/-1/-1/,C/C/C/C/C/C/I/U/U/U/U/U/U/U/,412,425
+girlsinc-2017-ShimmerFlitter,repeat-s,PUZZLE,1/2/3/4/5/6/7/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/6/5/7/-1/-1/-1/3/-1/4/-1/,C/C/C/C/C/C/I/U/U/U/U/U/U/U/,443,452
+girlsinc-2017-ShimmerFlitter,repeat-s,PUZZLE,1/2/-1/-1/6/5/7/-1/-1/-1/3/-1/4/-1/,1/2/-1/-1/6/5/7/-1/-1/-1/3/-1/4/-1/,C/C/I/U/U/U/U/U/U/U/U/U/U/U/,467,-1
+girlsinc-2017-ShimmerFlitter,repeat-s,REFERENCE,1/2/-1/-1/6/5/7/-1/-1/-1/3/-1/4/-1/,1/2/4/5/6/7/3/-1/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/U/U/U/U/,475,477
+girlsinc-2017-ShimmerFlitter,repeat-s,REFERENCE,1/2/4/5/6/7/3/-1/-1/-1/-1/-1/-1/-1/,1/2/4/5/6/7/3/-1/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/U/U/U/U/,501,-1
+girlsinc-2017-ShimmerFlitter,repeat-s,PUZZLE,1/2/4/5/6/7/3/-1/-1/-1/-1/-1/-1/-1/,1/2/3/4/5/6/7/-1/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/U/U/U/U/,503,512
+girlsinc-2017-ShimmerFlitter,repeat-s,PUZZLE,1/2/3/4/5/6/7/-1/-1/-1/-1/-1/-1/-1/,1/2/3/4/5/6/7/-1/-1/-1/-1/-1/-1/-1/,C/C/C/C/C/C/I/U/U/U/U/U/U/U/,515,527
+girlsinc-2017-ShimmerFlitter,repeat-s,REFERENCE,1/2/3/4/5/6/7/-1/-1/-1/-1/-1/-1/-1/,1/2/3/4/5/6/7/-1/-1/-1/-1/-1/-1/-1/,C/C/C/C/C/C/I/U/U/U/U/U/U/U/,545,561
+girlsinc-2017-ShimmerFlitter,repeat-s,PUZZLE,1/2/3/4/5/6/7/-1/-1/-1/-1/-1/-1/-1/,1/2/3/4/5/6/7/-1/-1/-1/-1/-1/-1/-1/,C/C/C/C/C/C/I/U/U/U/U/U/U/U/,586,596
+girlsinc-2017-ShimmerFlitter,repeat-s,PUZZLE,1/2/3/4/5/6/7/-1/-1/-1/-1/-1/-1/-1/,1/2/3/4/5/6/7/-1/-1/-1/-1/-1/-1/-1/,C/C/C/C/C/C/C/I/U/U/U/U/U/U/,608,-1
+girlsinc-2017-ShimmerFlitter,repeat-s,REFERENCE,1/2/3/4/5/6/7/-1/-1/-1/-1/-1/-1/-1/,1/2/3/4/5/6/7/8/9/-1/-1/-1/-1/-1/,C/C/C/C/C/C/C/I/U/U/U/U/U/U/,619,639
+girlsinc-2017-ShimmerFlitter,repeat-s,PUZZLE,1/2/3/4/5/6/7/8/9/-1/-1/-1/-1/-1/,1/2/3/4/5/6/7/8/9/-1/-1/-1/-1/-1/,C/C/C/C/C/C/C/C/C/I/U/U/U/U/,651,-1
+girlsinc-2017-ShimmerFlitter,repeat-s,REFERENCE,1/2/3/4/5/6/7/8/9/-1/-1/-1/-1/-1/,1/2/3/4/5/6/7/8/9/10/11/14/12/13/,C/C/C/C/C/C/C/C/C/I/U/U/U/U/,671,695
+girlsinc-2017-ShimmerFlitter,repeat-s,PUZZLE,1/2/3/4/5/6/7/8/9/10/11/14/12/13/,1/2/3/4/5/6/7/8/9/10/11/14/12/13/,C/C/C/C/C/C/C/C/C/C/C/C/C/C/,718,744
+girlsinc-2017-ShimmerFlitter,repeat-s,END,"    this.pig.say(You may begin.) /
+    this.bigBadWolf.skate around() /
+    count 2 / {
+      do together / {
+        this.bigBadWolf.spin() /
+        this.bigBadWolf.move(TypeExpression.DOWN, 0.25) /
+      }
+      this.bigBadWolf.say(Uh oh.) /
+    }
+    this.bigBadWolf.getNeck().turn(TypeExpression.FORWARD, 0.125) /
+    this.bigBadWolf.say(Help, please!) /
+    this.phoenix.land on wolf() /
+    do together / {
+      this.phoenix.move(TypeExpression.UP, 6.0) /
+      count 2 / {
+        this.phoenix.flap wings() /
+      }
+    }",7,14,0,746
+girlsinc-2017-ShimmerFlitter,repeat-z,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/U/U/,4,7
+girlsinc-2017-ShimmerFlitter,repeat-z,PUZZLE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/U/,15,-1
+girlsinc-2017-ShimmerFlitter,repeat-z,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/2/,C/I/U/U/U/U/U/U/U/U/U/U/U/,19,24
+girlsinc-2017-ShimmerFlitter,repeat-z,PUZZLE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/2/,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/U/,31,35
+girlsinc-2017-ShimmerFlitter,repeat-z,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/U/,52,56
+girlsinc-2017-ShimmerFlitter,repeat-z,PUZZLE,1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/U/U/U/,65,-1
+girlsinc-2017-ShimmerFlitter,repeat-z,REFERENCE,1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/U/U/U/,71,75
+girlsinc-2017-ShimmerFlitter,repeat-z,REFERENCE,1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/6/3/7/4/5/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/U/U/U/,83,93
+girlsinc-2017-ShimmerFlitter,repeat-z,PUZZLE,1/2/6/3/7/4/5/-1/-1/-1/-1/-1/-1/,1/2/6/3/7/4/5/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/U/U/U/,119,-1
+girlsinc-2017-ShimmerFlitter,repeat-z,REFERENCE,1/2/6/3/7/4/5/-1/-1/-1/-1/-1/-1/,1/2/6/3/7/4/5/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/U/U/U/,126,-1
+girlsinc-2017-ShimmerFlitter,repeat-z,PUZZLE,1/2/6/3/7/4/5/-1/-1/-1/-1/-1/-1/,1/2/6/3/7/4/5/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/U/U/U/,138,-1
+girlsinc-2017-ShimmerFlitter,repeat-z,REFERENCE,1/2/6/3/7/4/5/-1/-1/-1/-1/-1/-1/,1/2/6/3/7/4/5/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/U/U/U/,144,149
+girlsinc-2017-ShimmerFlitter,repeat-z,REFERENCE,1/2/6/3/7/4/5/-1/-1/-1/-1/-1/-1/,1/2/6/3/7/4/5/8/9/10/11/12/13/,C/C/I/U/U/U/U/U/U/U/U/U/U/,158,179
+girlsinc-2017-ShimmerFlitter,repeat-z,PUZZLE,1/2/6/3/7/4/5/8/9/10/11/12/13/,1/2/6/3/7/4/5/8/9/10/11/12/13/,C/C/I/U/U/U/U/U/U/U/U/U/U/,194,-1
+girlsinc-2017-ShimmerFlitter,repeat-z,REFERENCE,1/2/6/3/7/4/5/8/9/10/11/12/13/,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/U/U/U/,201,208
+girlsinc-2017-ShimmerFlitter,repeat-z,PUZZLE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/U/,262,-1
+girlsinc-2017-ShimmerFlitter,repeat-z,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/U/,269,-1
+girlsinc-2017-ShimmerFlitter,repeat-z,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/3/4/7/5/6/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/U/,280,285
+girlsinc-2017-ShimmerFlitter,repeat-z,PUZZLE,1/2/3/4/7/5/6/-1/-1/-1/-1/-1/-1/,1/2/3/4/7/5/6/8/9/10/11/12/13/,C/C/C/C/C/C/C/I/U/U/U/U/U/,292,299
+girlsinc-2017-ShimmerFlitter,repeat-z,PUZZLE,1/2/3/4/7/5/6/8/9/10/11/12/13/,1/2/3/4/7/5/6/8/9/10/11/12/13/,C/C/C/C/C/C/C/C/C/C/C/C/C/,305,324
+girlsinc-2017-ShimmerFlitter,repeat-z,END,"    this.Martha.slide(2.0) /
+    this.Martha.say(Oh Frankie, you're home.) /
+    this.Frankie.hands in air() /
+    do together / {
+      this.Frankie.say(Look what I learned how to do today!) /
+      count 3 / {
+        this.Frankie.turn(TypeExpression.RIGHT, 3.0) /
+      }
+    }
+    this.Martha.say(That is really cool sweetheart. ) /
+    this.Martha.say(I learned this when I was your age.) /
+    count 2 / {
+      do together / {
+        this.Martha.resize(2.0) /
+        this.Martha.turn(TypeExpression.LEFT, 3.0) /
+      }
+    }",6,13,0,326
+girlsinc-2017-ShimmerFlitter,repeat-aa,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/,7,9
+girlsinc-2017-ShimmerFlitter,repeat-aa,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/2/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/,13,20
+girlsinc-2017-ShimmerFlitter,repeat-aa,PUZZLE,1/-1/-1/2/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/2/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/,25,-1
+girlsinc-2017-ShimmerFlitter,repeat-aa,REFERENCE,1/-1/-1/2/-1/-1/-1/-1/-1/-1/-1/,1/2/3/4/5/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/,28,36
+girlsinc-2017-ShimmerFlitter,repeat-aa,PUZZLE,1/2/3/4/5/-1/-1/-1/-1/-1/-1/,1/2/3/4/5/-1/-1/-1/-1/-1/-1/,C/C/C/C/C/I/U/U/U/U/U/,54,-1
+girlsinc-2017-ShimmerFlitter,repeat-aa,REFERENCE,1/2/3/4/5/-1/-1/-1/-1/-1/-1/,1/2/3/4/5/6/7/8/9/10/11/,C/C/C/C/C/I/U/U/U/U/U/,65,80
+girlsinc-2017-ShimmerFlitter,repeat-aa,PUZZLE,1/2/3/4/5/6/7/8/9/10/11/,1/2/3/4/5/6/7/8/9/10/11/,C/C/C/C/C/C/C/C/C/C/C/,102,121
+girlsinc-2017-ShimmerFlitter,repeat-aa,END,"    this.alien.say(Oh no!) /
+    do together / {
+      count 2 / {
+        this.shark.circle(this.sailboat) /
+      }
+      this.sailboat.sink() /
+    }
+    this.alien.turnToFace(this.shark) /
+    count 2 / {
+      do together / {
+        this.alien.get bigger() /
+        this.shark.get smaller() /
+      }
+    }
+    this.alien.say(Silly Earthlings!) /",4,11,0,123
+girlsinc-2017-ShimmerFlitter,doinorder-a,PUZZLE,1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/,9,-1
+girlsinc-2017-ShimmerFlitter,doinorder-a,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/2/,C/I/U/U/U/U/U/U/U/,11,18
+girlsinc-2017-ShimmerFlitter,doinorder-a,PUZZLE,1/-1/-1/-1/-1/-1/-1/-1/2/,1/-1/-1/-1/-1/-1/-1/-1/2/,C/I/U/U/U/U/U/U/U/,25,-1
+girlsinc-2017-ShimmerFlitter,doinorder-a,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/2/,1/2/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/,29,34
+girlsinc-2017-ShimmerFlitter,doinorder-a,PUZZLE,1/2/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/,42,-1
+girlsinc-2017-ShimmerFlitter,doinorder-a,REFERENCE,1/2/-1/-1/-1/-1/-1/-1/-1/,1/2/3/5/4/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/,50,59
+girlsinc-2017-ShimmerFlitter,doinorder-a,PUZZLE,1/2/3/5/4/-1/-1/-1/-1/,1/2/3/5/4/-1/-1/-1/-1/,C/C/C/C/I/C/U/U/U/,84,-1
+girlsinc-2017-ShimmerFlitter,doinorder-a,REFERENCE,1/2/3/5/4/-1/-1/-1/-1/,1/2/3/8/4/7/6/5/-1/,C/C/C/C/I/C/U/U/U/,86,95
+girlsinc-2017-ShimmerFlitter,doinorder-a,PUZZLE,1/2/3/8/4/7/6/5/-1/,1/2/3/8/4/7/6/5/-1/,C/C/C/C/I/U/U/C/U/,104,-1
+girlsinc-2017-ShimmerFlitter,doinorder-a,REFERENCE,1/2/3/8/4/7/6/5/-1/,1/2/3/8/4/7/6/5/9/,C/C/C/C/I/U/U/C/U/,113,122
+girlsinc-2017-ShimmerFlitter,doinorder-a,PUZZLE,1/2/3/8/4/7/6/5/9/,1/2/3/8/4/7/6/5/9/,C/C/C/C/I/U/U/C/I/,136,-1
+girlsinc-2017-ShimmerFlitter,doinorder-a,REFERENCE,1/2/3/8/4/7/6/5/9/,1/2/3/8/4/5/6/7/-1/,C/C/C/C/I/U/U/C/I/,143,156
+girlsinc-2017-ShimmerFlitter,doinorder-a,PUZZLE,1/2/3/8/4/5/6/7/-1/,1/2/3/8/4/5/6/7/9/,C/C/C/C/C/C/C/C/I/,179,189
+girlsinc-2017-ShimmerFlitter,doinorder-a,PUZZLE,1/2/3/8/4/5/6/7/9/,1/2/3/8/4/5/6/7/9/,C/C/C/C/C/C/C/C/C/,192,207
+girlsinc-2017-ShimmerFlitter,doinorder-a,END,"    this.pilot.say(Here we go!) /
+    this.plane.flip() /
+    do together / {
+      this.plane.swerve past(ArrayInstanceCreation) /
+      do in order / {
+        this.balloon (1).move(TypeExpression.RIGHT, 20.0) /
+        this.balloon (2).move(TypeExpression.LEFT, 20.0) /
+        this.balloon (3).move(TypeExpression.RIGHT, 20.0) /
+      }
+    }
+    this.plane.fly away() /",4,9,0,209
+girlsinc-2017-ShimmerFlitter,doinorder-f,PUZZLE,-1/-1/-1/-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/,5,-1
+girlsinc-2017-ShimmerFlitter,doinorder-f,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/,7,-1
+girlsinc-2017-ShimmerFlitter,doinorder-f,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/,10,12
+girlsinc-2017-ShimmerFlitter,doinorder-f,PUZZLE,1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/,17,-1
+girlsinc-2017-ShimmerFlitter,doinorder-f,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/8/7/9/3/4/5/6/,C/I/U/U/U/U/U/U/U/,20,28
+girlsinc-2017-ShimmerFlitter,doinorder-f,PUZZLE,1/2/8/7/9/3/4/5/6/,1/2/8/7/9/3/4/5/6/,C/C/C/C/C/C/C/C/C/,49,58
+girlsinc-2017-ShimmerFlitter,doinorder-f,END,"    this.bunny.cover eyes() /
+    do together / {
+      this.cheshireCat.hide() /
+      this.hare.hide() /
+      this.mandril.hide() /
+      do in order / {
+        this.bunny.say(One..) /
+        this.bunny.say(Two..) /
+        this.bunny.say(Three!) /
+      }
+    }",3,9,0,60
+girlsinc-2017-ShimmerFlitter,doinorder-n,REFERENCE,-1/-1/-1/-1/-1/-1/,1/3/2/-1/-1/-1/,I/U/U/U/U/U/,6,13
+girlsinc-2017-ShimmerFlitter,doinorder-n,REFERENCE,1/3/2/-1/-1/-1/,1/3/2/-1/-1/-1/,C/C/I/C/U/U/,34,37
+girlsinc-2017-ShimmerFlitter,doinorder-n,REFERENCE,1/3/2/-1/-1/-1/,1/6/2/3/4/5/,C/C/I/C/U/U/,38,46
+girlsinc-2017-ShimmerFlitter,doinorder-n,PUZZLE,1/6/2/3/4/5/,1/6/2/3/4/5/,C/C/C/C/I/C/,55,-1
+girlsinc-2017-ShimmerFlitter,doinorder-n,REFERENCE,1/6/2/3/4/5/,1/6/2/3/4/5/,C/C/C/C/I/C/,60,-1
+girlsinc-2017-ShimmerFlitter,doinorder-n,PUZZLE,1/6/2/3/4/5/,1/6/2/3/5/4/,C/C/C/C/I/C/,68,74
+girlsinc-2017-ShimmerFlitter,doinorder-n,PUZZLE,1/6/2/3/5/4/,1/6/2/3/4/5/,C/C/C/I/U/C/,86,90
+girlsinc-2017-ShimmerFlitter,doinorder-n,PUZZLE,1/6/2/3/4/5/,1/5/2/3/4/6/,C/C/C/C/I/C/,96,103
+girlsinc-2017-ShimmerFlitter,doinorder-n,PUZZLE,1/5/2/3/4/6/,1/5/2/3/4/6/,C/C/C/C/C/C/,124,133
+girlsinc-2017-ShimmerFlitter,doinorder-n,END,"    do together / {
+      this.alien.run in circles() /
+      do in order / {
+        this.uFO.move(TypeExpression.UP, 30.0) /
+        this.uFO.moveToward(this.alien, 150.0) /
+      }
+    }
+    this.uFO.beam up(this.alien) /",4,6,0,135
+girlsinc-2017-ShimmerFlitter,doinorder-l,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/,7,-1
+girlsinc-2017-ShimmerFlitter,doinorder-l,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/,14,17
+girlsinc-2017-ShimmerFlitter,doinorder-l,PUZZLE,1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/,20,-1
+girlsinc-2017-ShimmerFlitter,doinorder-l,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/,21,-1
+girlsinc-2017-ShimmerFlitter,doinorder-l,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/6/3/4/5/-1/-1/-1/,C/I/U/U/U/U/U/U/U/,40,57
+girlsinc-2017-ShimmerFlitter,doinorder-l,PUZZLE,1/2/6/3/4/5/-1/-1/-1/,1/2/8/3/4/5/6/7/9/,C/C/C/C/C/I/C/U/U/,89,105
+girlsinc-2017-ShimmerFlitter,doinorder-l,PUZZLE,1/2/8/3/4/5/6/7/9/,1/2/8/3/4/5/6/7/9/,C/C/C/C/C/C/C/C/C/,115,149
+girlsinc-2017-ShimmerFlitter,doinorder-l,END,"    this.uFO.fly through stars() /
+    do together / {
+      this.uFO.zig zag through meteors() /
+      do in order / {
+        this.meteor.launch() /
+        this.bus.launch() /
+        this.cow.launch() /
+        this.toilet.launch() /
+      }
+    }
+    this.uFO.say(We made it!) /",4,9,0,151
+girlsinc-2017-ShimmerFlitter,doinorder-k,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/,6,8
+girlsinc-2017-ShimmerFlitter,doinorder-k,PUZZLE,1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/,11,-1
+girlsinc-2017-ShimmerFlitter,doinorder-k,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/,13,16
+girlsinc-2017-ShimmerFlitter,doinorder-k,REFERENCE,1/2/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/,42,-1
+girlsinc-2017-ShimmerFlitter,doinorder-k,REFERENCE,1/2/-1/-1/-1/-1/-1/-1/,1/2/3/-1/4/-1/-1/-1/,C/C/I/U/U/U/U/U/,50,56
+girlsinc-2017-ShimmerFlitter,doinorder-k,REFERENCE,1/2/3/-1/4/-1/-1/-1/,1/2/3/-1/4/-1/-1/-1/,C/C/C/C/I/I/U/U/,79,-1
+girlsinc-2017-ShimmerFlitter,doinorder-k,REFERENCE,1/2/3/-1/4/-1/-1/-1/,1/2/3/6/4/-1/5/-1/,C/C/C/C/I/I/U/U/,172,183
+girlsinc-2017-ShimmerFlitter,doinorder-k,REFERENCE,1/2/3/6/4/-1/5/-1/,1/2/3/8/4/5/6/7/,C/C/C/C/I/C/U/U/,190,201
+girlsinc-2017-ShimmerFlitter,doinorder-k,PUZZLE,1/2/3/8/4/5/6/7/,1/2/3/8/4/5/6/7/,C/C/C/C/C/C/C/C/,212,233
+girlsinc-2017-ShimmerFlitter,doinorder-k,END,"    this.whiteRabbit.turnToFace(this.camera) /
+    this.whiteRabbit.say(Please give a round of applause to the SCARIEST creatures in Wonderland!) /
+    do together / {
+      this.whiteRabbit.clap() /
+      do in order / {
+        this.bigBadWolf.appear() /
+        this.troll.appear() /
+        this.yeti.appear() /
+      }
+    }",4,8,0,242
+girlsinc-2017-ShimmerFlitter,doinorder-w,REFERENCE,-1/-1/1/-1/-1/-1/-1/-1/-1/2/-1/-1/-1/,1/2/3/-1/-1/-1/-1/-1/-1/4/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/U/U/,4,6
+girlsinc-2017-ShimmerFlitter,doinorder-w,REFERENCE,1/2/3/-1/-1/-1/-1/-1/-1/4/-1/-1/-1/,1/2/3/-1/5/-1/-1/4/-1/6/-1/-1/-1/,C/C/C/I/I/U/U/U/U/U/U/U/U/,22,30
+girlsinc-2017-ShimmerFlitter,doinorder-w,REFERENCE,1/2/3/-1/5/-1/-1/4/-1/6/-1/-1/-1/,1/2/3/-1/5/-1/-1/4/-1/6/-1/-1/-1/,C/C/C/C/I/I/U/U/U/U/U/U/U/,55,76
+girlsinc-2017-ShimmerFlitter,doinorder-w,REFERENCE,1/2/3/-1/5/-1/-1/4/-1/6/-1/-1/-1/,1/2/3/-1/5/-1/-1/4/-1/6/-1/-1/-1/,C/C/C/C/I/I/U/U/U/U/U/U/U/,106,-1
+girlsinc-2017-ShimmerFlitter,doinorder-w,REFERENCE,1/2/3/-1/5/-1/-1/4/-1/6/-1/-1/-1/,1/2/3/5/6/7/-1/4/-1/8/-1/-1/-1/,C/C/C/C/I/I/U/U/U/U/U/U/U/,123,143
+girlsinc-2017-ShimmerFlitter,doinorder-w,REFERENCE,1/2/3/5/6/7/-1/4/-1/8/-1/-1/-1/,1/2/3/5/6/7/8/4/-1/9/-1/-1/-1/,C/C/C/C/C/C/C/I/U/U/U/U/U/,183,194
+girlsinc-2017-ShimmerFlitter,doinorder-w,REFERENCE,1/2/3/5/6/7/8/4/-1/9/-1/-1/-1/,1/2/3/5/6/7/8/4/9/10/12/11/13/,C/C/C/C/C/C/C/C/I/U/U/U/U/,205,216
+girlsinc-2017-ShimmerFlitter,doinorder-w,PUZZLE,1/2/3/5/6/7/8/4/9/10/12/11/13/,1/2/3/5/6/7/8/4/9/10/12/11/13/,C/C/C/C/C/C/C/C/C/C/C/C/C/,231,261
+girlsinc-2017-ShimmerFlitter,doinorder-w,END,"    GlobalFirstInstanceExpression.scene.yeti.say(We've got you now!) /
+    this.madHatter.say(Not so fast!) /
+    do together / {
+      do in order / {
+        this.wall.fall down() /
+        GlobalFirstInstanceExpression.scene.castleGate.move(TypeExpression.UP, 5.0) /
+        GlobalFirstInstanceExpression.scene.bigBadWolf.resize(0.25) /
+      }
+      this.madHatter.dance() /
+    }
+    this.madHatter.walk(6.0) /
+    do together / {
+      this.bigBadWolf.say(So not cool.) /
+      this.troll.say(So not cool.) /
+      this.yeti.say(So not cool.) /
+    }",7,13,0,264
+girlsinc-2017-ShimmerFlitter,doinorder-o,REFERENCE,-1/1/-1/2/-1/-1/-1/-1/-1/3/-1/-1/,-1/1/-1/2/-1/-1/-1/-1/-1/3/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/U/,8,-1
+girlsinc-2017-ShimmerFlitter,doinorder-o,REFERENCE,-1/1/-1/2/-1/-1/-1/-1/-1/3/-1/-1/,-1/1/-1/2/-1/-1/-1/-1/-1/3/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/U/,11,-1
+girlsinc-2017-ShimmerFlitter,doinorder-o,REFERENCE,-1/1/-1/2/-1/-1/-1/-1/-1/3/-1/-1/,1/2/-1/3/-1/-1/-1/-1/-1/4/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/U/,25,28
+girlsinc-2017-ShimmerFlitter,doinorder-o,PUZZLE,1/2/-1/3/-1/-1/-1/-1/-1/4/-1/-1/,1/2/-1/3/-1/-1/-1/-1/-1/4/-1/-1/,C/C/C/I/I/U/U/U/U/U/U/U/,46,-1
+girlsinc-2017-ShimmerFlitter,doinorder-o,REFERENCE,1/2/-1/3/-1/-1/-1/-1/-1/4/-1/-1/,1/3/-1/4/-1/2/-1/-1/-1/5/-1/-1/,C/C/C/I/I/U/U/U/U/U/U/U/,47,50
+girlsinc-2017-ShimmerFlitter,doinorder-o,REFERENCE,1/3/-1/4/-1/2/-1/-1/-1/5/-1/-1/,1/3/-1/4/-1/2/-1/-1/-1/5/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/,63,-1
+girlsinc-2017-ShimmerFlitter,doinorder-o,REFERENCE,1/3/-1/4/-1/2/-1/-1/-1/5/-1/-1/,1/3/6/4/-1/2/7/-1/-1/5/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/,78,85
+girlsinc-2017-ShimmerFlitter,doinorder-o,REFERENCE,1/3/6/4/-1/2/7/-1/-1/5/-1/-1/,1/3/6/4/7/2/8/9/10/5/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/,116,124
+girlsinc-2017-ShimmerFlitter,doinorder-o,PUZZLE,1/3/6/4/7/2/8/9/10/5/-1/-1/,1/3/6/4/7/2/8/9/10/5/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/,148,-1
+girlsinc-2017-ShimmerFlitter,doinorder-o,REFERENCE,1/3/6/4/7/2/8/9/10/5/-1/-1/,1/3/6/4/7/2/8/9/10/5/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/,153,158
+girlsinc-2017-ShimmerFlitter,doinorder-o,REFERENCE,1/3/6/4/7/2/8/9/10/5/-1/-1/,1/3/6/4/7/2/8/9/10/5/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/,172,-1
+girlsinc-2017-ShimmerFlitter,doinorder-o,PUZZLE,1/3/6/4/7/2/8/9/10/5/-1/-1/,1/3/6/4/7/2/8/9/10/5/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/,175,-1
+girlsinc-2017-ShimmerFlitter,doinorder-o,REFERENCE,1/3/6/4/7/2/8/9/10/5/-1/-1/,1/2/5/3/6/7/8/9/10/4/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/,181,184
+girlsinc-2017-ShimmerFlitter,doinorder-o,REFERENCE,1/2/5/3/6/7/8/9/10/4/-1/-1/,1/2/5/3/6/7/8/9/10/4/-1/-1/,C/C/C/I/I/U/U/U/U/U/U/U/,206,-1
+girlsinc-2017-ShimmerFlitter,doinorder-o,REFERENCE,1/2/5/3/6/7/8/9/10/4/-1/-1/,1/2/4/3/5/6/7/8/9/10/-1/-1/,C/C/C/I/I/U/U/U/U/U/U/U/,224,233
+girlsinc-2017-ShimmerFlitter,doinorder-o,PUZZLE,1/2/4/3/5/6/7/8/9/10/-1/-1/,1/2/4/3/5/6/7/8/9/10/11/12/,C/C/C/C/C/C/C/C/C/C/I/I/,255,262
+girlsinc-2017-ShimmerFlitter,doinorder-o,PUZZLE,1/2/4/3/5/6/7/8/9/10/11/12/,1/2/4/3/5/6/7/8/9/10/11/12/,C/C/C/C/C/C/C/C/C/C/C/C/,267,289
+girlsinc-2017-ShimmerFlitter,doinorder-o,END,"    this.blueTang.turnToFace(this.clownFish) /
+    do together / {
+      this.shark.move(TypeExpression.FORWARD, 20.0) /
+      this.shark.turn(TypeExpression.LEFT, 0.05) /
+      do in order / {
+        this.clownFish.moveToward(this.blueTang, 2.0) /
+        this.clownFish.say(Where did you get all that gold?) /
+        this.blueTang.turnToFace(this.coinStack) /
+        this.blueTang.say(Internet) /
+      }
+    }
+    do together / {
+      this.shark.talk() /
+      this.shark.say(Have you guys seen my treasure?) /
+    }",7,12,0,291
+girlsinc-2017-ShimmerFlitter,doinorder-b,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/,4,-1
+girlsinc-2017-ShimmerFlitter,doinorder-b,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/,9,11
+girlsinc-2017-ShimmerFlitter,doinorder-b,PUZZLE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/,21,-1
+girlsinc-2017-ShimmerFlitter,doinorder-b,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/,22,26
+girlsinc-2017-ShimmerFlitter,doinorder-b,REFERENCE,1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/U/,31,-1
+girlsinc-2017-ShimmerFlitter,doinorder-b,PUZZLE,1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/U/,33,-1
+girlsinc-2017-ShimmerFlitter,doinorder-b,REFERENCE,1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/3/-1/4/5/6/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/U/,35,41
+girlsinc-2017-ShimmerFlitter,doinorder-b,REFERENCE,1/2/3/-1/4/5/6/-1/-1/-1/-1/,1/2/3/-1/4/5/6/-1/-1/-1/-1/,C/C/C/C/C/C/I/I/U/U/U/,65,-1
+girlsinc-2017-ShimmerFlitter,doinorder-b,REFERENCE,1/2/3/-1/4/5/6/-1/-1/-1/-1/,1/2/3/-1/4/5/6/-1/-1/-1/-1/,C/C/C/C/C/C/I/I/U/U/U/,110,121
+girlsinc-2017-ShimmerFlitter,doinorder-b,REFERENCE,1/2/3/-1/4/5/6/-1/-1/-1/-1/,1/2/3/9/4/5/6/7/8/-1/-1/,C/C/C/C/C/C/I/I/U/U/U/,144,153
+girlsinc-2017-ShimmerFlitter,doinorder-b,PUZZLE,1/2/3/9/4/5/6/7/8/-1/-1/,1/2/3/9/4/5/6/7/8/10/11/,C/C/C/C/C/C/C/C/C/I/U/,174,185
+girlsinc-2017-ShimmerFlitter,doinorder-b,PUZZLE,1/2/3/9/4/5/6/7/8/10/11/,1/2/3/9/4/5/6/7/8/10/11/,C/C/C/C/C/C/C/C/C/C/C/,191,203
+girlsinc-2017-ShimmerFlitter,doinorder-b,END,"    this.yeti.flap arms() /
+    this.penguin.jump() /
+    do together / {
+      this.floating ice.move towards(this.yeti) /
+      do in order / {
+        this.walrus.swim up from below() /
+        this.walrus.jump onto(this.floating ice) /
+        this.walrus.push off ice(this.penguin) /
+        this.penguin.flap and fall into water() /
+      }
+    }
+    this.walrus.turn(TypeExpression.LEFT, 0.5) /
+    this.yeti.jump back() /",4,11,0,207
+girlsinc-2017-ShimmerFlitter,doinorder-x,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/U/,5,7
+girlsinc-2017-ShimmerFlitter,doinorder-x,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/4/3/2/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/,18,22
+girlsinc-2017-ShimmerFlitter,doinorder-x,PUZZLE,1/-1/4/3/2/-1/-1/-1/-1/-1/-1/-1/,1/-1/4/3/2/-1/-1/-1/-1/-1/-1/-1/,C/C/C/C/I/U/U/U/U/U/U/U/,35,-1
+girlsinc-2017-ShimmerFlitter,doinorder-x,REFERENCE,1/-1/4/3/2/-1/-1/-1/-1/-1/-1/-1/,1/-1/4/3/2/5/6/7/-1/-1/-1/-1/,C/C/C/C/I/U/U/U/U/U/U/U/,39,46
+girlsinc-2017-ShimmerFlitter,doinorder-x,PUZZLE,1/-1/4/3/2/5/6/7/-1/-1/-1/-1/,1/-1/4/3/2/5/6/7/-1/-1/-1/-1/,C/C/C/C/I/U/U/U/U/U/U/U/,80,-1
+girlsinc-2017-ShimmerFlitter,doinorder-x,REFERENCE,1/-1/4/3/2/5/6/7/-1/-1/-1/-1/,1/-1/4/3/2/7/8/9/-1/-1/6/5/,C/C/C/C/I/U/U/U/U/U/U/U/,84,85
+girlsinc-2017-ShimmerFlitter,doinorder-x,PUZZLE,1/-1/4/3/2/7/8/9/-1/-1/6/5/,1/-1/4/3/2/7/8/9/-1/-1/6/5/,C/C/C/C/I/I/I/U/U/U/U/U/,93,-1
+girlsinc-2017-ShimmerFlitter,doinorder-x,REFERENCE,1/-1/4/3/2/7/8/9/-1/-1/6/5/,1/5/4/3/2/8/9/10/-1/-1/7/6/,C/C/C/C/I/I/I/U/U/U/U/U/,97,114
+girlsinc-2017-ShimmerFlitter,doinorder-x,PUZZLE,1/5/4/3/2/8/9/10/-1/-1/7/6/,1/5/4/3/2/8/9/10/-1/-1/7/6/,C/C/C/C/I/U/U/I/U/U/U/U/,122,-1
+girlsinc-2017-ShimmerFlitter,doinorder-x,REFERENCE,1/5/4/3/2/8/9/10/-1/-1/7/6/,1/2/4/3/5/6/7/8/-1/-1/-1/-1/,C/C/C/C/I/U/U/I/U/U/U/U/,126,132
+girlsinc-2017-ShimmerFlitter,doinorder-x,PUZZLE,1/2/4/3/5/6/7/8/-1/-1/-1/-1/,1/2/4/3/5/8/9/10/-1/-1/7/6/,C/C/C/C/C/C/C/C/I/I/I/U/,148,153
+girlsinc-2017-ShimmerFlitter,doinorder-x,PUZZLE,1/2/4/3/5/8/9/10/-1/-1/7/6/,1/2/4/3/5/8/9/10/11/12/7/6/,C/C/C/C/C/C/C/C/C/C/I/U/,161,166
+girlsinc-2017-ShimmerFlitter,doinorder-x,PUZZLE,1/2/4/3/5/8/9/10/11/12/7/6/,1/2/4/3/5/8/9/10/11/12/7/6/,C/C/C/C/C/C/C/C/C/C/C/C/,171,183
+girlsinc-2017-ShimmerFlitter,doinorder-x,END,"    this.hippo.say(Let's practice again.) /
+    do together / {
+      this.hippo.raise arms() /
+      this.yeti.raise arms() /
+    }
+    do together / {
+      do in order / {
+        this.hippo.turn(TypeExpression.RIGHT, 1.0) /
+        this.yeti.turn(TypeExpression.RIGHT, 1.0) /
+        this.hippo.put legs forward() /
+        this.yeti.put legs forward() /
+      }
+      this.yeti.jump() /
+      this.hippo.jump() /
+    }",4,12,0,192
+girlsinc-2017-ShimmerFlitter,doinorder-g,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/,5,6
+girlsinc-2017-ShimmerFlitter,doinorder-g,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/,11,17
+girlsinc-2017-ShimmerFlitter,doinorder-g,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/,38,-1
+girlsinc-2017-ShimmerFlitter,doinorder-g,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/2/3/-1/-1/-1/,C/I/U/U/U/U/U/U/,58,65
+girlsinc-2017-ShimmerFlitter,doinorder-g,REFERENCE,1/-1/-1/2/3/-1/-1/-1/,1/2/8/3/4/5/6/7/,C/I/U/U/U/U/U/U/,128,142
+girlsinc-2017-ShimmerFlitter,doinorder-g,PUZZLE,1/2/8/3/4/5/6/7/,1/2/8/3/4/5/6/7/,C/C/C/C/C/C/C/C/,180,192
+girlsinc-2017-ShimmerFlitter,doinorder-g,END,"    this.hare.think(I hate tumbleweeds..) /
+    do together / {
+      this.tumbleweed.roll() /
+      do in order / {
+        this.hare.walk(4.0) /
+        this.hare.getHead().turn(TypeExpression.FORWARD, 0.125) /
+        this.hare.kick(this.tumbleweed) /
+        this.hare.fall down() /
+      }
+    }",7,8,0,194
+girlsinc-2017-ShimmerFlitter,doinorder-p,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/,7,11
+girlsinc-2017-ShimmerFlitter,doinorder-p,PUZZLE,1/2/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/,14,-1
+girlsinc-2017-ShimmerFlitter,doinorder-p,REFERENCE,1/2/-1/-1/-1/-1/-1/-1/-1/,1/2/3/5/6/7/-1/-1/4/,C/C/I/U/U/U/U/U/U/,18,25
+girlsinc-2017-ShimmerFlitter,doinorder-p,PUZZLE,1/2/3/5/6/7/-1/-1/4/,1/2/3/5/6/7/-1/-1/4/,C/C/C/C/C/C/C/I/U/,57,-1
+girlsinc-2017-ShimmerFlitter,doinorder-p,REFERENCE,1/2/3/5/6/7/-1/-1/4/,1/2/3/5/6/7/8/9/4/,C/C/C/C/C/C/C/I/U/,66,75
+girlsinc-2017-ShimmerFlitter,doinorder-p,PUZZLE,1/2/3/5/6/7/8/9/4/,1/2/3/5/6/7/8/9/4/,C/C/C/C/C/C/C/C/C/,82,97
+girlsinc-2017-ShimmerFlitter,doinorder-p,END,"    this.manatee.say(Hey guys!!) /
+    this.dolphin.say(Ahhh!!) /
+    do together / {
+      do in order / {
+        this.pajamaFish.swim away from(this.shark) /
+        this.dolphin.swim away from(this.shark) /
+        this.clownFish.swim away from(this.shark) /
+        this.blueTang.swim away from(this.shark) /
+      }
+      this.shark.move(TypeExpression.FORWARD, 10.0) /
+    }",4,9,0,106
+girlsinc-2017-ShimmerFlitter,doinorder-d,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/,26,29
+girlsinc-2017-ShimmerFlitter,doinorder-d,PUZZLE,1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/,52,-1
+girlsinc-2017-ShimmerFlitter,doinorder-d,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/,54,61
+girlsinc-2017-ShimmerFlitter,doinorder-d,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/3/4/5/6/7/-1/,C/I/U/U/U/U/U/U/U/,75,84
+girlsinc-2017-ShimmerFlitter,doinorder-d,PUZZLE,1/2/-1/3/4/5/6/7/-1/,1/2/-1/3/4/5/6/7/-1/,C/C/C/C/C/C/C/I/U/,157,-1
+girlsinc-2017-ShimmerFlitter,doinorder-d,REFERENCE,1/2/-1/3/4/5/6/7/-1/,1/2/4/3/5/6/7/8/-1/,C/C/C/C/C/C/C/I/U/,163,171
+girlsinc-2017-ShimmerFlitter,doinorder-d,REFERENCE,1/2/4/3/5/6/7/8/-1/,1/2/4/3/5/6/7/8/-1/,C/C/C/C/C/C/C/C/I/,177,-1
+girlsinc-2017-ShimmerFlitter,doinorder-d,PUZZLE,1/2/4/3/5/6/7/8/-1/,1/2/4/3/5/6/7/8/9/,C/C/C/C/C/C/C/C/I/,178,187
+girlsinc-2017-ShimmerFlitter,doinorder-d,PUZZLE,1/2/4/3/5/6/7/8/9/,1/2/4/3/5/6/7/8/9/,C/C/C/C/C/C/C/C/C/,190,217
+girlsinc-2017-ShimmerFlitter,doinorder-d,END,"    this.Witch.raise arms() /
+    do together / {
+      this.Cauldron.bubble() /
+      this.Troll.scared() /
+      do in order / {
+        this.Witch.roll(TypeExpression.LEFT, 0.125) /
+        this.Witch.roll(TypeExpression.RIGHT, 0.25) /
+        this.Witch.roll(TypeExpression.LEFT, 0.125) /
+      }
+    }
+    this.poodle.rise from cauldron() /",4,9,0,219
+girlsinc-2017-ShimmerFlitter,doinorder-q,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/,5,-1
+girlsinc-2017-ShimmerFlitter,doinorder-q,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/4/-1/-1/3/-1/,C/I/U/U/U/U/U/U/,15,19
+girlsinc-2017-ShimmerFlitter,doinorder-q,REFERENCE,1/2/-1/4/-1/-1/3/-1/,1/2/4/5/6/7/3/8/,C/C/C/I/I/U/U/U/,35,46
+girlsinc-2017-ShimmerFlitter,doinorder-q,PUZZLE,1/2/4/5/6/7/3/8/,1/2/4/5/6/7/3/8/,C/C/C/C/C/C/C/I/,69,-1
+girlsinc-2017-ShimmerFlitter,doinorder-q,REFERENCE,1/2/4/5/6/7/3/8/,1/2/4/5/6/7/3/8/,C/C/C/C/C/C/C/I/,84,99
+girlsinc-2017-ShimmerFlitter,doinorder-q,PUZZLE,1/2/4/5/6/7/3/8/,1/2/4/5/6/7/3/8/,C/C/C/C/C/C/C/C/,102,118
+girlsinc-2017-ShimmerFlitter,doinorder-q,END,"    this.witch.turnToFace(this.cauldron) /
+    do together / {
+      do in order / {
+        this.cauldron.spin() /
+        this.cauldron.glow() /
+        this.bigBadWolf.rise() /
+      }
+      this.witch.cast spell() /
+    }
+    this.bigBadWolf.turnToFace(this.witch) /",4,8,0,131
+girlsinc-2017-ShimmerFlitter,doinorder-y,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,-1/3/4/5/2/1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/U/U/U/U/,21,22
+girlsinc-2017-ShimmerFlitter,doinorder-y,REFERENCE,-1/3/4/5/2/1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,6/3/4/5/2/1/7/8/9/10/11/12/13/14/15/,C/C/C/C/C/I/U/U/U/U/U/U/U/U/U/,53,58
+girlsinc-2017-ShimmerFlitter,doinorder-y,PUZZLE,6/3/4/5/2/1/7/8/9/10/11/12/13/14/15/,6/3/4/5/2/1/7/8/9/10/11/12/13/14/15/,C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/,170,187
+girlsinc-2017-ShimmerFlitter,doinorder-y,END,"    do together / {
+      this.alien.say(Limbo!) /
+      this.marchHare.say(Limbo!) /
+      this.tortoise.say(Limbo!) /
+      this.goldenMonkey.say(Limbo!) /
+    }
+    do together / {
+      this.alien.walk(6.0) /
+      this.marchHare.walk(7.0) /
+      this.tortoise.walk(8.0) /
+      this.goldenMonkey.walk(9.0) /
+      do in order / {
+        this.alien.getSpineBase().turn(TypeExpression.BACKWARD, 0.2) /
+        this.marchHare.getSpineBase().turn(TypeExpression.BACKWARD, 0.25) /
+        this.tortoise.getSpineBase().turn(TypeExpression.BACKWARD, 0.2) /
+        this.goldenMonkey.getSpineBase().turn(TypeExpression.BACKWARD, 0.27) /
+      }
+    }",3,15,0,198
+girlsinc-2017-ShimmerFlitter,doinorder-s,REFERENCE,-1/1/-1/-1/-1/-1/-1/-1/-1/,-1/1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/,8,-1
+girlsinc-2017-ShimmerFlitter,doinorder-s,PUZZLE,-1/1/-1/-1/-1/-1/-1/-1/-1/,1/4/2/5/-1/-1/3/-1/-1/,I/U/U/U/U/U/U/U/U/,9,11
+girlsinc-2017-ShimmerFlitter,doinorder-s,REFERENCE,1/4/2/5/-1/-1/3/-1/-1/,1/-1/2/-1/-1/-1/3/-1/-1/,C/C/I/U/U/I/U/U/U/,31,36
+girlsinc-2017-ShimmerFlitter,doinorder-s,REFERENCE,1/-1/2/-1/-1/-1/3/-1/-1/,1/-1/2/-1/-1/-1/3/-1/-1/,C/C/I/I/U/U/U/U/U/,83,-1
+girlsinc-2017-ShimmerFlitter,doinorder-s,REFERENCE,1/-1/2/-1/-1/-1/3/-1/-1/,1/5/2/4/-1/-1/3/-1/-1/,C/C/I/I/U/U/U/U/U/,132,135
+girlsinc-2017-ShimmerFlitter,doinorder-s,PUZZLE,1/5/2/4/-1/-1/3/-1/-1/,1/5/2/4/-1/-1/3/-1/-1/,C/C/I/U/U/I/U/U/U/,174,-1
+girlsinc-2017-ShimmerFlitter,doinorder-s,REFERENCE,1/5/2/4/-1/-1/3/-1/-1/,1/5/2/4/6/7/3/8/9/,C/C/I/U/U/I/U/U/U/,177,178
+girlsinc-2017-ShimmerFlitter,doinorder-s,PUZZLE,1/5/2/4/6/7/3/8/9/,1/9/2/6/7/8/3/4/5/,C/C/I/U/U/U/U/I/I/,221,223
+girlsinc-2017-ShimmerFlitter,doinorder-s,PUZZLE,1/9/2/6/7/8/3/4/5/,1/9/2/8/6/7/3/4/5/,C/C/I/U/U/U/U/U/C/,259,262
+girlsinc-2017-ShimmerFlitter,doinorder-s,PUZZLE,1/9/2/8/6/7/3/4/5/,1/9/2/8/4/5/3/7/6/,C/C/I/U/U/U/U/I/C/,272,274
+girlsinc-2017-ShimmerFlitter,doinorder-s,PUZZLE,1/9/2/8/4/5/3/7/6/,1/9/2/4/5/6/3/8/7/,C/C/I/U/U/U/U/I/C/,296,299
+girlsinc-2017-ShimmerFlitter,doinorder-s,PUZZLE,1/9/2/4/5/6/3/8/7/,1/5/2/4/6/7/3/9/8/,C/C/I/U/U/U/U/U/C/,307,310
+girlsinc-2017-ShimmerFlitter,doinorder-s,PUZZLE,1/5/2/4/6/7/3/9/8/,1/-1/2/-1/-1/-1/3/-1/-1/,C/C/I/U/U/U/U/I/I/,321,323
+girlsinc-2017-ShimmerFlitter,doinorder-s,REFERENCE,1/-1/2/-1/-1/-1/3/-1/-1/,1/-1/2/-1/-1/-1/3/-1/-1/,C/C/I/I/U/U/U/U/U/,433,-1
+girlsinc-2017-ShimmerFlitter,doinorder-s,REFERENCE,1/-1/2/-1/-1/-1/3/-1/-1/,1/9/2/3/4/5/6/8/7/,C/C/I/I/U/U/U/U/U/,448,451
+girlsinc-2017-ShimmerFlitter,doinorder-s,PUZZLE,1/9/2/3/4/5/6/8/7/,1/9/2/3/4/5/6/8/7/,C/C/C/C/C/C/C/C/C/,495,506
+girlsinc-2017-ShimmerFlitter,doinorder-s,END,"    do together / {
+      this.yeti.walk(30.0) /
+      do in order / {
+        this.alien.say(Do you hear something?) /
+        this.hare.turnToFace(this.yeti) /
+        this.hare.say(YETI!!!!) /
+        do together / {
+          this.alien.run away from(this.yeti) /
+          this.hare.run away from(this.yeti) /
+        }
+      }
+    }",8,9,0,508

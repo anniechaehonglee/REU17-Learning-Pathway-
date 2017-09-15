@@ -1,0 +1,698 @@
+codename,puzzle,action,current_index,next_index,correctness,start_time,closed_time
+carr-lane-2-VanillaSailor,sequential-d,PUZZLE,1/2/3/6/5/7/4/8/,1/2/6/5/4/7/3/8/,C/C/C/I/U/U/U/U/,87,110
+carr-lane-2-VanillaSailor,sequential-d,PUZZLE,1/2/6/5/4/7/3/8/,1/2/4/3/7/5/6/8/,C/C/I/U/U/U/U/U/,120,135
+carr-lane-2-VanillaSailor,sequential-d,REFERENCE,1/2/4/3/7/5/6/8/,1/2/3/4/8/6/7/5/,C/C/I/U/U/U/U/U/,150,162
+carr-lane-2-VanillaSailor,sequential-d,PUZZLE,1/2/3/4/8/6/7/5/,1/2/3/4/7/5/6/8/,C/C/C/C/I/U/U/U/,187,201
+carr-lane-2-VanillaSailor,sequential-d,PUZZLE,1/2/3/4/7/5/6/8/,1/2/3/4/7/5/6/8/,C/C/C/C/I/U/U/U/,211,227
+carr-lane-2-VanillaSailor,sequential-d,REFERENCE,1/2/3/4/7/5/6/8/,1/2/3/4/7/6/5/8/,C/C/C/C/I/U/U/U/,240,255
+carr-lane-2-VanillaSailor,sequential-d,PUZZLE,1/2/3/4/7/6/5/8/,1/2/3/5/7/4/6/8/,C/C/C/C/I/U/U/U/,265,280
+carr-lane-2-VanillaSailor,sequential-d,PUZZLE,1/2/3/5/7/4/6/8/,1/2/3/4/7/6/5/8/,C/C/C/I/U/U/U/U/,291,302
+carr-lane-2-VanillaSailor,sequential-d,PUZZLE,1/2/3/4/7/6/5/8/,1/2/3/4/5/6/7/8/,C/C/C/C/I/U/U/U/,345,361
+carr-lane-2-VanillaSailor,sequential-d,PUZZLE,1/2/3/4/5/6/7/8/,1/2/3/4/5/6/7/8/,C/C/C/C/C/C/C/C/,388,405
+carr-lane-2-VanillaSailor,sequential-d,END,"    this.monkey.walk(1.5) /
+    this.monkey.jump and spin() /
+    this.monkey.walk up to(this.treasureChest) /
+    this.monkey.raise arms() /
+    this.treasureChest.getChestLid().turn(TypeExpression.BACKWARD, 0.0125) /
+    this.monkey.bang on(this.treasureChest) /
+    this.treasureChest.getChestLid().turn(TypeExpression.BACKWARD, 0.25) /
+    this.treasureMonkey.raise arms() /",2,8,0,416
+carr-lane-2-VanillaSailor,sequential-g,PUZZLE,1/3/2/4/5/7/6/,1/3/2/4/5/7/6/,C/I/U/U/U/U/U/,60,-1
+carr-lane-2-VanillaSailor,sequential-g,REFERENCE,1/3/2/4/5/7/6/,1/2/3/4/5/7/6/,C/I/U/U/U/U/U/,72,78
+carr-lane-2-VanillaSailor,sequential-g,PUZZLE,1/2/3/4/5/7/6/,1/2/3/4/5/7/6/,C/C/C/C/C/I/U/,86,-1
+carr-lane-2-VanillaSailor,sequential-g,REFERENCE,1/2/3/4/5/7/6/,1/2/3/4/5/6/7/,C/C/C/C/C/I/U/,101,115
+carr-lane-2-VanillaSailor,sequential-g,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/C/C/,121,136
+carr-lane-2-VanillaSailor,sequential-g,END,"    this.blueTang.say(We can't let anyone find our treasure!) /
+    this.clownFish.turnToFace(this.shark) /
+    this.clownFish.think(Uh oh) /
+    this.clownFish.turnToFace(this.blueTang) /
+    this.clownFish.say(I think it's too late..) /
+    this.shark.getMouth().turn(TypeExpression.FORWARD, 0.125) /
+    this.shark.move(TypeExpression.FORWARD, 15.0) /",1,7,0,141
+carr-lane-2-VanillaSailor,dotogether-a,PUZZLE,1/2/8/3/4/6/5/7/,1/2/8/3/4/6/5/7/,C/C/I/U/U/U/U/U/,71,-1
+carr-lane-2-VanillaSailor,dotogether-a,REFERENCE,1/2/8/3/4/6/5/7/,1/2/3/4/5/6/7/8/,C/C/I/U/U/U/U/U/,81,91
+carr-lane-2-VanillaSailor,dotogether-a,PUZZLE,1/2/3/4/5/6/7/8/,1/2/3/4/5/6/7/8/,C/C/C/C/C/C/C/C/,101,111
+carr-lane-2-VanillaSailor,dotogether-a,END,"    this.penguin.say(Everyone, I'd like you to meet Derek.) /
+    this.DerekTheYeti.say(Hello.) /
+    this.DerekTheYeti.moveToward(this.babyPenguin2, 0.5) /
+    do together / {
+      this.babyPenguin1.jump back() /
+      this.babyPenguin2.jump back() /
+      this.babyPenguin3.jump back() /
+    }
+    this.penguin.say(He's harmless and very kind!) /",1,8,0,115
+carr-lane-2-VanillaSailor,dotogether-b,PUZZLE,1/3/4/5/2/6/,1/2/3/4/5/6/,C/I/U/U/U/U/,52,59
+carr-lane-2-VanillaSailor,dotogether-b,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,66,74
+carr-lane-2-VanillaSailor,dotogether-b,END,"    this.troll.say(Ahhhhhh) /
+    do together / {
+      this.troll.sneeze and raise arms() /
+      this.boat.move(TypeExpression.BACKWARD, 5.0) /
+    }
+    this.manatee.move(TypeExpression.UP, 0.5) /
+    this.manatee.say(Bless you!) /",1,6,0,78
+carr-lane-2-VanillaSailor,dotogether-m,PUZZLE,1/2/4/3/8/5/7/6/,1/2/4/3/8/5/7/6/,C/C/C/C/I/U/U/U/,56,-1
+carr-lane-2-VanillaSailor,dotogether-m,REFERENCE,1/2/4/3/8/5/7/6/,1/2/4/3/5/6/8/7/,C/C/C/C/I/U/U/U/,68,79
+carr-lane-2-VanillaSailor,dotogether-m,PUZZLE,1/2/4/3/5/6/8/7/,1/2/4/3/5/6/8/7/,C/C/C/C/C/C/C/C/,87,97
+carr-lane-2-VanillaSailor,dotogether-m,END,"    this.hare.say(1...2...3...JUMP!) /
+    do together / {
+      this.pig.jump() /
+      this.hare.jump() /
+    }
+    this.caiman.snap jaws() /
+    do together / {
+      this.pig.say(UH OH!) /
+      this.hare.say(UH OH!) /
+    }",1,8,0,101
+carr-lane-2-VanillaSailor,dotogether-n,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,35,44
+carr-lane-2-VanillaSailor,dotogether-n,END,"    this.playingCard.say(Alice was just here I promise!!) /
+    this.queenOfHearts.say(We BETTER find her!) /
+    do together / {
+      this.queenOfHearts.walk forward() /
+      this.playingCard.walk forward() /
+    }
+    this.alice.sneak away() /",1,6,0,48
+carr-lane-2-VanillaSailor,dotogether-e,REFERENCE,1/2/-1/-1/-1/-1/-1/3/-1/,1/2/3/4/7/8/9/6/5/,C/C/I/I/I/U/U/U/U/,36,43
+carr-lane-2-VanillaSailor,dotogether-e,PUZZLE,1/2/3/4/7/8/9/6/5/,1/2/3/4/7/8/9/6/5/,C/C/C/C/I/U/U/U/U/,94,-1
+carr-lane-2-VanillaSailor,dotogether-e,REFERENCE,1/2/3/4/7/8/9/6/5/,1/2/3/4/5/8/9/7/6/,C/C/C/C/I/U/U/U/U/,107,115
+carr-lane-2-VanillaSailor,dotogether-e,REFERENCE,1/2/3/4/5/8/9/7/6/,1/2/3/4/5/8/9/7/6/,C/C/C/C/C/C/C/C/C/,125,-1
+carr-lane-2-VanillaSailor,dotogether-e,PUZZLE,1/2/3/4/5/8/9/7/6/,1/2/3/4/5/8/9/7/6/,C/C/C/C/C/C/C/C/C/,136,146
+carr-lane-2-VanillaSailor,dotogether-e,END,"    this.bush.rustle() /
+    do together / {
+      this.Witch.getHead().turn(TypeExpression.RIGHT, 0.125) /
+      this.Witch.say(What was that?) /
+    }
+    do together / {
+      this.Troll.legs shake() /
+      this.Troll.bend over() /
+      this.Troll.turn(TypeExpression.RIGHT, 0.5) /
+      this.Troll.think(This place is scary..) /
+    }",1,9,0,149
+carr-lane-2-VanillaSailor,dotogether-c,PUZZLE,1/3/4/2/5/6/7/,1/2/4/3/5/6/7/,C/I/U/U/U/U/U/,49,55
+carr-lane-2-VanillaSailor,dotogether-c,PUZZLE,1/2/4/3/5/6/7/,1/2/4/3/5/6/7/,C/C/I/U/U/U/U/,64,-1
+carr-lane-2-VanillaSailor,dotogether-c,REFERENCE,1/2/4/3/5/6/7/,1/2/3/4/5/6/7/,C/C/I/U/U/U/U/,71,79
+carr-lane-2-VanillaSailor,dotogether-c,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/I/U/,83,91
+carr-lane-2-VanillaSailor,dotogether-c,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/6/5/7/,C/C/C/C/C/I/I/,95,104
+carr-lane-2-VanillaSailor,dotogether-c,PUZZLE,1/2/3/4/6/5/7/,1/2/3/4/6/5/7/,C/C/C/C/I/I/U/,110,119
+carr-lane-2-VanillaSailor,dotogether-c,PUZZLE,1/2/3/4/6/5/7/,1/2/3/4/5/6/7/,C/C/C/C/I/U/U/,126,134
+carr-lane-2-VanillaSailor,dotogether-c,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/C/C/,144,152
+carr-lane-2-VanillaSailor,dotogether-c,END,"    this.Troll.say(What's for dinner?) /
+    this.Witch.say(YOU!) /
+    do together / {
+      this.Troll.moveTo(this.Cauldron) /
+      this.Troll.raise arms and scream() /
+    }
+    this.Troll.turn(TypeExpression.RIGHT, 8.0) /
+    this.Troll.disappear() /",2,7,0,155
+carr-lane-2-VanillaSailor,dotogether-i,REFERENCE,2/-1/3/-1/-1/1/-1/-1/-1/-1/,1/7/3/4/5/2/8/6/9/10/,I/U/U/U/U/U/U/U/U/U/,47,52
+carr-lane-2-VanillaSailor,dotogether-i,PUZZLE,1/7/3/4/5/2/8/6/9/10/,1/8/3/4/5/2/7/6/9/10/,C/C/C/C/C/I/U/U/U/U/,110,120
+carr-lane-2-VanillaSailor,dotogether-i,PUZZLE,1/8/3/4/5/2/7/6/9/10/,1/8/3/4/5/2/7/6/9/10/,C/C/C/C/C/I/U/U/U/U/,235,250
+carr-lane-2-VanillaSailor,dotogether-i,REFERENCE,1/8/3/4/5/2/7/6/9/10/,1/6/3/4/5/2/8/7/9/10/,C/C/C/C/C/I/U/U/U/U/,485,495
+carr-lane-2-VanillaSailor,dotogether-i,PUZZLE,1/6/3/4/5/2/8/7/9/10/,1/6/3/4/5/2/8/7/9/10/,C/C/C/C/C/C/C/C/C/C/,518,526
+carr-lane-2-VanillaSailor,dotogether-i,END,"    this.tiny yeti.turnToFace(this.big yeti) /
+    do together / {
+      this.tiny yeti.nod() /
+      this.big yeti.nod() /
+    }
+    this.tiny yeti.move(TypeExpression.BACKWARD, 0.5) /
+    do together / {
+      this.tiny yeti.jump to hammer() /
+      this.big yeti.prepare to swing hammer() /
+    }
+    this.big yeti.power swing() /
+    this.tiny yeti.fly away() /",1,10,0,531
+carr-lane-2-VanillaSailor,dotogether-l,PUZZLE,1/3/4/6/5/2/7/,1/3/4/6/5/2/7/,C/I/U/U/U/U/U/,44,-1
+carr-lane-2-VanillaSailor,dotogether-l,REFERENCE,1/3/4/6/5/2/7/,1/2/3/6/4/5/7/,C/I/U/U/U/U/U/,52,61
+carr-lane-2-VanillaSailor,dotogether-l,PUZZLE,1/2/3/6/4/5/7/,1/2/3/6/4/5/7/,C/C/C/C/C/C/C/,68,77
+carr-lane-2-VanillaSailor,dotogether-l,END,"    this.cheshireCat.say(Okay Alice, your turn now.) /
+    this.alice.move(TypeExpression.BACKWARD, 1.0) /
+    do together / {
+      this.alice.move legs() /
+      this.alice.move(TypeExpression.UP, 1.0) /
+      this.alice.moveToward(this.cheshireCat, 3.0) /
+    }
+    this.alice.say(I'm stuck!) /",1,7,0,80
+carr-lane-2-VanillaSailor,dotogether-f,PUZZLE,1/6/4/3/2/5/8/7/,1/5/4/3/2/8/7/6/,C/C/C/C/I/U/U/U/,58,68
+carr-lane-2-VanillaSailor,dotogether-f,PUZZLE,1/5/4/3/2/8/7/6/,1/5/4/3/2/8/7/6/,C/C/C/C/C/C/C/I/,72,81
+carr-lane-2-VanillaSailor,dotogether-f,PUZZLE,1/5/4/3/2/8/7/6/,1/5/4/3/2/8/7/6/,C/C/C/C/C/C/C/C/,86,95
+carr-lane-2-VanillaSailor,dotogether-f,END,"    this.Witch.say(I will turn you to stone!) /
+    do together / {
+      this.Ogre.move(TypeExpression.DOWN, 0.375) /
+      this.Ogre.bend knees() /
+    }
+    do together / {
+      this.Witch.cast spell() /
+      this.Ogre.getRightShoulder().turn(TypeExpression.LEFT, 0.25) /
+      this.Ogre.setPaint(InstanceCreation) /
+    }",1,8,0,99
+carr-lane-2-VanillaSailor,dotogether-k,PUZZLE,1/2/3/4/6/5/8/9/10/7/11/,1/2/3/4/6/5/8/9/10/7/11/,C/C/C/C/I/I/U/U/U/U/U/,77,-1
+carr-lane-2-VanillaSailor,dotogether-k,REFERENCE,1/2/3/4/6/5/8/9/10/7/11/,1/2/3/4/6/5/8/9/10/7/11/,C/C/C/C/I/I/U/U/U/U/U/,6518,-1
+carr-lane-2-VanillaSailor,dotogether-k,REFERENCE,1/2/3/4/6/5/8/9/10/7/11/,1/2/3/4/6/5/8/9/10/7/11/,C/C/C/C/I/I/U/U/U/U/U/,6518,6518
+carr-lane-2-VanillaSailor,dotogether-k,REFERENCE,1/2/3/4/6/5/8/9/10/7/11/,1/2/3/4/6/5/8/9/10/7/11/,C/C/C/C/I/I/U/U/U/U/U/,6518,-1
+carr-lane-2-VanillaSailor,dotogether-k,REFERENCE,1/2/3/4/6/5/8/9/10/7/11/,1/2/3/4/6/5/8/9/10/7/11/,C/C/C/C/I/I/U/U/U/U/U/,6518,-1
+carr-lane-2-VanillaSailor,dotogether-k,REFERENCE,1/2/3/4/6/5/8/9/10/7/11/,1/2/3/4/6/5/8/9/10/7/11/,C/C/C/C/I/I/U/U/U/U/U/,6518,-1
+carr-lane-2-VanillaSailor,dotogether-k,REFERENCE,1/2/3/4/6/5/8/9/10/7/11/,1/2/3/4/6/5/8/9/10/7/11/,C/C/C/C/I/I/U/U/U/U/U/,6518,6518
+carr-lane-2-VanillaSailor,dotogether-k,REFERENCE,1/2/3/4/6/5/8/9/10/7/11/,1/2/3/4/5/6/8/9/10/7/11/,C/C/C/C/I/I/U/U/U/U/U/,6523,6532
+carr-lane-2-VanillaSailor,dotogether-k,PUZZLE,1/2/3/4/5/6/8/9/10/7/11/,1/2/3/4/5/6/7/9/10/8/11/,C/C/C/C/C/C/I/U/U/U/U/,6547,6570
+carr-lane-2-VanillaSailor,dotogether-k,PUZZLE,1/2/3/4/5/6/7/9/10/8/11/,1/2/3/4/5/6/7/9/10/8/11/,C/C/C/C/C/C/C/I/U/U/U/,6580,-1
+carr-lane-2-VanillaSailor,dotogether-k,REFERENCE,1/2/3/4/5/6/7/9/10/8/11/,1/2/3/4/5/6/7/8/10/9/11/,C/C/C/C/C/C/C/I/U/U/U/,6595,6608
+carr-lane-2-VanillaSailor,dotogether-k,PUZZLE,1/2/3/4/5/6/7/8/10/9/11/,1/2/3/4/5/6/7/8/11/10/9/,C/C/C/C/C/C/C/C/C/C/I/,6614,6628
+carr-lane-2-VanillaSailor,dotogether-k,PUZZLE,1/2/3/4/5/6/7/8/11/10/9/,1/2/3/4/5/6/7/8/11/10/9/,C/C/C/C/C/C/C/C/I/C/C/,6633,-1
+carr-lane-2-VanillaSailor,dotogether-k,REFERENCE,1/2/3/4/5/6/7/8/11/10/9/,1/2/3/4/5/6/7/8/10/9/11/,C/C/C/C/C/C/C/C/I/C/C/,6657,6671
+carr-lane-2-VanillaSailor,dotogether-k,PUZZLE,1/2/3/4/5/6/7/8/10/9/11/,1/2/3/4/5/6/7/8/10/9/11/,C/C/C/C/C/C/C/C/C/C/C/,6679,6694
+carr-lane-2-VanillaSailor,dotogether-k,END,"    this.witch.cast spell() /
+    do together / {
+      this.cauldron.turn(TypeExpression.RIGHT, 4.0) /
+      this.lid.move(TypeExpression.UP, 1.0) /
+      this.poodle.move(TypeExpression.UP, 1.0) /
+    }
+    this.witch.lower arm() /
+    this.witch.say(Whoops!) /
+    do together / {
+      this.troll.get scared() /
+      this.poodle.bark() /
+    }
+    this.troll.say(eeee yikes!) /",2,11,0,6697
+carr-lane-2-VanillaSailor,dotogether-g,PUZZLE,-1/5/4/6/1/3/2/7/8/,-1/3/4/6/1/5/2/7/8/,I/U/U/U/U/U/U/U/U/,68,75
+carr-lane-2-VanillaSailor,dotogether-g,PUZZLE,-1/3/4/6/1/5/2/7/8/,-1/3/4/6/1/5/2/7/8/,I/U/U/U/U/U/U/U/U/,89,-1
+carr-lane-2-VanillaSailor,dotogether-g,REFERENCE,-1/3/4/6/1/5/2/7/8/,-1/2/3/6/5/4/1/7/8/,I/U/U/U/U/U/U/U/U/,94,96
+carr-lane-2-VanillaSailor,dotogether-g,PUZZLE,-1/2/3/6/5/4/1/7/8/,-1/2/3/6/5/4/1/7/8/,C/C/C/I/U/U/U/U/U/,101,-1
+carr-lane-2-VanillaSailor,dotogether-g,REFERENCE,-1/2/3/6/5/4/1/7/8/,4/2/3/7/6/5/1/8/9/,C/C/C/I/U/U/U/U/U/,106,109
+carr-lane-2-VanillaSailor,dotogether-g,PUZZLE,4/2/3/7/6/5/1/8/9/,4/2/3/7/6/5/1/8/9/,C/C/C/C/C/C/C/C/C/,121,127
+carr-lane-2-VanillaSailor,dotogether-g,END,"    do together / {
+      this.yeti.getRightShoulder().turn(TypeExpression.LEFT, 0.375) /
+      this.yeti.getLeftShoulder().turn(TypeExpression.RIGHT, 0.375) /
+    }
+    do together / {
+      this.yeti.getMouth().turn(TypeExpression.FORWARD, 0.25) /
+      this.yeti.resize(1.5) /
+    }
+    do together / {
+      this.babyYeti.getMouth().turn(TypeExpression.FORWARD, 0.25) /
+      this.babyYeti.raise arms() /
+    }",2,9,0,130
+carr-lane-2-VanillaSailor,dotogether-h,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/U/,25,32
+carr-lane-2-VanillaSailor,dotogether-h,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/U/,34,38
+carr-lane-2-VanillaSailor,dotogether-h,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/,48,52
+carr-lane-2-VanillaSailor,dotogether-h,REFERENCE,1/-1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/,58,-1
+carr-lane-2-VanillaSailor,dotogether-h,PUZZLE,1/-1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/2/-1/-1/-1/-1/-1/-1/-1/-1/3/,C/I/U/U/U/U/U/U/U/U/U/U/,63,66
+carr-lane-2-VanillaSailor,dotogether-h,REFERENCE,1/-1/2/-1/-1/-1/-1/-1/-1/-1/-1/3/,1/-1/2/-1/-1/-1/-1/-1/-1/-1/-1/3/,C/I/U/U/U/U/U/U/U/U/U/U/,83,87
+carr-lane-2-VanillaSailor,dotogether-h,PUZZLE,1/-1/2/-1/-1/-1/-1/-1/-1/-1/-1/3/,1/-1/3/-1/-1/-1/-1/-1/-1/-1/-1/2/,C/I/U/U/U/U/U/U/U/U/U/U/,89,93
+carr-lane-2-VanillaSailor,dotogether-h,PUZZLE,1/-1/3/-1/-1/-1/-1/-1/-1/-1/-1/2/,1/-1/4/3/-1/2/-1/-1/-1/-1/-1/5/,C/I/U/U/U/U/U/U/U/U/U/U/,96,98
+carr-lane-2-VanillaSailor,dotogether-h,PUZZLE,1/-1/4/3/-1/2/-1/-1/-1/-1/-1/5/,1/-1/4/3/-1/2/-1/-1/-1/-1/-1/5/,C/C/C/C/I/U/U/U/U/U/U/U/,123,-1
+carr-lane-2-VanillaSailor,dotogether-h,REFERENCE,1/-1/4/3/-1/2/-1/-1/-1/-1/-1/5/,1/9/4/3/5/2/8/7/6/11/10/12/,C/C/C/C/I/U/U/U/U/U/U/U/,128,134
+carr-lane-2-VanillaSailor,dotogether-h,PUZZLE,1/9/4/3/5/2/8/7/6/11/10/12/,1/9/4/3/5/2/8/7/6/11/10/12/,C/C/C/C/C/C/C/C/C/C/C/I/,176,-1
+carr-lane-2-VanillaSailor,dotogether-h,REFERENCE,1/9/4/3/5/2/8/7/6/11/10/12/,1/9/4/3/5/2/8/7/6/11/10/12/,C/C/C/C/C/C/C/C/C/C/C/I/,186,196
+carr-lane-2-VanillaSailor,dotogether-h,PUZZLE,1/9/4/3/5/2/8/7/6/11/10/12/,1/9/4/3/5/2/8/7/6/11/10/12/,C/C/C/C/C/C/C/C/C/C/C/C/,199,208
+carr-lane-2-VanillaSailor,dotogether-h,END,"    this.bunny.bend forward() /
+    do together / {
+      this.bunny.jump() /
+      this.bunny.move(TypeExpression.FORWARD, 1.0) /
+    }
+    this.bunny.disappear() /
+    do together / {
+      this.hat.turn(TypeExpression.RIGHT, 2.0) /
+      this.hat.move(TypeExpression.DOWN, 1.0) /
+    }
+    do together / {
+      this.bunny.appear() /
+      this.bunny.raise arms() /
+      this.bunny.turn(TypeExpression.RIGHT, 2.25) /
+    }",2,12,0,212
+carr-lane-2-VanillaSailor,repeat-ee,PUZZLE,1/2/3/4/,1/2/3/4/,C/C/C/C/,35,47
+carr-lane-2-VanillaSailor,repeat-ee,END,"    this.hare.walk(5.0) /
+    count 3 / {
+      this.hare.knock() /
+    }
+    this.hare.say(Anyone home?) /",1,4,0,52
+carr-lane-2-VanillaSailor,repeat-gg,REFERENCE,-1/-1/-1/-1/-1/-1/-1/,1/2/3/4/5/6/7/,I/U/U/U/U/U/U/,35,49
+carr-lane-2-VanillaSailor,repeat-gg,PUZZLE,1/2/3/4/5/6/7/,1/2/3/5/4/6/7/,C/C/C/C/I/U/U/,91,101
+carr-lane-2-VanillaSailor,repeat-gg,PUZZLE,1/2/3/5/4/6/7/,1/2/3/4/5/6/7/,C/C/C/I/U/U/U/,110,118
+carr-lane-2-VanillaSailor,repeat-gg,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/C/C/,125,142
+carr-lane-2-VanillaSailor,repeat-gg,END,"    this.mandril.scare ostrich() /
+    this.ostrichBaby.say(AAAHHHHH!!!!) /
+    count 5 / {
+      this.ostrichBaby.run(3, 0.08) /
+      GlobalFirstInstanceExpression.scene.ostrichBaby.turn(TypeExpression.RIGHT, 0.5) /
+    }
+    this.ostrichBaby.think(I guess this is the end; there's no escape!) /
+    this.fade to black() /",2,7,0,145
+carr-lane-2-VanillaSailor,repeat-m,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/I/U/U/U/,49,-1
+carr-lane-2-VanillaSailor,repeat-m,REFERENCE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/I/U/U/U/,59,68
+carr-lane-2-VanillaSailor,repeat-m,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/C/C/,73,86
+carr-lane-2-VanillaSailor,repeat-m,END,"    this.alien.walk(0.5) /
+    count 2 / {
+      this.alien.kick() /
+      this.flying saucer.shake() /
+    }
+    this.flying saucer.fly above(this.alien) /
+    this.flying saucer.beam up(this.alien) /
+    this.flying saucer.fly away() /",1,7,0,92
+carr-lane-2-VanillaSailor,repeat-f,PUZZLE,4/3/2/5/1/,4/3/2/5/1/,I/U/U/U/U/,51,-1
+carr-lane-2-VanillaSailor,repeat-f,REFERENCE,4/3/2/5/1/,3/2/1/5/4/,I/U/U/U/U/,55,59
+carr-lane-2-VanillaSailor,repeat-f,PUZZLE,3/2/1/5/4/,3/2/1/5/4/,I/U/U/U/U/,65,-1
+carr-lane-2-VanillaSailor,repeat-f,REFERENCE,3/2/1/5/4/,2/3/1/5/4/,I/U/U/U/U/,69,73
+carr-lane-2-VanillaSailor,repeat-f,PUZZLE,2/3/1/5/4/,2/3/1/5/4/,I/U/U/U/U/,77,-1
+carr-lane-2-VanillaSailor,repeat-f,REFERENCE,2/3/1/5/4/,1/2/3/5/4/,I/U/U/U/U/,80,88
+carr-lane-2-VanillaSailor,repeat-f,PUZZLE,1/2/3/5/4/,1/2/3/5/4/,C/C/C/I/U/,96,-1
+carr-lane-2-VanillaSailor,repeat-f,REFERENCE,1/2/3/5/4/,1/2/3/4/5/,C/C/C/I/U/,102,107
+carr-lane-2-VanillaSailor,repeat-f,PUZZLE,1/2/3/4/5/,1/2/3/4/5/,C/C/C/C/I/,114,-1
+carr-lane-2-VanillaSailor,repeat-f,REFERENCE,1/2/3/4/5/,1/4/2/3/5/,C/C/C/C/I/,123,131
+carr-lane-2-VanillaSailor,repeat-f,PUZZLE,1/4/2/3/5/,1/2/3/5/4/,C/I/U/U/U/,137,141
+carr-lane-2-VanillaSailor,repeat-f,PUZZLE,1/2/3/5/4/,1/2/3/5/4/,C/C/C/I/U/,148,155
+carr-lane-2-VanillaSailor,repeat-f,PUZZLE,1/2/3/5/4/,1/2/3/5/4/,C/C/C/I/U/,159,-1
+carr-lane-2-VanillaSailor,repeat-f,REFERENCE,1/2/3/5/4/,1/2/3/5/4/,C/C/C/I/U/,166,174
+carr-lane-2-VanillaSailor,repeat-f,REFERENCE,1/2/3/5/4/,1/2/3/5/4/,C/C/C/I/U/,176,181
+carr-lane-2-VanillaSailor,repeat-f,REFERENCE,1/2/3/5/4/,1/2/3/4/5/,C/C/C/I/U/,186,206
+carr-lane-2-VanillaSailor,repeat-f,PUZZLE,1/2/3/4/5/,1/2/3/4/5/,C/C/C/C/C/,211,224
+carr-lane-2-VanillaSailor,repeat-f,END,"    this.Gray Rhino.getNeck().turn(TypeExpression.FORWARD, 0.0625) /
+    this.White Rhino.getNeck().turn(TypeExpression.FORWARD, 0.0625) /
+    count 2 / {
+      this.White Rhino.drink water() /
+      this.Gray Rhino.drink water() /
+    }",2,5,0,228
+carr-lane-2-VanillaSailor,repeat-a,PUZZLE,1/3/2/4/5/6/7/8/9/,1/3/2/4/5/6/7/8/9/,C/I/U/U/U/U/U/U/U/,77,-1
+carr-lane-2-VanillaSailor,repeat-a,REFERENCE,1/3/2/4/5/6/7/8/9/,1/2/3/4/5/6/7/8/9/,C/I/U/U/U/U/U/U/U/,82,86
+carr-lane-2-VanillaSailor,repeat-a,PUZZLE,1/2/3/4/5/6/7/8/9/,1/2/3/4/5/6/7/8/9/,C/C/C/C/C/C/C/C/C/,89,112
+carr-lane-2-VanillaSailor,repeat-a,END,"    this.tiny yeti.run forward() /
+    this.tiny yeti.steal hammer() /
+    this.tiny yeti.jump above yeti() /
+    count 3 / {
+      this.tiny yeti.swing hammer() /
+      this.big yeti.shake head() /
+    }
+    this.tiny yeti.fall to ground() /
+    count 3 / {
+      this.big yeti.cry() /
+    }",2,9,0,114
+carr-lane-2-VanillaSailor,repeat-g,PUZZLE,4/1/3/2/5/6/,4/1/3/2/5/6/,I/U/U/U/U/U/,33,-1
+carr-lane-2-VanillaSailor,repeat-g,PUZZLE,4/1/3/2/5/6/,4/1/3/2/5/6/,I/U/U/U/U/U/,38,-1
+carr-lane-2-VanillaSailor,repeat-g,REFERENCE,4/1/3/2/5/6/,1/2/3/4/5/6/,I/U/U/U/U/U/,41,44
+carr-lane-2-VanillaSailor,repeat-g,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,50,58
+carr-lane-2-VanillaSailor,repeat-g,END,"    this.Baby Yeti.raise arms() /
+    count 2 / {
+      this.Baby Yeti.turn(TypeExpression.LEFT, 0.125) /
+      this.Baby Yeti.turn(TypeExpression.RIGHT, 0.125) /
+    }
+    count 3 / {
+      this.Baby Yeti.jump and spin() /
+    }",1,6,0,61
+carr-lane-2-VanillaSailor,repeat-b,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/3/4/6/7/5/8/9/10/,C/I/U/U/U/U/U/U/U/U/,23,27
+carr-lane-2-VanillaSailor,repeat-b,PUZZLE,1/2/3/4/6/7/5/8/9/10/,1/2/3/4/6/7/5/8/9/10/,C/C/C/C/I/U/U/U/U/U/,75,-1
+carr-lane-2-VanillaSailor,repeat-b,REFERENCE,1/2/3/4/6/7/5/8/9/10/,1/2/3/4/5/9/6/8/7/10/,C/C/C/C/I/U/U/U/U/U/,86,104
+carr-lane-2-VanillaSailor,repeat-b,PUZZLE,1/2/3/4/5/9/6/8/7/10/,1/2/3/4/5/7/6/9/8/10/,C/C/C/C/C/I/U/U/U/U/,121,141
+carr-lane-2-VanillaSailor,repeat-b,PUZZLE,1/2/3/4/5/7/6/9/8/10/,1/2/3/4/5/7/6/9/8/10/,C/C/C/C/C/I/U/U/U/U/,172,-1
+carr-lane-2-VanillaSailor,repeat-b,REFERENCE,1/2/3/4/5/7/6/9/8/10/,1/2/3/4/5/6/7/9/8/10/,C/C/C/C/C/I/U/U/U/U/,190,208
+carr-lane-2-VanillaSailor,repeat-b,PUZZLE,1/2/3/4/5/6/7/9/8/10/,1/2/3/4/5/6/8/7/9/10/,C/C/C/C/C/C/C/I/U/U/,220,235
+carr-lane-2-VanillaSailor,repeat-b,PUZZLE,1/2/3/4/5/6/8/7/9/10/,1/2/3/4/5/6/8/7/9/10/,C/C/C/C/C/C/I/U/U/U/,239,-1
+carr-lane-2-VanillaSailor,repeat-b,REFERENCE,1/2/3/4/5/6/8/7/9/10/,1/2/3/4/5/6/7/9/8/10/,C/C/C/C/C/C/I/U/U/U/,256,273
+carr-lane-2-VanillaSailor,repeat-b,PUZZLE,1/2/3/4/5/6/7/9/8/10/,1/2/3/4/5/6/7/8/9/10/,C/C/C/C/C/C/C/I/U/U/,279,295
+carr-lane-2-VanillaSailor,repeat-b,PUZZLE,1/2/3/4/5/6/7/8/9/10/,1/2/3/4/5/6/7/8/9/10/,C/C/C/C/C/C/C/C/C/C/,312,331
+carr-lane-2-VanillaSailor,repeat-b,END,"    this.grey monkey.jump onto(this.couch) /
+    this.grey monkey.turnToFace(this.brown monkey) /
+    count 2 / {
+      this.grey monkey.move arms up and down() /
+      this.brown monkey.move arms up and down() /
+    }
+    this.grey monkey.hop side to side() /
+    count 2 / {
+      this.brown monkey.turn around() /
+      this.brown monkey.jump forward() /
+    }
+    this.grey monkey.lay down() /",3,10,0,335
+carr-lane-2-VanillaSailor,repeat-e,PUZZLE,1/2/3/4/6/5/7/,1/2/3/4/6/5/7/,C/C/C/C/I/U/U/,47,-1
+carr-lane-2-VanillaSailor,repeat-e,REFERENCE,1/2/3/4/6/5/7/,1/2/3/4/5/6/7/,C/C/C/C/I/U/U/,64,80
+carr-lane-2-VanillaSailor,repeat-e,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/C/C/,83,99
+carr-lane-2-VanillaSailor,repeat-e,END,"    this.curupira.walk(2.0) /
+    this.curupira.getNeck().turn(TypeExpression.FORWARD, 0.125) /
+    this.curupira.think(Uh oh.) /
+    this.curupira.move(TypeExpression.DOWN, 4.0) /
+    this.mapinguari.place hands on belly() /
+    count 3 / {
+      this.mapinguari.laugh() /
+    }",1,7,0,103
+carr-lane-2-VanillaSailor,repeat-c,PUZZLE,6/3/8/5/4/1/2/7/9/,6/3/8/5/4/1/2/7/9/,I/U/U/U/U/U/U/U/U/,3727,-1
+carr-lane-2-VanillaSailor,repeat-c,REFERENCE,6/3/8/5/4/1/2/7/9/,6/3/8/5/4/1/2/7/9/,I/U/U/U/U/U/U/U/U/,3731,-1
+carr-lane-2-VanillaSailor,repeat-c,REFERENCE,6/3/8/5/4/1/2/7/9/,1/5/8/2/6/3/4/7/9/,I/U/U/U/U/U/U/U/U/,3737,3740
+carr-lane-2-VanillaSailor,repeat-c,PUZZLE,1/5/8/2/6/3/4/7/9/,1/5/8/2/6/3/4/7/9/,C/I/U/U/U/U/U/U/U/,3757,-1
+carr-lane-2-VanillaSailor,repeat-c,REFERENCE,1/5/8/2/6/3/4/7/9/,1/6/8/2/5/3/4/7/9/,C/I/U/U/U/U/U/U/U/,3761,3767
+carr-lane-2-VanillaSailor,repeat-c,PUZZLE,1/6/8/2/5/3/4/7/9/,1/6/8/2/5/3/4/7/9/,C/I/U/U/U/U/U/U/U/,3790,-1
+carr-lane-2-VanillaSailor,repeat-c,PUZZLE,1/6/8/2/5/3/4/7/9/,1/6/8/2/5/3/4/7/9/,C/I/U/U/U/U/U/U/U/,3798,-1
+carr-lane-2-VanillaSailor,repeat-c,REFERENCE,1/6/8/2/5/3/4/7/9/,1/6/8/2/3/4/5/7/9/,C/I/U/U/U/U/U/U/U/,3800,3819
+carr-lane-2-VanillaSailor,repeat-c,PUZZLE,1/6/8/2/3/4/5/7/9/,1/6/8/2/3/4/5/7/9/,C/I/U/U/U/U/U/U/U/,3849,3855
+carr-lane-2-VanillaSailor,repeat-c,REFERENCE,1/6/8/2/3/4/5/7/9/,1/6/8/2/3/4/5/7/9/,C/I/U/U/U/U/U/U/U/,3862,3865
+carr-lane-2-VanillaSailor,repeat-c,PUZZLE,1/6/8/2/3/4/5/7/9/,1/6/8/2/3/4/5/7/9/,C/I/U/U/U/U/U/U/U/,3867,-1
+carr-lane-2-VanillaSailor,repeat-c,REFERENCE,1/6/8/2/3/4/5/7/9/,1/6/8/2/3/4/5/7/9/,C/I/U/U/U/U/U/U/U/,3874,-1
+carr-lane-2-VanillaSailor,repeat-c,PUZZLE,1/6/8/2/3/4/5/7/9/,1/6/8/2/3/4/5/7/9/,C/I/U/U/U/U/U/U/U/,3894,-1
+carr-lane-2-VanillaSailor,repeat-c,REFERENCE,1/6/8/2/3/4/5/7/9/,2/1/8/3/6/4/5/7/9/,C/I/U/U/U/U/U/U/U/,3914,3932
+carr-lane-2-VanillaSailor,repeat-c,PUZZLE,2/1/8/3/6/4/5/7/9/,1/2/8/3/6/4/5/7/9/,I/U/U/U/U/U/U/U/U/,3955,3974
+carr-lane-2-VanillaSailor,repeat-c,PUZZLE,1/2/8/3/6/4/5/7/9/,1/2/8/3/6/4/5/7/9/,C/C/I/U/U/U/U/U/U/,3980,-1
+carr-lane-2-VanillaSailor,repeat-c,REFERENCE,1/2/8/3/6/4/5/7/9/,1/2/8/3/4/5/6/7/9/,C/C/I/U/U/U/U/U/U/,3993,4003
+carr-lane-2-VanillaSailor,repeat-c,PUZZLE,1/2/8/3/4/5/6/7/9/,1/2/8/3/4/5/6/7/9/,C/C/I/U/U/U/U/U/U/,4006,-1
+carr-lane-2-VanillaSailor,repeat-c,REFERENCE,1/2/8/3/4/5/6/7/9/,1/2/8/3/4/5/6/7/9/,C/C/I/U/U/U/U/U/U/,4026,-1
+carr-lane-2-VanillaSailor,repeat-c,PUZZLE,1/2/8/3/4/5/6/7/9/,1/2/8/3/4/5/6/7/9/,C/C/I/U/U/U/U/U/U/,4041,-1
+carr-lane-2-VanillaSailor,repeat-c,PUZZLE,1/2/8/3/4/5/6/7/9/,1/2/8/3/4/5/6/7/9/,C/C/I/U/U/U/U/U/U/,4053,-1
+carr-lane-2-VanillaSailor,repeat-c,REFERENCE,1/2/8/3/4/5/6/7/9/,1/3/2/4/5/6/7/8/9/,C/C/I/U/U/U/U/U/U/,4060,4067
+carr-lane-2-VanillaSailor,repeat-c,PUZZLE,1/3/2/4/5/6/7/8/9/,1/3/2/4/5/6/7/8/9/,C/I/U/U/U/U/U/U/U/,4193,-1
+carr-lane-2-VanillaSailor,repeat-c,REFERENCE,1/3/2/4/5/6/7/8/9/,1/2/3/4/5/6/7/8/9/,C/I/U/U/U/U/U/U/U/,4209,4219
+carr-lane-2-VanillaSailor,repeat-c,PUZZLE,1/2/3/4/5/6/7/8/9/,1/2/3/4/5/6/7/8/9/,C/C/C/C/C/C/C/C/C/,4225,4246
+carr-lane-2-VanillaSailor,repeat-c,END,"    this.dolphin.approach(this.fishing boat) /
+    count 2 / {
+      this.dolphin.bump(this.fishing boat) /
+      this.fishing boat.shake() /
+      this.fishing boat.move(TypeExpression.DOWN, 0.1) /
+      count 2 / {
+        this.rabbit.jump around() /
+      }
+    }
+    this.fishing boat.sink completely() /
+    this.rabbit.ride(this.dolphin) /",4,9,0,4252
+carr-lane-2-VanillaSailor,repeat-cc,PUZZLE,1/2/4/3/5/6/,1/2/3/4/5/6/,C/C/I/U/U/U/,52,60
+carr-lane-2-VanillaSailor,repeat-cc,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,66,87
+carr-lane-2-VanillaSailor,repeat-cc,END,"    this.alien.say(It's time to dance!) /
+    count 3 / {
+      this.alien.slide to the left() /
+      this.alien.slide to the right() /
+      count 2 / {
+        this.alien.criss cross legs() /
+      }
+    }",1,6,0,90
+carr-lane-2-VanillaSailor,repeat-ii,PUZZLE,1/2/4/3/5/6/,1/2/5/3/4/6/,C/C/I/U/U/U/,38,43
+carr-lane-2-VanillaSailor,repeat-ii,PUZZLE,1/2/5/3/4/6/,1/2/3/4/5/6/,C/C/I/U/U/U/,48,62
+carr-lane-2-VanillaSailor,repeat-ii,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/I/U/,70,82
+carr-lane-2-VanillaSailor,repeat-ii,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,86,131
+carr-lane-2-VanillaSailor,repeat-ii,END,"    this.troll.say(I really wish I had something to row with) /
+    count 5 / {
+      count 2 / {
+        this.troll.row() /
+        this.boat.move(TypeExpression.BACKWARD, 0.25) /
+      }
+      this.troll.take a nap() /
+    }",1,6,0,135
+carr-lane-2-VanillaSailor,repeat-ff,PUZZLE,1/2/4/3/5/6/,1/2/4/3/5/6/,C/C/I/U/U/U/,67,-1
+carr-lane-2-VanillaSailor,repeat-ff,REFERENCE,1/2/4/3/5/6/,1/2/4/5/3/6/,C/C/I/U/U/U/,78,86
+carr-lane-2-VanillaSailor,repeat-ff,PUZZLE,1/2/4/5/3/6/,1/2/3/4/5/6/,C/C/I/U/U/U/,93,101
+carr-lane-2-VanillaSailor,repeat-ff,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,105,119
+carr-lane-2-VanillaSailor,repeat-ff,END,"    this.phoenix.say(I can do this, I know I can!) /
+    count 5 / {
+      count 3 / {
+        this.phoenix.flap wings(0.125) /
+      }
+      this.phoenix.glide() /
+    }
+    this.phoenix.land on rock() /",1,6,0,122
+carr-lane-2-VanillaSailor,repeat-o,PUZZLE,1/2/3/5/4/6/7/8/9/11/10/,1/2/3/5/4/6/7/8/9/11/10/,C/C/C/C/C/C/C/C/C/C/C/,73,87
+carr-lane-2-VanillaSailor,repeat-o,END,"    this.troll.say(I have a bad feeling) /
+    count 2 / {
+      do together / {
+        this.cauldron.shake() /
+        this.lid.shoot up and down() /
+      }
+    }
+    this.witch.say(?) /
+    this.witch.move(TypeExpression.FORWARD, 0.5) /
+    this.cauldron.shrink and disappear() /
+    do together / {
+      this.troll.jump back() /
+      this.witch.jump back() /
+    }",1,11,0,91
+carr-lane-2-VanillaSailor,repeat-j,PUZZLE,1/2/4/3/6/5/,1/2/4/3/6/5/,C/C/I/U/U/U/,45,-1
+carr-lane-2-VanillaSailor,repeat-j,REFERENCE,1/2/4/3/6/5/,1/2/5/3/6/4/,C/C/I/U/U/U/,55,62
+carr-lane-2-VanillaSailor,repeat-j,PUZZLE,1/2/5/3/6/4/,1/2/5/3/6/4/,C/C/I/U/U/U/,71,-1
+carr-lane-2-VanillaSailor,repeat-j,REFERENCE,1/2/5/3/6/4/,1/2/6/3/5/4/,C/C/I/U/U/U/,77,83
+carr-lane-2-VanillaSailor,repeat-j,PUZZLE,1/2/6/3/5/4/,1/2/3/4/5/6/,C/C/I/U/U/U/,93,100
+carr-lane-2-VanillaSailor,repeat-j,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,117,124
+carr-lane-2-VanillaSailor,repeat-j,END,"    this.witch.activate(this.cauldron) /
+    count 3 / {
+      this.cauldron.jump and spin() /
+      do together / {
+        this.witch.jump backwards() /
+        this.troll.jump backwards() /
+      }
+    }",2,6,0,127
+carr-lane-2-VanillaSailor,repeat-i,PUZZLE,1/2/3/4/5/7/6/,1/2/3/4/5/7/6/,C/C/C/C/C/C/C/,47,60
+carr-lane-2-VanillaSailor,repeat-i,END,"    count 3 / {
+      this.penguin.turn(TypeExpression.RIGHT, 0.5) /
+      this.penguin.move(TypeExpression.FORWARD, 1.0) /
+    }
+    count 3 / {
+      do together / {
+        this.penguin.flutter wings() /
+        this.penguin.jump() /
+      }
+    }",1,7,0,62
+carr-lane-2-VanillaSailor,repeat-n,PUZZLE,2/1/3/4/5/6/7/8/9/10/,2/1/3/4/5/6/7/8/9/10/,I/U/U/U/U/U/U/U/U/U/,77,-1
+carr-lane-2-VanillaSailor,repeat-n,REFERENCE,2/1/3/4/5/6/7/8/9/10/,2/1/3/4/5/6/7/8/9/10/,I/U/U/U/U/U/U/U/U/U/,81,89
+carr-lane-2-VanillaSailor,repeat-n,PUZZLE,2/1/3/4/5/6/7/8/9/10/,1/2/3/4/5/6/7/8/9/10/,I/U/U/U/U/U/U/U/U/U/,96,101
+carr-lane-2-VanillaSailor,repeat-n,PUZZLE,1/2/3/4/5/6/7/8/9/10/,1/2/3/4/5/6/7/8/9/10/,C/C/C/C/I/U/U/U/U/U/,115,-1
+carr-lane-2-VanillaSailor,repeat-n,REFERENCE,1/2/3/4/5/6/7/8/9/10/,1/2/3/4/5/6/7/8/9/10/,C/C/C/C/I/U/U/U/U/U/,125,131
+carr-lane-2-VanillaSailor,repeat-n,PUZZLE,1/2/3/4/5/6/7/8/9/10/,1/2/3/4/5/6/7/8/9/10/,C/C/C/C/C/C/C/C/C/C/,141,155
+carr-lane-2-VanillaSailor,repeat-n,END,"    count 2 / {
+      do together / {
+        this.big yeti.swing hammer() /
+        this.tiny yeti.lean back() /
+      }
+      this.tiny yeti.shrink() /
+    }
+    this.big yeti.drop hammer() /
+    this.tiny yeti.jump and grow(2.0) /
+    do together / {
+      this.tiny yeti.take a bow() /
+      this.big yeti.take a bow() /
+    }",2,10,0,158
+carr-lane-2-VanillaSailor,repeat-l,REFERENCE,1/-1/-1/-1/2/3/,2/3/1/6/4/5/,C/I/U/U/U/U/,43,53
+carr-lane-2-VanillaSailor,repeat-l,PUZZLE,2/3/1/6/4/5/,2/3/1/6/4/5/,I/U/U/U/U/U/,70,-1
+carr-lane-2-VanillaSailor,repeat-l,REFERENCE,2/3/1/6/4/5/,3/4/2/6/1/5/,I/U/U/U/U/U/,74,81
+carr-lane-2-VanillaSailor,repeat-l,PUZZLE,3/4/2/6/1/5/,3/4/2/6/1/5/,I/U/U/U/U/U/,88,-1
+carr-lane-2-VanillaSailor,repeat-l,REFERENCE,3/4/2/6/1/5/,1/2/5/6/3/4/,I/U/U/U/U/U/,92,98
+carr-lane-2-VanillaSailor,repeat-l,PUZZLE,1/2/5/6/3/4/,1/2/5/6/3/4/,C/C/I/U/U/U/,124,134
+carr-lane-2-VanillaSailor,repeat-l,PUZZLE,1/2/5/6/3/4/,1/2/6/3/4/5/,C/C/I/U/U/U/,140,153
+carr-lane-2-VanillaSailor,repeat-l,PUZZLE,1/2/6/3/4/5/,1/2/3/5/4/6/,C/C/I/U/U/U/,159,168
+carr-lane-2-VanillaSailor,repeat-l,PUZZLE,1/2/3/5/4/6/,1/2/3/6/5/4/,C/C/C/C/I/I/,179,187
+carr-lane-2-VanillaSailor,repeat-l,PUZZLE,1/2/3/6/5/4/,1/2/3/6/4/5/,C/C/C/I/C/I/,191,197
+carr-lane-2-VanillaSailor,repeat-l,PUZZLE,1/2/3/6/4/5/,1/2/3/6/4/5/,C/C/C/C/C/C/,203,214
+carr-lane-2-VanillaSailor,repeat-l,END,"    this.cat.turn(TypeExpression.RIGHT, 0.5) /
+    this.cat.raise arms() /
+    do together / {
+      this.alien.turnToFace(this.cat) /
+      count 12 / {
+        this.cat.type at keyboard() /
+      }
+    }",3,6,0,218
+carr-lane-2-VanillaSailor,repeat-x,PUZZLE,1/3/5/2/-1/9/4/8/7/6/10/11/,1/2/5/3/-1/9/4/8/7/6/10/11/,C/I/U/U/U/U/U/U/U/U/U/U/,78,87
+carr-lane-2-VanillaSailor,repeat-x,PUZZLE,1/2/5/3/-1/9/4/8/7/6/10/11/,1/2/5/3/-1/9/4/8/7/6/10/11/,C/C/I/U/U/U/U/U/U/U/U/U/,91,-1
+carr-lane-2-VanillaSailor,repeat-x,REFERENCE,1/2/5/3/-1/9/4/8/7/6/10/11/,1/2/7/4/3/5/6/10/9/8/11/12/,C/C/I/U/U/U/U/U/U/U/U/U/,100,109
+carr-lane-2-VanillaSailor,repeat-x,PUZZLE,1/2/7/4/3/5/6/10/9/8/11/12/,1/2/7/4/3/5/6/10/9/8/11/12/,C/C/I/U/U/U/U/U/U/U/U/U/,137,-1
+carr-lane-2-VanillaSailor,repeat-x,REFERENCE,1/2/7/4/3/5/6/10/9/8/11/12/,1/2/7/3/4/5/6/10/9/8/11/12/,C/C/I/U/U/U/U/U/U/U/U/U/,147,148
+carr-lane-2-VanillaSailor,repeat-x,PUZZLE,1/2/7/3/4/5/6/10/9/8/11/12/,1/2/7/3/4/5/6/10/9/8/11/12/,C/C/I/U/U/U/U/U/U/U/U/U/,151,-1
+carr-lane-2-VanillaSailor,repeat-x,REFERENCE,1/2/7/3/4/5/6/10/9/8/11/12/,1/2/8/6/4/5/7/3/10/9/11/12/,C/C/I/U/U/U/U/U/U/U/U/U/,161,171
+carr-lane-2-VanillaSailor,repeat-x,PUZZLE,1/2/8/6/4/5/7/3/10/9/11/12/,1/2/8/6/4/5/7/3/10/9/11/12/,C/C/C/C/C/C/C/C/C/C/C/C/,199,217
+carr-lane-2-VanillaSailor,repeat-x,END,"    this.alienRobot.land on ground() /
+    this.alien.turnToFace(this.alienRobot) /
+    do together / {
+      this.alien.say(Yay, you're home!) /
+      count 3 / {
+        this.alienRobot.jump() /
+      }
+    }
+    this.alien.think(Hmmm I wish I could make you bigger...) /
+    do together / {
+      this.alien.cast alien magic() /
+      this.alien.say(Abbbbra Ka-Da-Bra) /
+    }
+    this.alienRobot.resize(3.0) /
+    this.alienRobot.face camera() /",3,12,0,220
+carr-lane-2-VanillaSailor,repeat-w,PUZZLE,1/2/3/5/4/,1/2/3/4/5/,C/C/C/I/U/,41,51
+carr-lane-2-VanillaSailor,repeat-w,PUZZLE,1/2/3/4/5/,1/2/3/4/5/,C/C/C/C/I/,56,-1
+carr-lane-2-VanillaSailor,repeat-w,REFERENCE,1/2/3/4/5/,5/1/2/3/4/,C/C/C/C/I/,64,74
+carr-lane-2-VanillaSailor,repeat-w,PUZZLE,5/1/2/3/4/,1/2/3/4/5/,I/U/U/U/U/,79,85
+carr-lane-2-VanillaSailor,repeat-w,PUZZLE,1/2/3/4/5/,1/2/3/4/5/,C/C/C/C/C/,94,104
+carr-lane-2-VanillaSailor,repeat-w,END,"    this.hare.pick up(this.basketball) /
+    do together / {
+      count 10 / {
+        this.hare.dribble ball once(this.basketball) /
+      }
+      this.hare.walk(2.0) /
+    }",3,5,0,106
+carr-lane-2-VanillaSailor,repeat-q,PUZZLE,1/2/3/4/5/7/6/,1/2/3/4/5/7/6/,C/C/C/C/C/I/C/,38,49
+carr-lane-2-VanillaSailor,repeat-q,REFERENCE,1/2/3/4/5/7/6/,1/2/3/5/6/4/7/,C/C/C/C/C/I/C/,62,79
+carr-lane-2-VanillaSailor,repeat-q,PUZZLE,1/2/3/5/6/4/7/,1/2/3/5/7/4/6/,C/C/C/C/C/C/I/,86,106
+carr-lane-2-VanillaSailor,repeat-q,PUZZLE,1/2/3/5/7/4/6/,1/2/3/4/6/7/5/,C/C/C/C/C/I/U/,110,115
+carr-lane-2-VanillaSailor,repeat-q,PUZZLE,1/2/3/4/6/7/5/,1/2/3/4/6/7/5/,C/C/C/C/I/U/C/,118,-1
+carr-lane-2-VanillaSailor,repeat-q,REFERENCE,1/2/3/4/6/7/5/,1/2/3/4/6/7/5/,C/C/C/C/I/U/C/,132,-1
+carr-lane-2-VanillaSailor,repeat-q,REFERENCE,1/2/3/4/6/7/5/,1/2/3/4/6/7/5/,C/C/C/C/I/U/C/,144,-1
+carr-lane-2-VanillaSailor,repeat-q,PUZZLE,1/2/3/4/6/7/5/,1/2/4/5/3/7/6/,C/C/C/C/I/U/C/,158,183
+carr-lane-2-VanillaSailor,repeat-q,PUZZLE,1/2/4/5/3/7/6/,1/2/4/5/6/7/3/,C/C/I/U/U/U/U/,215,229
+carr-lane-2-VanillaSailor,repeat-q,PUZZLE,1/2/4/5/6/7/3/,1/2/4/5/6/7/3/,C/C/I/U/U/U/U/,238,-1
+carr-lane-2-VanillaSailor,repeat-q,REFERENCE,1/2/4/5/6/7/3/,1/2/4/5/6/3/7/,C/C/I/U/U/U/U/,266,292
+carr-lane-2-VanillaSailor,repeat-q,PUZZLE,1/2/4/5/6/3/7/,1/2/3/4/5/6/7/,C/C/I/U/U/U/U/,311,327
+carr-lane-2-VanillaSailor,repeat-q,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/I/C/,338,-1
+carr-lane-2-VanillaSailor,repeat-q,REFERENCE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/I/C/,353,-1
+carr-lane-2-VanillaSailor,repeat-q,REFERENCE,1/2/3/4/5/6/7/,1/2/3/6/4/5/7/,C/C/C/C/C/I/C/,378,404
+carr-lane-2-VanillaSailor,repeat-q,PUZZLE,1/2/3/6/4/5/7/,1/2/3/4/5/6/7/,C/C/C/I/C/C/I/,428,433
+carr-lane-2-VanillaSailor,repeat-q,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/C/C/,448,469
+carr-lane-2-VanillaSailor,repeat-q,END,"    this.ogre.sit down() /
+    this.ogre.go to sleep() /
+    do together / {
+      count 2 / {
+        this.ogre.snore() /
+      }
+      this.tortoise.walk up and toss flower() /
+      this.desertTortoise.crawl() /
+    }",4,7,0,473
+carr-lane-2-VanillaSailor,repeat-p,PUZZLE,2/5/1/3/4/-1/-1/-1/-1/-1/-1/,1/5/2/3/4/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/,48,52
+carr-lane-2-VanillaSailor,repeat-p,PUZZLE,1/5/2/3/4/-1/-1/-1/-1/-1/-1/,5/4/1/2/3/8/6/7/10/9/11/,C/C/C/C/I/I/U/U/U/U/U/,66,71
+carr-lane-2-VanillaSailor,repeat-p,PUZZLE,5/4/1/2/3/8/6/7/10/9/11/,5/4/1/2/3/8/6/7/10/9/11/,I/U/U/U/U/U/U/U/U/U/U/,93,116
+carr-lane-2-VanillaSailor,repeat-p,PUZZLE,5/4/1/2/3/8/6/7/10/9/11/,5/4/1/2/3/8/6/7/10/9/11/,I/U/U/U/U/U/U/U/U/U/U/,150,156
+carr-lane-2-VanillaSailor,repeat-p,PUZZLE,5/4/1/2/3/8/6/7/10/9/11/,5/4/1/2/3/8/6/7/10/9/11/,I/U/U/U/U/U/U/U/U/U/U/,188,-1
+carr-lane-2-VanillaSailor,repeat-p,REFERENCE,5/4/1/2/3/8/6/7/10/9/11/,5/4/1/2/3/8/6/7/10/9/11/,I/U/U/U/U/U/U/U/U/U/U/,200,207
+carr-lane-2-VanillaSailor,repeat-p,PUZZLE,5/4/1/2/3/8/6/7/10/9/11/,5/4/1/2/3/8/6/7/10/9/11/,I/U/U/U/U/U/U/U/U/U/U/,223,-1
+carr-lane-2-VanillaSailor,repeat-p,REFERENCE,5/4/1/2/3/8/6/7/10/9/11/,1/5/2/3/4/8/6/7/10/9/11/,I/U/U/U/U/U/U/U/U/U/U/,242,267
+carr-lane-2-VanillaSailor,repeat-p,PUZZLE,1/5/2/3/4/8/6/7/10/9/11/,1/5/2/3/4/6/7/8/10/9/11/,C/C/C/C/C/I/U/U/U/U/U/,279,295
+carr-lane-2-VanillaSailor,repeat-p,PUZZLE,1/5/2/3/4/6/7/8/10/9/11/,1/5/2/3/4/6/8/7/9/10/11/,C/C/C/C/C/C/C/C/I/U/U/,303,321
+carr-lane-2-VanillaSailor,repeat-p,PUZZLE,1/5/2/3/4/6/8/7/9/10/11/,1/5/2/3/4/6/8/7/9/10/11/,C/C/C/C/C/C/C/C/C/C/C/,546,566
+carr-lane-2-VanillaSailor,repeat-p,END,"    do together / {
+      this.shark.move(TypeExpression.FORWARD, 25.0) /
+      count 4 / {
+        this.fish.swim forward() /
+        this.fish.turn around() /
+      }
+    }
+    do together / {
+      this.fish.turnToFace(this.shark) /
+      this.shark.turnToFace(this.fish) /
+    }
+    this.shark.open mouth() /
+    this.shark.moveTo(this.fish) /
+    this.shark.close mouth() /",4,11,0,570
+carr-lane-2-VanillaSailor,repeat-r,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/,50,64
+carr-lane-2-VanillaSailor,repeat-r,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/3/4/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/,66,68
+carr-lane-2-VanillaSailor,repeat-r,REFERENCE,1/2/-1/3/4/-1/-1/-1/-1/-1/,1/4/2/5/3/-1/-1/-1/-1/-1/,C/C/I/C/I/U/U/U/U/U/,121,133
+carr-lane-2-VanillaSailor,repeat-r,REFERENCE,1/4/2/5/3/-1/-1/-1/-1/-1/,1/4/2/3/5/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/,176,195
+carr-lane-2-VanillaSailor,repeat-r,PUZZLE,1/4/2/3/5/-1/-1/-1/-1/-1/,1/4/2/3/5/6/7/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/,228,239
+carr-lane-2-VanillaSailor,repeat-r,PUZZLE,1/4/2/3/5/6/7/-1/-1/-1/,1/3/-1/2/4/5/6/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/,281,300
+carr-lane-2-VanillaSailor,repeat-r,PUZZLE,1/3/-1/2/4/5/6/-1/-1/-1/,1/6/2/3/5/4/7/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/,327,340
+carr-lane-2-VanillaSailor,repeat-r,PUZZLE,1/6/2/3/5/4/7/-1/-1/-1/,1/-1/3/4/5/-1/2/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/,352,364
+carr-lane-2-VanillaSailor,repeat-r,PUZZLE,1/-1/3/4/5/-1/2/-1/-1/-1/,1/8/3/4/5/6/2/7/10/9/,C/C/C/C/C/I/U/U/U/U/,550,564
+carr-lane-2-VanillaSailor,repeat-r,PUZZLE,1/8/3/4/5/6/2/7/10/9/,1/8/3/4/5/6/2/7/10/9/,C/C/C/C/C/C/I/U/U/U/,580,-1
+carr-lane-2-VanillaSailor,repeat-r,REFERENCE,1/8/3/4/5/6/2/7/10/9/,1/7/3/4/5/6/2/8/10/9/,C/C/C/C/C/C/I/U/U/U/,601,616
+carr-lane-2-VanillaSailor,repeat-r,PUZZLE,1/7/3/4/5/6/2/8/10/9/,1/7/3/4/5/6/2/8/10/9/,C/C/C/C/C/C/C/C/C/C/,620,631
+carr-lane-2-VanillaSailor,repeat-r,END,"    this.bunny.say(We've located the treasure!) /
+    do together / {
+      count 3 / {
+        this.pirateShip.move(TypeExpression.FORWARD, 25.0) /
+      }
+      this.camera.move(TypeExpression.FORWARD, 75.0) /
+    }
+    this.camera fly to island() /
+    do together / {
+      this.treasureChest.getChestLid().turn(TypeExpression.BACKWARD, 0.25) /
+      this.coinPile.appear() /
+      this.coinStack.appear() /
+    }",4,10,0,655
+carr-lane-2-VanillaSailor,repeat-z,PUZZLE,10/1/5/2/3/4/6/7/8/9/11/13/12/,1/2/6/3/4/5/7/8/9/10/11/13/12/,I/U/U/U/U/U/U/U/U/U/U/U/U/,112,118
+carr-lane-2-VanillaSailor,repeat-z,PUZZLE,1/2/6/3/4/5/7/8/9/10/11/13/12/,1/2/6/3/4/5/7/8/9/10/11/13/12/,C/C/I/U/U/U/U/U/U/U/U/U/U/,122,-1
+carr-lane-2-VanillaSailor,repeat-z,REFERENCE,1/2/6/3/4/5/7/8/9/10/11/13/12/,1/2/3/4/6/5/7/8/9/10/11/13/12/,C/C/I/U/U/U/U/U/U/U/U/U/U/,144,156
+carr-lane-2-VanillaSailor,repeat-z,PUZZLE,1/2/3/4/6/5/7/8/9/10/11/13/12/,1/2/3/4/7/5/6/8/9/10/11/13/12/,C/C/C/C/C/I/U/I/U/U/U/U/U/,166,178
+carr-lane-2-VanillaSailor,repeat-z,PUZZLE,1/2/3/4/7/5/6/8/9/10/11/13/12/,1/2/3/4/7/5/6/8/9/10/11/13/12/,C/C/C/C/C/C/C/C/C/C/C/C/C/,184,206
+carr-lane-2-VanillaSailor,repeat-z,END,"    this.Martha.slide(2.0) /
+    this.Martha.say(Oh Frankie, you're home.) /
+    this.Frankie.hands in air() /
+    do together / {
+      this.Frankie.say(Look what I learned how to do today!) /
+      count 3 / {
+        this.Frankie.turn(TypeExpression.RIGHT, 3.0) /
+      }
+    }
+    this.Martha.say(That is really cool sweetheart. ) /
+    this.Martha.say(I learned this when I was your age.) /
+    count 2 / {
+      do together / {
+        this.Martha.resize(2.0) /
+        this.Martha.turn(TypeExpression.LEFT, 3.0) /
+      }
+    }",3,13,0,210
+carr-lane-2-VanillaSailor,repeat-s,PUZZLE,1/2/-1/-1/-1/-1/-1/3/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/3/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/U/U/U/U/,43,-1
+carr-lane-2-VanillaSailor,repeat-s,REFERENCE,1/2/-1/-1/-1/-1/-1/3/-1/-1/-1/-1/-1/-1/,1/2/3/4/6/5/-1/-1/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/U/U/U/U/,56,68
+carr-lane-2-VanillaSailor,repeat-s,REFERENCE,1/2/3/4/6/5/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/3/4/6/5/7/-1/-1/-1/-1/-1/-1/-1/,C/C/C/C/C/C/I/U/U/U/U/U/U/U/,100,125
+carr-lane-2-VanillaSailor,repeat-s,PUZZLE,1/2/3/4/6/5/7/-1/-1/-1/-1/-1/-1/-1/,1/2/3/4/6/5/7/8/9/10/11/13/12/14/,C/C/C/C/C/C/C/I/U/U/U/U/U/U/,143,161
+carr-lane-2-VanillaSailor,repeat-s,PUZZLE,1/2/3/4/6/5/7/8/9/10/11/13/12/14/,1/2/3/4/6/5/7/8/9/10/11/13/12/14/,C/C/C/C/C/C/C/C/C/C/C/C/I/I/,184,-1
+carr-lane-2-VanillaSailor,repeat-s,REFERENCE,1/2/3/4/6/5/7/8/9/10/11/13/12/14/,1/2/3/4/6/5/7/8/9/11/10/13/12/14/,C/C/C/C/C/C/C/C/C/C/C/C/I/I/,212,228
+carr-lane-2-VanillaSailor,repeat-s,PUZZLE,1/2/3/4/6/5/7/8/9/11/10/13/12/14/,1/2/3/4/6/5/7/8/9/11/10/13/12/14/,C/C/C/C/C/C/C/C/C/I/U/U/U/U/,239,-1
+carr-lane-2-VanillaSailor,repeat-s,REFERENCE,1/2/3/4/6/5/7/8/9/11/10/13/12/14/,1/2/3/4/6/5/7/8/9/10/11/14/12/13/,C/C/C/C/C/C/C/C/C/I/U/U/U/U/,257,278
+carr-lane-2-VanillaSailor,repeat-s,PUZZLE,1/2/3/4/6/5/7/8/9/10/11/14/12/13/,1/2/3/4/6/5/7/8/9/10/11/14/12/13/,C/C/C/C/C/C/C/C/C/C/C/C/C/C/,328,350
+carr-lane-2-VanillaSailor,repeat-s,END,"    this.pig.say(You may begin.) /
+    this.bigBadWolf.skate around() /
+    count 2 / {
+      do together / {
+        this.bigBadWolf.spin() /
+        this.bigBadWolf.move(TypeExpression.DOWN, 0.25) /
+      }
+      this.bigBadWolf.say(Uh oh.) /
+    }
+    this.bigBadWolf.getNeck().turn(TypeExpression.FORWARD, 0.125) /
+    this.bigBadWolf.say(Help, please!) /
+    this.phoenix.land on wolf() /
+    do together / {
+      this.phoenix.move(TypeExpression.UP, 6.0) /
+      count 2 / {
+        this.phoenix.flap wings() /
+      }
+    }",4,14,0,355
+carr-lane-2-VanillaSailor,repeat-y,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/3/2/7/4/5/6/9/8/,I/U/U/U/U/U/U/U/U/,35,37
+carr-lane-2-VanillaSailor,repeat-y,PUZZLE,1/3/2/7/4/5/6/9/8/,1/3/2/7/4/5/6/9/8/,C/C/C/I/U/U/U/U/U/,94,-1
+carr-lane-2-VanillaSailor,repeat-y,REFERENCE,1/3/2/7/4/5/6/9/8/,1/3/2/7/4/5/6/9/8/,C/C/C/I/U/U/U/U/U/,114,132
+carr-lane-2-VanillaSailor,repeat-y,PUZZLE,1/3/2/7/4/5/6/9/8/,1/3/2/5/4/7/6/8/9/,C/C/C/I/U/U/U/U/U/,136,143
+carr-lane-2-VanillaSailor,repeat-y,PUZZLE,1/3/2/5/4/7/6/8/9/,1/3/2/5/4/6/7/8/9/,C/C/C/I/U/U/U/U/U/,156,164
+carr-lane-2-VanillaSailor,repeat-y,PUZZLE,1/3/2/5/4/6/7/8/9/,1/3/2/5/4/6/7/8/9/,C/C/C/I/U/U/U/U/U/,167,-1
+carr-lane-2-VanillaSailor,repeat-y,REFERENCE,1/3/2/5/4/6/7/8/9/,1/3/2/5/4/6/7/8/9/,C/C/C/I/U/U/U/U/U/,175,-1
+carr-lane-2-VanillaSailor,repeat-y,PUZZLE,1/3/2/5/4/6/7/8/9/,1/3/2/5/4/6/7/8/9/,C/C/C/I/U/U/U/U/U/,193,207
+carr-lane-2-VanillaSailor,repeat-y,REFERENCE,1/3/2/5/4/6/7/8/9/,1/3/2/5/4/6/7/8/9/,C/C/C/I/U/U/U/U/U/,220,-1
+carr-lane-2-VanillaSailor,repeat-y,PUZZLE,1/3/2/5/4/6/7/8/9/,1/3/2/5/4/6/7/8/9/,C/C/C/I/U/U/U/U/U/,229,-1
+carr-lane-2-VanillaSailor,repeat-y,REFERENCE,1/3/2/5/4/6/7/8/9/,1/3/2/5/4/6/7/8/9/,C/C/C/I/U/U/U/U/U/,235,-1
+carr-lane-2-VanillaSailor,repeat-y,PUZZLE,1/3/2/5/4/6/7/8/9/,1/3/2/5/4/6/7/8/9/,C/C/C/I/U/U/U/U/U/,253,-1
+carr-lane-2-VanillaSailor,repeat-y,PUZZLE,1/3/2/5/4/6/7/8/9/,1/3/2/4/-1/6/5/-1/-1/,C/C/C/I/U/U/U/U/U/,258,266
+carr-lane-2-VanillaSailor,repeat-y,PUZZLE,1/3/2/4/-1/6/5/-1/-1/,1/3/2/-1/-1/5/4/-1/-1/,C/C/C/C/C/I/I/U/U/,309,311
+carr-lane-2-VanillaSailor,repeat-y,PUZZLE,1/3/2/-1/-1/5/4/-1/-1/,1/3/2/-1/-1/5/4/-1/-1/,C/C/C/I/U/U/U/U/U/,318,-1
+carr-lane-2-VanillaSailor,repeat-y,REFERENCE,1/3/2/-1/-1/5/4/-1/-1/,1/3/2/-1/-1/5/4/-1/-1/,C/C/C/I/U/U/U/U/U/,346,-1
+carr-lane-2-VanillaSailor,repeat-y,REFERENCE,1/3/2/-1/-1/5/4/-1/-1/,1/3/2/-1/4/5/6/-1/-1/,C/C/C/I/U/U/U/U/U/,347,373
+carr-lane-2-VanillaSailor,repeat-y,PUZZLE,1/3/2/-1/4/5/6/-1/-1/,1/3/2/4/-1/6/5/-1/-1/,C/C/C/I/U/U/U/U/U/,395,418
+carr-lane-2-VanillaSailor,repeat-y,PUZZLE,1/3/2/4/-1/6/5/-1/-1/,1/3/2/5/4/7/6/-1/-1/,C/C/C/C/C/I/I/U/U/,441,456
+carr-lane-2-VanillaSailor,repeat-y,PUZZLE,1/3/2/5/4/7/6/-1/-1/,1/3/2/6/4/5/7/-1/-1/,C/C/C/I/U/U/U/U/U/,463,501
+carr-lane-2-VanillaSailor,repeat-y,PUZZLE,1/3/2/6/4/5/7/-1/-1/,1/3/2/4/5/6/7/-1/-1/,C/C/C/I/U/U/U/U/U/,541,552
+carr-lane-2-VanillaSailor,repeat-y,PUZZLE,1/3/2/4/5/6/7/-1/-1/,1/3/2/4/5/6/7/8/9/,C/C/C/C/C/C/C/I/U/,571,583
+carr-lane-2-VanillaSailor,repeat-y,PUZZLE,1/3/2/4/5/6/7/8/9/,1/3/2/4/5/6/7/8/9/,C/C/C/C/C/C/C/C/C/,609,629
+carr-lane-2-VanillaSailor,repeat-y,END,"    do together / {
+      this.blueDragon.stand up() /
+      this.redDragon.raise leg and spin() /
+    }
+    do together / {
+      count 3 / {
+        this.redDragon.lift up legs() /
+      }
+      this.redDragon.jump up and down() /
+    }
+    this.redDragon.turnToFace(this.blueDragon) /
+    this.blueDragon.hide() /",5,9,0,632
+carr-lane-2-VanillaSailor,repeat-aa,PUZZLE,-1/-1/-1/3/4/-1/1/2/-1/-1/-1/,-1/-1/-1/3/4/-1/1/2/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/,47,51
+carr-lane-2-VanillaSailor,repeat-aa,PUZZLE,-1/-1/-1/3/4/-1/1/2/-1/-1/-1/,-1/-1/-1/3/4/-1/1/2/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/,54,65
+carr-lane-2-VanillaSailor,repeat-aa,PUZZLE,-1/-1/-1/3/4/-1/1/2/-1/-1/-1/,-1/1/2/3/4/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/,79,82
+carr-lane-2-VanillaSailor,repeat-aa,PUZZLE,-1/1/2/3/4/-1/-1/-1/-1/-1/-1/,-1/1/2/3/4/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/,97,-1
+carr-lane-2-VanillaSailor,repeat-aa,REFERENCE,-1/1/2/3/4/-1/-1/-1/-1/-1/-1/,1/2/3/4/5/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/,107,117
+carr-lane-2-VanillaSailor,repeat-aa,PUZZLE,1/2/3/4/5/-1/-1/-1/-1/-1/-1/,1/2/3/4/5/-1/-1/-1/-1/-1/-1/,C/C/C/C/C/I/U/U/U/U/U/,122,-1
+carr-lane-2-VanillaSailor,repeat-aa,REFERENCE,1/2/3/4/5/-1/-1/-1/-1/-1/-1/,1/2/3/4/5/6/7/8/9/10/11/,C/C/C/C/C/I/U/U/U/U/U/,135,148
+carr-lane-2-VanillaSailor,repeat-aa,PUZZLE,1/2/3/4/5/6/7/8/9/10/11/,1/2/3/4/5/6/7/8/9/10/11/,C/C/C/C/C/C/C/C/C/C/C/,164,174
+carr-lane-2-VanillaSailor,repeat-aa,END,"    this.alien.say(Oh no!) /
+    do together / {
+      count 2 / {
+        this.shark.circle(this.sailboat) /
+      }
+      this.sailboat.sink() /
+    }
+    this.alien.turnToFace(this.shark) /
+    count 2 / {
+      do together / {
+        this.alien.get bigger() /
+        this.shark.get smaller() /
+      }
+    }
+    this.alien.say(Silly Earthlings!) /",1,11,0,176

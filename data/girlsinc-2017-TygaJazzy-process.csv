@@ -1,0 +1,1054 @@
+codename,puzzle,action,current_index,next_index,correctness,start_time,closed_time
+girlsinc-2017-TygaJazzy,sequential-g,REFERENCE,-1/-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/,13,-1
+girlsinc-2017-TygaJazzy,sequential-g,REFERENCE,-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/,27,31
+girlsinc-2017-TygaJazzy,sequential-g,REFERENCE,1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/,53,58
+girlsinc-2017-TygaJazzy,sequential-g,REFERENCE,1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/,71,78
+girlsinc-2017-TygaJazzy,sequential-g,REFERENCE,1/2/-1/-1/-1/-1/-1/,1/2/3/-1/-1/-1/-1/,C/C/I/U/U/U/U/,86,88
+girlsinc-2017-TygaJazzy,sequential-g,REFERENCE,1/2/3/-1/-1/-1/-1/,1/2/4/3/5/7/6/,C/C/C/I/U/U/U/,94,102
+girlsinc-2017-TygaJazzy,sequential-g,REFERENCE,1/2/4/3/5/7/6/,1/2/4/3/5/7/6/,C/C/I/U/U/U/U/,114,-1
+girlsinc-2017-TygaJazzy,sequential-g,PUZZLE,1/2/4/3/5/7/6/,1/2/3/4/5/7/6/,C/C/I/U/U/U/U/,117,126
+girlsinc-2017-TygaJazzy,sequential-g,REFERENCE,1/2/3/4/5/7/6/,1/2/3/4/5/7/6/,C/C/C/C/C/I/U/,134,-1
+girlsinc-2017-TygaJazzy,sequential-g,PUZZLE,1/2/3/4/5/7/6/,1/2/3/4/5/6/7/,C/C/C/C/C/I/U/,136,149
+girlsinc-2017-TygaJazzy,sequential-g,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/C/C/,152,171
+girlsinc-2017-TygaJazzy,sequential-g,END,"    this.blueTang.say(We can't let anyone find our treasure!) /
+    this.clownFish.turnToFace(this.shark) /
+    this.clownFish.think(Uh oh) /
+    this.clownFish.turnToFace(this.blueTang) /
+    this.clownFish.say(I think it's too late..) /
+    this.shark.getMouth().turn(TypeExpression.FORWARD, 0.125) /
+    this.shark.move(TypeExpression.FORWARD, 15.0) /",4,7,0,178
+girlsinc-2017-TygaJazzy,sequential-d,PUZZLE,1/-1/4/-1/2/-1/3/-1/,1/-1/5/-1/3/-1/4/2/,C/I/U/U/U/U/U/U/,47,52
+girlsinc-2017-TygaJazzy,sequential-d,PUZZLE,1/-1/5/-1/3/-1/4/2/,1/2/3/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/,58,62
+girlsinc-2017-TygaJazzy,sequential-d,PUZZLE,1/2/3/-1/-1/-1/-1/-1/,1/2/3/-1/-1/-1/-1/-1/,C/C/C/I/U/U/U/U/,82,-1
+girlsinc-2017-TygaJazzy,sequential-d,REFERENCE,1/2/3/-1/-1/-1/-1/-1/,1/2/3/5/-1/4/-1/6/,C/C/C/I/U/U/U/U/,93,106
+girlsinc-2017-TygaJazzy,sequential-d,PUZZLE,1/2/3/5/-1/4/-1/6/,1/2/3/5/-1/4/-1/6/,C/C/C/I/U/U/U/U/,122,132
+girlsinc-2017-TygaJazzy,sequential-d,REFERENCE,1/2/3/5/-1/4/-1/6/,1/2/3/4/-1/6/-1/5/,C/C/C/I/U/U/U/U/,140,150
+girlsinc-2017-TygaJazzy,sequential-d,PUZZLE,1/2/3/4/-1/6/-1/5/,1/2/3/4/-1/5/-1/6/,C/C/C/C/I/U/U/U/,155,169
+girlsinc-2017-TygaJazzy,sequential-d,PUZZLE,1/2/3/4/-1/5/-1/6/,1/2/3/4/6/5/-1/7/,C/C/C/C/I/U/U/U/,173,183
+girlsinc-2017-TygaJazzy,sequential-d,PUZZLE,1/2/3/4/6/5/-1/7/,1/2/3/4/6/5/-1/7/,C/C/C/C/I/U/U/U/,190,-1
+girlsinc-2017-TygaJazzy,sequential-d,REFERENCE,1/2/3/4/6/5/-1/7/,1/2/3/4/7/6/5/8/,C/C/C/C/I/U/U/U/,201,219
+girlsinc-2017-TygaJazzy,sequential-d,PUZZLE,1/2/3/4/7/6/5/8/,1/2/3/4/7/5/6/8/,C/C/C/C/I/U/U/U/,224,249
+girlsinc-2017-TygaJazzy,sequential-d,PUZZLE,1/2/3/4/7/5/6/8/,1/2/3/4/5/6/7/8/,C/C/C/C/I/U/U/U/,252,270
+girlsinc-2017-TygaJazzy,sequential-d,PUZZLE,1/2/3/4/5/6/7/8/,1/2/3/4/5/6/7/8/,C/C/C/C/C/C/C/C/,274,283
+girlsinc-2017-TygaJazzy,sequential-d,END,"    this.monkey.walk(1.5) /
+    this.monkey.jump and spin() /
+    this.monkey.walk up to(this.treasureChest) /
+    this.monkey.raise arms() /
+    this.treasureChest.getChestLid().turn(TypeExpression.BACKWARD, 0.0125) /
+    this.monkey.bang on(this.treasureChest) /
+    this.treasureChest.getChestLid().turn(TypeExpression.BACKWARD, 0.25) /
+    this.treasureMonkey.raise arms() /",5,8,0,295
+girlsinc-2017-TygaJazzy,dotogether-o,REFERENCE,-1/-1/1/-1/-1/2/,-1/-1/1/2/-1/3/,I/U/U/U/U/U/,14,22
+girlsinc-2017-TygaJazzy,dotogether-o,PUZZLE,-1/-1/1/2/-1/3/,-1/-1/2/3/1/4/,I/U/U/U/U/U/,39,40
+girlsinc-2017-TygaJazzy,dotogether-o,REFERENCE,-1/-1/2/3/1/4/,-1/-1/2/3/1/4/,I/U/U/U/U/U/,45,-1
+girlsinc-2017-TygaJazzy,dotogether-o,PUZZLE,-1/-1/2/3/1/4/,1/-1/3/4/2/5/,I/U/U/U/U/U/,48,50
+girlsinc-2017-TygaJazzy,dotogether-o,PUZZLE,1/-1/3/4/2/5/,1/-1/2/3/5/4/,C/I/U/U/U/U/,53,55
+girlsinc-2017-TygaJazzy,dotogether-o,PUZZLE,1/-1/2/3/5/4/,1/-1/2/3/5/4/,C/I/U/U/U/U/,59,62
+girlsinc-2017-TygaJazzy,dotogether-o,PUZZLE,1/-1/2/3/5/4/,1/-1/2/3/5/4/,C/I/U/U/U/U/,69,72
+girlsinc-2017-TygaJazzy,dotogether-o,REFERENCE,1/-1/2/3/5/4/,1/2/3/4/6/5/,C/I/U/U/U/U/,73,77
+girlsinc-2017-TygaJazzy,dotogether-o,PUZZLE,1/2/3/4/6/5/,1/2/3/4/6/5/,C/C/C/C/I/U/,86,91
+girlsinc-2017-TygaJazzy,dotogether-o,PUZZLE,1/2/3/4/6/5/,1/2/3/4/5/6/,C/C/C/C/I/U/,95,103
+girlsinc-2017-TygaJazzy,dotogether-o,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/I/U/,108,112
+girlsinc-2017-TygaJazzy,dotogether-o,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,116,123
+girlsinc-2017-TygaJazzy,dotogether-o,END,"    this.hare.getRightShoulder().turn(TypeExpression.RIGHT, 0.125) /
+    do together / {
+      this.hare.hit(this.volleyball) /
+      this.volleyball.fly away() /
+    }
+    this.hare.getHead().turn(TypeExpression.BACKWARD, 0.125) /
+    this.hare.say(Aww man..) /",5,6,0,128
+girlsinc-2017-TygaJazzy,dotogether-a,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/,19,-1
+girlsinc-2017-TygaJazzy,dotogether-a,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/,30,36
+girlsinc-2017-TygaJazzy,dotogether-a,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/,56,59
+girlsinc-2017-TygaJazzy,dotogether-a,REFERENCE,1/2/-1/-1/-1/-1/-1/-1/,1/2/3/4/5/6/7/8/,C/C/I/U/U/U/U/U/,63,68
+girlsinc-2017-TygaJazzy,dotogether-a,PUZZLE,1/2/3/4/5/6/7/8/,1/2/3/4/5/6/7/8/,C/C/C/C/C/C/C/C/,86,94
+girlsinc-2017-TygaJazzy,dotogether-a,END,"    this.penguin.say(Everyone, I'd like you to meet Derek.) /
+    this.DerekTheYeti.say(Hello.) /
+    this.DerekTheYeti.moveToward(this.babyPenguin2, 0.5) /
+    do together / {
+      this.babyPenguin1.jump back() /
+      this.babyPenguin2.jump back() /
+      this.babyPenguin3.jump back() /
+    }
+    this.penguin.say(He's harmless and very kind!) /",2,8,0,97
+girlsinc-2017-TygaJazzy,dotogether-n,PUZZLE,1/2/3/5/4/6/,1/2/3/5/4/6/,C/C/C/C/C/C/,23,32
+girlsinc-2017-TygaJazzy,dotogether-n,END,"    this.playingCard.say(Alice was just here I promise!!) /
+    this.queenOfHearts.say(We BETTER find her!) /
+    do together / {
+      this.queenOfHearts.walk forward() /
+      this.playingCard.walk forward() /
+    }
+    this.alice.sneak away() /",2,6,0,48
+girlsinc-2017-TygaJazzy,dotogether-m,PUZZLE,1/2/3/4/5/6/7/8/,1/2/3/4/5/6/7/8/,C/C/C/C/C/C/C/C/,32,48
+girlsinc-2017-TygaJazzy,dotogether-m,END,"    this.hare.say(1...2...3...JUMP!) /
+    do together / {
+      this.pig.jump() /
+      this.hare.jump() /
+    }
+    this.caiman.snap jaws() /
+    do together / {
+      this.pig.say(UH OH!) /
+      this.hare.say(UH OH!) /
+    }",1,8,0,61
+girlsinc-2017-TygaJazzy,dotogether-e,REFERENCE,1/3/-1/2/-1/5/-1/4/-1/,1/3/8/2/7/6/5/4/9/,C/I/U/U/U/U/U/U/U/,43,51
+girlsinc-2017-TygaJazzy,dotogether-e,PUZZLE,1/3/8/2/7/6/5/4/9/,2/4/-1/3/1/7/6/5/-1/,C/I/U/U/U/U/U/U/U/,62,70
+girlsinc-2017-TygaJazzy,dotogether-e,PUZZLE,2/4/-1/3/1/7/6/5/-1/,1/5/3/4/2/8/7/6/-1/,I/U/U/U/U/U/U/U/U/,84,86
+girlsinc-2017-TygaJazzy,dotogether-e,PUZZLE,1/5/3/4/2/8/7/6/-1/,1/5/3/4/2/8/7/6/9/,C/C/C/C/C/C/C/C/I/,110,118
+girlsinc-2017-TygaJazzy,dotogether-e,PUZZLE,1/5/3/4/2/8/7/6/9/,1/5/3/4/2/8/7/6/9/,C/C/C/C/C/C/C/C/I/,121,131
+girlsinc-2017-TygaJazzy,dotogether-e,PUZZLE,1/5/3/4/2/8/7/6/9/,1/5/3/4/2/8/7/6/9/,C/C/C/C/C/C/C/C/C/,134,141
+girlsinc-2017-TygaJazzy,dotogether-e,END,"    this.bush.rustle() /
+    do together / {
+      this.Witch.getHead().turn(TypeExpression.RIGHT, 0.125) /
+      this.Witch.say(What was that?) /
+    }
+    do together / {
+      this.Troll.legs shake() /
+      this.Troll.bend over() /
+      this.Troll.turn(TypeExpression.RIGHT, 0.5) /
+      this.Troll.think(This place is scary..) /
+    }",3,9,0,144
+girlsinc-2017-TygaJazzy,dotogether-c,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/I/U/,42,49
+girlsinc-2017-TygaJazzy,dotogether-c,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/I/I/,55,59
+girlsinc-2017-TygaJazzy,dotogether-c,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/C/C/,64,69
+girlsinc-2017-TygaJazzy,dotogether-c,END,"    this.Troll.say(What's for dinner?) /
+    this.Witch.say(YOU!) /
+    do together / {
+      this.Troll.moveTo(this.Cauldron) /
+      this.Troll.raise arms and scream() /
+    }
+    this.Troll.turn(TypeExpression.RIGHT, 8.0) /
+    this.Troll.disappear() /",3,7,0,72
+girlsinc-2017-TygaJazzy,dotogether-l,PUZZLE,1/2/4/7/5/3/6/,1/2/3/6/4/5/7/,C/C/I/U/U/U/U/,36,42
+girlsinc-2017-TygaJazzy,dotogether-l,PUZZLE,1/2/3/6/4/5/7/,1/2/3/5/4/6/7/,C/C/C/C/C/I/U/,53,62
+girlsinc-2017-TygaJazzy,dotogether-l,PUZZLE,1/2/3/5/4/6/7/,1/2/3/5/4/6/7/,C/C/C/C/C/I/U/,66,-1
+girlsinc-2017-TygaJazzy,dotogether-l,REFERENCE,1/2/3/5/4/6/7/,1/2/3/5/4/6/7/,C/C/C/C/C/I/U/,74,82
+girlsinc-2017-TygaJazzy,dotogether-l,REFERENCE,1/2/3/5/4/6/7/,1/2/3/5/4/6/7/,C/C/C/C/C/I/U/,87,-1
+girlsinc-2017-TygaJazzy,dotogether-l,PUZZLE,1/2/3/5/4/6/7/,1/2/3/6/5/4/7/,C/C/C/C/C/I/U/,99,106
+girlsinc-2017-TygaJazzy,dotogether-l,PUZZLE,1/2/3/6/5/4/7/,1/2/3/6/5/4/7/,C/C/C/C/C/C/C/,115,-1
+girlsinc-2017-TygaJazzy,dotogether-l,PUZZLE,1/2/3/6/5/4/7/,1/2/3/6/5/4/7/,C/C/C/C/C/C/C/,117,123
+girlsinc-2017-TygaJazzy,dotogether-l,END,"    this.cheshireCat.say(Okay Alice, your turn now.) /
+    this.alice.move(TypeExpression.BACKWARD, 1.0) /
+    do together / {
+      this.alice.move legs() /
+      this.alice.move(TypeExpression.UP, 1.0) /
+      this.alice.moveToward(this.cheshireCat, 3.0) /
+    }
+    this.alice.say(I'm stuck!) /",5,7,0,126
+girlsinc-2017-TygaJazzy,dotogether-f,PUZZLE,1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/,35,-1
+girlsinc-2017-TygaJazzy,dotogether-f,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/2/-1/3/-1/-1/,C/I/U/U/U/U/U/U/,38,43
+girlsinc-2017-TygaJazzy,dotogether-f,REFERENCE,1/-1/-1/2/-1/3/-1/-1/,1/-1/-1/2/-1/3/-1/-1/,C/I/U/U/U/U/U/U/,48,-1
+girlsinc-2017-TygaJazzy,dotogether-f,REFERENCE,1/-1/-1/2/-1/3/-1/-1/,1/-1/7/2/5/3/6/4/,C/I/U/U/U/U/U/U/,61,68
+girlsinc-2017-TygaJazzy,dotogether-f,PUZZLE,1/-1/7/2/5/3/6/4/,1/2/3/4/7/5/8/6/,C/I/U/U/U/U/U/U/,87,92
+girlsinc-2017-TygaJazzy,dotogether-f,PUZZLE,1/2/3/4/7/5/8/6/,1/2/3/4/7/5/8/6/,C/C/C/C/I/U/U/U/,100,-1
+girlsinc-2017-TygaJazzy,dotogether-f,REFERENCE,1/2/3/4/7/5/8/6/,1/2/3/4/5/6/8/7/,C/C/C/C/I/U/U/U/,115,121
+girlsinc-2017-TygaJazzy,dotogether-f,PUZZLE,1/2/3/4/5/6/8/7/,1/2/3/4/5/6/8/7/,C/C/C/C/C/C/C/I/,127,138
+girlsinc-2017-TygaJazzy,dotogether-f,PUZZLE,1/2/3/4/5/6/8/7/,1/2/3/4/5/6/8/7/,C/C/C/C/C/C/C/C/,140,153
+girlsinc-2017-TygaJazzy,dotogether-f,END,"    this.Witch.say(I will turn you to stone!) /
+    do together / {
+      this.Ogre.move(TypeExpression.DOWN, 0.375) /
+      this.Ogre.bend knees() /
+    }
+    do together / {
+      this.Witch.cast spell() /
+      this.Ogre.getRightShoulder().turn(TypeExpression.LEFT, 0.25) /
+      this.Ogre.setPaint(InstanceCreation) /
+    }",5,8,0,158
+girlsinc-2017-TygaJazzy,dotogether-j,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,-1/1/-1/2/-1/-1/-1/-1/-1/3/-1/,I/U/U/U/U/U/U/U/U/U/U/,12,23
+girlsinc-2017-TygaJazzy,dotogether-j,PUZZLE,-1/1/-1/2/-1/-1/-1/-1/-1/3/-1/,1/2/-1/3/-1/-1/-1/-1/-1/4/-1/,I/U/U/U/U/U/U/U/U/U/U/,34,37
+girlsinc-2017-TygaJazzy,dotogether-j,PUZZLE,1/2/-1/3/-1/-1/-1/-1/-1/4/-1/,1/2/-1/3/5/6/-1/-1/-1/4/-1/,C/C/C/C/I/U/U/U/U/U/U/,47,55
+girlsinc-2017-TygaJazzy,dotogether-j,PUZZLE,1/2/-1/3/5/6/-1/-1/-1/4/-1/,1/2/8/3/5/6/7/-1/-1/4/-1/,C/C/C/C/C/C/I/U/U/U/U/,63,72
+girlsinc-2017-TygaJazzy,dotogether-j,REFERENCE,1/2/8/3/5/6/7/-1/-1/4/-1/,1/2/8/3/5/6/7/9/10/4/11/,C/C/C/C/C/C/C/C/I/I/U/,80,93
+girlsinc-2017-TygaJazzy,dotogether-j,PUZZLE,1/2/8/3/5/6/7/9/10/4/11/,1/2/8/3/5/6/7/9/10/4/11/,C/C/C/C/C/C/C/C/C/C/C/,106,115
+girlsinc-2017-TygaJazzy,dotogether-j,END,"    this.fox.jump out of snow() /
+    do together / {
+      this.snow man.skate around() /
+      this.snow gal.skate around() /
+    }
+    this.fox.wag tail() /
+    this.fox.jump on(this.snow man) /
+    do together / {
+      this.snow gal.twirl around() /
+      this.snow gal.raise up and lower down() /
+      this.snow man.skate around() /
+    }
+    this.fox.dive into snow() /",4,11,0,120
+girlsinc-2017-TygaJazzy,dotogether-k,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/,15,22
+girlsinc-2017-TygaJazzy,dotogether-k,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/2/-1/-1/-1/-1/4/3/,C/I/U/U/U/U/U/U/U/U/U/,34,46
+girlsinc-2017-TygaJazzy,dotogether-k,PUZZLE,1/-1/-1/-1/2/-1/-1/-1/-1/4/3/,1/2/-1/3/4/-1/-1/-1/-1/6/5/,C/I/U/U/U/U/U/U/U/U/U/,68,79
+girlsinc-2017-TygaJazzy,dotogether-k,PUZZLE,1/2/-1/3/4/-1/-1/-1/-1/6/5/,1/2/-1/3/4/-1/-1/-1/5/7/6/,C/C/C/C/I/U/U/U/U/U/U/,85,92
+girlsinc-2017-TygaJazzy,dotogether-k,REFERENCE,1/2/-1/3/4/-1/-1/-1/5/7/6/,1/2/-1/3/4/-1/5/6/7/9/8/,C/C/C/C/I/U/U/U/U/U/U/,99,111
+girlsinc-2017-TygaJazzy,dotogether-k,PUZZLE,1/2/-1/3/4/-1/5/6/7/9/8/,1/2/-1/3/4/-1/5/6/7/9/8/,C/C/C/C/I/U/U/U/U/U/U/,122,132
+girlsinc-2017-TygaJazzy,dotogether-k,REFERENCE,1/2/-1/3/4/-1/5/6/7/9/8/,1/2/-1/3/4/5/6/7/8/10/9/,C/C/C/C/I/U/U/U/U/U/U/,133,147
+girlsinc-2017-TygaJazzy,dotogether-k,PUZZLE,1/2/-1/3/4/5/6/7/8/10/9/,1/2/-1/3/4/5/6/8/9/7/10/,C/C/C/C/I/U/U/U/U/U/U/,153,163
+girlsinc-2017-TygaJazzy,dotogether-k,PUZZLE,1/2/-1/3/4/5/6/8/9/7/10/,1/2/-1/3/4/5/6/8/9/7/10/,C/C/C/C/I/U/U/U/U/U/U/,173,180
+girlsinc-2017-TygaJazzy,dotogether-k,REFERENCE,1/2/-1/3/4/5/6/8/9/7/10/,1/2/-1/3/4/5/6/7/9/8/10/,C/C/C/C/I/U/U/U/U/U/U/,181,190
+girlsinc-2017-TygaJazzy,dotogether-k,PUZZLE,1/2/-1/3/4/5/6/7/9/8/10/,1/2/7/3/4/5/6/8/10/9/11/,C/C/C/C/I/U/U/U/U/U/U/,196,206
+girlsinc-2017-TygaJazzy,dotogether-k,PUZZLE,1/2/7/3/4/5/6/8/10/9/11/,1/2/11/3/4/5/6/7/9/8/10/,C/C/C/C/I/U/U/U/U/U/U/,209,216
+girlsinc-2017-TygaJazzy,dotogether-k,PUZZLE,1/2/11/3/4/5/6/7/9/8/10/,1/2/11/3/4/5/6/7/9/8/10/,C/C/C/C/I/U/U/U/U/U/U/,225,231
+girlsinc-2017-TygaJazzy,dotogether-k,REFERENCE,1/2/11/3/4/5/6/7/9/8/10/,1/2/11/3/4/5/6/7/9/8/10/,C/C/C/C/I/U/U/U/U/U/U/,232,242
+girlsinc-2017-TygaJazzy,dotogether-k,REFERENCE,1/2/11/3/4/5/6/7/9/8/10/,1/2/5/3/4/6/7/8/10/9/11/,C/C/C/C/I/U/U/U/U/U/U/,248,256
+girlsinc-2017-TygaJazzy,dotogether-k,PUZZLE,1/2/5/3/4/6/7/8/10/9/11/,1/2/5/3/4/6/7/8/10/9/11/,C/C/C/C/C/C/C/C/C/C/I/,260,268
+girlsinc-2017-TygaJazzy,dotogether-k,PUZZLE,1/2/5/3/4/6/7/8/10/9/11/,1/2/5/3/4/6/7/8/10/9/11/,C/C/C/C/C/C/C/C/C/C/C/,270,279
+girlsinc-2017-TygaJazzy,dotogether-k,END,"    this.witch.cast spell() /
+    do together / {
+      this.cauldron.turn(TypeExpression.RIGHT, 4.0) /
+      this.lid.move(TypeExpression.UP, 1.0) /
+      this.poodle.move(TypeExpression.UP, 1.0) /
+    }
+    this.witch.lower arm() /
+    this.witch.say(Whoops!) /
+    do together / {
+      this.troll.get scared() /
+      this.poodle.bark() /
+    }
+    this.troll.say(eeee yikes!) /",7,11,0,284
+girlsinc-2017-TygaJazzy,dotogether-h,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/,40,42
+girlsinc-2017-TygaJazzy,dotogether-h,REFERENCE,1/-1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/,48,54
+girlsinc-2017-TygaJazzy,dotogether-h,REFERENCE,1/-1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/2/-1/-1/-1/-1/-1/-1/-1/-1/3/,C/I/U/U/U/U/U/U/U/U/U/U/,62,72
+girlsinc-2017-TygaJazzy,dotogether-h,PUZZLE,1/-1/2/-1/-1/-1/-1/-1/-1/-1/-1/3/,1/-1/4/3/-1/-1/-1/-1/2/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/,75,79
+girlsinc-2017-TygaJazzy,dotogether-h,PUZZLE,1/-1/4/3/-1/-1/-1/-1/2/-1/-1/-1/,1/-1/4/3/-1/5/6/7/2/-1/-1/-1/,C/C/C/C/I/U/U/U/U/U/U/U/,89,94
+girlsinc-2017-TygaJazzy,dotogether-h,PUZZLE,1/-1/4/3/-1/5/6/7/2/-1/-1/-1/,1/-1/4/3/-1/5/6/7/2/-1/-1/-1/,C/C/C/C/I/U/U/U/U/U/U/U/,108,113
+girlsinc-2017-TygaJazzy,dotogether-h,PUZZLE,1/-1/4/3/-1/5/6/7/2/-1/-1/-1/,1/-1/4/3/7/5/6/8/2/-1/-1/-1/,C/C/C/C/I/U/U/U/U/U/U/U/,117,121
+girlsinc-2017-TygaJazzy,dotogether-h,PUZZLE,1/-1/4/3/7/5/6/8/2/-1/-1/-1/,1/-1/4/3/7/5/6/8/2/-1/-1/-1/,C/C/C/C/I/U/U/U/U/U/U/U/,126,132
+girlsinc-2017-TygaJazzy,dotogether-h,PUZZLE,1/-1/4/3/7/5/6/8/2/-1/-1/-1/,1/-1/4/3/7/5/6/8/2/-1/-1/-1/,C/C/C/C/I/U/U/U/U/U/U/U/,137,142
+girlsinc-2017-TygaJazzy,dotogether-h,PUZZLE,1/-1/4/3/7/5/6/8/2/-1/-1/-1/,1/-1/4/3/8/5/6/7/2/-1/-1/-1/,C/C/C/C/I/U/U/U/U/U/U/U/,147,153
+girlsinc-2017-TygaJazzy,dotogether-h,PUZZLE,1/-1/4/3/8/5/6/7/2/-1/-1/-1/,1/-1/4/3/8/5/6/7/2/-1/-1/-1/,C/C/C/C/I/U/U/U/U/U/U/U/,159,165
+girlsinc-2017-TygaJazzy,dotogether-h,REFERENCE,1/-1/4/3/8/5/6/7/2/-1/-1/-1/,1/-1/4/3/5/-1/-1/-1/2/-1/-1/-1/,C/C/C/C/I/U/U/U/U/U/U/U/,166,173
+girlsinc-2017-TygaJazzy,dotogether-h,REFERENCE,1/-1/4/3/5/-1/-1/-1/2/-1/-1/-1/,1/-1/4/3/5/6/7/8/2/-1/-1/-1/,C/C/C/C/C/I/U/U/U/U/U/U/,201,208
+girlsinc-2017-TygaJazzy,dotogether-h,PUZZLE,1/-1/4/3/5/6/7/8/2/-1/-1/-1/,1/9/4/3/5/6/7/8/2/10/11/12/,C/C/C/C/C/C/C/C/I/U/U/U/,225,230
+girlsinc-2017-TygaJazzy,dotogether-h,PUZZLE,1/9/4/3/5/6/7/8/2/10/11/12/,1/9/4/3/5/6/7/8/2/12/10/11/,C/C/C/C/C/C/C/C/C/C/C/I/,238,245
+girlsinc-2017-TygaJazzy,dotogether-h,PUZZLE,1/9/4/3/5/6/7/8/2/12/10/11/,1/9/4/3/5/6/7/8/2/11/10/12/,C/C/C/C/C/C/C/C/C/C/C/I/,257,262
+girlsinc-2017-TygaJazzy,dotogether-h,PUZZLE,1/9/4/3/5/6/7/8/2/11/10/12/,1/9/4/3/5/6/7/8/2/11/10/12/,C/C/C/C/C/C/C/C/C/C/C/I/,268,275
+girlsinc-2017-TygaJazzy,dotogether-h,REFERENCE,1/9/4/3/5/6/7/8/2/11/10/12/,1/10/4/3/5/6/7/8/2/9/12/11/,C/C/C/C/C/C/C/C/C/C/C/I/,276,283
+girlsinc-2017-TygaJazzy,dotogether-h,PUZZLE,1/10/4/3/5/6/7/8/2/9/12/11/,1/9/4/3/5/6/7/8/2/12/11/10/,C/C/C/C/C/C/C/C/I/U/U/U/,291,298
+girlsinc-2017-TygaJazzy,dotogether-h,PUZZLE,1/9/4/3/5/6/7/8/2/12/11/10/,1/9/4/3/5/6/7/8/2/10/12/11/,C/C/C/C/C/C/C/C/C/C/C/I/,303,312
+girlsinc-2017-TygaJazzy,dotogether-h,PUZZLE,1/9/4/3/5/6/7/8/2/10/12/11/,1/9/4/3/5/6/7/8/2/10/12/11/,C/C/C/C/C/C/C/C/C/C/C/C/,315,320
+girlsinc-2017-TygaJazzy,dotogether-h,END,"    this.bunny.bend forward() /
+    do together / {
+      this.bunny.jump() /
+      this.bunny.move(TypeExpression.FORWARD, 1.0) /
+    }
+    this.bunny.disappear() /
+    do together / {
+      this.hat.turn(TypeExpression.RIGHT, 2.0) /
+      this.hat.move(TypeExpression.DOWN, 1.0) /
+    }
+    do together / {
+      this.bunny.appear() /
+      this.bunny.raise arms() /
+      this.bunny.turn(TypeExpression.RIGHT, 2.25) /
+    }",7,12,0,326
+girlsinc-2017-TygaJazzy,repeat-e,REFERENCE,-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/,16,26
+girlsinc-2017-TygaJazzy,repeat-e,PUZZLE,1/-1/-1/-1/-1/-1/-1/,1/-1/2/3/-1/-1/-1/,C/I/U/U/U/U/U/,99,106
+girlsinc-2017-TygaJazzy,repeat-e,REFERENCE,1/-1/2/3/-1/-1/-1/,1/2/3/4/-1/-1/-1/,C/I/U/U/U/U/U/,115,130
+girlsinc-2017-TygaJazzy,repeat-e,REFERENCE,1/2/3/4/-1/-1/-1/,1/2/3/4/-1/-1/-1/,C/C/C/C/I/U/U/,139,-1
+girlsinc-2017-TygaJazzy,repeat-e,PUZZLE,1/2/3/4/-1/-1/-1/,1/2/3/4/5/6/7/,C/C/C/C/I/U/U/,148,154
+girlsinc-2017-TygaJazzy,repeat-e,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/C/C/,168,177
+girlsinc-2017-TygaJazzy,repeat-e,END,"    this.curupira.walk(2.0) /
+    this.curupira.getNeck().turn(TypeExpression.FORWARD, 0.125) /
+    this.curupira.think(Uh oh.) /
+    this.curupira.move(TypeExpression.DOWN, 4.0) /
+    this.mapinguari.place hands on belly() /
+    count 3 / {
+      this.mapinguari.laugh() /
+    }",4,7,0,185
+girlsinc-2017-TygaJazzy,repeat-m,REFERENCE,1/-1/-1/-1/-1/-1/-1/,1/-1/2/3/-1/-1/-1/,C/I/U/U/U/U/U/,13,18
+girlsinc-2017-TygaJazzy,repeat-m,REFERENCE,1/-1/2/3/-1/-1/-1/,1/2/3/4/6/5/7/,C/I/U/U/U/U/U/,29,39
+girlsinc-2017-TygaJazzy,repeat-m,PUZZLE,1/2/3/4/6/5/7/,1/2/3/4/5/6/7/,C/C/C/C/I/U/U/,54,64
+girlsinc-2017-TygaJazzy,repeat-m,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/C/C/,68,87
+girlsinc-2017-TygaJazzy,repeat-m,END,"    this.alien.walk(0.5) /
+    count 2 / {
+      this.alien.kick() /
+      this.flying saucer.shake() /
+    }
+    this.flying saucer.fly above(this.alien) /
+    this.flying saucer.beam up(this.alien) /
+    this.flying saucer.fly away() /",3,7,0,90
+girlsinc-2017-TygaJazzy,repeat-f,PUZZLE,5/4/3/2/1/,5/4/3/2/1/,I/U/U/U/U/,24,27
+girlsinc-2017-TygaJazzy,repeat-f,REFERENCE,5/4/3/2/1/,1/2/3/5/4/,I/U/U/U/U/,30,38
+girlsinc-2017-TygaJazzy,repeat-f,PUZZLE,1/2/3/5/4/,1/2/3/4/5/,C/C/C/I/U/,48,54
+girlsinc-2017-TygaJazzy,repeat-f,PUZZLE,1/2/3/4/5/,1/2/3/4/5/,C/C/C/C/C/,57,76
+girlsinc-2017-TygaJazzy,repeat-f,END,"    this.Gray Rhino.getNeck().turn(TypeExpression.FORWARD, 0.0625) /
+    this.White Rhino.getNeck().turn(TypeExpression.FORWARD, 0.0625) /
+    count 2 / {
+      this.White Rhino.drink water() /
+      this.Gray Rhino.drink water() /
+    }",3,5,0,151
+girlsinc-2017-TygaJazzy,repeat-a,PUZZLE,1/3/2/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/,19,21
+girlsinc-2017-TygaJazzy,repeat-a,PUZZLE,1/2/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/,25,29
+girlsinc-2017-TygaJazzy,repeat-a,REFERENCE,1/2/-1/-1/-1/-1/-1/-1/-1/,1/2/3/-1/4/5/-1/-1/-1/,C/C/I/U/U/U/U/U/U/,30,36
+girlsinc-2017-TygaJazzy,repeat-a,PUZZLE,1/2/3/-1/4/5/-1/-1/-1/,1/2/3/-1/4/5/-1/-1/-1/,C/C/C/I/U/U/U/U/U/,49,66
+girlsinc-2017-TygaJazzy,repeat-a,REFERENCE,1/2/3/-1/4/5/-1/-1/-1/,1/2/3/4/5/6/-1/-1/-1/,C/C/C/I/U/U/U/U/U/,68,78
+girlsinc-2017-TygaJazzy,repeat-a,PUZZLE,1/2/3/4/5/6/-1/-1/-1/,1/2/3/4/5/6/-1/-1/-1/,C/C/C/C/C/C/I/U/U/,85,97
+girlsinc-2017-TygaJazzy,repeat-a,REFERENCE,1/2/3/4/5/6/-1/-1/-1/,1/2/3/4/5/6/7/8/9/,C/C/C/C/C/C/I/U/U/,100,120
+girlsinc-2017-TygaJazzy,repeat-a,PUZZLE,1/2/3/4/5/6/7/8/9/,1/2/3/4/5/6/7/8/9/,C/C/C/C/C/C/C/C/C/,127,167
+girlsinc-2017-TygaJazzy,repeat-a,END,"    this.tiny yeti.run forward() /
+    this.tiny yeti.steal hammer() /
+    this.tiny yeti.jump above yeti() /
+    count 3 / {
+      this.tiny yeti.swing hammer() /
+      this.big yeti.shake head() /
+    }
+    this.tiny yeti.fall to ground() /
+    count 3 / {
+      this.big yeti.cry() /
+    }",3,9,0,172
+girlsinc-2017-TygaJazzy,repeat-dd,PUZZLE,1/2/3/-1/-1/-1/-1/-1/,1/2/3/-1/-1/-1/-1/-1/,C/C/C/I/U/U/U/U/,20,-1
+girlsinc-2017-TygaJazzy,repeat-dd,REFERENCE,1/2/3/-1/-1/-1/-1/-1/,1/2/3/-1/-1/-1/-1/-1/,C/C/C/I/U/U/U/U/,24,-1
+girlsinc-2017-TygaJazzy,repeat-dd,REFERENCE,1/2/3/-1/-1/-1/-1/-1/,1/2/3/-1/-1/4/5/-1/,C/C/C/I/U/U/U/U/,34,45
+girlsinc-2017-TygaJazzy,repeat-dd,REFERENCE,1/2/3/-1/-1/4/5/-1/,1/2/3/6/7/4/5/8/,C/C/C/I/U/U/U/U/,60,83
+girlsinc-2017-TygaJazzy,repeat-dd,PUZZLE,1/2/3/6/7/4/5/8/,1/2/3/4/7/5/6/8/,C/C/C/I/U/U/U/U/,93,106
+girlsinc-2017-TygaJazzy,repeat-dd,PUZZLE,1/2/3/4/7/5/6/8/,1/2/3/4/7/5/6/8/,C/C/C/C/C/I/U/U/,111,131
+girlsinc-2017-TygaJazzy,repeat-dd,REFERENCE,1/2/3/4/7/5/6/8/,1/2/3/4/7/5/6/8/,C/C/C/C/C/I/U/U/,137,-1
+girlsinc-2017-TygaJazzy,repeat-dd,REFERENCE,1/2/3/4/7/5/6/8/,1/2/3/4/-1/5/6/7/,C/C/C/C/C/I/U/U/,160,189
+girlsinc-2017-TygaJazzy,repeat-dd,REFERENCE,1/2/3/4/-1/5/6/7/,1/2/3/4/6/5/7/8/,C/C/C/C/C/I/U/U/,199,205
+girlsinc-2017-TygaJazzy,repeat-dd,PUZZLE,1/2/3/4/6/5/7/8/,1/2/3/4/5/-1/6/7/,C/C/C/C/C/C/C/I/,212,239
+girlsinc-2017-TygaJazzy,repeat-dd,PUZZLE,1/2/3/4/5/-1/6/7/,1/2/3/4/5/6/7/8/,C/C/C/C/C/I/U/U/,255,259
+girlsinc-2017-TygaJazzy,repeat-dd,PUZZLE,1/2/3/4/5/6/7/8/,1/2/3/4/5/6/7/8/,C/C/C/C/C/C/C/C/,269,289
+girlsinc-2017-TygaJazzy,repeat-dd,END,"    this.hare.say(Ready....Set...) /
+    this.hare.raise arm() /
+    this.hare.say(GO!!) /
+    this.hare.getRightShoulder().turn(TypeExpression.RIGHT, 0.35) /
+    count 2 / {
+      count 2 / {
+        this.rhinos paw ground() /
+      }
+      this.rhinos charge() /
+    }",5,8,0,292
+girlsinc-2017-TygaJazzy,repeat-cc,REFERENCE,1/2/-1/-1/-1/-1/,1/4/5/6/2/3/,C/C/I/U/U/U/,18,26
+girlsinc-2017-TygaJazzy,repeat-cc,PUZZLE,1/4/5/6/2/3/,1/-1/-1/-1/-1/2/,C/I/U/U/U/U/,39,43
+girlsinc-2017-TygaJazzy,repeat-cc,REFERENCE,1/-1/-1/-1/-1/2/,1/-1/-1/-1/-1/2/,C/I/U/U/U/U/,48,-1
+girlsinc-2017-TygaJazzy,repeat-cc,REFERENCE,1/-1/-1/-1/-1/2/,1/-1/-1/-1/-1/2/,C/I/U/U/U/U/,54,-1
+girlsinc-2017-TygaJazzy,repeat-cc,REFERENCE,1/-1/-1/-1/-1/2/,1/2/6/5/3/4/,C/I/U/U/U/U/,62,69
+girlsinc-2017-TygaJazzy,repeat-cc,PUZZLE,1/2/6/5/3/4/,1/-1/-1/-1/2/3/,C/C/I/U/U/U/,92,101
+girlsinc-2017-TygaJazzy,repeat-cc,PUZZLE,1/-1/-1/-1/2/3/,1/-1/-1/-1/-1/2/,C/I/U/U/U/U/,106,108
+girlsinc-2017-TygaJazzy,repeat-cc,PUZZLE,1/-1/-1/-1/-1/2/,1/-1/-1/-1/-1/2/,C/I/U/U/U/U/,112,115
+girlsinc-2017-TygaJazzy,repeat-cc,REFERENCE,1/-1/-1/-1/-1/2/,1/3/5/4/-1/2/,C/I/U/U/U/U/,116,120
+girlsinc-2017-TygaJazzy,repeat-cc,PUZZLE,1/3/5/4/-1/2/,1/2/4/3/-1/-1/,C/I/U/U/U/U/,124,127
+girlsinc-2017-TygaJazzy,repeat-cc,PUZZLE,1/2/4/3/-1/-1/,1/2/4/3/-1/-1/,C/C/I/U/U/U/,129,-1
+girlsinc-2017-TygaJazzy,repeat-cc,REFERENCE,1/2/4/3/-1/-1/,1/2/4/3/-1/-1/,C/C/I/U/U/U/,134,-1
+girlsinc-2017-TygaJazzy,repeat-cc,REFERENCE,1/2/4/3/-1/-1/,1/2/5/4/3/6/,C/C/I/U/U/U/,141,153
+girlsinc-2017-TygaJazzy,repeat-cc,PUZZLE,1/2/5/4/3/6/,1/-1/4/3/2/5/,C/C/I/U/U/U/,171,174
+girlsinc-2017-TygaJazzy,repeat-cc,PUZZLE,1/-1/4/3/2/5/,1/-1/3/4/2/5/,C/I/U/U/U/U/,183,187
+girlsinc-2017-TygaJazzy,repeat-cc,PUZZLE,1/-1/3/4/2/5/,1/-1/3/4/2/5/,C/I/U/U/U/U/,189,193
+girlsinc-2017-TygaJazzy,repeat-cc,REFERENCE,1/-1/3/4/2/5/,1/2/4/5/3/6/,C/I/U/U/U/U/,195,199
+girlsinc-2017-TygaJazzy,repeat-cc,PUZZLE,1/2/4/5/3/6/,1/2/4/5/3/6/,C/C/I/U/U/U/,203,208
+girlsinc-2017-TygaJazzy,repeat-cc,REFERENCE,1/2/4/5/3/6/,1/-1/2/3/4/5/,C/C/I/U/U/U/,211,224
+girlsinc-2017-TygaJazzy,repeat-cc,PUZZLE,1/-1/2/3/4/5/,1/-1/3/2/4/5/,C/I/U/U/U/U/,230,234
+girlsinc-2017-TygaJazzy,repeat-cc,PUZZLE,1/-1/3/2/4/5/,1/-1/2/3/4/5/,C/I/U/U/U/U/,237,240
+girlsinc-2017-TygaJazzy,repeat-cc,REFERENCE,1/-1/2/3/4/5/,1/2/3/4/5/6/,C/I/U/U/U/U/,242,260
+girlsinc-2017-TygaJazzy,repeat-cc,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,268,287
+girlsinc-2017-TygaJazzy,repeat-cc,END,"    this.alien.say(It's time to dance!) /
+    count 3 / {
+      this.alien.slide to the left() /
+      this.alien.slide to the right() /
+      count 2 / {
+        this.alien.criss cross legs() /
+      }
+    }",6,6,0,290
+girlsinc-2017-TygaJazzy,repeat-hh,REFERENCE,1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/,9,12
+girlsinc-2017-TygaJazzy,repeat-hh,REFERENCE,1/2/-1/-1/-1/-1/-1/,1/2/-1/3/-1/4/-1/,C/C/I/U/U/U/U/,20,27
+girlsinc-2017-TygaJazzy,repeat-hh,REFERENCE,1/2/-1/3/-1/4/-1/,1/2/3/4/5/6/7/,C/C/I/U/U/U/U/,33,46
+girlsinc-2017-TygaJazzy,repeat-hh,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/C/C/,57,74
+girlsinc-2017-TygaJazzy,repeat-hh,END,"    this.witch.turn(TypeExpression.RIGHT, 0.125) /
+    this.witch.raise arms() /
+    count 2 / {
+      this.magicStaff.move up and down() /
+      count 3 / {
+        this.cauldron.spin() /
+      }
+    }
+    this.cauldron.explode() /",2,7,0,76
+girlsinc-2017-TygaJazzy,repeat-ff,PUZZLE,1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/,8,-1
+girlsinc-2017-TygaJazzy,repeat-ff,REFERENCE,1/-1/-1/-1/-1/-1/,1/-1/-1/2/3/-1/,C/I/U/U/U/U/,12,16
+girlsinc-2017-TygaJazzy,repeat-ff,REFERENCE,1/-1/-1/2/3/-1/,1/2/-1/3/4/5/,C/I/U/U/U/U/,24,42
+girlsinc-2017-TygaJazzy,repeat-ff,PUZZLE,1/2/-1/3/4/5/,1/2/-1/3/4/5/,C/C/I/U/U/U/,53,56
+girlsinc-2017-TygaJazzy,repeat-ff,REFERENCE,1/2/-1/3/4/5/,1/2/3/4/5/6/,C/C/I/U/U/U/,57,61
+girlsinc-2017-TygaJazzy,repeat-ff,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,66,81
+girlsinc-2017-TygaJazzy,repeat-ff,END,"    this.phoenix.say(I can do this, I know I can!) /
+    count 5 / {
+      count 3 / {
+        this.phoenix.flap wings(0.125) /
+      }
+      this.phoenix.glide() /
+    }
+    this.phoenix.land on rock() /",2,6,0,84
+girlsinc-2017-TygaJazzy,repeat-j,REFERENCE,-1/-1/-1/-1/-1/-1/,1/2/5/3/4/6/,I/U/U/U/U/U/,42,47
+girlsinc-2017-TygaJazzy,repeat-j,PUZZLE,1/2/5/3/4/6/,1/2/5/3/4/6/,C/C/I/U/U/U/,64,68
+girlsinc-2017-TygaJazzy,repeat-j,PUZZLE,1/2/5/3/4/6/,1/2/5/3/4/6/,C/C/I/U/U/U/,73,77
+girlsinc-2017-TygaJazzy,repeat-j,REFERENCE,1/2/5/3/4/6/,1/2/3/4/5/6/,C/C/I/U/U/U/,78,84
+girlsinc-2017-TygaJazzy,repeat-j,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,100,106
+girlsinc-2017-TygaJazzy,repeat-j,END,"    this.witch.activate(this.cauldron) /
+    count 3 / {
+      this.cauldron.jump and spin() /
+      do together / {
+        this.witch.jump backwards() /
+        this.troll.jump backwards() /
+      }
+    }",3,6,0,110
+girlsinc-2017-TygaJazzy,repeat-n,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/3/2/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/,35,38
+girlsinc-2017-TygaJazzy,repeat-n,REFERENCE,1/-1/3/2/-1/-1/-1/-1/-1/-1/,-1/-1/2/1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/,55,61
+girlsinc-2017-TygaJazzy,repeat-n,REFERENCE,-1/-1/2/1/-1/-1/-1/-1/-1/-1/,1/-1/3/2/4/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/,72,76
+girlsinc-2017-TygaJazzy,repeat-n,PUZZLE,1/-1/3/2/4/-1/-1/-1/-1/-1/,2/-1/3/1/4/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/,88,90
+girlsinc-2017-TygaJazzy,repeat-n,PUZZLE,2/-1/3/1/4/-1/-1/-1/-1/-1/,1/-1/3/2/4/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/,93,95
+girlsinc-2017-TygaJazzy,repeat-n,PUZZLE,1/-1/3/2/4/-1/-1/-1/-1/-1/,-1/-1/-1/1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/,98,99
+girlsinc-2017-TygaJazzy,repeat-n,PUZZLE,-1/-1/-1/1/-1/-1/-1/-1/-1/-1/,-1/-1/-1/1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/,108,110
+girlsinc-2017-TygaJazzy,repeat-n,REFERENCE,-1/-1/-1/1/-1/-1/-1/-1/-1/-1/,-1/1/3/2/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/,111,113
+girlsinc-2017-TygaJazzy,repeat-n,PUZZLE,-1/1/3/2/-1/-1/-1/-1/-1/-1/,-1/1/3/2/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/,121,124
+girlsinc-2017-TygaJazzy,repeat-n,REFERENCE,-1/1/3/2/-1/-1/-1/-1/-1/-1/,-1/1/2/3/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/,126,128
+girlsinc-2017-TygaJazzy,repeat-n,PUZZLE,-1/1/2/3/-1/-1/-1/-1/-1/-1/,-1/1/2/3/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/,131,134
+girlsinc-2017-TygaJazzy,repeat-n,REFERENCE,-1/1/2/3/-1/-1/-1/-1/-1/-1/,1/2/3/4/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/,135,139
+girlsinc-2017-TygaJazzy,repeat-n,PUZZLE,1/2/3/4/-1/-1/-1/-1/-1/-1/,1/2/3/4/5/-1/-1/-1/-1/-1/,C/C/C/C/I/U/U/U/U/U/,144,147
+girlsinc-2017-TygaJazzy,repeat-n,PUZZLE,1/2/3/4/5/-1/-1/-1/-1/-1/,1/2/3/4/5/-1/-1/-1/-1/-1/,C/C/C/C/C/I/U/U/U/U/,152,159
+girlsinc-2017-TygaJazzy,repeat-n,REFERENCE,1/2/3/4/5/-1/-1/-1/-1/-1/,1/2/3/4/5/6/7/8/10/9/,C/C/C/C/C/I/U/U/U/U/,161,172
+girlsinc-2017-TygaJazzy,repeat-n,PUZZLE,1/2/3/4/5/6/7/8/10/9/,1/2/3/4/5/6/7/8/10/9/,C/C/C/C/C/C/C/C/C/C/,184,201
+girlsinc-2017-TygaJazzy,repeat-n,END,"    count 2 / {
+      do together / {
+        this.big yeti.swing hammer() /
+        this.tiny yeti.lean back() /
+      }
+      this.tiny yeti.shrink() /
+    }
+    this.big yeti.drop hammer() /
+    this.tiny yeti.jump and grow(2.0) /
+    do together / {
+      this.tiny yeti.take a bow() /
+      this.big yeti.take a bow() /
+    }",3,10,0,207
+girlsinc-2017-TygaJazzy,repeat-l,REFERENCE,1/-1/-1/3/-1/2/,1/-1/-1/3/-1/2/,C/I/U/U/U/U/,25,-1
+girlsinc-2017-TygaJazzy,repeat-l,REFERENCE,1/-1/-1/3/-1/2/,1/-1/-1/3/-1/2/,C/I/U/U/U/U/,40,44
+girlsinc-2017-TygaJazzy,repeat-l,PUZZLE,1/-1/-1/3/-1/2/,1/-1/-1/4/2/3/,C/I/U/U/U/U/,45,48
+girlsinc-2017-TygaJazzy,repeat-l,PUZZLE,1/-1/-1/4/2/3/,1/4/3/6/2/5/,C/I/U/U/U/U/,55,58
+girlsinc-2017-TygaJazzy,repeat-l,PUZZLE,1/4/3/6/2/5/,1/3/6/5/2/4/,C/I/U/U/U/U/,75,78
+girlsinc-2017-TygaJazzy,repeat-l,PUZZLE,1/3/6/5/2/4/,1/2/6/5/3/4/,C/I/U/U/U/U/,89,92
+girlsinc-2017-TygaJazzy,repeat-l,PUZZLE,1/2/6/5/3/4/,1/2/6/5/3/4/,C/C/I/U/U/U/,96,103
+girlsinc-2017-TygaJazzy,repeat-l,PUZZLE,1/2/6/5/3/4/,1/2/4/6/3/5/,C/C/I/U/U/U/,115,122
+girlsinc-2017-TygaJazzy,repeat-l,PUZZLE,1/2/4/6/3/5/,1/2/4/6/3/5/,C/C/I/U/U/U/,128,134
+girlsinc-2017-TygaJazzy,repeat-l,REFERENCE,1/2/4/6/3/5/,1/2/4/6/3/5/,C/C/I/U/U/U/,135,142
+girlsinc-2017-TygaJazzy,repeat-l,PUZZLE,1/2/4/6/3/5/,1/2/3/6/4/5/,C/C/I/U/U/U/,145,153
+girlsinc-2017-TygaJazzy,repeat-l,PUZZLE,1/2/3/6/4/5/,1/2/3/6/4/5/,C/C/C/C/C/C/,180,189
+girlsinc-2017-TygaJazzy,repeat-l,END,"    this.cat.turn(TypeExpression.RIGHT, 0.5) /
+    this.cat.raise arms() /
+    do together / {
+      this.alien.turnToFace(this.cat) /
+      count 12 / {
+        this.cat.type at keyboard() /
+      }
+    }",5,6,0,193
+girlsinc-2017-TygaJazzy,repeat-w,REFERENCE,-1/-1/-1/-1/-1/,1/2/-1/4/3/,I/U/U/U/U/,18,22
+girlsinc-2017-TygaJazzy,repeat-w,REFERENCE,1/2/-1/4/3/,1/2/4/5/3/,C/C/C/I/I/,36,42
+girlsinc-2017-TygaJazzy,repeat-w,PUZZLE,1/2/4/5/3/,1/2/4/5/3/,C/C/C/C/C/,46,55
+girlsinc-2017-TygaJazzy,repeat-w,END,"    this.hare.pick up(this.basketball) /
+    do together / {
+      count 10 / {
+        this.hare.dribble ball once(this.basketball) /
+      }
+      this.hare.walk(2.0) /
+    }",2,5,0,57
+girlsinc-2017-TygaJazzy,repeat-y,REFERENCE,1/2/-1/-1/-1/-1/-1/-1/-1/,1/2/3/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/,23,25
+girlsinc-2017-TygaJazzy,repeat-y,PUZZLE,1/2/3/-1/-1/-1/-1/-1/-1/,1/2/3/-1/-1/-1/-1/-1/-1/,C/C/C/I/U/U/U/U/U/,39,41
+girlsinc-2017-TygaJazzy,repeat-y,REFERENCE,1/2/3/-1/-1/-1/-1/-1/-1/,1/2/3/4/-1/5/6/-1/-1/,C/C/C/I/U/U/U/U/U/,42,49
+girlsinc-2017-TygaJazzy,repeat-y,REFERENCE,1/2/3/4/-1/5/6/-1/-1/,1/2/3/4/5/6/7/8/9/,C/C/C/C/I/C/I/U/U/,65,85
+girlsinc-2017-TygaJazzy,repeat-y,PUZZLE,1/2/3/4/5/6/7/8/9/,1/2/3/4/5/6/7/8/9/,C/C/C/C/C/C/C/C/C/,101,120
+girlsinc-2017-TygaJazzy,repeat-y,END,"    do together / {
+      this.blueDragon.stand up() /
+      this.redDragon.raise leg and spin() /
+    }
+    do together / {
+      count 3 / {
+        this.redDragon.lift up legs() /
+      }
+      this.redDragon.jump up and down() /
+    }
+    this.redDragon.turnToFace(this.blueDragon) /
+    this.blueDragon.hide() /",2,9,0,123
+girlsinc-2017-TygaJazzy,repeat-r,REFERENCE,1/-1/-1/2/-1/-1/-1/-1/-1/-1/,1/-1/-1/2/3/4/-1/5/6/7/,C/I/U/U/U/U/U/U/U/U/,33,49
+girlsinc-2017-TygaJazzy,repeat-r,PUZZLE,1/-1/-1/2/3/4/-1/5/6/7/,1/2/-1/3/4/5/-1/6/7/8/,C/I/U/U/U/U/U/U/U/U/,70,76
+girlsinc-2017-TygaJazzy,repeat-r,PUZZLE,1/2/-1/3/4/5/-1/6/7/8/,1/2/-1/3/4/6/5/7/8/9/,C/C/I/C/I/U/U/U/U/U/,87,94
+girlsinc-2017-TygaJazzy,repeat-r,PUZZLE,1/2/-1/3/4/6/5/7/8/9/,1/2/-1/3/6/4/5/7/8/9/,C/C/I/C/I/U/U/U/U/U/,101,110
+girlsinc-2017-TygaJazzy,repeat-r,PUZZLE,1/2/-1/3/6/4/5/7/8/9/,1/3/2/4/5/7/6/8/9/10/,C/C/I/I/I/I/U/U/U/U/,114,118
+girlsinc-2017-TygaJazzy,repeat-r,PUZZLE,1/3/2/4/5/7/6/8/9/10/,1/2/-1/3/4/6/5/7/8/9/,C/I/U/U/U/U/U/U/U/U/,129,132
+girlsinc-2017-TygaJazzy,repeat-r,REFERENCE,1/2/-1/3/4/6/5/7/8/9/,1/2/3/4/5/7/6/8/9/10/,C/C/I/C/I/U/U/U/U/U/,137,148
+girlsinc-2017-TygaJazzy,repeat-r,PUZZLE,1/2/3/4/5/7/6/8/9/10/,1/2/3/4/5/6/7/8/9/10/,C/C/C/C/I/I/U/U/U/U/,160,163
+girlsinc-2017-TygaJazzy,repeat-r,PUZZLE,1/2/3/4/5/6/7/8/9/10/,1/2/3/4/5/6/8/7/9/10/,C/C/C/C/I/I/I/U/U/U/,167,175
+girlsinc-2017-TygaJazzy,repeat-r,PUZZLE,1/2/3/4/5/6/8/7/9/10/,1/2/3/4/5/6/8/7/9/10/,C/C/C/C/I/I/I/U/U/U/,189,199
+girlsinc-2017-TygaJazzy,repeat-r,PUZZLE,1/2/3/4/5/6/8/7/9/10/,1/2/3/4/5/6/8/7/9/10/,C/C/C/C/I/I/I/U/U/U/,208,215
+girlsinc-2017-TygaJazzy,repeat-r,PUZZLE,1/2/3/4/5/6/8/7/9/10/,1/2/3/4/5/6/8/7/9/10/,C/C/C/C/C/I/U/U/U/U/,217,230
+girlsinc-2017-TygaJazzy,repeat-r,REFERENCE,1/2/3/4/5/6/8/7/9/10/,1/2/3/4/5/6/8/10/7/9/,C/C/C/C/C/I/U/U/U/U/,238,254
+girlsinc-2017-TygaJazzy,repeat-r,PUZZLE,1/2/3/4/5/6/8/10/7/9/,1/2/3/4/5/6/9/10/8/7/,C/C/C/C/C/I/U/U/U/U/,259,271
+girlsinc-2017-TygaJazzy,repeat-r,PUZZLE,1/2/3/4/5/6/9/10/8/7/,1/2/3/4/5/6/10/7/9/8/,C/C/C/C/C/I/U/U/U/U/,289,300
+girlsinc-2017-TygaJazzy,repeat-r,PUZZLE,1/2/3/4/5/6/10/7/9/8/,1/2/3/4/5/6/10/7/9/8/,C/C/C/C/C/I/U/U/U/U/,303,313
+girlsinc-2017-TygaJazzy,repeat-r,PUZZLE,1/2/3/4/5/6/10/7/9/8/,1/2/3/4/5/6/7/10/9/8/,C/C/C/C/C/I/I/U/U/U/,319,330
+girlsinc-2017-TygaJazzy,repeat-r,PUZZLE,1/2/3/4/5/6/7/10/9/8/,1/2/3/4/5/6/7/10/9/8/,C/C/C/C/C/I/U/U/U/U/,441,450
+girlsinc-2017-TygaJazzy,repeat-r,PUZZLE,1/2/3/4/5/6/7/10/9/8/,1/2/3/4/5/6/7/10/9/8/,C/C/C/C/C/C/C/C/C/C/,461,478
+girlsinc-2017-TygaJazzy,repeat-r,END,"    this.bunny.say(We've located the treasure!) /
+    do together / {
+      count 3 / {
+        this.pirateShip.move(TypeExpression.FORWARD, 25.0) /
+      }
+      this.camera.move(TypeExpression.FORWARD, 75.0) /
+    }
+    this.camera fly to island() /
+    do together / {
+      this.treasureChest.getChestLid().turn(TypeExpression.BACKWARD, 0.25) /
+      this.coinPile.appear() /
+      this.coinStack.appear() /
+    }",6,10,0,482
+girlsinc-2017-TygaJazzy,repeat-q,REFERENCE,1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/,11,16
+girlsinc-2017-TygaJazzy,repeat-q,REFERENCE,1/2/-1/-1/-1/-1/-1/,1/2/-1/-1/4/3/-1/,C/C/I/U/U/U/U/,20,29
+girlsinc-2017-TygaJazzy,repeat-q,PUZZLE,1/2/-1/-1/4/3/-1/,1/2/-1/-1/4/3/-1/,C/C/I/U/U/U/U/,38,42
+girlsinc-2017-TygaJazzy,repeat-q,REFERENCE,1/2/-1/-1/4/3/-1/,1/2/3/4/5/6/-1/,C/C/I/U/U/U/U/,44,49
+girlsinc-2017-TygaJazzy,repeat-q,REFERENCE,1/2/3/4/5/6/-1/,1/2/3/4/5/6/7/,C/C/C/C/I/I/I/,62,75
+girlsinc-2017-TygaJazzy,repeat-q,REFERENCE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/I/I/I/,79,87
+girlsinc-2017-TygaJazzy,repeat-q,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/C/C/,92,114
+girlsinc-2017-TygaJazzy,repeat-q,END,"    this.ogre.sit down() /
+    this.ogre.go to sleep() /
+    do together / {
+      count 2 / {
+        this.ogre.snore() /
+      }
+      this.tortoise.walk up and toss flower() /
+      this.desertTortoise.crawl() /
+    }",4,7,0,117
+girlsinc-2017-TygaJazzy,repeat-x,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/3/4/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/U/,23,30
+girlsinc-2017-TygaJazzy,repeat-x,PUZZLE,1/2/-1/-1/3/4/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/3/4/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/U/U/,67,74
+girlsinc-2017-TygaJazzy,repeat-x,REFERENCE,1/2/-1/-1/3/4/-1/-1/-1/-1/-1/-1/,1/2/3/6/4/5/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/U/U/,75,83
+girlsinc-2017-TygaJazzy,repeat-x,PUZZLE,1/2/3/6/4/5/-1/-1/-1/-1/-1/-1/,1/2/3/6/4/5/-1/-1/-1/-1/-1/-1/,C/C/C/C/C/C/I/U/U/U/U/U/,102,117
+girlsinc-2017-TygaJazzy,repeat-x,REFERENCE,1/2/3/6/4/5/-1/-1/-1/-1/-1/-1/,1/2/3/6/4/5/7/8/10/9/11/12/,C/C/C/C/C/C/I/U/U/U/U/U/,118,130
+girlsinc-2017-TygaJazzy,repeat-x,PUZZLE,1/2/3/6/4/5/7/8/10/9/11/12/,1/2/3/6/4/5/7/8/10/9/11/12/,C/C/C/C/C/C/C/C/C/C/C/C/,152,164
+girlsinc-2017-TygaJazzy,repeat-x,END,"    this.alienRobot.land on ground() /
+    this.alien.turnToFace(this.alienRobot) /
+    do together / {
+      this.alien.say(Yay, you're home!) /
+      count 3 / {
+        this.alienRobot.jump() /
+      }
+    }
+    this.alien.think(Hmmm I wish I could make you bigger...) /
+    do together / {
+      this.alien.cast alien magic() /
+      this.alien.say(Abbbbra Ka-Da-Bra) /
+    }
+    this.alienRobot.resize(3.0) /
+    this.alienRobot.face camera() /",4,12,0,166
+girlsinc-2017-TygaJazzy,repeat-z,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/3/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/U/,71,77
+girlsinc-2017-TygaJazzy,repeat-z,REFERENCE,1/2/3/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/3/4/7/5/6/-1/-1/-1/-1/-1/-1/,C/C/C/I/U/U/U/U/U/U/U/U/U/,87,95
+girlsinc-2017-TygaJazzy,repeat-z,PUZZLE,1/2/3/4/7/5/6/-1/-1/-1/-1/-1/-1/,1/2/3/4/7/5/6/-1/-1/-1/-1/-1/-1/,C/C/C/C/C/C/C/I/U/U/U/U/U/,119,129
+girlsinc-2017-TygaJazzy,repeat-z,REFERENCE,1/2/3/4/7/5/6/-1/-1/-1/-1/-1/-1/,1/2/3/4/7/5/6/8/9/10/11/13/12/,C/C/C/C/C/C/C/I/U/U/U/U/U/,130,143
+girlsinc-2017-TygaJazzy,repeat-z,PUZZLE,1/2/3/4/7/5/6/8/9/10/11/13/12/,1/2/3/4/7/5/6/8/9/10/11/13/12/,C/C/C/C/C/C/C/C/C/C/C/C/C/,156,166
+girlsinc-2017-TygaJazzy,repeat-z,END,"    this.Martha.slide(2.0) /
+    this.Martha.say(Oh Frankie, you're home.) /
+    this.Frankie.hands in air() /
+    do together / {
+      this.Frankie.say(Look what I learned how to do today!) /
+      count 3 / {
+        this.Frankie.turn(TypeExpression.RIGHT, 3.0) /
+      }
+    }
+    this.Martha.say(That is really cool sweetheart. ) /
+    this.Martha.say(I learned this when I was your age.) /
+    count 2 / {
+      do together / {
+        this.Martha.resize(2.0) /
+        this.Martha.turn(TypeExpression.LEFT, 3.0) /
+      }
+    }",5,13,0,169
+girlsinc-2017-TygaJazzy,repeat-s,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/U/U/U/,30,33
+girlsinc-2017-TygaJazzy,repeat-s,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/2/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/U/U/,85,94
+girlsinc-2017-TygaJazzy,repeat-s,PUZZLE,1/-1/-1/-1/-1/2/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/2/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/U/U/,104,107
+girlsinc-2017-TygaJazzy,repeat-s,REFERENCE,1/-1/-1/-1/-1/-1/-1/2/-1/-1/-1/-1/-1/-1/,1/3/-1/-1/-1/-1/-1/2/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/U/U/,128,135
+girlsinc-2017-TygaJazzy,repeat-s,REFERENCE,1/3/-1/-1/-1/-1/-1/2/-1/-1/-1/-1/-1/-1/,1/3/4/5/6/-1/-1/2/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/U/U/,147,156
+girlsinc-2017-TygaJazzy,repeat-s,REFERENCE,1/3/4/5/6/-1/-1/2/-1/-1/-1/-1/-1/-1/,1/3/4/5/6/-1/7/2/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/U/U/,164,176
+girlsinc-2017-TygaJazzy,repeat-s,PUZZLE,1/3/4/5/6/-1/7/2/-1/-1/-1/-1/-1/-1/,1/5/2/3/7/-1/6/4/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/U/U/,184,190
+girlsinc-2017-TygaJazzy,repeat-s,PUZZLE,1/5/2/3/7/-1/6/4/-1/-1/-1/-1/-1/-1/,1/3/4/5/7/-1/6/2/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/U/U/,211,220
+girlsinc-2017-TygaJazzy,repeat-s,PUZZLE,1/3/4/5/7/-1/6/2/-1/-1/-1/-1/-1/-1/,1/3/4/5/7/-1/6/2/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/U/U/,231,235
+girlsinc-2017-TygaJazzy,repeat-s,REFERENCE,1/3/4/5/7/-1/6/2/-1/-1/-1/-1/-1/-1/,1/3/-1/-1/5/6/4/2/7/9/-1/10/-1/8/,C/I/U/U/U/U/U/U/U/U/U/U/U/U/,246,266
+girlsinc-2017-TygaJazzy,repeat-s,PUZZLE,1/3/-1/-1/5/6/4/2/7/9/-1/10/-1/8/,1/2/-1/-1/5/6/4/3/7/9/-1/10/-1/8/,C/I/U/U/U/U/U/U/U/U/U/U/U/U/,296,300
+girlsinc-2017-TygaJazzy,repeat-s,PUZZLE,1/2/-1/-1/5/6/4/3/7/9/-1/10/-1/8/,1/2/-1/-1/5/6/4/3/7/9/-1/10/-1/8/,C/C/I/U/U/U/U/U/U/U/U/U/U/U/,304,313
+girlsinc-2017-TygaJazzy,repeat-s,REFERENCE,1/2/-1/-1/5/6/4/3/7/9/-1/10/-1/8/,1/2/-1/-1/4/6/5/3/7/9/-1/10/-1/8/,C/C/I/U/U/U/U/U/U/U/U/U/U/U/,316,322
+girlsinc-2017-TygaJazzy,repeat-s,PUZZLE,1/2/-1/-1/4/6/5/3/7/9/-1/10/-1/8/,1/2/4/5/6/7/8/3/9/11/-1/12/-1/10/,C/C/I/U/U/U/U/U/U/U/U/U/U/U/,326,334
+girlsinc-2017-TygaJazzy,repeat-s,PUZZLE,1/2/4/5/6/7/8/3/9/11/-1/12/-1/10/,1/2/4/5/6/7/8/3/9/11/-1/12/-1/10/,C/C/I/U/U/U/U/U/U/U/U/U/U/U/,344,351
+girlsinc-2017-TygaJazzy,repeat-s,REFERENCE,1/2/4/5/6/7/8/3/9/11/-1/12/-1/10/,1/2/4/5/6/8/7/3/9/11/-1/12/-1/10/,C/C/I/U/U/U/U/U/U/U/U/U/U/U/,352,366
+girlsinc-2017-TygaJazzy,repeat-s,PUZZLE,1/2/4/5/6/8/7/3/9/11/-1/12/-1/10/,1/2/4/5/7/6/8/3/9/11/-1/12/-1/10/,C/C/I/U/U/U/U/U/U/U/U/U/U/U/,382,390
+girlsinc-2017-TygaJazzy,repeat-s,PUZZLE,1/2/4/5/7/6/8/3/9/11/-1/12/-1/10/,1/2/4/5/7/6/8/3/9/11/-1/12/-1/10/,C/C/I/U/U/U/U/U/U/U/U/U/U/U/,395,402
+girlsinc-2017-TygaJazzy,repeat-s,REFERENCE,1/2/4/5/7/6/8/3/9/11/-1/12/-1/10/,1/2/3/4/6/5/7/12/8/10/-1/11/-1/9/,C/C/I/U/U/U/U/U/U/U/U/U/U/U/,404,410
+girlsinc-2017-TygaJazzy,repeat-s,PUZZLE,1/2/3/4/6/5/7/12/8/10/-1/11/-1/9/,1/2/3/4/6/5/7/12/8/10/-1/11/-1/9/,C/C/C/C/C/C/C/I/U/U/U/U/U/U/,416,426
+girlsinc-2017-TygaJazzy,repeat-s,REFERENCE,1/2/3/4/6/5/7/12/8/10/-1/11/-1/9/,1/2/3/4/6/5/7/12/8/10/-1/11/-1/9/,C/C/C/C/C/C/C/I/U/U/U/U/U/U/,430,-1
+girlsinc-2017-TygaJazzy,repeat-s,REFERENCE,1/2/3/4/6/5/7/12/8/10/-1/11/-1/9/,1/2/3/4/6/5/7/8/9/13/10/14/11/12/,C/C/C/C/C/C/C/I/U/U/U/U/U/U/,449,461
+girlsinc-2017-TygaJazzy,repeat-s,PUZZLE,1/2/3/4/6/5/7/8/9/13/10/14/11/12/,1/2/3/4/6/5/7/8/9/13/10/14/11/12/,C/C/C/C/C/C/C/C/C/I/U/U/U/U/,482,498
+girlsinc-2017-TygaJazzy,repeat-s,PUZZLE,1/2/3/4/6/5/7/8/9/13/10/14/11/12/,1/2/3/4/6/5/7/8/9/13/10/14/11/12/,C/C/C/C/C/C/C/C/C/I/U/U/U/U/,509,526
+girlsinc-2017-TygaJazzy,repeat-s,REFERENCE,1/2/3/4/6/5/7/8/9/13/10/14/11/12/,1/2/3/4/6/5/7/8/9/14/10/13/11/12/,C/C/C/C/C/C/C/C/C/I/U/U/U/U/,527,547
+girlsinc-2017-TygaJazzy,repeat-s,PUZZLE,1/2/3/4/6/5/7/8/9/14/10/13/11/12/,1/2/3/4/6/5/7/8/9/13/10/14/11/12/,C/C/C/C/C/C/C/C/C/I/U/U/U/U/,581,593
+girlsinc-2017-TygaJazzy,repeat-s,PUZZLE,1/2/3/4/6/5/7/8/9/13/10/14/11/12/,1/2/3/4/6/5/7/8/9/11/10/14/12/13/,C/C/C/C/C/C/C/C/C/I/U/U/U/U/,602,618
+girlsinc-2017-TygaJazzy,repeat-s,PUZZLE,1/2/3/4/6/5/7/8/9/11/10/14/12/13/,1/2/3/4/6/5/7/8/9/11/10/14/12/13/,C/C/C/C/C/C/C/C/C/I/U/U/U/U/,624,643
+girlsinc-2017-TygaJazzy,repeat-s,REFERENCE,1/2/3/4/6/5/7/8/9/11/10/14/12/13/,1/2/3/4/6/5/7/8/9/10/11/14/12/13/,C/C/C/C/C/C/C/C/C/I/U/U/U/U/,646,663
+girlsinc-2017-TygaJazzy,repeat-s,PUZZLE,1/2/3/4/6/5/7/8/9/10/11/14/12/13/,1/2/3/4/6/5/7/8/9/10/11/14/12/13/,C/C/C/C/C/C/C/C/C/C/C/C/C/C/,668,683
+girlsinc-2017-TygaJazzy,repeat-s,END,"    this.pig.say(You may begin.) /
+    this.bigBadWolf.skate around() /
+    count 2 / {
+      do together / {
+        this.bigBadWolf.spin() /
+        this.bigBadWolf.move(TypeExpression.DOWN, 0.25) /
+      }
+      this.bigBadWolf.say(Uh oh.) /
+    }
+    this.bigBadWolf.getNeck().turn(TypeExpression.FORWARD, 0.125) /
+    this.bigBadWolf.say(Help, please!) /
+    this.phoenix.land on wolf() /
+    do together / {
+      this.phoenix.move(TypeExpression.UP, 6.0) /
+      count 2 / {
+        this.phoenix.flap wings() /
+      }
+    }",6,14,0,686
+girlsinc-2017-TygaJazzy,repeat-i,REFERENCE,-1/-1/-1/-1/-1/-1/-1/,-1/1/2/-1/-1/-1/-1/,I/U/U/U/U/U/U/,8,10
+girlsinc-2017-TygaJazzy,repeat-i,REFERENCE,-1/1/2/-1/-1/-1/-1/,1/2/3/-1/-1/-1/-1/,I/U/U/U/U/U/U/,18,23
+girlsinc-2017-TygaJazzy,repeat-i,PUZZLE,1/2/3/-1/-1/-1/-1/,1/2/3/-1/-1/-1/-1/,C/C/C/I/U/U/U/,31,-1
+girlsinc-2017-TygaJazzy,repeat-i,REFERENCE,1/2/3/-1/-1/-1/-1/,1/2/3/4/5/6/7/,C/C/C/I/U/U/U/,34,43
+girlsinc-2017-TygaJazzy,repeat-i,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/C/C/,50,57
+girlsinc-2017-TygaJazzy,repeat-i,END,"    count 3 / {
+      this.penguin.turn(TypeExpression.RIGHT, 0.5) /
+      this.penguin.move(TypeExpression.FORWARD, 1.0) /
+    }
+    count 3 / {
+      do together / {
+        this.penguin.flutter wings() /
+        this.penguin.jump() /
+      }
+    }",3,7,0,59
+girlsinc-2017-TygaJazzy,repeat-aa,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/,10,16
+girlsinc-2017-TygaJazzy,repeat-aa,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/2/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/,46,54
+girlsinc-2017-TygaJazzy,repeat-aa,PUZZLE,1/-1/-1/2/-1/-1/-1/-1/-1/-1/-1/,1/2/3/4/5/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/,64,67
+girlsinc-2017-TygaJazzy,repeat-aa,PUZZLE,1/2/3/4/5/-1/-1/-1/-1/-1/-1/,1/2/3/4/5/-1/-1/-1/-1/-1/-1/,C/C/C/C/C/I/U/U/U/U/U/,76,-1
+girlsinc-2017-TygaJazzy,repeat-aa,REFERENCE,1/2/3/4/5/-1/-1/-1/-1/-1/-1/,1/2/3/4/5/6/7/8/10/9/11/,C/C/C/C/C/I/U/U/U/U/U/,81,98
+girlsinc-2017-TygaJazzy,repeat-aa,PUZZLE,1/2/3/4/5/6/7/8/10/9/11/,1/2/3/4/5/6/7/8/10/9/11/,C/C/C/C/C/C/C/C/C/C/C/,123,137
+girlsinc-2017-TygaJazzy,repeat-aa,END,"    this.alien.say(Oh no!) /
+    do together / {
+      count 2 / {
+        this.shark.circle(this.sailboat) /
+      }
+      this.sailboat.sink() /
+    }
+    this.alien.turnToFace(this.shark) /
+    count 2 / {
+      do together / {
+        this.alien.get bigger() /
+        this.shark.get smaller() /
+      }
+    }
+    this.alien.say(Silly Earthlings!) /",5,11,0,140
+girlsinc-2017-TygaJazzy,doinorder-a,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/2/,I/U/U/U/U/U/U/U/U/,24,29
+girlsinc-2017-TygaJazzy,doinorder-a,PUZZLE,1/-1/-1/-1/-1/-1/-1/-1/2/,1/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/,39,44
+girlsinc-2017-TygaJazzy,doinorder-a,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/,1/9/3/2/4/5/6/7/8/,C/I/U/U/U/U/U/U/U/,48,57
+girlsinc-2017-TygaJazzy,doinorder-a,REFERENCE,1/9/3/2/4/5/6/7/8/,1/9/3/2/4/5/6/7/8/,C/I/U/U/U/U/U/U/U/,101,-1
+girlsinc-2017-TygaJazzy,doinorder-a,PUZZLE,1/9/3/2/4/5/6/7/8/,1/9/3/2/4/5/6/7/8/,C/I/U/U/U/U/U/U/U/,108,-1
+girlsinc-2017-TygaJazzy,doinorder-a,REFERENCE,1/9/3/2/4/5/6/7/8/,1/9/3/2/4/5/6/7/8/,C/I/U/U/U/U/U/U/U/,167,174
+girlsinc-2017-TygaJazzy,doinorder-a,REFERENCE,1/9/3/2/4/5/6/7/8/,1/2/4/3/5/6/7/8/9/,C/I/U/U/U/U/U/U/U/,176,182
+girlsinc-2017-TygaJazzy,doinorder-a,PUZZLE,1/2/4/3/5/6/7/8/9/,1/2/3/8/4/5/6/7/9/,C/C/I/U/U/U/U/U/U/,185,193
+girlsinc-2017-TygaJazzy,doinorder-a,PUZZLE,1/2/3/8/4/5/6/7/9/,1/2/3/8/4/5/6/7/9/,C/C/C/C/C/C/C/C/C/,206,283
+girlsinc-2017-TygaJazzy,doinorder-a,END,"    this.pilot.say(Here we go!) /
+    this.plane.flip() /
+    do together / {
+      this.plane.swerve past(ArrayInstanceCreation) /
+      do in order / {
+        this.balloon (1).move(TypeExpression.RIGHT, 20.0) /
+        this.balloon (2).move(TypeExpression.LEFT, 20.0) /
+        this.balloon (3).move(TypeExpression.RIGHT, 20.0) /
+      }
+    }
+    this.plane.fly away() /",4,9,0,565
+girlsinc-2017-TygaJazzy,doinorder-f,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/7/8/9/3/4/5/6/,C/I/U/U/U/U/U/U/U/,84,90
+girlsinc-2017-TygaJazzy,doinorder-f,PUZZLE,1/2/7/8/9/3/4/5/6/,1/2/7/8/9/3/4/5/6/,C/C/C/C/C/C/C/C/C/,136,174
+girlsinc-2017-TygaJazzy,doinorder-f,END,"    this.bunny.cover eyes() /
+    do together / {
+      this.cheshireCat.hide() /
+      this.hare.hide() /
+      this.mandril.hide() /
+      do in order / {
+        this.bunny.say(One..) /
+        this.bunny.say(Two..) /
+        this.bunny.say(Three!) /
+      }
+    }",4,9,0,177
+girlsinc-2017-TygaJazzy,doinorder-k,REFERENCE,1/2/-1/-1/-1/-1/-1/-1/,1/2/3/5/4/-1/-1/-1/,C/C/I/U/U/U/U/U/,29,37
+girlsinc-2017-TygaJazzy,doinorder-k,REFERENCE,1/2/3/5/4/-1/-1/-1/,1/2/3/8/4/5/6/7/,C/C/C/C/I/C/U/U/,47,54
+girlsinc-2017-TygaJazzy,doinorder-k,PUZZLE,1/2/3/8/4/5/6/7/,1/2/3/8/4/5/6/7/,C/C/C/C/C/C/C/C/,62,76
+girlsinc-2017-TygaJazzy,doinorder-k,END,"    this.whiteRabbit.turnToFace(this.camera) /
+    this.whiteRabbit.say(Please give a round of applause to the SCARIEST creatures in Wonderland!) /
+    do together / {
+      this.whiteRabbit.clap() /
+      do in order / {
+        this.bigBadWolf.appear() /
+        this.troll.appear() /
+        this.yeti.appear() /
+      }
+    }",3,8,0,78
+girlsinc-2017-TygaJazzy,doinorder-w,PUZZLE,1/-1/2/-1/-1/-1/-1/-1/-1/3/-1/-1/-1/,1/-1/2/-1/-1/-1/-1/-1/-1/3/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/U/,83,85
+girlsinc-2017-TygaJazzy,doinorder-w,REFERENCE,1/-1/2/-1/-1/-1/-1/-1/-1/3/-1/-1/-1/,1/2/3/-1/5/-1/-1/4/-1/6/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/U/,86,90
+girlsinc-2017-TygaJazzy,doinorder-w,REFERENCE,1/2/3/-1/5/-1/-1/4/-1/6/-1/-1/-1/,1/2/3/-1/5/6/7/4/-1/8/-1/-1/-1/,C/C/C/C/I/I/U/U/U/U/U/U/U/,107,117
+girlsinc-2017-TygaJazzy,doinorder-w,REFERENCE,1/2/3/-1/5/6/7/4/-1/8/-1/-1/-1/,1/2/3/-1/5/6/7/4/12/8/9/10/11/,C/C/C/C/I/I/I/I/U/U/U/U/U/,137,147
+girlsinc-2017-TygaJazzy,doinorder-w,PUZZLE,1/2/3/-1/5/6/7/4/12/8/9/10/11/,1/2/3/6/5/7/8/4/13/9/10/11/12/,C/C/C/C/I/I/I/I/U/U/U/U/U/,158,164
+girlsinc-2017-TygaJazzy,doinorder-w,PUZZLE,1/2/3/6/5/7/8/4/13/9/10/11/12/,1/2/3/4/6/7/8/5/13/9/10/11/12/,C/C/C/C/I/C/I/U/U/U/U/U/U/,170,175
+girlsinc-2017-TygaJazzy,doinorder-w,PUZZLE,1/2/3/4/6/7/8/5/13/9/10/11/12/,1/2/3/5/6/7/8/4/13/9/10/11/12/,C/C/C/C/I/U/U/U/I/U/U/U/U/,198,205
+girlsinc-2017-TygaJazzy,doinorder-w,PUZZLE,1/2/3/5/6/7/8/4/13/9/10/11/12/,1/2/3/5/6/7/8/4/9/10/11/12/13/,C/C/C/C/C/C/C/C/I/U/U/U/U/,210,223
+girlsinc-2017-TygaJazzy,doinorder-w,PUZZLE,1/2/3/5/6/7/8/4/9/10/11/12/13/,1/2/3/5/6/7/8/4/9/10/11/12/13/,C/C/C/C/C/C/C/C/C/C/C/C/C/,226,244
+girlsinc-2017-TygaJazzy,doinorder-w,END,"    GlobalFirstInstanceExpression.scene.yeti.say(We've got you now!) /
+    this.madHatter.say(Not so fast!) /
+    do together / {
+      do in order / {
+        this.wall.fall down() /
+        GlobalFirstInstanceExpression.scene.castleGate.move(TypeExpression.UP, 5.0) /
+        GlobalFirstInstanceExpression.scene.bigBadWolf.resize(0.25) /
+      }
+      this.madHatter.dance() /
+    }
+    this.madHatter.walk(6.0) /
+    do together / {
+      this.bigBadWolf.say(So not cool.) /
+      this.troll.say(So not cool.) /
+      this.yeti.say(So not cool.) /
+    }",4,13,0,247
+girlsinc-2017-TygaJazzy,doinorder-n,REFERENCE,-1/-1/-1/-1/-1/-1/,-1/1/-1/-1/-1/-1/,I/U/U/U/U/U/,16,19
+girlsinc-2017-TygaJazzy,doinorder-n,REFERENCE,-1/1/-1/-1/-1/-1/,1/5/2/-1/4/3/,I/U/U/U/U/U/,24,26
+girlsinc-2017-TygaJazzy,doinorder-n,PUZZLE,1/5/2/-1/4/3/,1/5/2/-1/4/3/,C/C/I/U/C/U/,41,43
+girlsinc-2017-TygaJazzy,doinorder-n,REFERENCE,1/5/2/-1/4/3/,1/5/2/4/3/-1/,C/C/I/U/C/U/,44,51
+girlsinc-2017-TygaJazzy,doinorder-n,PUZZLE,1/5/2/4/3/-1/,1/3/2/5/4/-1/,C/C/I/U/C/U/,55,57
+girlsinc-2017-TygaJazzy,doinorder-n,PUZZLE,1/3/2/5/4/-1/,1/3/2/5/4/-1/,C/C/I/I/I/I/,65,67
+girlsinc-2017-TygaJazzy,doinorder-n,REFERENCE,1/3/2/5/4/-1/,1/2/3/5/4/-1/,C/C/I/I/I/I/,68,71
+girlsinc-2017-TygaJazzy,doinorder-n,PUZZLE,1/2/3/5/4/-1/,1/2/3/5/4/-1/,C/C/C/I/U/U/,76,92
+girlsinc-2017-TygaJazzy,doinorder-n,REFERENCE,1/2/3/5/4/-1/,1/2/3/5/4/-1/,C/C/C/I/U/U/,93,142
+girlsinc-2017-TygaJazzy,doinorder-n,REFERENCE,1/2/3/5/4/-1/,1/2/3/4/5/-1/,C/C/C/I/U/U/,143,146
+girlsinc-2017-TygaJazzy,doinorder-n,PUZZLE,1/2/3/4/5/-1/,1/2/3/4/5/6/,C/C/C/C/C/I/,151,154
+girlsinc-2017-TygaJazzy,doinorder-n,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,173,183
+girlsinc-2017-TygaJazzy,doinorder-n,END,"    do together / {
+      this.alien.run in circles() /
+      do in order / {
+        this.uFO.move(TypeExpression.UP, 30.0) /
+        this.uFO.moveToward(this.alien, 150.0) /
+      }
+    }
+    this.uFO.beam up(this.alien) /",3,6,0,188
+girlsinc-2017-TygaJazzy,doinorder-l,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/,14,18
+girlsinc-2017-TygaJazzy,doinorder-l,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/4/3/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/,28,44
+girlsinc-2017-TygaJazzy,doinorder-l,REFERENCE,1/2/4/3/-1/-1/-1/-1/-1/,1/2/8/3/4/5/6/7/9/,C/C/C/I/C/U/U/U/U/,54,67
+girlsinc-2017-TygaJazzy,doinorder-l,PUZZLE,1/2/8/3/4/5/6/7/9/,1/2/8/3/4/5/6/7/9/,C/C/C/C/C/C/C/C/C/,85,112
+girlsinc-2017-TygaJazzy,doinorder-l,END,"    this.uFO.fly through stars() /
+    do together / {
+      this.uFO.zig zag through meteors() /
+      do in order / {
+        this.meteor.launch() /
+        this.bus.launch() /
+        this.cow.launch() /
+        this.toilet.launch() /
+      }
+    }
+    this.uFO.say(We made it!) /",3,9,0,120
+girlsinc-2017-TygaJazzy,doinorder-b,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/,14,18
+girlsinc-2017-TygaJazzy,doinorder-b,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/,69,73
+girlsinc-2017-TygaJazzy,doinorder-b,REFERENCE,1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/3/-1/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/U/,75,81
+girlsinc-2017-TygaJazzy,doinorder-b,REFERENCE,1/2/-1/3/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/3/-1/-1/-1/4/-1/-1/5/,C/C/I/U/U/U/U/U/U/U/U/,107,114
+girlsinc-2017-TygaJazzy,doinorder-b,REFERENCE,1/2/-1/3/-1/-1/-1/4/-1/-1/5/,1/2/-1/3/4/5/6/7/8/9/10/,C/C/I/U/U/U/U/U/U/U/U/,132,139
+girlsinc-2017-TygaJazzy,doinorder-b,PUZZLE,1/2/-1/3/4/5/6/7/8/9/10/,1/2/3/4/5/6/7/8/9/10/11/,C/C/I/U/U/U/U/U/U/U/U/,159,166
+girlsinc-2017-TygaJazzy,doinorder-b,PUZZLE,1/2/3/4/5/6/7/8/9/10/11/,1/2/3/4/5/6/7/8/9/10/11/,C/C/C/C/C/C/C/I/U/U/U/,177,190
+girlsinc-2017-TygaJazzy,doinorder-b,PUZZLE,1/2/3/4/5/6/7/8/9/10/11/,1/2/3/4/5/6/7/8/9/10/11/,C/C/C/C/C/C/C/I/I/U/U/,197,202
+girlsinc-2017-TygaJazzy,doinorder-b,PUZZLE,1/2/3/4/5/6/7/8/9/10/11/,1/2/3/4/5/6/7/10/9/8/11/,C/C/C/C/C/C/C/I/I/I/U/,212,231
+girlsinc-2017-TygaJazzy,doinorder-b,PUZZLE,1/2/3/4/5/6/7/10/9/8/11/,1/2/3/4/5/6/7/8/9/10/11/,C/C/C/C/C/C/C/I/U/U/U/,244,254
+girlsinc-2017-TygaJazzy,doinorder-b,PUZZLE,1/2/3/4/5/6/7/8/9/10/11/,1/2/3/4/5/6/7/8/9/10/11/,C/C/C/C/C/C/C/I/U/U/U/,265,277
+girlsinc-2017-TygaJazzy,doinorder-b,PUZZLE,1/2/3/4/5/6/7/8/9/10/11/,1/2/3/4/5/6/7/8/9/10/11/,C/C/C/C/C/C/C/C/I/U/U/,282,289
+girlsinc-2017-TygaJazzy,doinorder-b,PUZZLE,1/2/3/4/5/6/7/8/9/10/11/,1/2/3/4/5/6/7/8/9/10/11/,C/C/C/C/C/C/C/C/C/C/C/,296,315
+girlsinc-2017-TygaJazzy,doinorder-b,END,"    this.yeti.flap arms() /
+    this.penguin.jump() /
+    do together / {
+      this.floating ice.move towards(this.yeti) /
+      do in order / {
+        this.walrus.swim up from below() /
+        this.walrus.jump onto(this.floating ice) /
+        this.walrus.push off ice(this.penguin) /
+        this.penguin.flap and fall into water() /
+      }
+    }
+    this.walrus.turn(TypeExpression.LEFT, 0.5) /
+    this.yeti.jump back() /",7,11,0,318
+girlsinc-2017-TygaJazzy,doinorder-x,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/,16,20
+girlsinc-2017-TygaJazzy,doinorder-x,REFERENCE,1/-1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/3/4/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/,23,26
+girlsinc-2017-TygaJazzy,doinorder-x,REFERENCE,1/2/3/4/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/3/4/-1/5/6/7/-1/-1/-1/-1/,C/C/C/C/I/U/U/U/U/U/U/U/,45,50
+girlsinc-2017-TygaJazzy,doinorder-x,REFERENCE,1/2/3/4/-1/5/6/7/-1/-1/-1/-1/,1/2/3/4/-1/5/6/7/8/9/-1/-1/,C/C/C/C/I/U/U/U/U/U/U/U/,61,72
+girlsinc-2017-TygaJazzy,doinorder-x,REFERENCE,1/2/3/4/-1/5/6/7/8/9/-1/-1/,1/2/3/4/8/5/6/7/10/11/12/9/,C/C/C/C/I/U/U/U/U/U/U/U/,84,93
+girlsinc-2017-TygaJazzy,doinorder-x,PUZZLE,1/2/3/4/8/5/6/7/10/11/12/9/,1/2/3/4/8/5/6/7/10/11/12/9/,C/C/C/C/I/U/U/U/U/U/U/U/,108,113
+girlsinc-2017-TygaJazzy,doinorder-x,REFERENCE,1/2/3/4/8/5/6/7/10/11/12/9/,1/2/3/4/8/5/6/7/10/11/12/9/,C/C/C/C/I/U/U/U/U/U/U/U/,114,-1
+girlsinc-2017-TygaJazzy,doinorder-x,REFERENCE,1/2/3/4/8/5/6/7/10/11/12/9/,1/2/3/4/8/5/6/7/10/11/12/9/,C/C/C/C/I/U/U/U/U/U/U/U/,123,-1
+girlsinc-2017-TygaJazzy,doinorder-x,PUZZLE,1/2/3/4/8/5/6/7/10/11/12/9/,1/2/3/4/10/5/6/7/12/8/9/11/,C/C/C/C/I/U/U/U/U/U/U/U/,130,137
+girlsinc-2017-TygaJazzy,doinorder-x,PUZZLE,1/2/3/4/10/5/6/7/12/8/9/11/,1/2/3/4/10/5/6/7/12/8/9/11/,C/C/C/C/I/U/U/U/U/U/U/U/,146,-1
+girlsinc-2017-TygaJazzy,doinorder-x,REFERENCE,1/2/3/4/10/5/6/7/12/8/9/11/,1/2/3/4/11/5/7/9/12/10/8/6/,C/C/C/C/I/U/U/U/U/U/U/U/,162,168
+girlsinc-2017-TygaJazzy,doinorder-x,PUZZLE,1/2/3/4/11/5/7/9/12/10/8/6/,1/2/3/4/12/5/7/9/11/10/8/6/,C/C/C/C/I/U/U/U/U/U/U/U/,176,181
+girlsinc-2017-TygaJazzy,doinorder-x,PUZZLE,1/2/3/4/12/5/7/9/11/10/8/6/,1/2/3/4/12/5/7/9/11/10/8/6/,C/C/C/C/I/U/U/U/U/U/U/U/,201,-1
+girlsinc-2017-TygaJazzy,doinorder-x,REFERENCE,1/2/3/4/12/5/7/9/11/10/8/6/,1/2/3/4/12/5/7/9/11/10/8/6/,C/C/C/C/I/U/U/U/U/U/U/U/,215,-1
+girlsinc-2017-TygaJazzy,doinorder-x,REFERENCE,1/2/3/4/12/5/7/9/11/10/8/6/,1/2/3/4/-1/-1/5/-1/-1/-1/-1/-1/,C/C/C/C/I/U/U/U/U/U/U/U/,215,226
+girlsinc-2017-TygaJazzy,doinorder-x,PUZZLE,1/2/3/4/-1/-1/5/-1/-1/-1/-1/-1/,1/2/3/4/-1/-1/-1/-1/5/-1/-1/-1/,C/C/C/C/I/U/U/U/U/U/U/U/,260,266
+girlsinc-2017-TygaJazzy,doinorder-x,PUZZLE,1/2/3/4/-1/-1/-1/-1/5/-1/-1/-1/,1/2/3/4/-1/-1/-1/-1/-1/-1/-1/5/,C/C/C/C/I/U/U/U/U/U/U/U/,274,278
+girlsinc-2017-TygaJazzy,doinorder-x,PUZZLE,1/2/3/4/-1/-1/-1/-1/-1/-1/-1/5/,1/2/3/4/-1/5/-1/-1/-1/-1/-1/-1/,C/C/C/C/I/U/U/U/U/U/U/U/,285,289
+girlsinc-2017-TygaJazzy,doinorder-x,PUZZLE,1/2/3/4/-1/5/-1/-1/-1/-1/-1/-1/,1/2/3/4/5/-1/-1/-1/-1/-1/-1/-1/,C/C/C/C/I/U/U/U/U/U/U/U/,298,304
+girlsinc-2017-TygaJazzy,doinorder-x,PUZZLE,1/2/3/4/5/-1/-1/-1/-1/-1/-1/-1/,1/2/3/4/5/-1/-1/-1/-1/-1/-1/-1/,C/C/C/C/C/I/I/I/U/U/U/U/,309,315
+girlsinc-2017-TygaJazzy,doinorder-x,REFERENCE,1/2/3/4/5/-1/-1/-1/-1/-1/-1/-1/,1/2/3/4/5/-1/-1/-1/-1/-1/7/6/,C/C/C/C/C/I/I/I/U/U/U/U/,319,324
+girlsinc-2017-TygaJazzy,doinorder-x,PUZZLE,1/2/3/4/5/-1/-1/-1/-1/-1/7/6/,1/2/3/4/5/-1/-1/-1/-1/-1/7/6/,C/C/C/C/C/C/C/I/U/U/U/U/,331,-1
+girlsinc-2017-TygaJazzy,doinorder-x,REFERENCE,1/2/3/4/5/-1/-1/-1/-1/-1/7/6/,1/2/3/4/5/8/-1/-1/-1/-1/7/6/,C/C/C/C/C/C/C/I/U/U/U/U/,344,355
+girlsinc-2017-TygaJazzy,doinorder-x,PUZZLE,1/2/3/4/5/8/-1/-1/-1/-1/7/6/,1/2/3/4/5/-1/8/-1/-1/-1/7/6/,C/C/C/C/C/C/C/I/U/U/U/U/,358,368
+girlsinc-2017-TygaJazzy,doinorder-x,PUZZLE,1/2/3/4/5/-1/8/-1/-1/-1/7/6/,1/2/3/4/5/-1/-1/-1/8/-1/7/6/,C/C/C/C/C/C/C/I/U/U/U/U/,372,380
+girlsinc-2017-TygaJazzy,doinorder-x,PUZZLE,1/2/3/4/5/-1/-1/-1/8/-1/7/6/,1/2/3/4/5/-1/-1/-1/-1/8/7/6/,C/C/C/C/C/C/C/I/U/U/U/U/,384,388
+girlsinc-2017-TygaJazzy,doinorder-x,PUZZLE,1/2/3/4/5/-1/-1/-1/-1/8/7/6/,1/2/3/4/5/-1/-1/8/-1/-1/7/6/,C/C/C/C/C/C/C/I/U/U/U/U/,391,395
+girlsinc-2017-TygaJazzy,doinorder-x,PUZZLE,1/2/3/4/5/-1/-1/8/-1/-1/7/6/,1/2/3/4/5/8/-1/-1/-1/-1/7/6/,C/C/C/C/C/C/C/I/U/U/U/U/,399,403
+girlsinc-2017-TygaJazzy,doinorder-x,PUZZLE,1/2/3/4/5/8/-1/-1/-1/-1/7/6/,1/2/3/4/5/8/-1/-1/-1/-1/7/6/,C/C/C/C/C/C/C/I/U/U/U/U/,407,420
+girlsinc-2017-TygaJazzy,doinorder-x,PUZZLE,1/2/3/4/5/8/-1/-1/-1/-1/7/6/,1/2/3/4/6/5/-1/-1/-1/-1/8/7/,C/C/C/C/C/C/C/I/U/U/U/U/,487,500
+girlsinc-2017-TygaJazzy,doinorder-x,PUZZLE,1/2/3/4/6/5/-1/-1/-1/-1/8/7/,1/2/3/4/5/8/9/11/10/12/7/6/,C/C/C/C/I/U/U/U/U/U/U/U/,506,510
+girlsinc-2017-TygaJazzy,doinorder-x,PUZZLE,1/2/3/4/5/8/9/11/10/12/7/6/,1/2/3/4/5/9/8/11/10/12/7/6/,C/C/C/C/C/C/C/I/U/U/U/U/,525,541
+girlsinc-2017-TygaJazzy,doinorder-x,PUZZLE,1/2/3/4/5/9/8/11/10/12/7/6/,1/2/3/4/5/9/10/11/8/12/7/6/,C/C/C/C/C/C/C/I/I/U/U/U/,546,553
+girlsinc-2017-TygaJazzy,doinorder-x,PUZZLE,1/2/3/4/5/9/10/11/8/12/7/6/,1/2/3/4/5/8/10/11/9/12/7/6/,C/C/C/C/C/C/C/I/I/U/U/U/,557,562
+girlsinc-2017-TygaJazzy,doinorder-x,PUZZLE,1/2/3/4/5/8/10/11/9/12/7/6/,1/2/3/4/5/8/9/10/11/12/7/6/,C/C/C/C/C/C/C/C/I/U/U/U/,568,577
+girlsinc-2017-TygaJazzy,doinorder-x,PUZZLE,1/2/3/4/5/8/9/10/11/12/7/6/,1/2/3/4/5/8/9/10/11/12/7/6/,C/C/C/C/C/C/C/C/C/C/C/C/,583,595
+girlsinc-2017-TygaJazzy,doinorder-x,END,"    this.hippo.say(Let's practice again.) /
+    do together / {
+      this.hippo.raise arms() /
+      this.yeti.raise arms() /
+    }
+    do together / {
+      do in order / {
+        this.hippo.turn(TypeExpression.RIGHT, 1.0) /
+        this.yeti.turn(TypeExpression.RIGHT, 1.0) /
+        this.hippo.put legs forward() /
+        this.yeti.put legs forward() /
+      }
+      this.yeti.jump() /
+      this.hippo.jump() /
+    }",6,12,0,599
+girlsinc-2017-TygaJazzy,doinorder-d,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/9/7/3/6/5/4/8/,C/I/U/U/U/U/U/U/U/,16,21
+girlsinc-2017-TygaJazzy,doinorder-d,PUZZLE,1/2/9/7/3/6/5/4/8/,1/2/9/7/3/6/5/4/8/,C/C/C/C/C/C/C/I/U/,60,71
+girlsinc-2017-TygaJazzy,doinorder-d,REFERENCE,1/2/9/7/3/6/5/4/8/,1/2/8/7/3/6/5/4/9/,C/C/C/C/C/C/C/I/U/,72,86
+girlsinc-2017-TygaJazzy,doinorder-d,PUZZLE,1/2/8/7/3/6/5/4/9/,1/2/8/7/3/6/5/4/9/,C/C/C/C/C/C/C/C/C/,93,102
+girlsinc-2017-TygaJazzy,doinorder-d,END,"    this.Witch.raise arms() /
+    do together / {
+      this.Cauldron.bubble() /
+      this.Troll.scared() /
+      do in order / {
+        this.Witch.roll(TypeExpression.LEFT, 0.125) /
+        this.Witch.roll(TypeExpression.RIGHT, 0.25) /
+        this.Witch.roll(TypeExpression.LEFT, 0.125) /
+      }
+    }
+    this.poodle.rise from cauldron() /",5,9,0,105
+girlsinc-2017-TygaJazzy,doinorder-p,REFERENCE,1/2/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/3/-1/,C/C/I/U/U/U/U/U/U/,19,23
+girlsinc-2017-TygaJazzy,doinorder-p,REFERENCE,1/2/-1/-1/-1/-1/-1/3/-1/,1/2/-1/-1/-1/4/-1/3/-1/,C/C/I/U/U/U/U/U/U/,30,37
+girlsinc-2017-TygaJazzy,doinorder-p,REFERENCE,1/2/-1/-1/-1/4/-1/3/-1/,1/2/3/5/6/7/8/9/4/,C/C/I/U/U/U/U/U/U/,47,58
+girlsinc-2017-TygaJazzy,doinorder-p,PUZZLE,1/2/3/5/6/7/8/9/4/,1/2/3/5/6/7/8/9/4/,C/C/C/C/C/C/C/C/C/,103,117
+girlsinc-2017-TygaJazzy,doinorder-p,END,"    this.manatee.say(Hey guys!!) /
+    this.dolphin.say(Ahhh!!) /
+    do together / {
+      do in order / {
+        this.pajamaFish.swim away from(this.shark) /
+        this.dolphin.swim away from(this.shark) /
+        this.clownFish.swim away from(this.shark) /
+        this.blueTang.swim away from(this.shark) /
+      }
+      this.shark.move(TypeExpression.FORWARD, 10.0) /
+    }",5,9,0,120
+girlsinc-2017-TygaJazzy,doinorder-q,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/4/-1/-1/3/-1/,C/I/U/U/U/U/U/U/,12,15
+girlsinc-2017-TygaJazzy,doinorder-q,REFERENCE,1/2/-1/4/-1/-1/3/-1/,1/2/-1/4/-1/5/3/6/,C/C/C/I/I/U/U/U/,25,47
+girlsinc-2017-TygaJazzy,doinorder-q,REFERENCE,1/2/-1/4/-1/5/3/6/,1/2/-1/4/-1/5/3/6/,C/C/C/I/I/U/U/U/,58,-1
+girlsinc-2017-TygaJazzy,doinorder-q,REFERENCE,1/2/-1/4/-1/5/3/6/,1/2/-1/4/5/6/3/7/,C/C/C/I/I/U/U/U/,78,84
+girlsinc-2017-TygaJazzy,doinorder-q,PUZZLE,1/2/-1/4/5/6/3/7/,1/2/-1/4/5/6/3/7/,C/C/C/I/I/U/U/U/,90,96
+girlsinc-2017-TygaJazzy,doinorder-q,PUZZLE,1/2/-1/4/5/6/3/7/,1/2/-1/4/5/6/3/7/,C/C/C/I/I/I/U/U/,99,-1
+girlsinc-2017-TygaJazzy,doinorder-q,PUZZLE,1/2/-1/4/5/6/3/7/,1/2/4/5/6/7/3/8/,C/C/C/I/I/I/U/U/,101,104
+girlsinc-2017-TygaJazzy,doinorder-q,PUZZLE,1/2/4/5/6/7/3/8/,1/2/4/5/6/7/3/8/,C/C/C/C/C/C/I/U/,113,128
+girlsinc-2017-TygaJazzy,doinorder-q,PUZZLE,1/2/4/5/6/7/3/8/,1/2/4/5/6/7/3/8/,C/C/C/C/C/C/I/I/,132,135
+girlsinc-2017-TygaJazzy,doinorder-q,PUZZLE,1/2/4/5/6/7/3/8/,1/2/4/5/6/7/3/8/,C/C/C/C/C/C/C/C/,139,149
+girlsinc-2017-TygaJazzy,doinorder-q,END,"    this.witch.turnToFace(this.cauldron) /
+    do together / {
+      do in order / {
+        this.cauldron.spin() /
+        this.cauldron.glow() /
+        this.bigBadWolf.rise() /
+      }
+      this.witch.cast spell() /
+    }
+    this.bigBadWolf.turnToFace(this.witch) /",5,8,0,166
+girlsinc-2017-TygaJazzy,doinorder-r,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,2/-1/1/-1/-1/-1/3/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/,17,27
+girlsinc-2017-TygaJazzy,doinorder-r,PUZZLE,2/-1/1/-1/-1/-1/3/-1/-1/-1/-1/-1/,2/-1/1/-1/-1/-1/3/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/U/,118,122
+girlsinc-2017-TygaJazzy,doinorder-r,PUZZLE,2/-1/1/-1/-1/-1/3/-1/-1/-1/-1/-1/,1/-1/2/-1/-1/-1/3/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/U/,127,129
+girlsinc-2017-TygaJazzy,doinorder-r,PUZZLE,1/-1/2/-1/-1/-1/3/-1/-1/-1/-1/-1/,1/-1/3/-1/-1/-1/2/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/,134,136
+girlsinc-2017-TygaJazzy,doinorder-r,PUZZLE,1/-1/3/-1/-1/-1/2/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/2/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/,139,141
+girlsinc-2017-TygaJazzy,doinorder-r,REFERENCE,1/-1/-1/-1/-1/-1/2/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/2/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/,145,149
+girlsinc-2017-TygaJazzy,doinorder-r,PUZZLE,1/-1/-1/-1/-1/-1/2/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/2/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/,150,155
+girlsinc-2017-TygaJazzy,doinorder-r,REFERENCE,1/-1/-1/-1/-1/-1/2/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/3/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/,157,161
+girlsinc-2017-TygaJazzy,doinorder-r,PUZZLE,1/2/-1/-1/-1/-1/3/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/3/-1/-1/-1/-1/-1/,C/C/I/I/I/U/U/U/U/U/U/U/,174,177
+girlsinc-2017-TygaJazzy,doinorder-r,REFERENCE,1/2/-1/-1/-1/-1/3/-1/-1/-1/-1/-1/,1/2/-1/-1/5/3/4/-1/-1/-1/-1/-1/,C/C/I/I/I/U/U/U/U/U/U/U/,181,193
+girlsinc-2017-TygaJazzy,doinorder-r,PUZZLE,1/2/-1/-1/5/3/4/-1/-1/-1/-1/-1/,1/2/11/6/5/3/4/12/8/9/10/7/,C/C/C/I/I/I/U/U/U/U/U/U/,206,211
+girlsinc-2017-TygaJazzy,doinorder-r,REFERENCE,1/2/11/6/5/3/4/12/8/9/10/7/,1/2/11/6/5/3/4/12/8/9/10/7/,C/C/C/I/I/I/U/U/U/U/U/U/,234,-1
+girlsinc-2017-TygaJazzy,doinorder-r,PUZZLE,1/2/11/6/5/3/4/12/8/9/10/7/,1/2/11/6/4/3/5/12/8/9/10/7/,C/C/C/I/I/I/U/U/U/U/U/U/,235,243
+girlsinc-2017-TygaJazzy,doinorder-r,PUZZLE,1/2/11/6/4/3/5/12/8/9/10/7/,1/2/11/6/4/3/5/12/8/9/10/7/,C/C/C/I/I/U/U/U/U/U/U/U/,248,253
+girlsinc-2017-TygaJazzy,doinorder-r,PUZZLE,1/2/11/6/4/3/5/12/8/9/10/7/,1/2/11/4/5/3/6/12/8/9/10/7/,C/C/C/I/U/U/U/U/U/U/U/U/,256,260
+girlsinc-2017-TygaJazzy,doinorder-r,PUZZLE,1/2/11/4/5/3/6/12/8/9/10/7/,1/2/11/5/4/3/6/12/8/9/10/7/,C/C/C/I/I/U/U/U/U/U/U/U/,265,269
+girlsinc-2017-TygaJazzy,doinorder-r,PUZZLE,1/2/11/5/4/3/6/12/8/9/10/7/,1/2/4/5/6/3/7/12/9/10/11/8/,C/C/C/I/I/U/U/U/U/U/U/U/,275,278
+girlsinc-2017-TygaJazzy,doinorder-r,PUZZLE,1/2/4/5/6/3/7/12/9/10/11/8/,1/2/4/5/6/3/7/12/9/10/11/8/,C/C/C/C/I/U/U/U/U/U/U/U/,286,290
+girlsinc-2017-TygaJazzy,doinorder-r,REFERENCE,1/2/4/5/6/3/7/12/9/10/11/8/,1/2/4/5/6/3/7/12/9/10/11/8/,C/C/C/C/I/U/U/U/U/U/U/U/,291,296
+girlsinc-2017-TygaJazzy,doinorder-r,PUZZLE,1/2/4/5/6/3/7/12/9/10/11/8/,1/2/4/5/6/3/7/11/8/9/10/12/,C/C/C/C/C/C/C/I/U/U/U/U/,300,309
+girlsinc-2017-TygaJazzy,doinorder-r,REFERENCE,1/2/4/5/6/3/7/11/8/9/10/12/,1/2/4/5/6/3/7/11/8/9/10/12/,C/C/C/C/C/C/C/I/U/U/U/U/,321,329
+girlsinc-2017-TygaJazzy,doinorder-r,PUZZLE,1/2/4/5/6/3/7/11/8/9/10/12/,1/2/4/5/6/3/7/8/9/11/10/12/,C/C/C/C/C/C/C/I/U/U/U/U/,333,341
+girlsinc-2017-TygaJazzy,doinorder-r,PUZZLE,1/2/4/5/6/3/7/8/9/11/10/12/,1/2/4/5/6/3/7/8/9/11/10/12/,C/C/C/C/C/C/C/C/C/C/C/C/,348,360
+girlsinc-2017-TygaJazzy,doinorder-r,END,"    this.ostrich.raise leg() /
+    do together / {
+      do in order / {
+        this.hare.move(TypeExpression.LEFT, 0.5) /
+        this.hare.walkTo(this.riverRock) /
+      }
+      this.ostrich.turn(TypeExpression.RIGHT, 4.0) /
+    }
+    this.ostrich.straightenOutJoints() /
+    do together / {
+      this.ostrich.getRightWingShoulder().turn(TypeExpression.BACKWARD, 0.125) /
+      this.ostrich.getLeftWingShoulder().turn(TypeExpression.BACKWARD, 0.125) /
+      this.ostrich.getNeck().turn(TypeExpression.FORWARD, 0.25) /
+    }
+    this.fence close() /",3,12,0,368
+girlsinc-2017-TygaJazzy,doinorder-o,PUZZLE,1/3/-1/4/-1/2/-1/-1/-1/5/-1/-1/,1/4/-1/5/2/3/-1/-1/-1/6/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/,113,117
+girlsinc-2017-TygaJazzy,doinorder-o,PUZZLE,1/4/-1/5/2/3/-1/-1/-1/6/-1/-1/,1/2/-1/3/-1/-1/-1/-1/-1/4/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/,122,125
+girlsinc-2017-TygaJazzy,doinorder-o,PUZZLE,1/2/-1/3/-1/-1/-1/-1/-1/4/-1/-1/,1/2/-1/3/-1/4/-1/-1/-1/5/-1/-1/,C/C/C/I/I/U/U/U/U/U/U/U/,141,145
+girlsinc-2017-TygaJazzy,doinorder-o,PUZZLE,1/2/-1/3/-1/4/-1/-1/-1/5/-1/-1/,1/2/-1/3/-1/4/-1/-1/-1/5/-1/-1/,C/C/C/I/I/I/U/U/U/U/U/U/,169,172
+girlsinc-2017-TygaJazzy,doinorder-o,PUZZLE,1/2/-1/3/-1/4/-1/-1/-1/5/-1/-1/,1/2/4/3/-1/5/-1/-1/-1/6/-1/-1/,C/C/C/I/I/U/U/U/U/U/U/U/,179,184
+girlsinc-2017-TygaJazzy,doinorder-o,PUZZLE,1/2/4/3/-1/5/-1/-1/-1/6/-1/-1/,1/2/4/3/5/6/7/-1/-1/8/-1/-1/,C/C/C/C/I/U/U/U/U/U/U/U/,194,197
+girlsinc-2017-TygaJazzy,doinorder-o,PUZZLE,1/2/4/3/5/6/7/-1/-1/8/-1/-1/,1/2/4/3/6/5/7/-1/-1/8/-1/-1/,C/C/C/C/I/U/U/U/U/U/U/U/,208,213
+girlsinc-2017-TygaJazzy,doinorder-o,PUZZLE,1/2/4/3/6/5/7/-1/-1/8/-1/-1/,1/2/4/3/6/8/7/-1/-1/5/-1/-1/,C/C/C/C/I/U/U/U/U/U/U/U/,226,230
+girlsinc-2017-TygaJazzy,doinorder-o,PUZZLE,1/2/4/3/6/8/7/-1/-1/5/-1/-1/,1/2/4/3/6/8/7/-1/-1/5/-1/-1/,C/C/C/C/I/U/U/U/U/U/U/U/,239,244
+girlsinc-2017-TygaJazzy,doinorder-o,REFERENCE,1/2/4/3/6/8/7/-1/-1/5/-1/-1/,1/2/4/3/6/8/7/-1/-1/5/-1/-1/,C/C/C/C/I/U/U/U/U/U/U/U/,246,-1
+girlsinc-2017-TygaJazzy,doinorder-o,PUZZLE,1/2/4/3/6/8/7/-1/-1/5/-1/-1/,1/2/7/3/4/5/6/-1/-1/8/-1/-1/,C/C/C/C/I/U/U/U/U/U/U/U/,254,258
+girlsinc-2017-TygaJazzy,doinorder-o,PUZZLE,1/2/7/3/4/5/6/-1/-1/8/-1/-1/,1/2/7/3/4/5/6/-1/-1/8/-1/-1/,C/C/C/C/C/C/I/C/U/U/U/U/,284,-1
+girlsinc-2017-TygaJazzy,doinorder-o,REFERENCE,1/2/7/3/4/5/6/-1/-1/8/-1/-1/,1/2/7/3/4/5/6/8/9/10/12/11/,C/C/C/C/C/C/I/C/U/U/U/U/,301,306
+girlsinc-2017-TygaJazzy,doinorder-o,PUZZLE,1/2/7/3/4/5/6/8/9/10/12/11/,1/2/7/3/4/5/6/8/9/10/12/11/,C/C/C/C/C/C/I/C/U/U/U/U/,319,-1
+girlsinc-2017-TygaJazzy,doinorder-o,REFERENCE,1/2/7/3/4/5/6/8/9/10/12/11/,1/2/8/3/4/5/6/7/9/10/12/11/,C/C/C/C/C/C/I/C/U/U/U/U/,335,346
+girlsinc-2017-TygaJazzy,doinorder-o,PUZZLE,1/2/8/3/4/5/6/7/9/10/12/11/,1/2/9/3/4/5/6/7/8/10/12/11/,C/C/C/C/C/C/C/I/C/U/U/U/,357,365
+girlsinc-2017-TygaJazzy,doinorder-o,PUZZLE,1/2/9/3/4/5/6/7/8/10/12/11/,1/2/9/3/4/5/6/7/8/10/12/11/,C/C/C/C/C/C/C/C/C/C/C/C/,369,376
+girlsinc-2017-TygaJazzy,doinorder-o,END,"    this.blueTang.turnToFace(this.clownFish) /
+    do together / {
+      this.shark.move(TypeExpression.FORWARD, 20.0) /
+      this.shark.turn(TypeExpression.LEFT, 0.05) /
+      do in order / {
+        this.clownFish.moveToward(this.blueTang, 2.0) /
+        this.clownFish.say(Where did you get all that gold?) /
+        this.blueTang.turnToFace(this.coinStack) /
+        this.blueTang.say(Internet) /
+      }
+    }
+    do together / {
+      this.shark.talk() /
+      this.shark.say(Have you guys seen my treasure?) /
+    }",3,12,0,379
+girlsinc-2017-TygaJazzy,doinorder-y,PUZZLE,-1/4/2/5/3/1/7/-1/-1/-1/6/8/-1/-1/-1/,6/4/2/5/3/1/8/-1/-1/-1/7/9/-1/-1/-1/,C/C/C/C/C/I/U/U/U/U/U/U/U/U/U/,47,54
+girlsinc-2017-TygaJazzy,doinorder-y,PUZZLE,6/4/2/5/3/1/8/-1/-1/-1/7/9/-1/-1/-1/,6/4/2/5/3/1/8/10/-1/-1/7/9/11/-1/-1/,C/C/C/C/C/C/C/I/I/I/I/I/I/U/U/,72,79
+girlsinc-2017-TygaJazzy,doinorder-y,PUZZLE,6/4/2/5/3/1/8/10/-1/-1/7/9/11/-1/-1/,6/4/2/5/3/1/8/10/-1/-1/7/9/11/-1/-1/,C/C/C/C/C/C/C/I/I/C/I/I/I/I/U/,101,-1
+girlsinc-2017-TygaJazzy,doinorder-y,REFERENCE,6/4/2/5/3/1/8/10/-1/-1/7/9/11/-1/-1/,6/4/2/5/3/1/8/9/10/11/7/12/13/-1/-1/,C/C/C/C/C/C/C/I/I/C/I/I/I/I/U/,106,112
+girlsinc-2017-TygaJazzy,doinorder-y,PUZZLE,6/4/2/5/3/1/8/9/10/11/7/12/13/-1/-1/,15/4/2/5/3/1/7/9/11/13/6/8/10/12/14/,C/C/C/C/C/C/C/I/U/U/U/I/I/I/I/,124,133
+girlsinc-2017-TygaJazzy,doinorder-y,PUZZLE,15/4/2/5/3/1/7/9/11/13/6/8/10/12/14/,15/4/2/5/3/1/8/9/11/13/6/7/10/12/14/,C/C/C/C/C/I/U/U/U/U/U/U/U/U/U/,156,182
+girlsinc-2017-TygaJazzy,doinorder-y,PUZZLE,15/4/2/5/3/1/8/9/11/13/6/7/10/12/14/,15/4/2/5/3/1/8/9/11/13/6/7/10/12/14/,C/C/C/C/C/I/U/U/U/U/U/U/U/U/U/,187,-1
+girlsinc-2017-TygaJazzy,doinorder-y,REFERENCE,15/4/2/5/3/1/8/9/11/13/6/7/10/12/14/,15/4/2/5/3/1/8/10/12/14/6/7/9/11/13/,C/C/C/C/C/I/U/U/U/U/U/U/U/U/U/,192,197
+girlsinc-2017-TygaJazzy,doinorder-y,PUZZLE,15/4/2/5/3/1/8/10/12/14/6/7/9/11/13/,7/4/2/5/3/1/9/11/13/15/6/8/10/12/14/,C/C/C/C/C/I/U/U/U/U/U/U/U/U/U/,208,215
+girlsinc-2017-TygaJazzy,doinorder-y,PUZZLE,7/4/2/5/3/1/9/11/13/15/6/8/10/12/14/,15/4/2/5/3/1/8/10/12/14/6/7/9/11/13/,C/C/C/C/C/I/U/U/U/U/U/U/U/U/U/,223,229
+girlsinc-2017-TygaJazzy,doinorder-y,PUZZLE,15/4/2/5/3/1/8/10/12/14/6/7/9/11/13/,6/4/2/5/3/1/9/11/13/15/7/8/10/12/14/,C/C/C/C/C/I/U/U/U/U/U/U/U/U/U/,238,242
+girlsinc-2017-TygaJazzy,doinorder-y,PUZZLE,6/4/2/5/3/1/9/11/13/15/7/8/10/12/14/,6/4/2/5/3/1/9/11/13/15/7/8/10/12/14/,C/C/C/C/C/C/I/I/I/I/I/U/U/U/U/,251,257
+girlsinc-2017-TygaJazzy,doinorder-y,PUZZLE,6/4/2/5/3/1/9/11/13/15/7/8/10/12/14/,6/4/2/5/3/1/9/11/13/15/7/8/10/12/14/,C/C/C/C/C/C/C/C/I/U/U/U/U/U/U/,261,274
+girlsinc-2017-TygaJazzy,doinorder-y,PUZZLE,6/4/2/5/3/1/9/11/13/15/7/8/10/12/14/,6/4/2/5/3/1/9/11/13/15/7/8/10/12/14/,C/C/C/C/C/C/C/C/I/C/I/C/I/C/I/,290,309
+girlsinc-2017-TygaJazzy,doinorder-y,PUZZLE,6/4/2/5/3/1/9/11/13/15/7/8/10/12/14/,6/4/2/5/3/1/9/11/13/15/7/8/10/12/14/,C/C/C/C/C/C/C/C/I/C/I/C/I/I/U/,332,339
+girlsinc-2017-TygaJazzy,doinorder-y,PUZZLE,6/4/2/5/3/1/9/11/13/15/7/8/10/12/14/,6/4/2/5/3/1/9/11/13/15/7/8/10/12/14/,C/C/C/C/C/C/C/C/I/C/I/C/I/C/I/,346,-1
+girlsinc-2017-TygaJazzy,doinorder-y,REFERENCE,6/4/2/5/3/1/9/11/13/15/7/8/10/12/14/,6/4/2/5/3/1/10/11/13/15/7/8/9/12/14/,C/C/C/C/C/C/C/C/I/C/I/C/I/C/I/,352,360
+girlsinc-2017-TygaJazzy,doinorder-y,PUZZLE,6/4/2/5/3/1/10/11/13/15/7/8/9/12/14/,6/4/2/5/3/1/12/13/14/15/7/8/9/10/11/,C/C/C/C/C/C/C/C/C/I/C/C/I/C/I/,373,378
+girlsinc-2017-TygaJazzy,doinorder-y,PUZZLE,6/4/2/5/3/1/12/13/14/15/7/8/9/10/11/,6/4/2/5/3/1/12/13/14/15/7/8/9/10/11/,C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/,386,417
+girlsinc-2017-TygaJazzy,doinorder-y,END,"    do together / {
+      this.alien.say(Limbo!) /
+      this.marchHare.say(Limbo!) /
+      this.tortoise.say(Limbo!) /
+      this.goldenMonkey.say(Limbo!) /
+    }
+    do together / {
+      this.alien.walk(6.0) /
+      this.marchHare.walk(7.0) /
+      this.tortoise.walk(8.0) /
+      this.goldenMonkey.walk(9.0) /
+      do in order / {
+        this.alien.getSpineBase().turn(TypeExpression.BACKWARD, 0.2) /
+        this.marchHare.getSpineBase().turn(TypeExpression.BACKWARD, 0.25) /
+        this.tortoise.getSpineBase().turn(TypeExpression.BACKWARD, 0.2) /
+        this.goldenMonkey.getSpineBase().turn(TypeExpression.BACKWARD, 0.27) /
+      }
+    }",4,15,0,424
+girlsinc-2017-TygaJazzy,doinorder-t,REFERENCE,1/2/-1/3/-1/-1/-1/-1/4/-1/-1/-1/-1/,1/2/5/3/-1/-1/-1/-1/4/-1/-1/-1/-1/,C/C/C/I/I/U/U/U/U/U/U/U/U/,45,49
+girlsinc-2017-TygaJazzy,doinorder-t,REFERENCE,1/2/5/3/-1/-1/-1/-1/4/-1/-1/-1/-1/,1/2/5/3/-1/-1/-1/-1/4/-1/-1/-1/-1/,C/C/C/I/C/U/U/U/U/U/U/U/U/,60,68
+girlsinc-2017-TygaJazzy,doinorder-t,REFERENCE,1/2/5/3/-1/-1/-1/-1/4/-1/-1/-1/-1/,1/2/13/3/9/10/11/12/4/6/5/7/8/,C/C/C/I/C/U/U/U/U/U/U/U/U/,76,80
+girlsinc-2017-TygaJazzy,doinorder-t,PUZZLE,1/2/13/3/9/10/11/12/4/6/5/7/8/,1/2/13/3/9/10/11/12/4/6/5/7/8/,C/C/C/I/U/U/U/U/U/U/U/U/C/,129,138
+girlsinc-2017-TygaJazzy,doinorder-t,PUZZLE,1/2/13/3/9/10/11/12/4/6/5/7/8/,1/2/9/3/5/6/7/8/4/13/11/10/12/,C/C/C/I/U/U/U/U/U/U/U/U/C/,145,152
+girlsinc-2017-TygaJazzy,doinorder-t,PUZZLE,1/2/9/3/5/6/7/8/4/13/11/10/12/,1/2/9/3/5/6/7/8/4/13/10/11/12/,C/C/C/I/U/U/U/U/C/I/I/I/I/,184,251
+girlsinc-2017-TygaJazzy,doinorder-t,PUZZLE,1/2/9/3/5/6/7/8/4/13/10/11/12/,1/2/13/3/4/5/6/7/8/12/9/10/11/,C/C/C/I/U/U/U/U/C/U/U/U/U/,260,269
+girlsinc-2017-TygaJazzy,doinorder-t,PUZZLE,1/2/13/3/4/5/6/7/8/12/9/10/11/,1/2/13/3/4/5/6/7/8/12/9/10/11/,C/C/C/C/C/C/C/C/C/C/C/C/C/,282,294
+girlsinc-2017-TygaJazzy,doinorder-t,END,"    this.dragon.say(Turn the music up!) /
+    do together / {
+      this.music system.play music() /
+      do in order / {
+        this.dragon.get dressed() /
+        this.yeti.get dressed() /
+        this.hippo.get dressed() /
+        this.ostrich.get dressed() /
+        do together / {
+          this.dragon.front flip() /
+          this.hippo.front flip() /
+          this.ostrich.front flip() /
+          this.yeti.front flip() /
+        }
+      }
+    }",5,13,0,306
+girlsinc-2017-TygaJazzy,doinorder-s,PUZZLE,-1/-1/-1/1/-1/-1/-1/-1/-1/,1/-1/2/4/-1/-1/3/-1/-1/,I/U/U/U/U/U/U/U/U/,9,10
+girlsinc-2017-TygaJazzy,doinorder-s,PUZZLE,1/-1/2/4/-1/-1/3/-1/-1/,1/5/2/4/-1/-1/3/-1/-1/,C/C/I/I/U/U/U/U/U/,14,16
+girlsinc-2017-TygaJazzy,doinorder-s,PUZZLE,1/5/2/4/-1/-1/3/-1/-1/,1/-1/2/4/-1/-1/3/-1/-1/,C/C/I/U/U/I/U/U/U/,26,28
+girlsinc-2017-TygaJazzy,doinorder-s,PUZZLE,1/-1/2/4/-1/-1/3/-1/-1/,1/-1/2/3/-1/-1/4/-1/-1/,C/C/I/U/I/U/U/U/U/,31,33
+girlsinc-2017-TygaJazzy,doinorder-s,PUZZLE,1/-1/2/3/-1/-1/4/-1/-1/,1/5/2/3/-1/-1/4/-1/-1/,C/C/C/I/I/U/U/U/U/,36,40
+girlsinc-2017-TygaJazzy,doinorder-s,REFERENCE,1/5/2/3/-1/-1/4/-1/-1/,1/5/2/3/-1/-1/4/-1/-1/,C/C/C/I/U/I/U/U/U/,47,-1
+girlsinc-2017-TygaJazzy,doinorder-s,PUZZLE,1/5/2/3/-1/-1/4/-1/-1/,1/6/2/3/4/-1/5/-1/-1/,C/C/C/I/U/I/U/U/U/,50,52
+girlsinc-2017-TygaJazzy,doinorder-s,PUZZLE,1/6/2/3/4/-1/5/-1/-1/,1/7/2/3/4/5/6/-1/-1/,C/C/C/C/I/C/U/U/U/,80,83
+girlsinc-2017-TygaJazzy,doinorder-s,PUZZLE,1/7/2/3/4/5/6/-1/-1/,1/7/2/3/4/5/6/-1/-1/,C/C/C/C/C/C/I/I/C/,86,-1
+girlsinc-2017-TygaJazzy,doinorder-s,REFERENCE,1/7/2/3/4/5/6/-1/-1/,1/9/2/3/4/5/6/8/7/,C/C/C/C/C/C/I/I/C/,91,95
+girlsinc-2017-TygaJazzy,doinorder-s,PUZZLE,1/9/2/3/4/5/6/8/7/,1/9/2/3/4/5/6/8/7/,C/C/C/C/C/C/C/C/C/,100,111
+girlsinc-2017-TygaJazzy,doinorder-s,END,"    do together / {
+      this.yeti.walk(30.0) /
+      do in order / {
+        this.alien.say(Do you hear something?) /
+        this.hare.turnToFace(this.yeti) /
+        this.hare.say(YETI!!!!) /
+        do together / {
+          this.alien.run away from(this.yeti) /
+          this.hare.run away from(this.yeti) /
+        }
+      }
+    }",4,9,0,117
+girlsinc-2017-TygaJazzy,doinorder-j,REFERENCE,-1/-1/4/2/5/1/6/-1/3/-1/-1/,1/-1/4/2/5/-1/6/7/3/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/,63,73
+girlsinc-2017-TygaJazzy,doinorder-j,REFERENCE,1/-1/4/2/5/-1/6/7/3/-1/-1/,1/9/4/2/5/6/7/8/3/10/11/,C/I/U/U/U/U/U/U/U/U/U/,93,103
+girlsinc-2017-TygaJazzy,doinorder-j,PUZZLE,1/9/4/2/5/6/7/8/3/10/11/,1/9/4/2/5/6/7/8/3/10/11/,C/I/U/U/U/U/U/U/U/U/U/,129,140
+girlsinc-2017-TygaJazzy,doinorder-j,PUZZLE,1/9/4/2/5/6/7/8/3/10/11/,1/9/4/2/5/6/7/8/3/10/11/,C/I/U/U/U/U/U/U/U/U/U/,146,150
+girlsinc-2017-TygaJazzy,doinorder-j,REFERENCE,1/9/4/2/5/6/7/8/3/10/11/,1/9/4/2/5/6/7/8/3/10/11/,C/I/U/U/U/U/U/U/U/U/U/,151,160
+girlsinc-2017-TygaJazzy,doinorder-j,REFERENCE,1/9/4/2/5/6/7/8/3/10/11/,1/9/4/2/5/6/7/8/3/10/11/,C/I/U/U/U/U/U/U/U/U/U/,171,-1
+girlsinc-2017-TygaJazzy,doinorder-j,PUZZLE,1/9/4/2/5/6/7/8/3/10/11/,1/9/2/3/5/6/7/8/4/10/11/,C/I/U/U/U/U/U/U/U/U/U/,174,177
+girlsinc-2017-TygaJazzy,doinorder-j,PUZZLE,1/9/2/3/5/6/7/8/4/10/11/,1/2/7/5/8/9/10/11/6/3/4/,C/I/U/U/U/U/U/U/U/U/U/,181,187
+girlsinc-2017-TygaJazzy,doinorder-j,PUZZLE,1/2/7/5/8/9/10/11/6/3/4/,1/2/3/5/4/7/8/9/6/11/10/,C/C/I/I/I/I/U/U/U/U/U/,194,200
+girlsinc-2017-TygaJazzy,doinorder-j,PUZZLE,1/2/3/5/4/7/8/9/6/11/10/,1/2/3/5/4/7/8/9/6/11/10/,C/C/C/I/I/U/U/U/U/U/U/,216,222
+girlsinc-2017-TygaJazzy,doinorder-j,PUZZLE,1/2/3/5/4/7/8/9/6/11/10/,1/2/3/4/9/6/7/8/5/11/10/,C/C/C/I/U/U/U/U/U/U/U/,228,234
+girlsinc-2017-TygaJazzy,doinorder-j,PUZZLE,1/2/3/4/9/6/7/8/5/11/10/,1/2/3/4/5/7/8/9/6/11/10/,C/C/C/C/I/U/U/U/U/U/U/,242,246
+girlsinc-2017-TygaJazzy,doinorder-j,PUZZLE,1/2/3/4/5/7/8/9/6/11/10/,1/2/3/4/5/6/7/8/9/11/10/,C/C/C/C/C/I/U/U/U/U/U/,262,266
+girlsinc-2017-TygaJazzy,doinorder-j,PUZZLE,1/2/3/4/5/6/7/8/9/11/10/,1/2/3/4/5/6/7/8/9/11/10/,C/C/C/C/C/C/C/C/C/C/C/,276,309
+girlsinc-2017-TygaJazzy,doinorder-j,END,"    this.troll.think(This place is terrifying.) /
+    do together / {
+      this.fishingBoat.float down river() /
+      do in order / {
+        this.caiman.snap mouth() /
+        this.troll.say(Maybe this one is nice!) /
+        this.billyGoat.shake head() /
+        this.troll.say(Elephants are gentle giants!) /
+        do together / {
+          this.elephant.setPaint(TypeExpression.RED) /
+          this.elephant.getHead().pointAt(this.troll) /
+        }
+      }
+    }",4,11,0,311

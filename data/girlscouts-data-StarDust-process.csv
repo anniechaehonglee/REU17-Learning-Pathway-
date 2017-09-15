@@ -1,0 +1,913 @@
+codename,puzzle,action,current_index,next_index,correctness,start_time,closed_time
+girlscouts-data-StarDust,sequential-c,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,113,132
+girlscouts-data-StarDust,sequential-c,END,"    this.hare.swing arm() /
+    this.volleyball.move(TypeExpression.DOWN, 0.6) /
+    this.hare.look down() /
+    this.hare.getRightHip().turn(TypeExpression.FORWARD, 0.25) /
+    this.hare.kick(this.volleyball) /
+    this.net.turn(TypeExpression.BACKWARD, 0.25) /",2,6,0,145
+girlscouts-data-StarDust,sequential-g,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/C/C/,77,96
+girlscouts-data-StarDust,sequential-g,END,"    this.blueTang.say(We can't let anyone find our treasure!) /
+    this.clownFish.turnToFace(this.shark) /
+    this.clownFish.think(Uh oh) /
+    this.clownFish.turnToFace(this.blueTang) /
+    this.clownFish.say(I think it's too late..) /
+    this.shark.getMouth().turn(TypeExpression.FORWARD, 0.125) /
+    this.shark.move(TypeExpression.FORWARD, 15.0) /",1,7,0,105
+girlscouts-data-StarDust,sequential-d,REFERENCE,1/2/3/-1/-1/-1/-1/-1/,1/2/3/4/5/6/7/8/,C/C/C/I/U/U/U/U/,78,93
+girlscouts-data-StarDust,sequential-d,PUZZLE,1/2/3/4/5/6/7/8/,1/2/3/4/5/6/7/8/,C/C/C/C/C/C/C/C/,132,152
+girlscouts-data-StarDust,sequential-d,END,"    this.monkey.walk(1.5) /
+    this.monkey.jump and spin() /
+    this.monkey.walk up to(this.treasureChest) /
+    this.monkey.raise arms() /
+    this.treasureChest.getChestLid().turn(TypeExpression.BACKWARD, 0.0125) /
+    this.monkey.bang on(this.treasureChest) /
+    this.treasureChest.getChestLid().turn(TypeExpression.BACKWARD, 0.25) /
+    this.treasureMonkey.raise arms() /",4,8,0,171
+girlscouts-data-StarDust,dotogether-a,PUZZLE,1/2/3/4/5/7/6/8/,1/2/3/4/5/7/6/8/,C/C/C/C/C/C/C/C/,213,224
+girlscouts-data-StarDust,dotogether-a,END,"    this.penguin.say(Everyone, I'd like you to meet Derek.) /
+    this.DerekTheYeti.say(Hello.) /
+    this.DerekTheYeti.moveToward(this.babyPenguin2, 0.5) /
+    do together / {
+      this.babyPenguin1.jump back() /
+      this.babyPenguin2.jump back() /
+      this.babyPenguin3.jump back() /
+    }
+    this.penguin.say(He's harmless and very kind!) /",3,8,0,229
+girlscouts-data-StarDust,dotogether-n,REFERENCE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,56,66
+girlscouts-data-StarDust,dotogether-n,END,"    this.playingCard.say(Alice was just here I promise!!) /
+    this.queenOfHearts.say(We BETTER find her!) /
+    do together / {
+      this.queenOfHearts.walk forward() /
+      this.playingCard.walk forward() /
+    }
+    this.alice.sneak away() /",1,6,0,77
+girlscouts-data-StarDust,dotogether-o,PUZZLE,1/3/2/4/5/6/,1/3/2/4/5/6/,C/I/U/U/U/U/,74,-1
+girlscouts-data-StarDust,dotogether-o,PUZZLE,1/3/2/4/5/6/,1/3/2/4/5/6/,C/I/U/U/U/U/,85,98
+girlscouts-data-StarDust,dotogether-o,PUZZLE,1/3/2/4/5/6/,1/3/4/2/5/6/,C/I/U/U/U/U/,108,115
+girlscouts-data-StarDust,dotogether-o,PUZZLE,1/3/4/2/5/6/,1/2/3/4/5/6/,C/I/U/U/U/U/,138,147
+girlscouts-data-StarDust,dotogether-o,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/I/U/,175,182
+girlscouts-data-StarDust,dotogether-o,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/I/I/,187,196
+girlscouts-data-StarDust,dotogether-o,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,205,212
+girlscouts-data-StarDust,dotogether-o,END,"    this.hare.getRightShoulder().turn(TypeExpression.RIGHT, 0.125) /
+    do together / {
+      this.hare.hit(this.volleyball) /
+      this.volleyball.fly away() /
+    }
+    this.hare.getHead().turn(TypeExpression.BACKWARD, 0.125) /
+    this.hare.say(Aww man..) /",6,6,0,218
+girlscouts-data-StarDust,dotogether-b,PUZZLE,1/2/4/3/5/6/,1/2/4/3/5/6/,C/C/C/C/C/C/,52,-1
+girlscouts-data-StarDust,dotogether-b,PUZZLE,1/2/4/3/5/6/,1/2/4/3/5/6/,C/C/C/C/C/C/,62,69
+girlscouts-data-StarDust,dotogether-b,END,"    this.troll.say(Ahhhhhh) /
+    do together / {
+      this.troll.sneeze and raise arms() /
+      this.boat.move(TypeExpression.BACKWARD, 5.0) /
+    }
+    this.manatee.move(TypeExpression.UP, 0.5) /
+    this.manatee.say(Bless you!) /",2,6,0,73
+girlscouts-data-StarDust,dotogether-m,PUZZLE,1/6/3/4/5/2/7/8/,1/6/3/4/5/2/7/8/,C/C/C/C/C/C/C/C/,52,64
+girlscouts-data-StarDust,dotogether-m,END,"    this.hare.say(1...2...3...JUMP!) /
+    do together / {
+      this.pig.jump() /
+      this.hare.jump() /
+    }
+    this.caiman.snap jaws() /
+    do together / {
+      this.pig.say(UH OH!) /
+      this.hare.say(UH OH!) /
+    }",1,8,0,68
+girlscouts-data-StarDust,dotogether-e,REFERENCE,1/2/3/4/-1/-1/5/-1/-1/,1/2/3/4/6/9/8/5/7/,C/C/C/C/I/U/U/U/U/,83,93
+girlscouts-data-StarDust,dotogether-e,PUZZLE,1/2/3/4/6/9/8/5/7/,1/2/3/4/6/9/8/5/7/,C/C/C/C/I/U/U/U/U/,128,-1
+girlscouts-data-StarDust,dotogether-e,PUZZLE,1/2/3/4/6/9/8/5/7/,1/2/3/4/5/9/8/6/7/,C/C/C/C/I/U/U/U/U/,146,158
+girlscouts-data-StarDust,dotogether-e,PUZZLE,1/2/3/4/5/9/8/6/7/,1/2/3/4/5/9/8/6/7/,C/C/C/C/C/C/C/C/I/,165,177
+girlscouts-data-StarDust,dotogether-e,PUZZLE,1/2/3/4/5/9/8/6/7/,1/2/3/4/5/9/8/6/7/,C/C/C/C/C/C/C/C/C/,183,195
+girlscouts-data-StarDust,dotogether-e,END,"    this.bush.rustle() /
+    do together / {
+      this.Witch.getHead().turn(TypeExpression.RIGHT, 0.125) /
+      this.Witch.say(What was that?) /
+    }
+    do together / {
+      this.Troll.legs shake() /
+      this.Troll.bend over() /
+      this.Troll.turn(TypeExpression.RIGHT, 0.5) /
+      this.Troll.think(This place is scary..) /
+    }",4,9,0,201
+girlscouts-data-StarDust,dotogether-d,REFERENCE,1/2/3/4/5/-1/-1/-1/,1/2/3/4/5/6/8/7/,C/C/C/C/C/I/I/I/,64,73
+girlscouts-data-StarDust,dotogether-d,PUZZLE,1/2/3/4/5/6/8/7/,1/2/3/4/5/6/8/7/,C/C/C/C/C/C/C/C/,91,100
+girlscouts-data-StarDust,dotogether-d,END,"    this.mandril.think(A treasure chest!) /
+    do together / {
+      this.treasureChest.getChestLid().turn(TypeExpression.BACKWARD, 0.25) /
+      this.treasureChest.say(Hello!) /
+    }
+    do together / {
+      this.mandril.turn(TypeExpression.LEFT, 0.5) /
+      this.mandril.walk(10.0) /
+      this.mandril.say(Ahhhhhh!) /
+    }",2,8,0,104
+girlscouts-data-StarDust,dotogether-i,PUZZLE,1/2/4/3/5/6/7/8/9/10/,1/2/4/3/5/6/7/8/9/10/,C/C/C/C/C/C/C/C/C/C/,109,120
+girlscouts-data-StarDust,dotogether-i,END,"    this.tiny yeti.turnToFace(this.big yeti) /
+    do together / {
+      this.tiny yeti.nod() /
+      this.big yeti.nod() /
+    }
+    this.tiny yeti.move(TypeExpression.BACKWARD, 0.5) /
+    do together / {
+      this.tiny yeti.jump to hammer() /
+      this.big yeti.prepare to swing hammer() /
+    }
+    this.big yeti.power swing() /
+    this.tiny yeti.fly away() /",2,10,0,124
+girlscouts-data-StarDust,dotogether-l,PUZZLE,1/2/3/6/5/4/7/,1/2/3/6/5/4/7/,C/C/C/C/C/C/C/,80,92
+girlscouts-data-StarDust,dotogether-l,END,"    this.cheshireCat.say(Okay Alice, your turn now.) /
+    this.alice.move(TypeExpression.BACKWARD, 1.0) /
+    do together / {
+      this.alice.move legs() /
+      this.alice.move(TypeExpression.UP, 1.0) /
+      this.alice.moveToward(this.cheshireCat, 3.0) /
+    }
+    this.alice.say(I'm stuck!) /",2,7,0,98
+girlscouts-data-StarDust,dotogether-c,PUZZLE,1/2/3/4/6/5/7/,1/2/3/4/5/6/7/,C/C/C/C/I/C/U/,67,77
+girlscouts-data-StarDust,dotogether-c,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/C/C/,86,97
+girlscouts-data-StarDust,dotogether-c,END,"    this.Troll.say(What's for dinner?) /
+    this.Witch.say(YOU!) /
+    do together / {
+      this.Troll.moveTo(this.Cauldron) /
+      this.Troll.raise arms and scream() /
+    }
+    this.Troll.turn(TypeExpression.RIGHT, 8.0) /
+    this.Troll.disappear() /",2,7,0,100
+girlscouts-data-StarDust,dotogether-k,PUZZLE,1/8/3/5/4/6/7/2/9/11/10/,1/8/3/5/4/6/7/2/9/11/10/,C/C/C/C/C/C/C/C/C/I/C/,102,117
+girlscouts-data-StarDust,dotogether-k,PUZZLE,1/8/3/5/4/6/7/2/9/11/10/,1/9/3/5/4/6/7/2/8/11/10/,C/C/C/C/C/C/C/C/C/I/I/,120,135
+girlscouts-data-StarDust,dotogether-k,PUZZLE,1/9/3/5/4/6/7/2/8/11/10/,1/8/3/5/4/6/7/2/9/11/10/,C/C/C/C/C/C/C/I/U/U/U/,144,161
+girlscouts-data-StarDust,dotogether-k,PUZZLE,1/8/3/5/4/6/7/2/9/11/10/,1/8/3/5/4/6/7/2/9/11/10/,C/C/C/C/C/C/C/C/C/I/C/,1959,1974
+girlscouts-data-StarDust,dotogether-k,REFERENCE,1/8/3/5/4/6/7/2/9/11/10/,1/8/3/5/4/6/7/2/9/10/11/,C/C/C/C/C/C/C/C/C/I/C/,1976,1989
+girlscouts-data-StarDust,dotogether-k,PUZZLE,1/8/3/5/4/6/7/2/9/10/11/,1/8/3/5/4/6/7/2/9/10/11/,C/C/C/C/C/C/C/C/C/C/C/,1995,2013
+girlscouts-data-StarDust,dotogether-k,END,"    this.witch.cast spell() /
+    do together / {
+      this.cauldron.turn(TypeExpression.RIGHT, 4.0) /
+      this.lid.move(TypeExpression.UP, 1.0) /
+      this.poodle.move(TypeExpression.UP, 1.0) /
+    }
+    this.witch.lower arm() /
+    this.witch.say(Whoops!) /
+    do together / {
+      this.troll.get scared() /
+      this.poodle.bark() /
+    }
+    this.troll.say(eeee yikes!) /",5,11,0,2020
+girlscouts-data-StarDust,dotogether-j,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/3/-1/-1/-1/-1/-1/4/-1/,C/I/U/U/U/U/U/U/U/U/U/,47,57
+girlscouts-data-StarDust,dotogether-j,REFERENCE,1/2/-1/3/-1/-1/-1/-1/-1/4/-1/,1/2/-1/3/5/6/-1/-1/-1/4/-1/,C/C/C/C/I/U/U/U/U/U/U/,77,87
+girlscouts-data-StarDust,dotogether-j,REFERENCE,1/2/-1/3/5/6/-1/-1/-1/4/-1/,1/2/-1/3/5/6/7/-1/-1/4/-1/,C/C/C/C/C/C/I/U/U/U/U/,158,178
+girlscouts-data-StarDust,dotogether-j,REFERENCE,1/2/-1/3/5/6/7/-1/-1/4/-1/,1/2/8/3/5/6/7/9/10/4/11/,C/C/C/C/C/C/C/I/I/I/U/,193,214
+girlscouts-data-StarDust,dotogether-j,PUZZLE,1/2/8/3/5/6/7/9/10/4/11/,1/2/8/3/5/6/7/9/10/4/11/,C/C/C/C/C/C/C/C/C/C/C/,238,-1
+girlscouts-data-StarDust,dotogether-j,PUZZLE,1/2/8/3/5/6/7/9/10/4/11/,1/2/8/3/5/6/7/9/10/4/11/,C/C/C/C/C/C/C/C/C/C/C/,273,296
+girlscouts-data-StarDust,dotogether-j,END,"    this.fox.jump out of snow() /
+    do together / {
+      this.snow man.skate around() /
+      this.snow gal.skate around() /
+    }
+    this.fox.wag tail() /
+    this.fox.jump on(this.snow man) /
+    do together / {
+      this.snow gal.twirl around() /
+      this.snow gal.raise up and lower down() /
+      this.snow man.skate around() /
+    }
+    this.fox.dive into snow() /",2,11,0,316
+girlscouts-data-StarDust,dotogether-h,PUZZLE,1/-1/4/3/-1/-1/-1/-1/2/-1/-1/-1/,1/-1/4/3/-1/-1/-1/-1/2/-1/-1/-1/,C/C/C/C/I/U/U/U/U/U/U/U/,70,-1
+girlscouts-data-StarDust,dotogether-h,PUZZLE,1/-1/4/3/-1/-1/-1/-1/2/-1/-1/-1/,1/-1/4/3/-1/-1/-1/-1/2/-1/-1/-1/,C/C/C/C/I/U/U/U/U/U/U/U/,79,84
+girlscouts-data-StarDust,dotogether-h,REFERENCE,1/-1/4/3/-1/-1/-1/-1/2/-1/-1/-1/,1/-1/4/3/-1/5/6/7/2/-1/-1/-1/,C/C/C/C/I/U/U/U/U/U/U/U/,86,93
+girlscouts-data-StarDust,dotogether-h,REFERENCE,1/-1/4/3/-1/5/6/7/2/-1/-1/-1/,1/-1/4/3/5/6/7/8/2/-1/-1/-1/,C/C/C/C/I/U/U/U/U/U/U/U/,118,129
+girlscouts-data-StarDust,dotogether-h,PUZZLE,1/-1/4/3/5/6/7/8/2/-1/-1/-1/,1/9/4/3/5/6/7/8/2/11/10/12/,C/C/C/C/C/C/C/C/I/U/U/U/,149,158
+girlscouts-data-StarDust,dotogether-h,PUZZLE,1/9/4/3/5/6/7/8/2/11/10/12/,1/9/4/3/5/6/7/8/2/11/10/12/,C/C/C/C/C/C/C/C/C/C/C/C/,177,187
+girlscouts-data-StarDust,dotogether-h,END,"    this.bunny.bend forward() /
+    do together / {
+      this.bunny.jump() /
+      this.bunny.move(TypeExpression.FORWARD, 1.0) /
+    }
+    this.bunny.disappear() /
+    do together / {
+      this.hat.turn(TypeExpression.RIGHT, 2.0) /
+      this.hat.move(TypeExpression.DOWN, 1.0) /
+    }
+    do together / {
+      this.bunny.appear() /
+      this.bunny.raise arms() /
+      this.bunny.turn(TypeExpression.RIGHT, 2.25) /
+    }",1,12,0,193
+girlscouts-data-StarDust,repeat-gg,REFERENCE,1/-1/-1/-1/-1/-1/-1/,1/2/4/3/5/6/7/,C/I/U/U/U/U/U/,35,54
+girlscouts-data-StarDust,repeat-gg,PUZZLE,1/2/4/3/5/6/7/,1/2/4/5/3/6/7/,C/C/I/U/U/U/U/,103,118
+girlscouts-data-StarDust,repeat-gg,PUZZLE,1/2/4/5/3/6/7/,1/2/4/5/3/6/7/,C/C/I/U/U/U/U/,146,-1
+girlscouts-data-StarDust,repeat-gg,PUZZLE,1/2/4/5/3/6/7/,1/2/3/5/4/6/7/,C/C/I/U/U/U/U/,179,197
+girlscouts-data-StarDust,repeat-gg,PUZZLE,1/2/3/5/4/6/7/,1/2/3/4/5/6/7/,C/C/C/I/U/U/U/,334,351
+girlscouts-data-StarDust,repeat-gg,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/C/C/,382,402
+girlscouts-data-StarDust,repeat-gg,END,"    this.mandril.scare ostrich() /
+    this.ostrichBaby.say(AAAHHHHH!!!!) /
+    count 5 / {
+      this.ostrichBaby.run(3, 0.08) /
+      GlobalFirstInstanceExpression.scene.ostrichBaby.turn(TypeExpression.RIGHT, 0.5) /
+    }
+    this.ostrichBaby.think(I guess this is the end; there's no escape!) /
+    this.fade to black() /",6,7,0,408
+girlscouts-data-StarDust,repeat-ee,PUZZLE,1/2/3/4/,1/2/3/4/,C/C/C/C/,39,55
+girlscouts-data-StarDust,repeat-ee,END,"    this.hare.walk(5.0) /
+    count 3 / {
+      this.hare.knock() /
+    }
+    this.hare.say(Anyone home?) /",1,4,0,60
+girlscouts-data-StarDust,repeat-e,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/C/C/,82,97
+girlscouts-data-StarDust,repeat-e,END,"    this.curupira.walk(2.0) /
+    this.curupira.getNeck().turn(TypeExpression.FORWARD, 0.125) /
+    this.curupira.think(Uh oh.) /
+    this.curupira.move(TypeExpression.DOWN, 4.0) /
+    this.mapinguari.place hands on belly() /
+    count 3 / {
+      this.mapinguari.laugh() /
+    }",1,7,0,102
+girlscouts-data-StarDust,repeat-m,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/C/C/,135,159
+girlscouts-data-StarDust,repeat-m,END,"    this.alien.walk(0.5) /
+    count 2 / {
+      this.alien.kick() /
+      this.flying saucer.shake() /
+    }
+    this.flying saucer.fly above(this.alien) /
+    this.flying saucer.beam up(this.alien) /
+    this.flying saucer.fly away() /",1,7,0,163
+girlscouts-data-StarDust,repeat-f,PUZZLE,1/2/3/4/5/,1/2/3/4/5/,C/C/C/C/C/,50,68
+girlscouts-data-StarDust,repeat-f,END,"    this.Gray Rhino.getNeck().turn(TypeExpression.FORWARD, 0.0625) /
+    this.White Rhino.getNeck().turn(TypeExpression.FORWARD, 0.0625) /
+    count 2 / {
+      this.White Rhino.drink water() /
+      this.Gray Rhino.drink water() /
+    }",1,5,0,74
+girlscouts-data-StarDust,repeat-b,PUZZLE,1/2/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/,72,82
+girlscouts-data-StarDust,repeat-b,REFERENCE,1/2/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/3/4/5/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/,87,114
+girlscouts-data-StarDust,repeat-b,PUZZLE,1/2/3/4/5/-1/-1/-1/-1/-1/,1/2/3/4/5/6/7/8/9/10/,C/C/C/C/C/I/U/U/U/U/,538,552
+girlscouts-data-StarDust,repeat-b,PUZZLE,1/2/3/4/5/6/7/8/9/10/,1/2/3/4/5/6/7/8/9/10/,C/C/C/C/C/C/C/C/C/C/,613,643
+girlscouts-data-StarDust,repeat-b,END,"    this.grey monkey.jump onto(this.couch) /
+    this.grey monkey.turnToFace(this.brown monkey) /
+    count 2 / {
+      this.grey monkey.move arms up and down() /
+      this.brown monkey.move arms up and down() /
+    }
+    this.grey monkey.hop side to side() /
+    count 2 / {
+      this.brown monkey.turn around() /
+      this.brown monkey.jump forward() /
+    }
+    this.grey monkey.lay down() /",2,10,0,647
+girlscouts-data-StarDust,repeat-a,PUZZLE,1/2/-1/-1/-1/-1/-1/-1/-1/,1/2/3/8/5/6/7/4/9/,C/C/I/U/U/U/U/U/U/,104,111
+girlscouts-data-StarDust,repeat-a,PUZZLE,1/2/3/8/5/6/7/4/9/,1/2/3/8/5/6/7/4/9/,C/C/C/C/C/C/C/C/C/,353,379
+girlscouts-data-StarDust,repeat-a,END,"    this.tiny yeti.run forward() /
+    this.tiny yeti.steal hammer() /
+    this.tiny yeti.jump above yeti() /
+    count 3 / {
+      this.tiny yeti.swing hammer() /
+      this.big yeti.shake head() /
+    }
+    this.tiny yeti.fall to ground() /
+    count 3 / {
+      this.big yeti.cry() /
+    }",1,9,0,383
+girlscouts-data-StarDust,repeat-g,PUZZLE,1/2/-1/3/4/5/,1/2/3/4/5/6/,C/C/I/U/U/U/,56,64
+girlscouts-data-StarDust,repeat-g,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,74,102
+girlscouts-data-StarDust,repeat-g,END,"    this.Baby Yeti.raise arms() /
+    count 2 / {
+      this.Baby Yeti.turn(TypeExpression.LEFT, 0.125) /
+      this.Baby Yeti.turn(TypeExpression.RIGHT, 0.125) /
+    }
+    count 3 / {
+      this.Baby Yeti.jump and spin() /
+    }",2,6,0,109
+girlscouts-data-StarDust,repeat-cc,PUZZLE,1/-1/4/3/2/-1/,1/-1/2/3/-1/-1/,C/I/U/U/U/U/,60,69
+girlscouts-data-StarDust,repeat-cc,PUZZLE,1/-1/2/3/-1/-1/,1/-1/2/3/-1/-1/,C/I/U/U/U/U/,97,-1
+girlscouts-data-StarDust,repeat-cc,PUZZLE,1/-1/2/3/-1/-1/,1/-1/2/3/-1/-1/,C/I/U/U/U/U/,106,-1
+girlscouts-data-StarDust,repeat-cc,REFERENCE,1/-1/2/3/-1/-1/,1/-1/2/3/-1/-1/,C/I/U/U/U/U/,179,-1
+girlscouts-data-StarDust,repeat-cc,PUZZLE,1/-1/2/3/-1/-1/,1/-1/2/3/-1/-1/,C/I/U/U/U/U/,184,-1
+girlscouts-data-StarDust,repeat-cc,REFERENCE,1/-1/2/3/-1/-1/,1/-1/2/3/-1/-1/,C/I/U/U/U/U/,190,-1
+girlscouts-data-StarDust,repeat-cc,PUZZLE,1/-1/2/3/-1/-1/,1/-1/4/3/2/-1/,C/I/U/U/U/U/,207,215
+girlscouts-data-StarDust,repeat-cc,PUZZLE,1/-1/4/3/2/-1/,1/-1/2/3/-1/-1/,C/I/U/U/U/U/,241,247
+girlscouts-data-StarDust,repeat-cc,REFERENCE,1/-1/2/3/-1/-1/,1/-1/2/3/-1/-1/,C/I/U/U/U/U/,273,278
+girlscouts-data-StarDust,repeat-cc,PUZZLE,1/-1/2/3/-1/-1/,1/-1/2/3/-1/-1/,C/I/U/U/U/U/,281,-1
+girlscouts-data-StarDust,repeat-cc,REFERENCE,1/-1/2/3/-1/-1/,1/-1/2/3/-1/-1/,C/I/U/U/U/U/,289,-1
+girlscouts-data-StarDust,repeat-cc,PUZZLE,1/-1/2/3/-1/-1/,1/-1/2/3/4/5/,C/I/U/U/U/U/,295,312
+girlscouts-data-StarDust,repeat-cc,PUZZLE,1/-1/2/3/4/5/,1/-1/2/3/4/5/,C/I/U/U/U/U/,323,-1
+girlscouts-data-StarDust,repeat-cc,PUZZLE,1/-1/2/3/4/5/,1/-1/3/2/4/5/,C/I/U/U/U/U/,376,385
+girlscouts-data-StarDust,repeat-cc,PUZZLE,1/-1/3/2/4/5/,1/-1/2/3/4/5/,C/I/U/U/U/U/,395,403
+girlscouts-data-StarDust,repeat-cc,REFERENCE,1/-1/2/3/4/5/,1/-1/2/3/4/5/,C/I/U/U/U/U/,417,449
+girlscouts-data-StarDust,repeat-cc,PUZZLE,1/-1/2/3/4/5/,1/-1/2/3/4/5/,C/I/U/U/U/U/,456,-1
+girlscouts-data-StarDust,repeat-cc,REFERENCE,1/-1/2/3/4/5/,1/-1/2/3/4/5/,C/I/U/U/U/U/,463,-1
+girlscouts-data-StarDust,repeat-cc,REFERENCE,1/-1/2/3/4/5/,1/-1/2/3/4/5/,C/I/U/U/U/U/,467,-1
+girlscouts-data-StarDust,repeat-cc,REFERENCE,1/-1/2/3/4/5/,1/-1/2/3/4/5/,C/I/U/U/U/U/,508,529
+girlscouts-data-StarDust,repeat-cc,REFERENCE,1/-1/2/3/4/5/,1/2/3/4/-1/5/,C/I/U/U/U/U/,611,636
+girlscouts-data-StarDust,repeat-cc,PUZZLE,1/2/3/4/-1/5/,1/2/3/4/5/6/,C/C/C/C/I/U/,672,683
+girlscouts-data-StarDust,repeat-cc,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,717,740
+girlscouts-data-StarDust,repeat-cc,END,"    this.alien.say(It's time to dance!) /
+    count 3 / {
+      this.alien.slide to the left() /
+      this.alien.slide to the right() /
+      count 2 / {
+        this.alien.criss cross legs() /
+      }
+    }",7,6,0,746
+girlscouts-data-StarDust,repeat-dd,PUZZLE,1/2/3/4/-1/-1/-1/-1/,1/2/3/4/5/7/6/8/,C/C/C/C/I/U/U/U/,63,71
+girlscouts-data-StarDust,repeat-dd,PUZZLE,1/2/3/4/5/7/6/8/,1/2/3/4/5/7/6/8/,C/C/C/C/C/I/U/U/,99,-1
+girlscouts-data-StarDust,repeat-dd,PUZZLE,1/2/3/4/5/7/6/8/,1/2/3/4/5/6/7/8/,C/C/C/C/C/I/U/U/,131,142
+girlscouts-data-StarDust,repeat-dd,PUZZLE,1/2/3/4/5/6/7/8/,1/2/3/4/5/6/7/8/,C/C/C/C/C/C/C/C/,182,224
+girlscouts-data-StarDust,repeat-dd,END,"    this.hare.say(Ready....Set...) /
+    this.hare.raise arm() /
+    this.hare.say(GO!!) /
+    this.hare.getRightShoulder().turn(TypeExpression.RIGHT, 0.35) /
+    count 2 / {
+      count 2 / {
+        this.rhinos paw ground() /
+      }
+      this.rhinos charge() /
+    }",3,8,0,227
+girlscouts-data-StarDust,repeat-hh,PUZZLE,1/-1/2/-1/-1/-1/-1/,1/-1/2/-1/-1/-1/-1/,C/I/U/U/U/U/U/,45,52
+girlscouts-data-StarDust,repeat-hh,PUZZLE,1/-1/2/-1/-1/-1/-1/,1/2/3/-1/-1/-1/-1/,C/I/U/U/U/U/U/,54,60
+girlscouts-data-StarDust,repeat-hh,PUZZLE,1/2/3/-1/-1/-1/-1/,1/2/3/4/5/6/7/,C/C/C/I/U/U/U/,72,79
+girlscouts-data-StarDust,repeat-hh,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/C/C/,112,143
+girlscouts-data-StarDust,repeat-hh,END,"    this.witch.turn(TypeExpression.RIGHT, 0.125) /
+    this.witch.raise arms() /
+    count 2 / {
+      this.magicStaff.move up and down() /
+      count 3 / {
+        this.cauldron.spin() /
+      }
+    }
+    this.cauldron.explode() /",2,7,0,148
+girlscouts-data-StarDust,repeat-ii,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/I/U/,72,84
+girlscouts-data-StarDust,repeat-ii,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,105,-1
+girlscouts-data-StarDust,repeat-ii,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,117,170
+girlscouts-data-StarDust,repeat-ii,END,"    this.troll.say(I really wish I had something to row with) /
+    count 5 / {
+      count 2 / {
+        this.troll.row() /
+        this.boat.move(TypeExpression.BACKWARD, 0.25) /
+      }
+      this.troll.take a nap() /
+    }",2,6,0,174
+girlscouts-data-StarDust,repeat-ff,PUZZLE,1/2/5/3/4/6/,1/2/3/4/5/6/,C/C/I/U/U/U/,176,195
+girlscouts-data-StarDust,repeat-ff,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,224,239
+girlscouts-data-StarDust,repeat-ff,END,"    this.phoenix.say(I can do this, I know I can!) /
+    count 5 / {
+      count 3 / {
+        this.phoenix.flap wings(0.125) /
+      }
+      this.phoenix.glide() /
+    }
+    this.phoenix.land on rock() /",1,6,0,244
+girlscouts-data-StarDust,repeat-o,PUZZLE,1/2/3/5/4/7/6/8/9/11/10/,1/2/3/5/4/6/7/8/9/11/10/,C/C/C/C/C/I/U/U/U/U/U/,122,141
+girlscouts-data-StarDust,repeat-o,PUZZLE,1/2/3/5/4/6/7/8/9/11/10/,1/2/3/5/4/6/7/8/9/11/10/,C/C/C/C/C/C/C/C/C/C/C/,145,161
+girlscouts-data-StarDust,repeat-o,END,"    this.troll.say(I have a bad feeling) /
+    count 2 / {
+      do together / {
+        this.cauldron.shake() /
+        this.lid.shoot up and down() /
+      }
+    }
+    this.witch.say(?) /
+    this.witch.move(TypeExpression.FORWARD, 0.5) /
+    this.cauldron.shrink and disappear() /
+    do together / {
+      this.troll.jump back() /
+      this.witch.jump back() /
+    }",1,11,0,164
+girlscouts-data-StarDust,repeat-i,PUZZLE,1/3/2/4/5/7/6/,1/2/3/4/5/7/6/,C/I/U/U/U/U/U/,66,76
+girlscouts-data-StarDust,repeat-i,PUZZLE,1/2/3/4/5/7/6/,1/2/3/4/5/7/6/,C/C/C/C/C/C/C/,83,100
+girlscouts-data-StarDust,repeat-i,END,"    count 3 / {
+      this.penguin.turn(TypeExpression.RIGHT, 0.5) /
+      this.penguin.move(TypeExpression.FORWARD, 1.0) /
+    }
+    count 3 / {
+      do together / {
+        this.penguin.flutter wings() /
+        this.penguin.jump() /
+      }
+    }",1,7,0,114
+girlscouts-data-StarDust,repeat-j,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,60,70
+girlscouts-data-StarDust,repeat-j,END,"    this.witch.activate(this.cauldron) /
+    count 3 / {
+      this.cauldron.jump and spin() /
+      do together / {
+        this.witch.jump backwards() /
+        this.troll.jump backwards() /
+      }
+    }",1,6,0,74
+girlscouts-data-StarDust,repeat-n,PUZZLE,1/2/4/3/5/-1/-1/-1/-1/-1/,1/2/4/3/5/6/7/8/9/10/,C/C/C/C/C/I/U/U/U/U/,65,74
+girlscouts-data-StarDust,repeat-n,PUZZLE,1/2/4/3/5/6/7/8/9/10/,1/2/4/3/5/6/7/8/9/10/,C/C/C/C/C/C/C/C/C/C/,102,119
+girlscouts-data-StarDust,repeat-n,END,"    count 2 / {
+      do together / {
+        this.big yeti.swing hammer() /
+        this.tiny yeti.lean back() /
+      }
+      this.tiny yeti.shrink() /
+    }
+    this.big yeti.drop hammer() /
+    this.tiny yeti.jump and grow(2.0) /
+    do together / {
+      this.tiny yeti.take a bow() /
+      this.big yeti.take a bow() /
+    }",1,10,0,127
+girlscouts-data-StarDust,repeat-l,PUZZLE,1/2/4/6/3/5/,1/2/5/6/3/4/,C/C/I/U/U/U/,95,113
+girlscouts-data-StarDust,repeat-l,PUZZLE,1/2/5/6/3/4/,1/2/5/6/3/4/,C/C/I/U/U/U/,121,129
+girlscouts-data-StarDust,repeat-l,PUZZLE,1/2/5/6/3/4/,1/2/6/5/3/4/,C/C/I/U/U/U/,150,161
+girlscouts-data-StarDust,repeat-l,PUZZLE,1/2/6/5/3/4/,1/2/6/5/3/4/,C/C/I/U/U/U/,172,183
+girlscouts-data-StarDust,repeat-l,PUZZLE,1/2/6/5/3/4/,1/2/3/6/4/5/,C/C/I/U/U/U/,196,215
+girlscouts-data-StarDust,repeat-l,PUZZLE,1/2/3/6/4/5/,1/2/3/6/4/5/,C/C/C/C/C/C/,309,320
+girlscouts-data-StarDust,repeat-l,END,"    this.cat.turn(TypeExpression.RIGHT, 0.5) /
+    this.cat.raise arms() /
+    do together / {
+      this.alien.turnToFace(this.cat) /
+      count 12 / {
+        this.cat.type at keyboard() /
+      }
+    }",6,6,0,324
+girlscouts-data-StarDust,repeat-w,PUZZLE,1/2/4/5/3/,1/2/4/5/3/,C/C/C/C/C/,68,80
+girlscouts-data-StarDust,repeat-w,END,"    this.hare.pick up(this.basketball) /
+    do together / {
+      count 10 / {
+        this.hare.dribble ball once(this.basketball) /
+      }
+      this.hare.walk(2.0) /
+    }",1,5,0,85
+girlscouts-data-StarDust,repeat-q,PUZZLE,1/-1/2/3/-1/-1/-1/,1/-1/2/3/-1/-1/-1/,C/I/U/U/U/U/U/,51,56
+girlscouts-data-StarDust,repeat-q,PUZZLE,1/-1/2/3/-1/-1/-1/,1/-1/2/3/-1/-1/-1/,C/I/U/U/U/U/U/,59,-1
+girlscouts-data-StarDust,repeat-q,REFERENCE,1/-1/2/3/-1/-1/-1/,1/2/3/4/-1/-1/-1/,C/I/U/U/U/U/U/,62,68
+girlscouts-data-StarDust,repeat-q,PUZZLE,1/2/3/4/-1/-1/-1/,1/2/3/4/5/7/6/,C/C/C/C/I/I/I/,97,103
+girlscouts-data-StarDust,repeat-q,PUZZLE,1/2/3/4/5/7/6/,1/2/3/4/5/6/7/,C/C/C/C/C/C/I/,119,133
+girlscouts-data-StarDust,repeat-q,PUZZLE,1/2/3/4/5/6/7/,1/2/4/5/6/3/7/,C/C/C/C/C/C/I/,140,165
+girlscouts-data-StarDust,repeat-q,PUZZLE,1/2/4/5/6/3/7/,1/2/4/5/6/7/3/,C/C/I/U/U/U/U/,209,220
+girlscouts-data-StarDust,repeat-q,PUZZLE,1/2/4/5/6/7/3/,1/2/3/4/5/6/7/,C/C/I/U/U/U/U/,231,240
+girlscouts-data-StarDust,repeat-q,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/C/I/,245,259
+girlscouts-data-StarDust,repeat-q,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/C/I/,287,303
+girlscouts-data-StarDust,repeat-q,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/C/C/,310,334
+girlscouts-data-StarDust,repeat-q,END,"    this.ogre.sit down() /
+    this.ogre.go to sleep() /
+    do together / {
+      count 2 / {
+        this.ogre.snore() /
+      }
+      this.tortoise.walk up and toss flower() /
+      this.desertTortoise.crawl() /
+    }",6,7,0,337
+girlscouts-data-StarDust,repeat-x,PUZZLE,1/2/8/4/5/6/7/3/9/10/11/12/,1/2/8/4/5/6/7/3/9/10/11/12/,C/C/C/C/C/C/C/C/C/C/C/C/,121,-1
+girlscouts-data-StarDust,repeat-x,PUZZLE,1/2/8/4/5/6/7/3/9/10/11/12/,1/2/8/4/5/6/7/3/9/10/11/12/,C/C/C/C/C/C/C/C/C/C/C/C/,160,162
+girlscouts-data-StarDust,repeat-x,END,"    this.alienRobot.land on ground() /
+    this.alien.turnToFace(this.alienRobot) /
+    do together / {
+      this.alien.say(Yay, you're home!) /
+      count 3 / {
+        this.alienRobot.jump() /
+      }
+    }
+    this.alien.think(Hmmm I wish I could make you bigger...) /
+    do together / {
+      this.alien.cast alien magic() /
+      this.alien.say(Abbbbra Ka-Da-Bra) /
+    }
+    this.alienRobot.resize(3.0) /
+    this.alienRobot.face camera() /",1,12,0,166
+girlscouts-data-StarDust,repeat-p,PUZZLE,-1/5/2/3/4/1/-1/-1/-1/-1/-1/,6/5/2/3/4/1/8/7/9/10/11/,C/C/C/C/C/I/U/U/U/U/U/,97,113
+girlscouts-data-StarDust,repeat-p,PUZZLE,6/5/2/3/4/1/8/7/9/10/11/,6/5/2/3/4/1/8/7/9/10/11/,C/C/C/C/C/C/C/C/C/C/C/,149,168
+girlscouts-data-StarDust,repeat-p,END,"    do together / {
+      this.shark.move(TypeExpression.FORWARD, 25.0) /
+      count 4 / {
+        this.fish.swim forward() /
+        this.fish.turn around() /
+      }
+    }
+    do together / {
+      this.fish.turnToFace(this.shark) /
+      this.shark.turnToFace(this.fish) /
+    }
+    this.shark.open mouth() /
+    this.shark.moveTo(this.fish) /
+    this.shark.close mouth() /",1,11,0,173
+girlscouts-data-StarDust,repeat-y,PUZZLE,-1/-1/1/2/3/4/5/-1/-1/,-1/-1/1/3/2/4/5/-1/-1/,I/U/U/U/U/U/U/U/U/,116,130
+girlscouts-data-StarDust,repeat-y,REFERENCE,-1/-1/1/3/2/4/5/-1/-1/,1/3/2/5/4/6/7/-1/-1/,I/U/U/U/U/U/U/U/U/,144,149
+girlscouts-data-StarDust,repeat-y,PUZZLE,1/3/2/5/4/6/7/-1/-1/,1/3/2/5/4/6/7/-1/-1/,C/C/C/I/U/U/U/U/U/,162,176
+girlscouts-data-StarDust,repeat-y,REFERENCE,1/3/2/5/4/6/7/-1/-1/,1/3/2/5/4/6/7/-1/-1/,C/C/C/I/U/U/U/U/U/,183,203
+girlscouts-data-StarDust,repeat-y,PUZZLE,1/3/2/5/4/6/7/-1/-1/,1/3/2/5/4/7/6/-1/-1/,C/C/C/I/U/U/U/U/U/,208,219
+girlscouts-data-StarDust,repeat-y,PUZZLE,1/3/2/5/4/7/6/-1/-1/,1/3/2/5/4/7/6/-1/-1/,C/C/C/I/U/U/U/U/U/,225,233
+girlscouts-data-StarDust,repeat-y,REFERENCE,1/3/2/5/4/7/6/-1/-1/,1/3/2/5/4/7/6/8/9/,C/C/C/I/U/U/U/U/U/,235,253
+girlscouts-data-StarDust,repeat-y,PUZZLE,1/3/2/5/4/7/6/8/9/,1/3/2/6/4/7/5/8/9/,C/C/C/I/U/U/U/U/U/,263,286
+girlscouts-data-StarDust,repeat-y,PUZZLE,1/3/2/6/4/7/5/8/9/,1/3/2/6/4/5/7/8/9/,C/C/C/I/U/U/U/U/U/,294,300
+girlscouts-data-StarDust,repeat-y,PUZZLE,1/3/2/6/4/5/7/8/9/,1/3/2/7/4/5/6/8/9/,C/C/C/I/U/U/U/U/U/,310,319
+girlscouts-data-StarDust,repeat-y,PUZZLE,1/3/2/7/4/5/6/8/9/,1/3/2/5/4/6/7/8/9/,C/C/C/I/U/U/U/U/U/,326,336
+girlscouts-data-StarDust,repeat-y,PUZZLE,1/3/2/5/4/6/7/8/9/,1/3/2/5/4/6/7/8/9/,C/C/C/I/U/U/U/U/U/,348,382
+girlscouts-data-StarDust,repeat-y,REFERENCE,1/3/2/5/4/6/7/8/9/,1/3/2/5/4/6/7/8/9/,C/C/C/I/U/U/U/U/U/,399,420
+girlscouts-data-StarDust,repeat-y,PUZZLE,1/3/2/5/4/6/7/8/9/,1/3/2/5/4/6/7/8/9/,C/C/C/I/U/U/U/U/U/,423,455
+girlscouts-data-StarDust,repeat-y,REFERENCE,1/3/2/5/4/6/7/8/9/,1/3/2/5/4/6/7/8/9/,C/C/C/I/U/U/U/U/U/,500,502
+girlscouts-data-StarDust,repeat-y,PUZZLE,1/3/2/5/4/6/7/8/9/,1/3/2/5/4/6/7/8/9/,C/C/C/I/U/U/U/U/U/,504,-1
+girlscouts-data-StarDust,repeat-y,REFERENCE,1/3/2/5/4/6/7/8/9/,1/3/2/7/6/4/5/8/9/,C/C/C/I/U/U/U/U/U/,523,544
+girlscouts-data-StarDust,repeat-y,PUZZLE,1/3/2/7/6/4/5/8/9/,1/3/2/7/6/4/5/8/9/,C/C/C/I/U/U/U/U/U/,571,-1
+girlscouts-data-StarDust,repeat-y,REFERENCE,1/3/2/7/6/4/5/8/9/,1/3/2/4/5/6/7/8/9/,C/C/C/I/U/U/U/U/U/,595,614
+girlscouts-data-StarDust,repeat-y,PUZZLE,1/3/2/4/5/6/7/8/9/,1/3/2/4/5/6/7/8/9/,C/C/C/C/C/C/C/C/C/,669,694
+girlscouts-data-StarDust,repeat-y,END,"    do together / {
+      this.blueDragon.stand up() /
+      this.redDragon.raise leg and spin() /
+    }
+    do together / {
+      count 3 / {
+        this.redDragon.lift up legs() /
+      }
+      this.redDragon.jump up and down() /
+    }
+    this.redDragon.turnToFace(this.blueDragon) /
+    this.blueDragon.hide() /",7,9,0,705
+girlscouts-data-StarDust,repeat-s,PUZZLE,1/2/-1/-1/-1/-1/-1/-1/-1/-1/3/-1/4/-1/,1/2/-1/-1/-1/-1/-1/-1/-1/-1/3/-1/4/-1/,C/C/I/U/U/U/U/U/U/U/U/U/U/U/,179,-1
+girlscouts-data-StarDust,repeat-s,REFERENCE,1/2/-1/-1/-1/-1/-1/-1/-1/-1/3/-1/4/-1/,1/2/3/4/5/6/-1/-1/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/U/U/U/U/,188,200
+girlscouts-data-StarDust,repeat-s,PUZZLE,1/2/3/4/5/6/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/3/4/5/6/7/-1/-1/-1/-1/-1/-1/-1/,C/C/C/C/C/C/I/U/U/U/U/U/U/U/,288,302
+girlscouts-data-StarDust,repeat-s,PUZZLE,1/2/3/4/5/6/7/-1/-1/-1/-1/-1/-1/-1/,1/2/3/4/5/6/7/8/9/-1/-1/-1/-1/-1/,C/C/C/C/C/C/C/I/U/U/U/U/U/U/,313,329
+girlscouts-data-StarDust,repeat-s,PUZZLE,1/2/3/4/5/6/7/8/9/-1/-1/-1/-1/-1/,1/2/3/4/5/6/7/8/9/10/11/14/12/13/,C/C/C/C/C/C/C/C/C/I/U/U/U/U/,346,367
+girlscouts-data-StarDust,repeat-s,PUZZLE,1/2/3/4/5/6/7/8/9/10/11/14/12/13/,1/2/3/4/5/6/7/8/9/10/11/14/12/13/,C/C/C/C/C/C/C/C/C/C/C/C/C/C/,425,453
+girlscouts-data-StarDust,repeat-s,END,"    this.pig.say(You may begin.) /
+    this.bigBadWolf.skate around() /
+    count 2 / {
+      do together / {
+        this.bigBadWolf.spin() /
+        this.bigBadWolf.move(TypeExpression.DOWN, 0.25) /
+      }
+      this.bigBadWolf.say(Uh oh.) /
+    }
+    this.bigBadWolf.getNeck().turn(TypeExpression.FORWARD, 0.125) /
+    this.bigBadWolf.say(Help, please!) /
+    this.phoenix.land on wolf() /
+    do together / {
+      this.phoenix.move(TypeExpression.UP, 6.0) /
+      count 2 / {
+        this.phoenix.flap wings() /
+      }
+    }",1,14,0,461
+girlscouts-data-StarDust,repeat-z,PUZZLE,1/2/4/-1/7/-1/5/-1/-1/3/6/-1/-1/,1/2/7/4/3/5/6/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/U/U/U/,212,233
+girlscouts-data-StarDust,repeat-z,PUZZLE,1/2/7/4/3/5/6/-1/-1/-1/-1/-1/-1/,1/2/7/4/3/5/6/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/U/U/U/,340,-1
+girlscouts-data-StarDust,repeat-z,REFERENCE,1/2/7/4/3/5/6/-1/-1/-1/-1/-1/-1/,1/2/3/4/7/5/6/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/U/U/U/,357,369
+girlscouts-data-StarDust,repeat-z,PUZZLE,1/2/3/4/7/5/6/-1/-1/-1/-1/-1/-1/,1/2/3/4/7/5/6/8/9/10/11/12/13/,C/C/C/C/C/C/C/I/U/U/U/U/U/,394,409
+girlscouts-data-StarDust,repeat-z,PUZZLE,1/2/3/4/7/5/6/8/9/10/11/12/13/,1/2/3/4/7/5/6/8/9/10/11/12/13/,C/C/C/C/C/C/C/C/C/C/C/C/C/,444,463
+girlscouts-data-StarDust,repeat-z,END,"    this.Martha.slide(2.0) /
+    this.Martha.say(Oh Frankie, you're home.) /
+    this.Frankie.hands in air() /
+    do together / {
+      this.Frankie.say(Look what I learned how to do today!) /
+      count 3 / {
+        this.Frankie.turn(TypeExpression.RIGHT, 3.0) /
+      }
+    }
+    this.Martha.say(That is really cool sweetheart. ) /
+    this.Martha.say(I learned this when I was your age.) /
+    count 2 / {
+      do together / {
+        this.Martha.resize(2.0) /
+        this.Martha.turn(TypeExpression.LEFT, 3.0) /
+      }
+    }",1,13,0,469
+girlscouts-data-StarDust,repeat-r,PUZZLE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/2/4/5/-1/3/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/,121,126
+girlscouts-data-StarDust,repeat-r,PUZZLE,1/-1/2/4/5/-1/3/-1/-1/-1/,1/-1/2/5/4/-1/3/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/,169,177
+girlscouts-data-StarDust,repeat-r,PUZZLE,1/-1/2/5/4/-1/3/-1/-1/-1/,1/-1/3/5/4/-1/2/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/,183,188
+girlscouts-data-StarDust,repeat-r,PUZZLE,1/-1/3/5/4/-1/2/-1/-1/-1/,1/-1/3/5/4/-1/2/-1/-1/-1/,C/C/C/I/U/I/U/U/U/U/,213,-1
+girlscouts-data-StarDust,repeat-r,PUZZLE,1/-1/3/5/4/-1/2/-1/-1/-1/,1/-1/3/5/4/-1/2/-1/-1/-1/,C/C/C/I/U/I/U/U/U/U/,225,-1
+girlscouts-data-StarDust,repeat-r,PUZZLE,1/-1/3/5/4/-1/2/-1/-1/-1/,1/-1/3/5/4/6/2/-1/-1/-1/,C/C/C/I/U/I/U/U/U/U/,235,242
+girlscouts-data-StarDust,repeat-r,PUZZLE,1/-1/3/5/4/6/2/-1/-1/-1/,1/-1/-1/4/3/-1/2/-1/-1/-1/,C/C/C/I/U/I/I/U/U/U/,263,293
+girlscouts-data-StarDust,repeat-r,PUZZLE,1/-1/-1/4/3/-1/2/-1/-1/-1/,1/-1/2/4/3/-1/-1/-1/-1/-1/,C/C/C/I/I/U/U/U/U/U/,310,319
+girlscouts-data-StarDust,repeat-r,PUZZLE,1/-1/2/4/3/-1/-1/-1/-1/-1/,1/-1/2/3/4/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/,362,369
+girlscouts-data-StarDust,repeat-r,PUZZLE,1/-1/2/3/4/-1/-1/-1/-1/-1/,1/-1/3/4/5/-1/2/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/,374,384
+girlscouts-data-StarDust,repeat-r,REFERENCE,1/-1/3/4/5/-1/2/-1/-1/-1/,1/-1/-1/3/4/-1/2/-1/-1/-1/,C/C/I/I/U/U/U/U/U/U/,393,406
+girlscouts-data-StarDust,repeat-r,PUZZLE,1/-1/-1/3/4/-1/2/-1/-1/-1/,1/-1/4/3/5/-1/2/-1/-1/-1/,C/C/I/C/I/U/U/U/U/U/,436,467
+girlscouts-data-StarDust,repeat-r,PUZZLE,1/-1/4/3/5/-1/2/-1/-1/-1/,1/-1/3/4/5/-1/2/-1/-1/-1/,C/C/I/C/I/I/U/U/U/U/,475,509
+girlscouts-data-StarDust,repeat-r,PUZZLE,1/-1/3/4/5/-1/2/-1/-1/-1/,1/8/3/4/5/6/2/7/10/9/,C/C/C/C/C/I/U/U/U/U/,524,543
+girlscouts-data-StarDust,repeat-r,PUZZLE,1/8/3/4/5/6/2/7/10/9/,1/7/3/4/5/6/2/8/10/9/,C/C/C/C/C/C/I/U/U/U/,592,613
+girlscouts-data-StarDust,repeat-r,PUZZLE,1/7/3/4/5/6/2/8/10/9/,1/7/3/4/5/6/2/8/10/9/,C/C/C/C/C/C/C/C/C/C/,618,637
+girlscouts-data-StarDust,repeat-r,END,"    this.bunny.say(We've located the treasure!) /
+    do together / {
+      count 3 / {
+        this.pirateShip.move(TypeExpression.FORWARD, 25.0) /
+      }
+      this.camera.move(TypeExpression.FORWARD, 75.0) /
+    }
+    this.camera fly to island() /
+    do together / {
+      this.treasureChest.getChestLid().turn(TypeExpression.BACKWARD, 0.25) /
+      this.coinPile.appear() /
+      this.coinStack.appear() /
+    }",6,10,0,645
+girlscouts-data-StarDust,repeat-aa,PUZZLE,1/-1/-1/4/5/-1/2/3/-1/-1/-1/,1/2/3/4/5/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/,42,67
+girlscouts-data-StarDust,repeat-aa,PUZZLE,1/2/3/4/5/-1/-1/-1/-1/-1/-1/,1/2/3/4/5/6/7/8/10/9/11/,C/C/C/C/C/I/U/U/U/U/U/,121,133
+girlscouts-data-StarDust,repeat-aa,PUZZLE,1/2/3/4/5/6/7/8/10/9/11/,1/2/3/4/5/6/7/8/10/9/11/,C/C/C/C/C/C/C/C/C/C/C/,158,178
+girlscouts-data-StarDust,repeat-aa,END,"    this.alien.say(Oh no!) /
+    do together / {
+      count 2 / {
+        this.shark.circle(this.sailboat) /
+      }
+      this.sailboat.sink() /
+    }
+    this.alien.turnToFace(this.shark) /
+    count 2 / {
+      do together / {
+        this.alien.get bigger() /
+        this.shark.get smaller() /
+      }
+    }
+    this.alien.say(Silly Earthlings!) /",2,11,0,182
+girlscouts-data-StarDust,doinorder-n,PUZZLE,1/3/2/5/4/6/,1/3/2/4/5/6/,C/C/I/U/I/I/,72,81
+girlscouts-data-StarDust,doinorder-n,PUZZLE,1/3/2/4/5/6/,1/3/2/4/5/6/,C/C/I/U/I/I/,89,98
+girlscouts-data-StarDust,doinorder-n,PUZZLE,1/3/2/4/5/6/,2/1/3/4/5/6/,C/C/I/U/I/I/,101,110
+girlscouts-data-StarDust,doinorder-n,PUZZLE,2/1/3/4/5/6/,1/3/2/4/5/6/,I/U/U/U/U/U/,119,128
+girlscouts-data-StarDust,doinorder-n,PUZZLE,1/3/2/4/5/6/,1/3/2/4/5/6/,C/C/I/U/I/I/,151,157
+girlscouts-data-StarDust,doinorder-n,PUZZLE,1/3/2/4/5/6/,1/3/2/4/5/6/,C/C/I/U/U/I/,167,-1
+girlscouts-data-StarDust,doinorder-n,PUZZLE,1/3/2/4/5/6/,1/3/2/4/5/6/,C/C/I/U/U/I/,214,-1
+girlscouts-data-StarDust,doinorder-n,PUZZLE,1/3/2/4/5/6/,1/3/2/4/5/6/,C/C/I/U/U/I/,223,-1
+girlscouts-data-StarDust,doinorder-n,PUZZLE,1/3/2/4/5/6/,1/3/2/4/5/6/,C/C/I/U/U/I/,225,-1
+girlscouts-data-StarDust,doinorder-n,PUZZLE,1/3/2/4/5/6/,1/3/2/4/5/6/,C/C/I/U/U/I/,229,232
+girlscouts-data-StarDust,doinorder-n,PUZZLE,1/3/2/4/5/6/,1/3/2/4/5/6/,C/C/I/U/I/I/,245,257
+girlscouts-data-StarDust,doinorder-n,REFERENCE,1/3/2/4/5/6/,1/3/2/4/5/6/,C/C/I/U/I/I/,260,269
+girlscouts-data-StarDust,doinorder-n,PUZZLE,1/3/2/4/5/6/,1/3/2/4/5/6/,C/C/I/I/I/U/,282,297
+girlscouts-data-StarDust,doinorder-n,PUZZLE,1/3/2/4/5/6/,1/3/2/5/4/6/,C/C/I/I/I/I/,302,308
+girlscouts-data-StarDust,doinorder-n,PUZZLE,1/3/2/5/4/6/,1/3/2/4/5/6/,C/C/I/U/I/I/,311,314
+girlscouts-data-StarDust,doinorder-n,PUZZLE,1/3/2/4/5/6/,1/3/2/4/5/6/,C/C/I/U/I/I/,322,343
+girlscouts-data-StarDust,doinorder-n,PUZZLE,1/3/2/4/5/6/,1/3/2/4/5/6/,C/C/I/U/I/I/,346,-1
+girlscouts-data-StarDust,doinorder-n,PUZZLE,1/3/2/4/5/6/,1/3/2/4/5/6/,C/C/I/U/I/I/,367,-1
+girlscouts-data-StarDust,doinorder-n,PUZZLE,1/3/2/4/5/6/,1/3/2/4/5/6/,C/C/I/U/I/I/,379,393
+girlscouts-data-StarDust,doinorder-n,PUZZLE,1/3/2/4/5/6/,1/3/2/4/5/6/,C/C/I/U/I/I/,397,408
+girlscouts-data-StarDust,doinorder-n,PUZZLE,1/3/2/4/5/6/,1/3/2/4/5/6/,C/C/I/I/I/U/,417,-1
+girlscouts-data-StarDust,doinorder-n,PUZZLE,1/3/2/4/5/6/,1/3/2/4/5/6/,C/C/I/I/I/U/,431,448
+girlscouts-data-StarDust,doinorder-n,REFERENCE,1/3/2/4/5/6/,1/3/2/4/5/6/,C/C/I/I/I/U/,455,-1
+girlscouts-data-StarDust,doinorder-n,PUZZLE,1/3/2/4/5/6/,1/3/2/5/4/6/,C/C/I/I/I/U/,466,498
+girlscouts-data-StarDust,doinorder-n,PUZZLE,1/3/2/5/4/6/,1/3/2/4/5/6/,C/C/I/U/I/I/,598,607
+girlscouts-data-StarDust,doinorder-n,PUZZLE,1/3/2/4/5/6/,1/3/2/4/5/6/,C/C/I/U/I/I/,617,633
+girlscouts-data-StarDust,doinorder-n,REFERENCE,1/3/2/4/5/6/,1/3/2/5/4/6/,C/C/I/U/I/I/,640,650
+girlscouts-data-StarDust,doinorder-n,PUZZLE,1/3/2/5/4/6/,1/3/2/6/4/5/,C/C/I/U/I/I/,657,664
+girlscouts-data-StarDust,doinorder-n,PUZZLE,1/3/2/6/4/5/,1/3/2/6/4/5/,C/C/I/U/U/I/,687,697
+girlscouts-data-StarDust,doinorder-n,PUZZLE,1/3/2/6/4/5/,1/3/2/4/5/6/,C/C/I/U/U/U/,717,722
+girlscouts-data-StarDust,doinorder-n,PUZZLE,1/3/2/4/5/6/,1/3/2/5/4/6/,C/C/I/I/I/I/,745,752
+girlscouts-data-StarDust,doinorder-n,PUZZLE,1/3/2/5/4/6/,1/3/2/5/4/6/,C/C/I/U/I/I/,824,835
+girlscouts-data-StarDust,doinorder-n,PUZZLE,1/3/2/5/4/6/,1/3/2/4/5/6/,C/C/I/U/I/I/,990,1000
+girlscouts-data-StarDust,doinorder-n,PUZZLE,1/3/2/4/5/6/,1/3/2/4/5/6/,C/C/I/I/I/U/,1026,1036
+girlscouts-data-StarDust,doinorder-n,REFERENCE,1/3/2/4/5/6/,1/3/2/4/5/6/,C/C/I/U/I/I/,1043,-1
+girlscouts-data-StarDust,doinorder-n,PUZZLE,1/3/2/4/5/6/,1/3/2/4/5/6/,C/C/I/U/I/I/,1056,1067
+girlscouts-data-StarDust,doinorder-n,PUZZLE,1/3/2/4/5/6/,1/5/2/3/4/6/,C/C/I/I/I/U/,1120,1132
+girlscouts-data-StarDust,doinorder-n,PUZZLE,1/5/2/3/4/6/,1/5/2/3/4/6/,C/C/C/C/C/C/,1151,1159
+girlscouts-data-StarDust,doinorder-n,END,"    do together / {
+      this.alien.run in circles() /
+      do in order / {
+        this.uFO.move(TypeExpression.UP, 30.0) /
+        this.uFO.moveToward(this.alien, 150.0) /
+      }
+    }
+    this.uFO.beam up(this.alien) /",7,6,0,1162
+girlscouts-data-StarDust,doinorder-a,PUZZLE,1/2/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/3/4/5/-1/,C/C/I/U/U/U/U/U/U/,33,40
+girlscouts-data-StarDust,doinorder-a,PUZZLE,1/2/-1/-1/-1/3/4/5/-1/,1/2/3/8/4/5/6/7/9/,C/C/I/U/U/U/U/U/U/,61,71
+girlscouts-data-StarDust,doinorder-a,PUZZLE,1/2/3/8/4/5/6/7/9/,1/2/3/8/4/5/6/7/9/,C/C/C/C/C/C/C/C/C/,99,120
+girlscouts-data-StarDust,doinorder-a,END,"    this.pilot.say(Here we go!) /
+    this.plane.flip() /
+    do together / {
+      this.plane.swerve past(ArrayInstanceCreation) /
+      do in order / {
+        this.balloon (1).move(TypeExpression.RIGHT, 20.0) /
+        this.balloon (2).move(TypeExpression.LEFT, 20.0) /
+        this.balloon (3).move(TypeExpression.RIGHT, 20.0) /
+      }
+    }
+    this.plane.fly away() /",2,9,0,124
+girlscouts-data-StarDust,doinorder-l,PUZZLE,1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/,39,46
+girlscouts-data-StarDust,doinorder-l,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/8/3/4/7/5/6/9/,C/I/U/U/U/U/U/U/U/,57,76
+girlscouts-data-StarDust,doinorder-l,PUZZLE,1/2/8/3/4/7/5/6/9/,1/2/8/3/4/7/5/6/9/,C/C/C/C/I/U/U/C/U/,102,-1
+girlscouts-data-StarDust,doinorder-l,PUZZLE,1/2/8/3/4/7/5/6/9/,1/2/8/3/4/7/5/6/9/,C/C/C/C/I/U/U/C/U/,1402,-1
+girlscouts-data-StarDust,doinorder-l,REFERENCE,1/2/8/3/4/7/5/6/9/,1/2/8/3/4/7/5/6/9/,C/C/C/C/I/U/U/C/U/,1432,-1
+girlscouts-data-StarDust,doinorder-l,PUZZLE,1/2/8/3/4/7/5/6/9/,1/2/8/3/4/7/5/6/9/,C/C/C/C/I/U/U/C/U/,1442,1476
+girlscouts-data-StarDust,doinorder-l,PUZZLE,1/2/8/3/4/7/5/6/9/,1/2/8/3/4/7/5/6/9/,C/C/C/C/I/U/U/C/U/,1506,-1
+girlscouts-data-StarDust,doinorder-l,PUZZLE,1/2/8/3/4/7/5/6/9/,1/2/8/3/4/7/5/6/9/,C/C/C/C/I/U/U/C/U/,1510,1527
+girlscouts-data-StarDust,doinorder-l,REFERENCE,1/2/8/3/4/7/5/6/9/,1/2/8/3/4/5/6/7/9/,C/C/C/C/I/U/U/C/U/,1530,1557
+girlscouts-data-StarDust,doinorder-l,PUZZLE,1/2/8/3/4/5/6/7/9/,1/2/8/3/4/5/6/7/9/,C/C/C/C/C/C/C/C/C/,1561,1590
+girlscouts-data-StarDust,doinorder-l,END,"    this.uFO.fly through stars() /
+    do together / {
+      this.uFO.zig zag through meteors() /
+      do in order / {
+        this.meteor.launch() /
+        this.bus.launch() /
+        this.cow.launch() /
+        this.toilet.launch() /
+      }
+    }
+    this.uFO.say(We made it!) /",2,9,0,1593
+girlscouts-data-StarDust,doinorder-k,PUZZLE,1/2/3/8/4/5/6/7/,1/2/3/8/4/5/6/7/,C/C/C/C/C/C/C/C/,49,62
+girlscouts-data-StarDust,doinorder-k,END,"    this.whiteRabbit.turnToFace(this.camera) /
+    this.whiteRabbit.say(Please give a round of applause to the SCARIEST creatures in Wonderland!) /
+    do together / {
+      this.whiteRabbit.clap() /
+      do in order / {
+        this.bigBadWolf.appear() /
+        this.troll.appear() /
+        this.yeti.appear() /
+      }
+    }",1,8,0,65
+girlscouts-data-StarDust,doinorder-f,PUZZLE,1/2/8/9/7/3/4/5/6/,1/2/8/9/7/3/4/5/6/,C/C/C/C/C/C/C/C/C/,120,134
+girlscouts-data-StarDust,doinorder-f,END,"    this.bunny.cover eyes() /
+    do together / {
+      this.cheshireCat.hide() /
+      this.hare.hide() /
+      this.mandril.hide() /
+      do in order / {
+        this.bunny.say(One..) /
+        this.bunny.say(Two..) /
+        this.bunny.say(Three!) /
+      }
+    }",1,9,0,142
+girlscouts-data-StarDust,doinorder-w,PUZZLE,1/2/3/11/7/12/5/4/10/6/8/13/9/,1/2/3/11/7/12/5/4/10/6/8/13/9/,C/C/C/C/I/I/U/U/U/U/U/U/U/,197,213
+girlscouts-data-StarDust,doinorder-w,PUZZLE,1/2/3/11/7/12/5/4/10/6/8/13/9/,1/2/3/11/5/12/7/4/10/6/8/13/9/,C/C/C/C/I/I/U/U/U/U/U/U/U/,218,242
+girlscouts-data-StarDust,doinorder-w,REFERENCE,1/2/3/11/5/12/7/4/10/6/8/13/9/,1/2/3/7/5/8/9/4/12/6/10/13/11/,C/C/C/C/I/I/U/U/U/U/U/U/U/,274,288
+girlscouts-data-StarDust,doinorder-w,PUZZLE,1/2/3/7/5/8/9/4/12/6/10/13/11/,1/2/3/5/7/8/9/6/12/4/10/13/11/,C/C/C/C/I/I/U/U/U/U/U/U/U/,374,390
+girlscouts-data-StarDust,doinorder-w,PUZZLE,1/2/3/5/7/8/9/6/12/4/10/13/11/,1/2/3/5/7/8/9/6/12/4/10/13/11/,C/C/C/I/I/U/U/U/U/U/U/U/U/,421,-1
+girlscouts-data-StarDust,doinorder-w,PUZZLE,1/2/3/5/7/8/9/6/12/4/10/13/11/,1/2/3/6/5/8/9/4/12/7/10/13/11/,C/C/C/I/I/U/U/U/U/U/U/U/U/,436,454
+girlscouts-data-StarDust,doinorder-w,PUZZLE,1/2/3/6/5/8/9/4/12/7/10/13/11/,1/2/3/6/5/7/8/4/9/10/11/13/12/,C/C/C/C/I/I/U/U/U/U/U/U/U/,496,515
+girlscouts-data-StarDust,doinorder-w,PUZZLE,1/2/3/6/5/7/8/4/9/10/11/13/12/,1/2/3/4/5/6/7/8/9/10/11/13/12/,C/C/C/C/I/I/U/U/U/U/U/U/U/,563,570
+girlscouts-data-StarDust,doinorder-w,PUZZLE,1/2/3/4/5/6/7/8/9/10/11/13/12/,1/2/3/4/5/6/7/8/9/10/11/13/12/,C/C/C/C/C/C/C/C/C/C/C/C/C/,618,634
+girlscouts-data-StarDust,doinorder-w,END,"    GlobalFirstInstanceExpression.scene.yeti.say(We've got you now!) /
+    this.madHatter.say(Not so fast!) /
+    do together / {
+      do in order / {
+        this.wall.fall down() /
+        GlobalFirstInstanceExpression.scene.castleGate.move(TypeExpression.UP, 5.0) /
+        GlobalFirstInstanceExpression.scene.bigBadWolf.resize(0.25) /
+      }
+      this.madHatter.dance() /
+    }
+    this.madHatter.walk(6.0) /
+    do together / {
+      this.bigBadWolf.say(So not cool.) /
+      this.troll.say(So not cool.) /
+      this.yeti.say(So not cool.) /
+    }",2,13,0,733
+girlscouts-data-StarDust,doinorder-g,PUZZLE,1/-1/4/2/3/-1/-1/-1/,1/2/8/3/4/5/6/7/,C/I/U/U/U/U/U/U/,47,54
+girlscouts-data-StarDust,doinorder-g,PUZZLE,1/2/8/3/4/5/6/7/,1/2/8/3/4/5/6/7/,C/C/C/C/C/C/C/C/,121,133
+girlscouts-data-StarDust,doinorder-g,END,"    this.hare.think(I hate tumbleweeds..) /
+    do together / {
+      this.tumbleweed.roll() /
+      do in order / {
+        this.hare.walk(4.0) /
+        this.hare.getHead().turn(TypeExpression.FORWARD, 0.125) /
+        this.hare.kick(this.tumbleweed) /
+        this.hare.fall down() /
+      }
+    }",1,8,0,146
+girlscouts-data-StarDust,doinorder-q,PUZZLE,1/2/3/4/-1/5/6/-1/,1/2/3/4/5/6/7/8/,C/C/C/C/I/C/U/U/,70,78
+girlscouts-data-StarDust,doinorder-q,PUZZLE,1/2/3/4/5/6/7/8/,1/2/3/4/5/6/7/8/,C/C/C/C/C/C/C/C/,85,103
+girlscouts-data-StarDust,doinorder-q,END,"    this.witch.turnToFace(this.cauldron) /
+    do together / {
+      do in order / {
+        this.cauldron.spin() /
+        this.cauldron.glow() /
+        this.bigBadWolf.rise() /
+      }
+      this.witch.cast spell() /
+    }
+    this.bigBadWolf.turnToFace(this.witch) /",1,8,0,106
+girlscouts-data-StarDust,doinorder-d,PUZZLE,-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/,19,23
+girlscouts-data-StarDust,doinorder-d,PUZZLE,1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/3/-1/-1/-1/,C/I/U/U/U/U/U/U/U/,36,40
+girlscouts-data-StarDust,doinorder-d,REFERENCE,1/2/-1/-1/-1/3/-1/-1/-1/,1/2/7/6/-1/3/4/5/-1/,C/C/I/I/I/I/U/U/U/,78,91
+girlscouts-data-StarDust,doinorder-d,PUZZLE,1/2/7/6/-1/3/4/5/-1/,1/2/7/6/-1/3/4/5/-1/,C/C/I/I/I/C/C/I/U/,162,-1
+girlscouts-data-StarDust,doinorder-d,PUZZLE,1/2/7/6/-1/3/4/5/-1/,1/2/8/7/3/4/5/6/9/,C/C/I/I/I/C/C/I/U/,175,186
+girlscouts-data-StarDust,doinorder-d,PUZZLE,1/2/8/7/3/4/5/6/9/,1/2/8/7/3/4/5/6/9/,C/C/C/C/C/C/C/C/C/,222,241
+girlscouts-data-StarDust,doinorder-d,END,"    this.Witch.raise arms() /
+    do together / {
+      this.Cauldron.bubble() /
+      this.Troll.scared() /
+      do in order / {
+        this.Witch.roll(TypeExpression.LEFT, 0.125) /
+        this.Witch.roll(TypeExpression.RIGHT, 0.25) /
+        this.Witch.roll(TypeExpression.LEFT, 0.125) /
+      }
+    }
+    this.poodle.rise from cauldron() /",1,9,0,244
+girlscouts-data-StarDust,doinorder-p,REFERENCE,1/-1/-1/2/3/-1/-1/-1/-1/,1/2/3/4/5/6/7/8/9/,C/I/U/U/U/U/U/U/U/,46,52
+girlscouts-data-StarDust,doinorder-p,PUZZLE,1/2/3/4/5/6/7/8/9/,1/2/3/4/5/6/7/8/9/,C/C/C/C/C/C/C/C/C/,170,185
+girlscouts-data-StarDust,doinorder-p,END,"    this.manatee.say(Hey guys!!) /
+    this.dolphin.say(Ahhh!!) /
+    do together / {
+      do in order / {
+        this.pajamaFish.swim away from(this.shark) /
+        this.dolphin.swim away from(this.shark) /
+        this.clownFish.swim away from(this.shark) /
+        this.blueTang.swim away from(this.shark) /
+      }
+      this.shark.move(TypeExpression.FORWARD, 10.0) /
+    }",1,9,0,188
+girlscouts-data-StarDust,doinorder-o,PUZZLE,2/1/-1/3/-1/-1/-1/-1/-1/4/-1/-1/,1/2/-1/3/-1/-1/-1/-1/-1/4/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/U/,38,42
+girlscouts-data-StarDust,doinorder-o,PUZZLE,1/2/-1/3/-1/-1/-1/-1/-1/4/-1/-1/,1/3/-1/4/-1/2/-1/-1/-1/5/-1/-1/,C/C/C/I/I/U/U/U/U/U/U/U/,47,54
+girlscouts-data-StarDust,doinorder-o,REFERENCE,1/3/-1/4/-1/2/-1/-1/-1/5/-1/-1/,1/3/6/5/4/2/-1/-1/-1/7/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/,73,88
+girlscouts-data-StarDust,doinorder-o,REFERENCE,1/3/6/5/4/2/-1/-1/-1/7/-1/-1/,1/2/8/7/3/4/5/6/-1/9/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/,144,148
+girlscouts-data-StarDust,doinorder-o,PUZZLE,1/2/8/7/3/4/5/6/-1/9/-1/-1/,1/2/9/8/3/4/5/6/7/10/11/12/,C/C/C/C/C/C/I/C/C/U/U/U/,181,193
+girlscouts-data-StarDust,doinorder-o,PUZZLE,1/2/9/8/3/4/5/6/7/10/11/12/,1/2/9/8/3/4/5/6/7/10/11/12/,C/C/C/C/C/C/C/C/C/C/C/C/,214,230
+girlscouts-data-StarDust,doinorder-o,END,"    this.blueTang.turnToFace(this.clownFish) /
+    do together / {
+      this.shark.move(TypeExpression.FORWARD, 20.0) /
+      this.shark.turn(TypeExpression.LEFT, 0.05) /
+      do in order / {
+        this.clownFish.moveToward(this.blueTang, 2.0) /
+        this.clownFish.say(Where did you get all that gold?) /
+        this.blueTang.turnToFace(this.coinStack) /
+        this.blueTang.say(Internet) /
+      }
+    }
+    do together / {
+      this.shark.talk() /
+      this.shark.say(Have you guys seen my treasure?) /
+    }",5,12,0,251
+girlscouts-data-StarDust,doinorder-b,PUZZLE,1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/U/,21,-1
+girlscouts-data-StarDust,doinorder-b,REFERENCE,1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/3/7/4/5/6/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/U/,26,40
+girlscouts-data-StarDust,doinorder-b,PUZZLE,1/2/3/7/4/5/6/-1/-1/-1/-1/,1/2/3/7/4/5/6/8/9/-1/-1/,C/C/C/C/C/C/I/C/U/U/U/,75,87
+girlscouts-data-StarDust,doinorder-b,PUZZLE,1/2/3/7/4/5/6/8/9/-1/-1/,1/2/3/7/4/5/6/8/9/-1/-1/,C/C/C/C/C/C/I/C/U/U/U/,109,-1
+girlscouts-data-StarDust,doinorder-b,REFERENCE,1/2/3/7/4/5/6/8/9/-1/-1/,1/2/3/8/4/5/6/7/9/-1/-1/,C/C/C/C/C/C/I/C/U/U/U/,120,132
+girlscouts-data-StarDust,doinorder-b,PUZZLE,1/2/3/8/4/5/6/7/9/-1/-1/,1/2/3/9/4/5/6/7/8/-1/-1/,C/C/C/C/C/C/C/I/C/U/U/,147,156
+girlscouts-data-StarDust,doinorder-b,PUZZLE,1/2/3/9/4/5/6/7/8/-1/-1/,1/2/3/9/4/5/6/7/8/10/11/,C/C/C/C/C/C/C/C/C/I/U/,163,174
+girlscouts-data-StarDust,doinorder-b,PUZZLE,1/2/3/9/4/5/6/7/8/10/11/,1/2/3/9/4/5/6/7/8/10/11/,C/C/C/C/C/C/C/C/C/C/C/,183,197
+girlscouts-data-StarDust,doinorder-b,END,"    this.yeti.flap arms() /
+    this.penguin.jump() /
+    do together / {
+      this.floating ice.move towards(this.yeti) /
+      do in order / {
+        this.walrus.swim up from below() /
+        this.walrus.jump onto(this.floating ice) /
+        this.walrus.push off ice(this.penguin) /
+        this.penguin.flap and fall into water() /
+      }
+    }
+    this.walrus.turn(TypeExpression.LEFT, 0.5) /
+    this.yeti.jump back() /",6,11,0,204
+girlscouts-data-StarDust,doinorder-x,PUZZLE,1/-1/3/4/2/-1/-1/-1/-1/-1/6/5/,1/-1/3/4/2/-1/-1/-1/-1/-1/6/5/,C/C/C/C/I/I/U/U/U/U/U/U/,93,-1
+girlscouts-data-StarDust,doinorder-x,REFERENCE,1/-1/3/4/2/-1/-1/-1/-1/-1/6/5/,1/5/3/4/2/-1/-1/-1/-1/-1/7/6/,C/C/C/C/I/I/U/U/U/U/U/U/,106,112
+girlscouts-data-StarDust,doinorder-x,PUZZLE,1/5/3/4/2/-1/-1/-1/-1/-1/7/6/,1/5/3/4/2/6/7/8/-1/-1/10/9/,C/C/C/C/C/C/C/I/U/U/U/U/,128,136
+girlscouts-data-StarDust,doinorder-x,PUZZLE,1/5/3/4/2/6/7/8/-1/-1/10/9/,1/5/3/4/2/6/7/8/9/10/12/11/,C/C/C/C/C/C/C/C/I/C/C/U/,160,169
+girlscouts-data-StarDust,doinorder-x,PUZZLE,1/5/3/4/2/6/7/8/9/10/12/11/,1/5/3/4/2/6/7/8/9/10/12/11/,C/C/C/C/C/C/C/C/C/C/C/C/,181,193
+girlscouts-data-StarDust,doinorder-x,END,"    this.hippo.say(Let's practice again.) /
+    do together / {
+      this.hippo.raise arms() /
+      this.yeti.raise arms() /
+    }
+    do together / {
+      do in order / {
+        this.hippo.turn(TypeExpression.RIGHT, 1.0) /
+        this.yeti.turn(TypeExpression.RIGHT, 1.0) /
+        this.hippo.put legs forward() /
+        this.yeti.put legs forward() /
+      }
+      this.yeti.jump() /
+      this.hippo.jump() /
+    }",6,12,0,197
+girlscouts-data-StarDust,doinorder-y,PUZZLE,6/3/5/2/4/1/12/14/15/13/7/8/9/10/11/,6/3/5/2/4/1/12/14/15/13/7/8/9/10/11/,C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/,105,120
+girlscouts-data-StarDust,doinorder-y,END,"    do together / {
+      this.alien.say(Limbo!) /
+      this.marchHare.say(Limbo!) /
+      this.tortoise.say(Limbo!) /
+      this.goldenMonkey.say(Limbo!) /
+    }
+    do together / {
+      this.alien.walk(6.0) /
+      this.marchHare.walk(7.0) /
+      this.tortoise.walk(8.0) /
+      this.goldenMonkey.walk(9.0) /
+      do in order / {
+        this.alien.getSpineBase().turn(TypeExpression.BACKWARD, 0.2) /
+        this.marchHare.getSpineBase().turn(TypeExpression.BACKWARD, 0.25) /
+        this.tortoise.getSpineBase().turn(TypeExpression.BACKWARD, 0.2) /
+        this.goldenMonkey.getSpineBase().turn(TypeExpression.BACKWARD, 0.27) /
+      }
+    }",1,15,0,122
+girlscouts-data-StarDust,doinorder-r,PUZZLE,1/-1/3/5/4/6/-1/2/-1/-1/-1/-1/,1/-1/3/5/4/7/6/2/-1/-1/-1/-1/,C/C/C/I/U/C/U/U/U/U/U/U/,64,72
+girlscouts-data-StarDust,doinorder-r,PUZZLE,1/-1/3/5/4/7/6/2/-1/-1/-1/-1/,1/-1/3/5/4/6/7/2/-1/-1/-1/-1/,C/C/C/I/U/U/C/U/U/U/U/U/,87,96
+girlscouts-data-StarDust,doinorder-r,PUZZLE,1/-1/3/5/4/6/7/2/-1/-1/-1/-1/,1/-1/3/4/5/6/7/2/-1/-1/-1/-1/,C/C/C/I/U/C/U/U/U/U/U/U/,101,107
+girlscouts-data-StarDust,doinorder-r,PUZZLE,1/-1/3/4/5/6/7/2/-1/-1/-1/-1/,1/-1/3/4/5/6/7/2/-1/-1/-1/-1/,C/C/C/C/C/C/C/I/U/U/U/U/,118,128
+girlscouts-data-StarDust,doinorder-r,REFERENCE,1/-1/3/4/5/6/7/2/-1/-1/-1/-1/,1/8/3/4/5/6/7/2/10/11/9/12/,C/C/C/C/C/C/C/I/U/U/U/U/,131,141
+girlscouts-data-StarDust,doinorder-r,PUZZLE,1/8/3/4/5/6/7/2/10/11/9/12/,1/8/3/4/5/6/7/2/10/11/9/12/,C/C/C/C/C/C/C/C/C/C/C/C/,156,167
+girlscouts-data-StarDust,doinorder-r,END,"    this.ostrich.raise leg() /
+    do together / {
+      do in order / {
+        this.hare.move(TypeExpression.LEFT, 0.5) /
+        this.hare.walkTo(this.riverRock) /
+      }
+      this.ostrich.turn(TypeExpression.RIGHT, 4.0) /
+    }
+    this.ostrich.straightenOutJoints() /
+    do together / {
+      this.ostrich.getRightWingShoulder().turn(TypeExpression.BACKWARD, 0.125) /
+      this.ostrich.getLeftWingShoulder().turn(TypeExpression.BACKWARD, 0.125) /
+      this.ostrich.getNeck().turn(TypeExpression.FORWARD, 0.25) /
+    }
+    this.fence close() /",1,12,0,169
+girlscouts-data-StarDust,doinorder-s,PUZZLE,1/-1/2/4/-1/-1/3/-1/-1/,1/5/2/4/-1/-1/3/-1/-1/,C/C/I/U/I/U/U/U/U/,52,58
+girlscouts-data-StarDust,doinorder-s,PUZZLE,1/5/2/4/-1/-1/3/-1/-1/,1/9/2/6/7/8/3/4/5/,C/C/I/U/C/U/U/U/U/,91,95
+girlscouts-data-StarDust,doinorder-s,PUZZLE,1/9/2/6/7/8/3/4/5/,1/9/2/3/4/5/6/7/8/,C/C/I/U/U/U/U/U/C/,117,121
+girlscouts-data-StarDust,doinorder-s,PUZZLE,1/9/2/3/4/5/6/7/8/,1/9/2/3/4/5/6/7/8/,C/C/C/C/C/C/C/C/C/,138,149
+girlscouts-data-StarDust,doinorder-s,END,"    do together / {
+      this.yeti.walk(30.0) /
+      do in order / {
+        this.alien.say(Do you hear something?) /
+        this.hare.turnToFace(this.yeti) /
+        this.hare.say(YETI!!!!) /
+        do together / {
+          this.alien.run away from(this.yeti) /
+          this.hare.run away from(this.yeti) /
+        }
+      }
+    }",5,9,0,154

@@ -1,0 +1,796 @@
+codename,puzzle,action,current_index,next_index,correctness,start_time,closed_time
+compton-drew-data-MagicPotions,sequential-g,REFERENCE,-1/-1/-1/-1/-1/-1/,1/2/3/4/5/6/,I/U/U/U/U/U/,272,283
+compton-drew-data-MagicPotions,sequential-g,REFERENCE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,332,-1
+compton-drew-data-MagicPotions,sequential-g,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,347,359
+compton-drew-data-MagicPotions,sequential-g,END,"    this.blueTang.say(We can't let anyone find our treasure!) /
+    this.clownFish.turnToFace(this.shark) /
+    this.clownFish.think(Uh oh) /
+    this.clownFish.say(I think it's too late..) /
+    this.shark.getMouth().turn(TypeExpression.FORWARD, 0.125) /
+    this.shark.move(TypeExpression.FORWARD, 15.0) /",1,6,0,365
+compton-drew-data-MagicPotions,dotogether-b,REFERENCE,1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/,42,-1
+compton-drew-data-MagicPotions,dotogether-b,REFERENCE,1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/,53,-1
+compton-drew-data-MagicPotions,dotogether-b,REFERENCE,1/-1/-1/-1/-1/-1/,1/-1/2/3/4/5/,C/I/U/U/U/U/,55,63
+compton-drew-data-MagicPotions,dotogether-b,PUZZLE,1/-1/2/3/4/5/,1/-1/3/2/4/5/,C/I/U/U/U/U/,93,104
+compton-drew-data-MagicPotions,dotogether-b,PUZZLE,1/-1/3/2/4/5/,1/2/4/3/5/6/,C/I/U/U/U/U/,111,116
+compton-drew-data-MagicPotions,dotogether-b,PUZZLE,1/2/4/3/5/6/,1/2/4/3/5/6/,C/C/C/C/C/C/,125,134
+compton-drew-data-MagicPotions,dotogether-b,END,"    this.troll.say(Ahhhhhh) /
+    do together / {
+      this.troll.sneeze and raise arms() /
+      this.boat.move(TypeExpression.BACKWARD, 5.0) /
+    }
+    this.manatee.move(TypeExpression.UP, 0.5) /
+    this.manatee.say(Bless you!) /",2,6,0,139
+compton-drew-data-MagicPotions,dotogether-o,PUZZLE,1/3/2/5/4/6/,1/3/2/5/4/6/,C/I/U/U/U/U/,96,-1
+compton-drew-data-MagicPotions,dotogether-o,REFERENCE,1/3/2/5/4/6/,2/1/3/5/4/6/,C/I/U/U/U/U/,105,109
+compton-drew-data-MagicPotions,dotogether-o,PUZZLE,2/1/3/5/4/6/,1/2/3/5/4/6/,I/U/U/U/U/U/,122,126
+compton-drew-data-MagicPotions,dotogether-o,PUZZLE,1/2/3/5/4/6/,1/2/3/4/5/6/,C/C/C/I/I/U/,133,137
+compton-drew-data-MagicPotions,dotogether-o,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/I/U/,149,153
+compton-drew-data-MagicPotions,dotogether-o,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,157,164
+compton-drew-data-MagicPotions,dotogether-o,END,"    this.hare.getRightShoulder().turn(TypeExpression.RIGHT, 0.125) /
+    do together / {
+      this.hare.hit(this.volleyball) /
+      this.volleyball.fly away() /
+    }
+    this.hare.getHead().turn(TypeExpression.BACKWARD, 0.125) /
+    this.hare.say(Aww man..) /",2,6,0,166
+compton-drew-data-MagicPotions,dotogether-m,PUZZLE,2/-1/3/4/-1/1/-1/-1/,2/-1/3/4/-1/1/-1/-1/,I/U/U/U/U/U/U/U/,74,78
+compton-drew-data-MagicPotions,dotogether-m,PUZZLE,2/-1/3/4/-1/1/-1/-1/,2/-1/3/4/-1/1/-1/-1/,I/U/U/U/U/U/U/U/,83,-1
+compton-drew-data-MagicPotions,dotogether-m,REFERENCE,2/-1/3/4/-1/1/-1/-1/,1/6/3/4/5/2/8/7/,I/U/U/U/U/U/U/U/,88,94
+compton-drew-data-MagicPotions,dotogether-m,PUZZLE,1/6/3/4/5/2/8/7/,1/6/3/4/5/2/8/7/,C/C/C/C/C/C/C/C/,119,130
+compton-drew-data-MagicPotions,dotogether-m,END,"    this.hare.say(1...2...3...JUMP!) /
+    do together / {
+      this.pig.jump() /
+      this.hare.jump() /
+    }
+    this.caiman.snap jaws() /
+    do together / {
+      this.pig.say(UH OH!) /
+      this.hare.say(UH OH!) /
+    }",2,8,0,134
+compton-drew-data-MagicPotions,dotogether-e,PUZZLE,1/2/4/3/6/9/7/5/8/,1/2/4/3/7/9/8/5/6/,C/C/C/C/I/U/U/U/U/,67,77
+compton-drew-data-MagicPotions,dotogether-e,PUZZLE,1/2/4/3/7/9/8/5/6/,1/2/4/3/7/9/8/6/5/,C/C/C/C/I/U/U/U/U/,83,94
+compton-drew-data-MagicPotions,dotogether-e,PUZZLE,1/2/4/3/7/9/8/6/5/,1/2/4/3/5/9/8/7/6/,C/C/C/C/I/U/U/U/U/,99,107
+compton-drew-data-MagicPotions,dotogether-e,PUZZLE,1/2/4/3/5/9/8/7/6/,1/2/4/3/5/9/8/7/6/,C/C/C/C/C/C/C/I/I/,125,136
+compton-drew-data-MagicPotions,dotogether-e,REFERENCE,1/2/4/3/5/9/8/7/6/,1/2/4/3/5/9/8/7/6/,C/C/C/C/C/C/C/I/I/,145,-1
+compton-drew-data-MagicPotions,dotogether-e,REFERENCE,1/2/4/3/5/9/8/7/6/,1/2/4/3/6/9/8/5/7/,C/C/C/C/C/C/C/I/I/,210,221
+compton-drew-data-MagicPotions,dotogether-e,PUZZLE,1/2/4/3/6/9/8/5/7/,1/2/4/3/6/9/8/5/7/,C/C/C/C/I/U/U/U/U/,230,-1
+compton-drew-data-MagicPotions,dotogether-e,REFERENCE,1/2/4/3/6/9/8/5/7/,1/2/4/3/5/9/8/6/7/,C/C/C/C/I/U/U/U/U/,242,251
+compton-drew-data-MagicPotions,dotogether-e,PUZZLE,1/2/4/3/5/9/8/6/7/,1/2/4/3/5/9/8/6/7/,C/C/C/C/C/C/C/C/C/,276,286
+compton-drew-data-MagicPotions,dotogether-e,END,"    this.bush.rustle() /
+    do together / {
+      this.Witch.getHead().turn(TypeExpression.RIGHT, 0.125) /
+      this.Witch.say(What was that?) /
+    }
+    do together / {
+      this.Troll.legs shake() /
+      this.Troll.bend over() /
+      this.Troll.turn(TypeExpression.RIGHT, 0.5) /
+      this.Troll.think(This place is scary..) /
+    }",3,9,0,289
+compton-drew-data-MagicPotions,dotogether-c,PUZZLE,1/2/3/-1/-1/-1/-1/,1/2/3/-1/-1/-1/-1/,C/C/C/I/I/U/U/,96,-1
+compton-drew-data-MagicPotions,dotogether-c,REFERENCE,1/2/3/-1/-1/-1/-1/,1/2/3/4/5/6/7/,C/C/C/I/I/U/U/,102,109
+compton-drew-data-MagicPotions,dotogether-c,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/C/C/,134,145
+compton-drew-data-MagicPotions,dotogether-c,END,"    this.Troll.say(What's for dinner?) /
+    this.Witch.say(YOU!) /
+    do together / {
+      this.Troll.moveTo(this.Cauldron) /
+      this.Troll.raise arms and scream() /
+    }
+    this.Troll.turn(TypeExpression.RIGHT, 8.0) /
+    this.Troll.disappear() /",1,7,0,314
+compton-drew-data-MagicPotions,dotogether-f,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/3/-1/-1/,I/U/U/U/U/U/U/U/,14,26
+compton-drew-data-MagicPotions,dotogether-f,PUZZLE,1/2/-1/-1/-1/3/-1/-1/,1/2/-1/-1/-1/3/-1/-1/,C/C/I/I/I/U/U/U/,55,63
+compton-drew-data-MagicPotions,dotogether-f,REFERENCE,1/2/-1/-1/-1/3/-1/-1/,1/2/-1/-1/-1/3/-1/-1/,C/C/I/I/I/U/U/U/,68,-1
+compton-drew-data-MagicPotions,dotogether-f,REFERENCE,1/2/-1/-1/-1/3/-1/-1/,1/3/-1/2/-1/4/-1/-1/,C/C/I/I/I/U/U/U/,79,89
+compton-drew-data-MagicPotions,dotogether-f,REFERENCE,1/3/-1/2/-1/4/-1/-1/,1/3/-1/2/-1/4/-1/-1/,C/I/U/U/U/U/U/U/,102,-1
+compton-drew-data-MagicPotions,dotogether-f,REFERENCE,1/3/-1/2/-1/4/-1/-1/,1/5/4/3/2/6/7/8/,C/I/U/U/U/U/U/U/,113,118
+compton-drew-data-MagicPotions,dotogether-f,PUZZLE,1/5/4/3/2/6/7/8/,1/5/4/3/2/6/7/8/,C/C/C/C/C/C/C/I/,151,-1
+compton-drew-data-MagicPotions,dotogether-f,REFERENCE,1/5/4/3/2/6/7/8/,1/2/7/6/5/3/4/8/,C/C/C/C/C/C/C/I/,163,170
+compton-drew-data-MagicPotions,dotogether-f,PUZZLE,1/2/7/6/5/3/4/8/,1/6/4/3/2/5/7/8/,C/C/I/I/I/I/U/U/,215,220
+compton-drew-data-MagicPotions,dotogether-f,PUZZLE,1/6/4/3/2/5/7/8/,1/6/4/3/2/5/7/8/,C/C/C/C/I/U/U/U/,314,-1
+compton-drew-data-MagicPotions,dotogether-f,REFERENCE,1/6/4/3/2/5/7/8/,1/5/4/3/2/6/7/8/,C/C/C/C/I/U/U/U/,322,329
+compton-drew-data-MagicPotions,dotogether-f,PUZZLE,1/5/4/3/2/6/7/8/,1/5/4/3/2/6/7/8/,C/C/C/C/C/C/C/C/,334,341
+compton-drew-data-MagicPotions,dotogether-f,END,"    this.Witch.say(I will turn you to stone!) /
+    do together / {
+      this.Ogre.move(TypeExpression.DOWN, 0.375) /
+      this.Ogre.bend knees() /
+    }
+    do together / {
+      this.Witch.cast spell() /
+      this.Ogre.getRightShoulder().turn(TypeExpression.LEFT, 0.25) /
+      this.Ogre.setPaint(InstanceCreation) /
+    }",3,8,0,345
+compton-drew-data-MagicPotions,dotogether-l,REFERENCE,-1/-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/,17,-1
+compton-drew-data-MagicPotions,dotogether-l,REFERENCE,-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/,32,42
+compton-drew-data-MagicPotions,dotogether-l,REFERENCE,1/2/-1/-1/-1/-1/-1/,1/2/3/6/5/4/7/,C/C/I/U/U/U/U/,57,66
+compton-drew-data-MagicPotions,dotogether-l,PUZZLE,1/2/3/6/5/4/7/,1/2/3/6/4/5/7/,C/C/C/C/C/I/U/,99,109
+compton-drew-data-MagicPotions,dotogether-l,PUZZLE,1/2/3/6/4/5/7/,1/2/3/6/4/5/7/,C/C/C/C/C/C/C/,159,168
+compton-drew-data-MagicPotions,dotogether-l,END,"    this.cheshireCat.say(Okay Alice, your turn now.) /
+    this.alice.move(TypeExpression.BACKWARD, 1.0) /
+    do together / {
+      this.alice.move legs() /
+      this.alice.move(TypeExpression.UP, 1.0) /
+      this.alice.moveToward(this.cheshireCat, 3.0) /
+    }
+    this.alice.say(I'm stuck!) /",1,7,0,171
+compton-drew-data-MagicPotions,dotogether-j,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/6/9/3/-1/5/2/8/7/4/10/,C/I/U/U/U/U/U/U/U/U/U/,37,54
+compton-drew-data-MagicPotions,dotogether-j,REFERENCE,1/6/9/3/-1/5/2/8/7/4/10/,1/7/10/3/5/6/2/9/8/4/11/,C/C/C/C/I/U/U/U/U/U/U/,108,118
+compton-drew-data-MagicPotions,dotogether-j,PUZZLE,1/7/10/3/5/6/2/9/8/4/11/,1/7/10/3/5/6/2/9/8/4/11/,C/C/C/C/C/C/C/C/C/C/C/,123,138
+compton-drew-data-MagicPotions,dotogether-j,END,"    this.fox.jump out of snow() /
+    do together / {
+      this.snow man.skate around() /
+      this.snow gal.skate around() /
+    }
+    this.fox.wag tail() /
+    this.fox.jump on(this.snow man) /
+    do together / {
+      this.snow gal.twirl around() /
+      this.snow gal.raise up and lower down() /
+      this.snow man.skate around() /
+    }
+    this.fox.dive into snow() /",3,11,0,141
+compton-drew-data-MagicPotions,dotogether-g,REFERENCE,6/3/2/-1/4/5/1/-1/-1/,7/3/2/1/5/6/4/8/9/,C/C/C/I/I/U/U/U/U/,104,112
+compton-drew-data-MagicPotions,dotogether-g,PUZZLE,7/3/2/1/5/6/4/8/9/,7/3/2/1/5/6/4/8/9/,C/C/C/C/C/C/C/C/C/,152,156
+compton-drew-data-MagicPotions,dotogether-g,END,"    do together / {
+      this.yeti.getRightShoulder().turn(TypeExpression.LEFT, 0.375) /
+      this.yeti.getLeftShoulder().turn(TypeExpression.RIGHT, 0.375) /
+    }
+    do together / {
+      this.yeti.getMouth().turn(TypeExpression.FORWARD, 0.25) /
+      this.yeti.resize(1.5) /
+    }
+    do together / {
+      this.babyYeti.getMouth().turn(TypeExpression.FORWARD, 0.25) /
+      this.babyYeti.raise arms() /
+    }",1,9,0,159
+compton-drew-data-MagicPotions,dotogether-h,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/U/,47,-1
+compton-drew-data-MagicPotions,dotogether-h,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/U/,53,61
+compton-drew-data-MagicPotions,dotogether-h,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/2/-1/3/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/,75,83
+compton-drew-data-MagicPotions,dotogether-h,PUZZLE,1/-1/2/-1/3/-1/-1/-1/-1/-1/-1/-1/,1/-1/4/3/5/-1/-1/-1/2/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/,106,109
+compton-drew-data-MagicPotions,dotogether-h,PUZZLE,1/-1/4/3/5/-1/-1/-1/2/-1/-1/-1/,1/6/4/3/5/-1/-1/-1/2/7/9/8/,C/C/C/C/C/I/U/U/U/U/U/U/,126,132
+compton-drew-data-MagicPotions,dotogether-h,PUZZLE,1/6/4/3/5/-1/-1/-1/2/7/9/8/,1/9/4/3/5/6/7/8/2/10/12/11/,C/C/C/C/C/C/I/I/I/I/I/U/,187,195
+compton-drew-data-MagicPotions,dotogether-h,PUZZLE,1/9/4/3/5/6/7/8/2/10/12/11/,1/9/4/3/5/6/7/8/2/10/12/11/,C/C/C/C/C/C/C/C/C/C/C/C/,218,227
+compton-drew-data-MagicPotions,dotogether-h,END,"    this.bunny.bend forward() /
+    do together / {
+      this.bunny.jump() /
+      this.bunny.move(TypeExpression.FORWARD, 1.0) /
+    }
+    this.bunny.disappear() /
+    do together / {
+      this.hat.turn(TypeExpression.RIGHT, 2.0) /
+      this.hat.move(TypeExpression.DOWN, 1.0) /
+    }
+    do together / {
+      this.bunny.appear() /
+      this.bunny.raise arms() /
+      this.bunny.turn(TypeExpression.RIGHT, 2.25) /
+    }",2,12,0,230
+compton-drew-data-MagicPotions,repeat-gg,REFERENCE,1/2/-1/-1/-1/-1/-1/,1/2/3/4/5/6/7/,C/C/I/U/U/U/U/,60,74
+compton-drew-data-MagicPotions,repeat-gg,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/C/C/,98,113
+compton-drew-data-MagicPotions,repeat-gg,END,"    this.mandril.scare ostrich() /
+    this.ostrichBaby.say(AAAHHHHH!!!!) /
+    count 5 / {
+      this.ostrichBaby.run(3, 0.08) /
+      GlobalFirstInstanceExpression.scene.ostrichBaby.turn(TypeExpression.RIGHT, 0.5) /
+    }
+    this.ostrichBaby.think(I guess this is the end; there's no escape!) /
+    this.fade to black() /",1,7,0,117
+compton-drew-data-MagicPotions,repeat-e,REFERENCE,1/-1/-1/-1/-1/-1/-1/,1/2/3/4/7/5/6/,C/I/U/U/U/U/U/,47,58
+compton-drew-data-MagicPotions,repeat-e,PUZZLE,1/2/3/4/7/5/6/,1/2/3/4/5/6/7/,C/C/C/C/I/U/U/,82,95
+compton-drew-data-MagicPotions,repeat-e,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/C/C/,102,111
+compton-drew-data-MagicPotions,repeat-e,END,"    this.curupira.walk(2.0) /
+    this.curupira.getNeck().turn(TypeExpression.FORWARD, 0.125) /
+    this.curupira.think(Uh oh.) /
+    this.curupira.move(TypeExpression.DOWN, 4.0) /
+    this.mapinguari.place hands on belly() /
+    count 3 / {
+      this.mapinguari.laugh() /
+    }",2,7,0,114
+compton-drew-data-MagicPotions,repeat-f,PUZZLE,2/4/1/5/3/,2/4/1/5/3/,I/U/U/U/U/,48,51
+compton-drew-data-MagicPotions,repeat-f,REFERENCE,2/4/1/5/3/,2/4/1/5/3/,I/U/U/U/U/,54,65
+compton-drew-data-MagicPotions,repeat-f,REFERENCE,2/4/1/5/3/,2/4/1/5/3/,I/U/U/U/U/,73,-1
+compton-drew-data-MagicPotions,repeat-f,PUZZLE,2/4/1/5/3/,2/4/1/5/3/,I/U/U/U/U/,87,-1
+compton-drew-data-MagicPotions,repeat-f,REFERENCE,2/4/1/5/3/,1/-1/2/3/-1/,I/U/U/U/U/,90,95
+compton-drew-data-MagicPotions,repeat-f,PUZZLE,1/-1/2/3/-1/,1/-1/2/3/-1/,C/I/U/U/U/,133,-1
+compton-drew-data-MagicPotions,repeat-f,REFERENCE,1/-1/2/3/-1/,1/-1/2/3/-1/,C/I/U/U/U/,139,-1
+compton-drew-data-MagicPotions,repeat-f,PUZZLE,1/-1/2/3/-1/,1/-1/2/3/-1/,C/I/U/U/U/,142,-1
+compton-drew-data-MagicPotions,repeat-f,REFERENCE,1/-1/2/3/-1/,1/5/2/3/4/,C/I/U/U/U/,147,152
+compton-drew-data-MagicPotions,repeat-f,PUZZLE,1/5/2/3/4/,1/3/2/4/5/,C/I/U/U/U/,171,175
+compton-drew-data-MagicPotions,repeat-f,PUZZLE,1/3/2/4/5/,1/4/2/3/5/,C/I/U/U/U/,181,186
+compton-drew-data-MagicPotions,repeat-f,PUZZLE,1/4/2/3/5/,2/4/1/3/5/,C/I/U/U/U/,190,194
+compton-drew-data-MagicPotions,repeat-f,PUZZLE,2/4/1/3/5/,1/3/2/4/5/,I/U/U/U/U/,198,201
+compton-drew-data-MagicPotions,repeat-f,PUZZLE,1/3/2/4/5/,1/3/2/4/5/,C/I/U/U/U/,228,-1
+compton-drew-data-MagicPotions,repeat-f,REFERENCE,1/3/2/4/5/,1/3/2/5/4/,C/I/U/U/U/,235,247
+compton-drew-data-MagicPotions,repeat-f,PUZZLE,1/3/2/5/4/,1/2/3/5/4/,C/I/U/U/U/,253,257
+compton-drew-data-MagicPotions,repeat-f,PUZZLE,1/2/3/5/4/,1/2/3/5/4/,C/C/C/I/U/,262,-1
+compton-drew-data-MagicPotions,repeat-f,REFERENCE,1/2/3/5/4/,1/2/3/5/4/,C/C/C/I/U/,270,-1
+compton-drew-data-MagicPotions,repeat-f,PUZZLE,1/2/3/5/4/,1/2/3/4/5/,C/C/C/I/U/,281,288
+compton-drew-data-MagicPotions,repeat-f,PUZZLE,1/2/3/4/5/,1/2/3/4/5/,C/C/C/C/C/,292,300
+compton-drew-data-MagicPotions,repeat-f,END,"    this.Gray Rhino.getNeck().turn(TypeExpression.FORWARD, 0.0625) /
+    this.White Rhino.getNeck().turn(TypeExpression.FORWARD, 0.0625) /
+    count 2 / {
+      this.White Rhino.drink water() /
+      this.Gray Rhino.drink water() /
+    }",3,5,0,303
+compton-drew-data-MagicPotions,repeat-m,REFERENCE,1/2/3/4/-1/-1/-1/,1/2/3/4/5/6/7/,C/C/C/C/I/U/U/,32,46
+compton-drew-data-MagicPotions,repeat-m,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/C/C/,60,68
+compton-drew-data-MagicPotions,repeat-m,END,"    this.alien.walk(0.5) /
+    count 2 / {
+      this.alien.kick() /
+      this.flying saucer.shake() /
+    }
+    this.flying saucer.fly above(this.alien) /
+    this.flying saucer.beam up(this.alien) /
+    this.flying saucer.fly away() /",1,7,0,71
+compton-drew-data-MagicPotions,repeat-g,REFERENCE,-1/-1/-1/-1/-1/-1/,5/1/2/3/4/-1/,I/U/U/U/U/U/,18,27
+compton-drew-data-MagicPotions,repeat-g,REFERENCE,5/1/2/3/4/-1/,1/2/3/4/5/6/,I/U/U/U/U/U/,49,55
+compton-drew-data-MagicPotions,repeat-g,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,64,72
+compton-drew-data-MagicPotions,repeat-g,END,"    this.Baby Yeti.raise arms() /
+    count 2 / {
+      this.Baby Yeti.turn(TypeExpression.LEFT, 0.125) /
+      this.Baby Yeti.turn(TypeExpression.RIGHT, 0.125) /
+    }
+    count 3 / {
+      this.Baby Yeti.jump and spin() /
+    }",2,6,0,75
+compton-drew-data-MagicPotions,repeat-cc,PUZZLE,1/2/4/5/3/6/,1/2/4/5/3/6/,C/C/I/U/U/U/,44,-1
+compton-drew-data-MagicPotions,repeat-cc,REFERENCE,1/2/4/5/3/6/,1/2/4/5/3/6/,C/C/I/U/U/U/,52,59
+compton-drew-data-MagicPotions,repeat-cc,PUZZLE,1/2/4/5/3/6/,1/2/3/4/5/6/,C/C/I/U/U/U/,74,78
+compton-drew-data-MagicPotions,repeat-cc,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,92,106
+compton-drew-data-MagicPotions,repeat-cc,END,"    this.alien.say(It's time to dance!) /
+    count 3 / {
+      this.alien.slide to the left() /
+      this.alien.slide to the right() /
+      count 2 / {
+        this.alien.criss cross legs() /
+      }
+    }",2,6,0,115
+compton-drew-data-MagicPotions,repeat-dd,PUZZLE,-1/1/-1/-1/-1/-1/-1/-1/-1/,-1/1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/,44,-1
+compton-drew-data-MagicPotions,repeat-dd,REFERENCE,-1/1/-1/-1/-1/-1/-1/-1/-1/,-1/2/-1/1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/,48,65
+compton-drew-data-MagicPotions,repeat-dd,PUZZLE,-1/2/-1/1/-1/-1/-1/-1/-1/,1/2/3/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/,73,77
+compton-drew-data-MagicPotions,repeat-dd,PUZZLE,1/2/3/-1/-1/-1/-1/-1/-1/,1/2/3/-1/4/6/5/7/8/,C/C/C/I/U/U/U/U/U/,93,98
+compton-drew-data-MagicPotions,repeat-dd,PUZZLE,1/2/3/-1/4/6/5/7/8/,1/2/3/-1/4/6/5/7/8/,C/C/C/I/U/U/U/U/U/,141,149
+compton-drew-data-MagicPotions,repeat-dd,REFERENCE,1/2/3/-1/4/6/5/7/8/,1/2/3/-1/4/6/5/7/8/,C/C/C/I/U/U/U/U/U/,159,-1
+compton-drew-data-MagicPotions,repeat-dd,PUZZLE,1/2/3/-1/4/6/5/7/8/,1/2/3/4/5/7/6/8/9/,C/C/C/I/U/U/U/U/U/,213,218
+compton-drew-data-MagicPotions,repeat-dd,PUZZLE,1/2/3/4/5/7/6/8/9/,1/2/3/4/5/6/7/8/9/,C/C/C/C/C/I/U/U/U/,223,234
+compton-drew-data-MagicPotions,repeat-dd,PUZZLE,1/2/3/4/5/6/7/8/9/,1/2/3/4/5/6/7/9/8/,C/C/C/C/C/C/C/I/U/,254,267
+compton-drew-data-MagicPotions,repeat-dd,PUZZLE,1/2/3/4/5/6/7/9/8/,1/2/3/4/5/8/6/7/9/,C/C/C/C/C/C/C/I/U/,279,289
+compton-drew-data-MagicPotions,repeat-dd,PUZZLE,1/2/3/4/5/8/6/7/9/,1/2/3/4/5/7/6/8/9/,C/C/C/C/C/I/U/U/U/,301,311
+compton-drew-data-MagicPotions,repeat-dd,PUZZLE,1/2/3/4/5/7/6/8/9/,1/2/3/4/5/7/6/8/9/,C/C/C/C/C/I/U/U/U/,319,327
+compton-drew-data-MagicPotions,repeat-dd,PUZZLE,1/2/3/4/5/7/6/8/9/,1/2/3/4/5/7/6/8/9/,C/C/C/C/C/I/U/U/U/,337,344
+compton-drew-data-MagicPotions,repeat-dd,REFERENCE,1/2/3/4/5/7/6/8/9/,1/2/3/4/5/7/6/8/9/,C/C/C/C/C/I/U/U/U/,352,-1
+compton-drew-data-MagicPotions,repeat-dd,PUZZLE,1/2/3/4/5/7/6/8/9/,1/2/3/4/5/7/6/8/9/,C/C/C/C/C/I/U/U/U/,366,-1
+compton-drew-data-MagicPotions,repeat-dd,REFERENCE,1/2/3/4/5/7/6/8/9/,1/2/3/4/5/7/6/8/9/,C/C/C/C/C/I/U/U/U/,373,-1
+compton-drew-data-MagicPotions,repeat-dd,PUZZLE,1/2/3/4/5/7/6/8/9/,1/2/3/4/5/7/6/8/9/,C/C/C/C/C/I/U/U/U/,383,-1
+compton-drew-data-MagicPotions,repeat-dd,REFERENCE,1/2/3/4/5/7/6/8/9/,1/2/3/4/5/7/6/8/9/,C/C/C/C/C/I/U/U/U/,390,411
+compton-drew-data-MagicPotions,repeat-dd,PUZZLE,1/2/3/4/5/7/6/8/9/,1/2/3/4/5/8/9/6/7/,C/C/C/C/C/I/U/U/U/,451,459
+compton-drew-data-MagicPotions,repeat-dd,PUZZLE,1/2/3/4/5/8/9/6/7/,1/2/3/4/5/7/6/8/9/,C/C/C/C/C/I/U/U/U/,474,481
+compton-drew-data-MagicPotions,repeat-dd,PUZZLE,1/2/3/4/5/7/6/8/9/,1/2/3/4/5/7/6/8/9/,C/C/C/C/C/I/U/U/U/,489,507
+compton-drew-data-MagicPotions,repeat-dd,PUZZLE,1/2/3/4/5/7/6/8/9/,1/2/3/4/6/7/5/8/9/,C/C/C/C/C/I/U/U/U/,716,752
+compton-drew-data-MagicPotions,repeat-dd,PUZZLE,1/2/3/4/6/7/5/8/9/,1/2/3/4/5/7/6/8/9/,C/C/C/C/I/U/U/U/U/,763,785
+compton-drew-data-MagicPotions,repeat-dd,PUZZLE,1/2/3/4/5/7/6/8/9/,1/2/3/4/5/7/6/8/9/,C/C/C/C/C/I/U/U/U/,796,814
+compton-drew-data-MagicPotions,repeat-dd,PUZZLE,1/2/3/4/5/7/6/8/9/,1/2/3/4/5/6/7/8/9/,C/C/C/C/C/I/U/U/U/,898,908
+compton-drew-data-MagicPotions,repeat-dd,PUZZLE,1/2/3/4/5/6/7/8/9/,1/2/3/4/5/6/7/8/9/,C/C/C/C/C/C/C/C/C/,920,947
+compton-drew-data-MagicPotions,repeat-dd,PUZZLE,1/2/3/4/5/6/7/8/9/,1/2/3/4/5/6/7/8/9/,C/C/C/C/C/C/C/C/C/,1077,1096
+compton-drew-data-MagicPotions,repeat-dd,END,"    this.hare.say(Ready....Set...) /
+    this.hare.raise arm() /
+    this.hare.say(GO!!) /
+    this.hare.getRightShoulder().turn(TypeExpression.RIGHT, 0.35) /
+    count 2 / {
+      count 2 / {
+        this.rhinos paw ground() /
+      }
+      this.rhinos charge() /
+      this.rhinos turn around() /
+    }",7,9,0,1102
+compton-drew-data-MagicPotions,repeat-hh,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/2/3/4/5/-1/6/7/,I/U/U/U/U/U/U/U/U/,46,55
+compton-drew-data-MagicPotions,repeat-hh,PUZZLE,1/-1/2/3/4/5/-1/6/7/,1/-1/2/3/4/5/-1/6/7/,C/I/U/U/U/U/U/U/U/,139,143
+compton-drew-data-MagicPotions,repeat-hh,REFERENCE,1/-1/2/3/4/5/-1/6/7/,1/-1/2/3/4/5/-1/6/7/,C/I/U/U/U/U/U/U/U/,154,168
+compton-drew-data-MagicPotions,repeat-hh,PUZZLE,1/-1/2/3/4/5/-1/6/7/,1/-1/2/3/4/5/-1/6/7/,C/I/U/U/U/U/U/U/U/,180,-1
+compton-drew-data-MagicPotions,repeat-hh,REFERENCE,1/-1/2/3/4/5/-1/6/7/,1/-1/2/3/4/5/-1/6/7/,C/I/U/U/U/U/U/U/U/,189,-1
+compton-drew-data-MagicPotions,repeat-hh,PUZZLE,1/-1/2/3/4/5/-1/6/7/,1/-1/2/3/4/5/-1/6/7/,C/I/U/U/U/U/U/U/U/,194,-1
+compton-drew-data-MagicPotions,repeat-hh,REFERENCE,1/-1/2/3/4/5/-1/6/7/,1/-1/2/3/4/5/-1/6/7/,C/I/U/U/U/U/U/U/U/,199,-1
+compton-drew-data-MagicPotions,repeat-hh,PUZZLE,1/-1/2/3/4/5/-1/6/7/,1/-1/2/3/4/5/-1/6/7/,C/I/U/U/U/U/U/U/U/,205,225
+compton-drew-data-MagicPotions,repeat-hh,PUZZLE,1/-1/2/3/4/5/-1/6/7/,1/3/2/4/5/6/7/8/9/,C/I/U/U/U/U/U/U/U/,235,239
+compton-drew-data-MagicPotions,repeat-hh,PUZZLE,1/3/2/4/5/6/7/8/9/,1/3/2/4/5/6/7/8/9/,C/I/U/U/U/U/U/U/U/,254,257
+compton-drew-data-MagicPotions,repeat-hh,PUZZLE,1/3/2/4/5/6/7/8/9/,1/3/2/4/5/6/7/8/9/,C/I/U/U/U/U/U/U/U/,262,-1
+compton-drew-data-MagicPotions,repeat-hh,REFERENCE,1/3/2/4/5/6/7/8/9/,1/3/2/4/5/6/7/8/9/,C/I/U/U/U/U/U/U/U/,268,-1
+compton-drew-data-MagicPotions,repeat-hh,PUZZLE,1/3/2/4/5/6/7/8/9/,1/3/2/4/5/6/8/7/9/,C/I/U/U/U/U/U/U/U/,278,291
+compton-drew-data-MagicPotions,repeat-hh,PUZZLE,1/3/2/4/5/6/8/7/9/,1/2/4/3/5/6/8/7/9/,C/I/U/U/U/U/U/U/U/,306,309
+compton-drew-data-MagicPotions,repeat-hh,PUZZLE,1/2/4/3/5/6/8/7/9/,1/2/3/4/5/6/7/8/9/,C/C/I/U/U/U/U/U/U/,317,330
+compton-drew-data-MagicPotions,repeat-hh,PUZZLE,1/2/3/4/5/6/7/8/9/,1/2/3/4/5/6/7/8/9/,C/C/C/C/C/C/C/I/U/,347,353
+compton-drew-data-MagicPotions,repeat-hh,PUZZLE,1/2/3/4/5/6/7/8/9/,1/2/3/4/5/6/7/8/9/,C/C/C/C/C/C/C/C/C/,360,372
+compton-drew-data-MagicPotions,repeat-hh,END,"    this.witch.turn(TypeExpression.RIGHT, 0.125) /
+    Comment /
+    this.witch.raise arms() /
+    count 2 / {
+      this.magicStaff.move up and down() /
+      count 3 / {
+        Comment /
+        this.cauldron.spin() /
+      }
+    }
+    this.cauldron.explode() /",4,9,0,374
+compton-drew-data-MagicPotions,repeat-ff,REFERENCE,1/4/2/3/5/6/,1/4/2/3/5/6/,C/I/U/U/U/U/,59,-1
+compton-drew-data-MagicPotions,repeat-ff,PUZZLE,1/4/2/3/5/6/,1/3/2/4/5/6/,C/I/U/U/U/U/,72,77
+compton-drew-data-MagicPotions,repeat-ff,PUZZLE,1/3/2/4/5/6/,1/3/2/4/5/6/,C/I/U/U/U/U/,85,89
+compton-drew-data-MagicPotions,repeat-ff,PUZZLE,1/3/2/4/5/6/,1/4/2/3/5/6/,C/I/U/U/U/U/,101,106
+compton-drew-data-MagicPotions,repeat-ff,PUZZLE,1/4/2/3/5/6/,1/4/2/3/5/6/,C/I/U/U/U/U/,119,-1
+compton-drew-data-MagicPotions,repeat-ff,REFERENCE,1/4/2/3/5/6/,1/4/2/3/5/6/,C/I/U/U/U/U/,121,-1
+compton-drew-data-MagicPotions,repeat-ff,PUZZLE,1/4/2/3/5/6/,1/3/2/5/4/6/,C/I/U/U/U/U/,130,134
+compton-drew-data-MagicPotions,repeat-ff,PUZZLE,1/3/2/5/4/6/,1/2/3/4/5/6/,C/I/U/U/U/U/,140,143
+compton-drew-data-MagicPotions,repeat-ff,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,156,165
+compton-drew-data-MagicPotions,repeat-ff,END,"    this.phoenix.say(I can do this, I know I can!) /
+    count 5 / {
+      count 3 / {
+        this.phoenix.flap wings(0.125) /
+      }
+      this.phoenix.glide() /
+    }
+    this.phoenix.land on rock() /",4,6,0,168
+compton-drew-data-MagicPotions,repeat-o,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/3/5/4/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/,51,60
+compton-drew-data-MagicPotions,repeat-o,REFERENCE,1/2/3/5/4/-1/-1/-1/-1/-1/-1/,1/2/3/5/4/6/7/8/9/11/10/,C/C/C/C/C/I/U/U/U/U/U/,76,90
+compton-drew-data-MagicPotions,repeat-o,PUZZLE,1/2/3/5/4/6/7/8/9/11/10/,1/2/3/5/4/6/7/8/9/11/10/,C/C/C/C/C/C/C/C/C/C/C/,114,122
+compton-drew-data-MagicPotions,repeat-o,END,"    this.troll.say(I have a bad feeling) /
+    count 2 / {
+      do together / {
+        this.cauldron.shake() /
+        this.lid.shoot up and down() /
+      }
+    }
+    this.witch.say(?) /
+    this.witch.move(TypeExpression.FORWARD, 0.5) /
+    this.cauldron.shrink and disappear() /
+    do together / {
+      this.troll.jump back() /
+      this.witch.jump back() /
+    }",1,11,0,127
+compton-drew-data-MagicPotions,repeat-n,REFERENCE,1/-1/-1/-1/-1/-1/-1/2/-1/-1/,1/-1/3/4/5/-1/-1/2/-1/-1/,C/C/I/I/U/U/U/U/U/U/,29,36
+compton-drew-data-MagicPotions,repeat-n,PUZZLE,1/-1/3/4/5/-1/-1/2/-1/-1/,1/-1/3/4/5/-1/-1/2/-1/-1/,C/C/C/C/I/U/U/U/U/U/,62,68
+compton-drew-data-MagicPotions,repeat-n,PUZZLE,1/-1/3/4/5/-1/-1/2/-1/-1/,1/8/3/4/5/7/6/2/10/9/,C/C/C/C/C/I/U/U/U/U/,73,81
+compton-drew-data-MagicPotions,repeat-n,PUZZLE,1/8/3/4/5/7/6/2/10/9/,1/8/3/4/5/6/7/2/10/9/,C/C/C/C/C/I/U/U/U/U/,99,109
+compton-drew-data-MagicPotions,repeat-n,PUZZLE,1/8/3/4/5/6/7/2/10/9/,1/8/3/4/5/6/7/2/10/9/,C/C/C/C/C/C/C/C/C/C/,113,122
+compton-drew-data-MagicPotions,repeat-n,END,"    count 2 / {
+      do together / {
+        this.big yeti.swing hammer() /
+        this.tiny yeti.lean back() /
+      }
+      this.tiny yeti.shrink() /
+    }
+    this.big yeti.drop hammer() /
+    this.tiny yeti.jump and grow(2.0) /
+    do together / {
+      this.tiny yeti.take a bow() /
+      this.big yeti.take a bow() /
+    }",2,10,0,125
+compton-drew-data-MagicPotions,repeat-x,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/3/4/5/6/7/8/10/9/11/12/,I/U/U/U/U/U/U/U/U/U/U/U/,18,34
+compton-drew-data-MagicPotions,repeat-x,PUZZLE,1/2/3/4/5/6/7/8/10/9/11/12/,1/2/3/4/5/6/7/8/10/9/11/12/,C/C/C/C/C/C/C/C/C/C/C/C/,101,110
+compton-drew-data-MagicPotions,repeat-x,END,"    this.alienRobot.land on ground() /
+    this.alien.turnToFace(this.alienRobot) /
+    do together / {
+      this.alien.say(Yay, you're home!) /
+      count 3 / {
+        this.alienRobot.jump() /
+      }
+    }
+    this.alien.think(Hmmm I wish I could make you bigger...) /
+    do together / {
+      this.alien.cast alien magic() /
+      this.alien.say(Abbbbra Ka-Da-Bra) /
+    }
+    this.alienRobot.resize(3.0) /
+    this.alienRobot.face camera() /",1,12,0,112
+compton-drew-data-MagicPotions,repeat-w,PUZZLE,1/3/2/5/4/,1/4/2/3/5/,C/I/U/U/U/,40,44
+compton-drew-data-MagicPotions,repeat-w,PUZZLE,1/4/2/3/5/,1/4/2/3/5/,C/I/U/U/U/,51,-1
+compton-drew-data-MagicPotions,repeat-w,REFERENCE,1/4/2/3/5/,1/2/3/4/5/,C/I/U/U/U/,57,63
+compton-drew-data-MagicPotions,repeat-w,PUZZLE,1/2/3/4/5/,1/2/3/4/5/,C/C/C/C/I/,72,78
+compton-drew-data-MagicPotions,repeat-w,PUZZLE,1/2/3/4/5/,1/2/3/4/5/,C/C/C/C/C/,88,97
+compton-drew-data-MagicPotions,repeat-w,END,"    this.hare.pick up(this.basketball) /
+    do together / {
+      count 10 / {
+        this.hare.dribble ball once(this.basketball) /
+      }
+      this.hare.walk(2.0) /
+    }",3,5,0,100
+compton-drew-data-MagicPotions,repeat-p,PUZZLE,6/2/3/4/5/1/8/7/9/10/11/,6/2/3/4/5/1/8/7/9/10/11/,C/C/C/C/C/C/C/C/C/C/C/,119,129
+compton-drew-data-MagicPotions,repeat-p,END,"    do together / {
+      this.shark.move(TypeExpression.FORWARD, 25.0) /
+      count 4 / {
+        this.fish.swim forward() /
+        this.fish.turn around() /
+      }
+    }
+    do together / {
+      this.fish.turnToFace(this.shark) /
+      this.shark.turnToFace(this.fish) /
+    }
+    this.shark.open mouth() /
+    this.shark.moveTo(this.fish) /
+    this.shark.close mouth() /",1,11,0,134
+compton-drew-data-MagicPotions,repeat-r,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/3/4/6/5/7/8/10/9/,I/U/U/U/U/U/U/U/U/U/,19,39
+compton-drew-data-MagicPotions,repeat-r,PUZZLE,1/2/3/4/6/5/7/8/10/9/,1/2/3/4/5/6/7/8/10/9/,C/C/C/C/I/I/U/U/U/U/,118,123
+compton-drew-data-MagicPotions,repeat-r,PUZZLE,1/2/3/4/5/6/7/8/10/9/,1/3/2/4/5/6/7/8/10/9/,C/C/C/C/I/I/U/U/U/U/,149,154
+compton-drew-data-MagicPotions,repeat-r,PUZZLE,1/3/2/4/5/6/7/8/10/9/,1/3/2/4/-1/5/6/7/9/8/,C/I/U/U/U/U/U/U/U/U/,171,178
+compton-drew-data-MagicPotions,repeat-r,PUZZLE,1/3/2/4/-1/5/6/7/9/8/,1/3/2/4/-1/5/6/7/9/8/,C/I/U/U/U/U/U/U/U/U/,188,-1
+compton-drew-data-MagicPotions,repeat-r,REFERENCE,1/3/2/4/-1/5/6/7/9/8/,1/-1/2/3/-1/4/5/6/8/7/,C/I/U/U/U/U/U/U/U/U/,192,199
+compton-drew-data-MagicPotions,repeat-r,PUZZLE,1/-1/2/3/-1/4/5/6/8/7/,1/3/2/4/5/6/7/8/10/9/,C/I/U/U/U/U/U/U/U/U/,225,229
+compton-drew-data-MagicPotions,repeat-r,PUZZLE,1/3/2/4/5/6/7/8/10/9/,1/4/2/3/5/6/7/8/10/9/,C/I/U/U/U/U/U/U/U/U/,241,247
+compton-drew-data-MagicPotions,repeat-r,PUZZLE,1/4/2/3/5/6/7/8/10/9/,1/4/2/3/5/6/7/8/10/9/,C/I/U/U/U/U/U/U/U/U/,278,-1
+compton-drew-data-MagicPotions,repeat-r,REFERENCE,1/4/2/3/5/6/7/8/10/9/,1/4/2/3/5/6/7/8/10/9/,C/I/U/U/U/U/U/U/U/U/,282,-1
+compton-drew-data-MagicPotions,repeat-r,REFERENCE,1/4/2/3/5/6/7/8/10/9/,1/2/3/4/5/6/7/8/10/9/,C/I/U/U/U/U/U/U/U/U/,302,317
+compton-drew-data-MagicPotions,repeat-r,PUZZLE,1/2/3/4/5/6/7/8/10/9/,1/2/3/4/5/6/7/8/10/9/,C/C/C/C/I/I/U/U/U/U/,341,346
+compton-drew-data-MagicPotions,repeat-r,PUZZLE,1/2/3/4/5/6/7/8/10/9/,1/2/3/4/5/6/7/8/10/9/,C/C/C/C/C/C/C/C/C/C/,361,381
+compton-drew-data-MagicPotions,repeat-r,END,"    this.bunny.say(We've located the treasure!) /
+    do together / {
+      count 3 / {
+        this.pirateShip.move(TypeExpression.FORWARD, 25.0) /
+      }
+      this.camera.move(TypeExpression.FORWARD, 75.0) /
+    }
+    this.camera fly to island() /
+    do together / {
+      this.treasureChest.getChestLid().turn(TypeExpression.BACKWARD, 0.25) /
+      this.coinPile.appear() /
+      this.coinStack.appear() /
+    }",6,10,0,386
+compton-drew-data-MagicPotions,repeat-y,REFERENCE,1/-1/-1/-1/3/-1/2/-1/-1/,3/-1/2/1/5/-1/4/-1/-1/,C/I/I/I/I/U/U/U/U/,47,53
+compton-drew-data-MagicPotions,repeat-y,PUZZLE,3/-1/2/1/5/-1/4/-1/-1/,4/-1/3/2/6/-1/5/-1/1/,C/C/I/U/U/U/U/U/U/,64,68
+compton-drew-data-MagicPotions,repeat-y,PUZZLE,4/-1/3/2/6/-1/5/-1/1/,4/-1/3/2/6/-1/5/-1/1/,I/U/U/U/U/U/U/U/U/,80,-1
+compton-drew-data-MagicPotions,repeat-y,REFERENCE,4/-1/3/2/6/-1/5/-1/1/,5/4/2/1/7/-1/6/-1/3/,I/U/U/U/U/U/U/U/U/,88,99
+compton-drew-data-MagicPotions,repeat-y,REFERENCE,5/4/2/1/7/-1/6/-1/3/,5/4/2/1/7/-1/6/-1/3/,C/C/I/I/U/U/U/U/U/,110,-1
+compton-drew-data-MagicPotions,repeat-y,PUZZLE,5/4/2/1/7/-1/6/-1/3/,5/4/2/1/7/-1/6/-1/3/,C/C/I/I/U/U/U/U/U/,113,-1
+compton-drew-data-MagicPotions,repeat-y,REFERENCE,5/4/2/1/7/-1/6/-1/3/,5/4/3/2/7/-1/6/-1/1/,C/C/I/I/U/U/U/U/U/,119,123
+compton-drew-data-MagicPotions,repeat-y,PUZZLE,5/4/3/2/7/-1/6/-1/1/,5/4/3/2/7/-1/6/-1/1/,I/U/U/U/U/U/U/U/U/,128,-1
+compton-drew-data-MagicPotions,repeat-y,REFERENCE,5/4/3/2/7/-1/6/-1/1/,5/4/2/1/7/-1/6/-1/3/,I/U/U/U/U/U/U/U/U/,131,134
+compton-drew-data-MagicPotions,repeat-y,PUZZLE,5/4/2/1/7/-1/6/-1/3/,5/4/3/1/7/-1/6/-1/2/,C/C/I/C/U/U/U/U/U/,145,149
+compton-drew-data-MagicPotions,repeat-y,PUZZLE,5/4/3/1/7/-1/6/-1/2/,5/4/3/2/7/-1/6/-1/1/,C/I/C/C/U/U/U/U/U/,152,164
+compton-drew-data-MagicPotions,repeat-y,PUZZLE,5/4/3/2/7/-1/6/-1/1/,5/4/3/2/7/-1/6/-1/1/,I/U/U/U/U/U/U/U/U/,189,-1
+compton-drew-data-MagicPotions,repeat-y,REFERENCE,5/4/3/2/7/-1/6/-1/1/,5/3/4/1/7/-1/6/-1/2/,I/U/U/U/U/U/U/U/U/,192,199
+compton-drew-data-MagicPotions,repeat-y,PUZZLE,5/3/4/1/7/-1/6/-1/2/,5/3/4/1/7/-1/6/-1/2/,C/I/C/C/U/U/U/U/U/,205,208
+compton-drew-data-MagicPotions,repeat-y,PUZZLE,5/3/4/1/7/-1/6/-1/2/,4/2/3/1/6/-1/5/-1/-1/,C/I/C/I/U/U/U/U/U/,211,215
+compton-drew-data-MagicPotions,repeat-y,PUZZLE,4/2/3/1/6/-1/5/-1/-1/,4/2/3/1/6/-1/5/-1/-1/,C/C/I/U/U/U/U/U/U/,218,222
+compton-drew-data-MagicPotions,repeat-y,PUZZLE,4/2/3/1/6/-1/5/-1/-1/,4/2/3/1/6/7/5/8/9/,C/C/C/C/C/C/I/U/U/,224,232
+compton-drew-data-MagicPotions,repeat-y,PUZZLE,4/2/3/1/6/7/5/8/9/,4/2/3/1/6/7/5/8/9/,C/C/C/C/C/C/C/C/C/,241,248
+compton-drew-data-MagicPotions,repeat-y,END,"    do together / {
+      this.blueDragon.stand up() /
+      this.redDragon.raise leg and spin() /
+    }
+    do together / {
+      count 3 / {
+        this.redDragon.lift up legs() /
+      }
+      this.redDragon.jump() /
+    }
+    this.redDragon.turnToFace(this.blueDragon) /
+    this.blueDragon.hide() /",5,9,0,252
+compton-drew-data-MagicPotions,repeat-aa,PUZZLE,1/2/4/5/3/6/7/8/10/9/11/,1/2/4/5/3/6/7/8/10/9/11/,C/C/C/C/C/C/C/C/C/C/C/,55,71
+compton-drew-data-MagicPotions,repeat-aa,END,"    this.alien.say(Oh no!) /
+    do together / {
+      count 2 / {
+        this.shark.circle(this.sailboat) /
+      }
+      this.sailboat.sink() /
+    }
+    this.alien.turnToFace(this.shark) /
+    count 2 / {
+      do together / {
+        this.alien.get bigger() /
+        this.shark.get smaller() /
+      }
+    }
+    this.alien.say(Silly Earthlings!) /",1,11,0,74
+compton-drew-data-MagicPotions,doinorder-l,REFERENCE,-1/1/-1/2/-1/-1/-1/-1/-1/,3/1/4/2/5/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/,58,104
+compton-drew-data-MagicPotions,doinorder-l,PUZZLE,3/1/4/2/5/-1/-1/-1/-1/,1/2/4/3/5/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/,123,126
+compton-drew-data-MagicPotions,doinorder-l,PUZZLE,1/2/4/3/5/-1/-1/-1/-1/,1/2/4/3/5/-1/-1/-1/-1/,C/C/C/I/U/I/U/U/U/,131,-1
+compton-drew-data-MagicPotions,doinorder-l,REFERENCE,1/2/4/3/5/-1/-1/-1/-1/,1/2/4/3/5/-1/-1/-1/-1/,C/C/C/I/U/I/U/U/U/,147,-1
+compton-drew-data-MagicPotions,doinorder-l,REFERENCE,1/2/4/3/5/-1/-1/-1/-1/,1/2/4/3/5/6/7/8/9/,C/C/C/I/U/I/U/U/U/,159,174
+compton-drew-data-MagicPotions,doinorder-l,PUZZLE,1/2/4/3/5/6/7/8/9/,1/2/3/4/5/6/7/8/9/,C/C/C/I/U/U/U/U/I/,191,200
+compton-drew-data-MagicPotions,doinorder-l,PUZZLE,1/2/3/4/5/6/7/8/9/,1/2/3/4/5/6/7/8/9/,C/C/C/C/C/C/C/C/C/,206,221
+compton-drew-data-MagicPotions,doinorder-l,END,"    this.uFO.fly through stars() /
+    do together / {
+      this.uFO.zig zag through meteors() /
+      do in order / {
+        this.meteor.launch() /
+        this.bus.launch() /
+        this.cow.launch() /
+        this.toilet.launch() /
+      }
+    }
+    this.uFO.say(We made it!) /",2,9,0,225
+compton-drew-data-MagicPotions,doinorder-k,REFERENCE,-1/1/-1/-1/-1/-1/-1/-1/,1/2/3/4/5/-1/-1/-1/,I/U/U/U/U/U/U/U/,24,31
+compton-drew-data-MagicPotions,doinorder-k,REFERENCE,1/2/3/4/5/-1/-1/-1/,1/2/3/4/5/6/7/8/,C/C/C/C/C/I/U/U/,49,56
+compton-drew-data-MagicPotions,doinorder-k,PUZZLE,1/2/3/4/5/6/7/8/,1/2/3/4/5/6/7/8/,C/C/C/C/C/C/C/C/,68,75
+compton-drew-data-MagicPotions,doinorder-k,END,"    this.whiteRabbit.turnToFace(this.camera) /
+    this.whiteRabbit.say(Please give a round of applause to the SCARIEST creatures in Wonderland!) /
+    do together / {
+      this.whiteRabbit.clap() /
+      do in order / {
+        this.bigBadWolf.appear() /
+        this.troll.appear() /
+        this.yeti.appear() /
+      }
+    }",1,8,0,77
+compton-drew-data-MagicPotions,doinorder-n,REFERENCE,1/-1/2/-1/-1/-1/,1/5/4/2/3/6/,C/C/I/I/U/U/,22,31
+compton-drew-data-MagicPotions,doinorder-n,PUZZLE,1/5/4/2/3/6/,1/5/4/2/3/6/,C/I/I/C/I/U/,60,-1
+compton-drew-data-MagicPotions,doinorder-n,REFERENCE,1/5/4/2/3/6/,2/5/4/1/3/6/,C/I/I/C/I/U/,67,70
+compton-drew-data-MagicPotions,doinorder-n,PUZZLE,2/5/4/1/3/6/,2/5/4/1/3/6/,I/U/U/U/U/U/,73,75
+compton-drew-data-MagicPotions,doinorder-n,PUZZLE,2/5/4/1/3/6/,2/5/4/1/3/6/,I/U/U/U/U/U/,82,-1
+compton-drew-data-MagicPotions,doinorder-n,REFERENCE,2/5/4/1/3/6/,2/5/3/1/4/6/,I/U/U/U/U/U/,90,95
+compton-drew-data-MagicPotions,doinorder-n,PUZZLE,2/5/3/1/4/6/,3/5/4/1/2/6/,I/U/U/U/U/U/,101,103
+compton-drew-data-MagicPotions,doinorder-n,PUZZLE,3/5/4/1/2/6/,2/5/4/1/3/6/,I/U/U/U/U/U/,110,112
+compton-drew-data-MagicPotions,doinorder-n,PUZZLE,2/5/4/1/3/6/,1/5/2/3/4/6/,I/U/U/U/U/U/,116,121
+compton-drew-data-MagicPotions,doinorder-n,PUZZLE,1/5/2/3/4/6/,1/2/3/4/5/6/,C/C/C/C/I/U/,129,135
+compton-drew-data-MagicPotions,doinorder-n,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/I/,138,146
+compton-drew-data-MagicPotions,doinorder-n,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,150,155
+compton-drew-data-MagicPotions,doinorder-n,END,"    do together / {
+      this.alien.run in circles() /
+      do in order / {
+        this.uFO.move(TypeExpression.UP, 30.0) /
+        this.uFO.moveToward(this.alien, 150.0) /
+      }
+    }
+    this.uFO.beam up(this.alien) /",3,6,0,158
+compton-drew-data-MagicPotions,doinorder-o,REFERENCE,-1/1/2/3/4/5/6/-1/7/-1/-1/,3/1/2/5/6/7/8/9/4/10/11/,I/U/U/U/U/U/U/U/U/U/U/,67,74
+compton-drew-data-MagicPotions,doinorder-o,PUZZLE,3/1/2/5/6/7/8/9/4/10/11/,6/1/2/5/3/7/8/9/4/10/11/,I/U/U/U/U/U/U/U/U/U/U/,124,127
+compton-drew-data-MagicPotions,doinorder-o,PUZZLE,6/1/2/5/3/7/8/9/4/10/11/,6/1/2/5/3/7/8/9/4/10/11/,I/U/U/U/U/U/U/U/U/U/U/,135,-1
+compton-drew-data-MagicPotions,doinorder-o,REFERENCE,6/1/2/5/3/7/8/9/4/10/11/,4/1/2/6/3/7/8/9/5/10/11/,I/U/U/U/U/U/U/U/U/U/U/,137,141
+compton-drew-data-MagicPotions,doinorder-o,PUZZLE,4/1/2/6/3/7/8/9/5/10/11/,3/1/2/6/4/7/8/9/5/10/11/,I/U/U/U/U/U/U/U/U/U/U/,145,150
+compton-drew-data-MagicPotions,doinorder-o,PUZZLE,3/1/2/6/4/7/8/9/5/10/11/,5/1/2/4/6/7/8/9/3/10/11/,I/U/U/U/U/U/U/U/U/U/U/,156,158
+compton-drew-data-MagicPotions,doinorder-o,PUZZLE,5/1/2/4/6/7/8/9/3/10/11/,3/1/2/5/4/6/7/8/9/10/11/,I/U/U/U/U/U/U/U/U/U/U/,163,166
+compton-drew-data-MagicPotions,doinorder-o,PUZZLE,3/1/2/5/4/6/7/8/9/10/11/,3/1/2/5/4/6/7/8/9/10/11/,I/U/U/U/U/U/U/U/U/U/U/,203,207
+compton-drew-data-MagicPotions,doinorder-o,PUZZLE,3/1/2/5/4/6/7/8/9/10/11/,4/1/2/3/5/6/7/8/9/10/11/,I/U/U/U/U/U/U/U/U/U/U/,214,217
+compton-drew-data-MagicPotions,doinorder-o,PUZZLE,4/1/2/3/5/6/7/8/9/10/11/,4/1/2/3/5/6/7/8/9/10/11/,I/U/U/U/U/U/U/U/U/U/U/,227,230
+compton-drew-data-MagicPotions,doinorder-o,PUZZLE,4/1/2/3/5/6/7/8/9/10/11/,5/1/2/3/4/6/7/8/9/10/11/,I/U/U/U/U/U/U/U/U/U/U/,279,283
+compton-drew-data-MagicPotions,doinorder-o,PUZZLE,5/1/2/3/4/6/7/8/9/10/11/,5/1/2/4/3/6/7/8/9/10/11/,I/U/U/U/U/U/U/U/U/U/U/,286,288
+compton-drew-data-MagicPotions,doinorder-o,PUZZLE,5/1/2/4/3/6/7/8/9/10/11/,1/3/4/5/2/6/7/8/9/10/11/,I/U/U/U/U/U/U/U/U/U/U/,291,293
+compton-drew-data-MagicPotions,doinorder-o,PUZZLE,1/3/4/5/2/6/7/8/9/10/11/,1/3/4/5/2/6/7/8/9/10/11/,C/I/U/U/U/U/U/U/U/U/U/,299,302
+compton-drew-data-MagicPotions,doinorder-o,REFERENCE,1/3/4/5/2/6/7/8/9/10/11/,1/2/3/5/4/6/7/8/9/10/11/,C/I/U/U/U/U/U/U/U/U/U/,316,320
+compton-drew-data-MagicPotions,doinorder-o,PUZZLE,1/2/3/5/4/6/7/8/9/10/11/,1/2/3/5/4/6/7/8/9/10/11/,C/C/C/I/C/I/U/U/U/U/U/,323,327
+compton-drew-data-MagicPotions,doinorder-o,PUZZLE,1/2/3/5/4/6/7/8/9/10/11/,1/2/3/5/4/6/7/8/9/10/11/,C/C/C/I/I/U/U/U/U/U/U/,349,354
+compton-drew-data-MagicPotions,doinorder-o,PUZZLE,1/2/3/5/4/6/7/8/9/10/11/,1/2/3/4/5/6/7/8/9/10/11/,C/C/C/I/C/I/U/U/U/U/U/,388,397
+compton-drew-data-MagicPotions,doinorder-o,PUZZLE,1/2/3/4/5/6/7/8/9/10/11/,1/2/3/4/5/6/7/8/9/10/11/,C/C/C/C/C/C/C/C/C/C/C/,406,420
+compton-drew-data-MagicPotions,doinorder-o,END,"    this.blueTang.turnToFace(this.clownFish) /
+    do together / {
+      this.shark.swim to fish() /
+      do in order / {
+        this.clownFish.moveToward(this.blueTang, 2.0) /
+        this.clownFish.say(Where did you get all that gold?) /
+        this.blueTang.turnToFace(this.coinStack) /
+        this.blueTang.say(Internet) /
+      }
+    }
+    do together / {
+      this.shark.talk() /
+      this.shark.say(Have you guys seen my treasure?) /
+    }",6,11,0,425
+compton-drew-data-MagicPotions,doinorder-w,REFERENCE,1/-1/2/4/5/6/7/3/-1/-1/8/-1/-1/-1/,1/2/3/5/6/7/8/4/9/-1/10/12/11/13/,C/I/U/U/U/U/U/U/U/U/U/U/U/U/,90,100
+compton-drew-data-MagicPotions,doinorder-w,PUZZLE,1/2/3/5/6/7/8/4/9/-1/10/12/11/13/,1/2/3/5/6/7/8/4/9/-1/10/12/11/13/,C/C/C/C/C/C/C/C/I/U/U/U/U/U/,127,137
+compton-drew-data-MagicPotions,doinorder-w,PUZZLE,1/2/3/5/6/7/8/4/9/-1/10/12/11/13/,1/2/3/5/6/7/8/4/9/10/11/13/12/14/,C/C/C/C/C/C/C/C/C/I/U/U/U/U/,141,153
+compton-drew-data-MagicPotions,doinorder-w,PUZZLE,1/2/3/5/6/7/8/4/9/10/11/13/12/14/,1/2/3/5/6/7/8/4/9/10/11/13/12/14/,C/C/C/C/C/C/C/C/C/C/C/C/C/C/,159,168
+compton-drew-data-MagicPotions,doinorder-w,END,"    GlobalFirstInstanceExpression.scene.yeti.say(We've got you now!) /
+    this.madHatter.say(Not so fast!) /
+    do together / {
+      do in order / {
+        this.wall.fall down() /
+        GlobalFirstInstanceExpression.scene.castleGate.move(TypeExpression.UP, 5.0) /
+        GlobalFirstInstanceExpression.scene.bigBadWolf.resize(0.25) /
+      }
+      this.madHatter.dance() /
+    }
+    this.madHatter.walk(6.0) /
+    Comment /
+    do together / {
+      this.bigBadWolf.say(So not cool.) /
+      this.troll.say(So not cool.) /
+      this.yeti.say(So not cool.) /
+    }",3,14,0,171
+compton-drew-data-MagicPotions,doinorder-g,REFERENCE,1/2/3/4/5/-1/-1/-1/,1/2/3/4/5/6/7/8/,C/C/C/C/C/I/U/U/,52,60
+compton-drew-data-MagicPotions,doinorder-g,PUZZLE,1/2/3/4/5/6/7/8/,1/2/3/4/5/6/7/8/,C/C/C/C/C/C/C/I/,70,72
+compton-drew-data-MagicPotions,doinorder-g,PUZZLE,1/2/3/4/5/6/7/8/,1/2/3/4/5/6/7/8/,C/C/C/C/C/C/C/C/,75,81
+compton-drew-data-MagicPotions,doinorder-g,END,"    this.hare.think(I hate tumbleweeds..) /
+    do together / {
+      this.tumbleweed.roll() /
+      do in order / {
+        this.hare.walk(4.0) /
+        this.hare.getHead().turn(TypeExpression.FORWARD, 0.125) /
+        this.hare.kick(this.tumbleweed) /
+        this.hare.fall down() /
+      }
+    }",1,8,0,84
+compton-drew-data-MagicPotions,doinorder-x,PUZZLE,1/2/-1/-1/-1/5/-1/-1/-1/-1/3/4/,1/2/6/7/-1/5/10/11/9/8/3/4/,C/C/I/I/I/I/I/U/U/U/U/U/,38,45
+compton-drew-data-MagicPotions,doinorder-x,REFERENCE,1/2/6/7/-1/5/10/11/9/8/3/4/,1/2/6/7/-1/5/10/11/9/8/3/4/,C/C/I/I/I/U/U/U/U/U/U/I/,72,-1
+compton-drew-data-MagicPotions,doinorder-x,REFERENCE,1/2/6/7/-1/5/10/11/9/8/3/4/,1/2/6/8/12/5/7/9/11/10/3/4/,C/C/I/I/I/U/U/U/U/U/U/I/,86,92
+compton-drew-data-MagicPotions,doinorder-x,PUZZLE,1/2/6/8/12/5/7/9/11/10/3/4/,1/2/6/8/12/5/7/9/11/10/3/4/,C/C/I/I/I/U/U/U/U/U/U/I/,111,-1
+compton-drew-data-MagicPotions,doinorder-x,REFERENCE,1/2/6/8/12/5/7/9/11/10/3/4/,1/2/7/8/6/5/9/10/12/11/3/4/,C/C/I/I/I/U/U/U/U/U/U/I/,119,123
+compton-drew-data-MagicPotions,doinorder-x,PUZZLE,1/2/7/8/6/5/9/10/12/11/3/4/,1/2/7/8/6/5/9/10/12/11/3/4/,C/C/I/I/I/U/U/U/U/U/U/U/,136,-1
+compton-drew-data-MagicPotions,doinorder-x,REFERENCE,1/2/7/8/6/5/9/10/12/11/3/4/,1/2/7/8/6/5/9/10/12/11/3/4/,C/C/I/I/I/U/U/U/U/U/U/U/,145,151
+compton-drew-data-MagicPotions,doinorder-x,PUZZLE,1/2/7/8/6/5/9/10/12/11/3/4/,1/2/7/8/6/5/9/10/12/11/3/4/,C/C/I/I/I/U/U/U/U/U/U/U/,167,-1
+compton-drew-data-MagicPotions,doinorder-x,REFERENCE,1/2/7/8/6/5/9/10/12/11/3/4/,1/2/7/8/6/5/9/10/11/12/3/4/,C/C/I/I/I/U/U/U/U/U/U/U/,173,184
+compton-drew-data-MagicPotions,doinorder-x,PUZZLE,1/2/7/8/6/5/9/10/11/12/3/4/,1/2/7/8/6/5/9/10/11/12/3/4/,C/C/I/I/I/U/U/U/U/U/I/I/,192,196
+compton-drew-data-MagicPotions,doinorder-x,PUZZLE,1/2/7/8/6/5/9/10/11/12/3/4/,1/2/5/6/8/7/9/10/11/12/3/4/,C/C/I/I/I/U/U/U/U/U/I/I/,200,205
+compton-drew-data-MagicPotions,doinorder-x,PUZZLE,1/2/5/6/8/7/9/10/11/12/3/4/,1/2/3/4/6/5/9/10/11/12/7/8/,C/C/I/I/C/C/I/U/U/U/U/U/,216,218
+compton-drew-data-MagicPotions,doinorder-x,PUZZLE,1/2/3/4/6/5/9/10/11/12/7/8/,1/2/3/4/6/5/9/10/11/12/7/8/,C/C/C/C/I/U/U/U/U/U/U/U/,230,236
+compton-drew-data-MagicPotions,doinorder-x,PUZZLE,1/2/3/4/6/5/9/10/11/12/7/8/,1/2/3/12/5/4/8/9/10/11/6/7/,C/C/C/C/I/U/U/U/U/U/U/U/,250,254
+compton-drew-data-MagicPotions,doinorder-x,PUZZLE,1/2/3/12/5/4/8/9/10/11/6/7/,1/2/3/4/5/8/9/10/11/12/6/7/,C/C/C/I/U/U/U/U/U/U/U/C/,262,270
+compton-drew-data-MagicPotions,doinorder-x,PUZZLE,1/2/3/4/5/8/9/10/11/12/6/7/,1/2/3/4/5/8/9/10/11/12/6/7/,C/C/C/C/I/U/U/I/U/U/U/U/,282,287
+compton-drew-data-MagicPotions,doinorder-x,PUZZLE,1/2/3/4/5/8/9/10/11/12/6/7/,1/2/3/4/5/8/9/10/11/12/6/7/,C/C/C/C/C/C/C/I/U/U/U/U/,315,317
+compton-drew-data-MagicPotions,doinorder-x,PUZZLE,1/2/3/4/5/8/9/10/11/12/6/7/,1/2/3/4/5/8/9/10/11/12/6/7/,C/C/C/C/C/C/C/C/C/C/C/C/,321,335
+compton-drew-data-MagicPotions,doinorder-x,END,"    this.hippo.say(Let's practice again.) /
+    do together / {
+      this.hippo.raise arms() /
+      this.yeti.raise arms() /
+    }
+    do together / {
+      do in order / {
+        this.hippo.turn(TypeExpression.RIGHT, 1.0) /
+        this.yeti.turn(TypeExpression.RIGHT, 1.0) /
+        this.hippo.put legs forward() /
+        this.yeti.put legs forward() /
+      }
+      this.yeti.jump() /
+      this.hippo.jump() /
+    }",4,12,0,339
+compton-drew-data-MagicPotions,doinorder-f,REFERENCE,1/2/3/4/5/-1/6/7/8/9/,1/2/3/4/5/-1/6/7/8/9/,C/C/C/C/C/C/C/C/C/I/,55,-1
+compton-drew-data-MagicPotions,doinorder-f,PUZZLE,1/2/3/4/5/-1/6/7/8/9/,1/2/3/4/5/6/7/8/9/10/,C/C/C/C/C/C/C/C/C/I/,61,67
+compton-drew-data-MagicPotions,doinorder-f,PUZZLE,1/2/3/4/5/6/7/8/9/10/,1/2/3/4/5/6/7/8/9/10/,C/C/C/C/C/C/C/C/C/C/,70,74
+compton-drew-data-MagicPotions,doinorder-f,END,"    this.bunny.cover eyes() /
+    do together / {
+      this.cheshireCat.hide() /
+      this.hare.hide() /
+      this.mandril.hide() /
+      Comment /
+      do in order / {
+        this.bunny.say(One..) /
+        this.bunny.say(Two..) /
+        this.bunny.say(Three!) /
+      }
+    }",1,10,0,76
+compton-drew-data-MagicPotions,doinorder-d,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/,10,-1
+compton-drew-data-MagicPotions,doinorder-d,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/,4/1/2/-1/3/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/,19,27
+compton-drew-data-MagicPotions,doinorder-d,REFERENCE,4/1/2/-1/3/-1/-1/-1/-1/,4/1/2/-1/3/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/,58,-1
+compton-drew-data-MagicPotions,doinorder-d,REFERENCE,4/1/2/-1/3/-1/-1/-1/-1/,4/1/2/5/3/-1/6/-1/-1/,I/U/U/U/U/U/U/U/U/,74,85
+compton-drew-data-MagicPotions,doinorder-d,REFERENCE,4/1/2/5/3/-1/6/-1/-1/,4/1/2/5/3/6/8/7/9/,I/U/U/U/U/U/U/U/U/,103,108
+compton-drew-data-MagicPotions,doinorder-d,PUZZLE,4/1/2/5/3/6/8/7/9/,2/1/4/5/3/6/8/7/9/,I/U/U/U/U/U/U/U/U/,118,121
+compton-drew-data-MagicPotions,doinorder-d,PUZZLE,2/1/4/5/3/6/8/7/9/,2/1/5/4/3/6/8/7/9/,I/U/U/U/U/U/U/U/U/,129,131
+compton-drew-data-MagicPotions,doinorder-d,PUZZLE,2/1/5/4/3/6/8/7/9/,2/1/5/4/3/6/8/7/9/,I/U/U/U/U/U/U/U/U/,139,-1
+compton-drew-data-MagicPotions,doinorder-d,REFERENCE,2/1/5/4/3/6/8/7/9/,2/1/4/8/3/5/7/6/9/,I/U/U/U/U/U/U/U/U/,142,147
+compton-drew-data-MagicPotions,doinorder-d,PUZZLE,2/1/4/8/3/5/7/6/9/,1/2/4/8/3/5/7/6/9/,I/U/U/U/U/U/U/U/U/,153,156
+compton-drew-data-MagicPotions,doinorder-d,PUZZLE,1/2/4/8/3/5/7/6/9/,1/2/3/8/4/5/7/6/9/,C/C/C/I/U/U/U/C/I/,159,164
+compton-drew-data-MagicPotions,doinorder-d,PUZZLE,1/2/3/8/4/5/7/6/9/,1/2/3/8/4/5/6/7/9/,C/C/C/C/C/I/U/C/U/,169,178
+compton-drew-data-MagicPotions,doinorder-d,PUZZLE,1/2/3/8/4/5/6/7/9/,1/2/3/8/4/5/6/7/9/,C/C/C/C/C/C/C/C/C/,181,194
+compton-drew-data-MagicPotions,doinorder-d,END,"    this.Witch.raise arms() /
+    do together / {
+      this.Cauldron.bubble() /
+      this.Troll.scared() /
+      do in order / {
+        this.Witch.roll(TypeExpression.LEFT, 0.125) /
+        this.Witch.roll(TypeExpression.RIGHT, 0.25) /
+        this.Witch.roll(TypeExpression.LEFT, 0.125) /
+      }
+    }
+    this.poodle.rise from cauldron() /",3,9,0,196
+compton-drew-data-MagicPotions,doinorder-q,REFERENCE,-1/-1/-1/-1/-1/-1/1/,2/3/1/-1/-1/-1/4/,I/U/U/U/U/U/U/,39,43
+compton-drew-data-MagicPotions,doinorder-q,REFERENCE,2/3/1/-1/-1/-1/4/,2/3/1/-1/-1/-1/4/,I/U/U/U/U/U/U/,60,-1
+compton-drew-data-MagicPotions,doinorder-q,REFERENCE,2/3/1/-1/-1/-1/4/,2/3/1/5/-1/6/4/,I/U/U/U/U/U/U/,65,76
+compton-drew-data-MagicPotions,doinorder-q,REFERENCE,2/3/1/5/-1/6/4/,2/3/1/5/-1/6/4/,I/U/U/U/U/U/U/,92,104
+compton-drew-data-MagicPotions,doinorder-q,REFERENCE,2/3/1/5/-1/6/4/,2/3/1/5/-1/6/4/,I/U/U/U/U/U/U/,107,-1
+compton-drew-data-MagicPotions,doinorder-q,PUZZLE,2/3/1/5/-1/6/4/,1/3/2/5/-1/6/4/,I/U/U/U/U/U/U/,119,122
+compton-drew-data-MagicPotions,doinorder-q,PUZZLE,1/3/2/5/-1/6/4/,1/2/5/4/6/7/3/,C/I/U/U/U/U/U/,126,130
+compton-drew-data-MagicPotions,doinorder-q,PUZZLE,1/2/5/4/6/7/3/,1/2/5/4/6/7/3/,C/C/C/I/C/I/U/,171,-1
+compton-drew-data-MagicPotions,doinorder-q,REFERENCE,1/2/5/4/6/7/3/,1/2/4/5/6/7/3/,C/C/C/I/C/I/U/,176,181
+compton-drew-data-MagicPotions,doinorder-q,PUZZLE,1/2/4/5/6/7/3/,1/2/4/5/6/7/3/,C/C/C/C/C/C/C/,184,198
+compton-drew-data-MagicPotions,doinorder-q,END,"    this.witch.turnToFace(this.cauldron) /
+    do together / {
+      do in order / {
+        this.cauldron.spin() /
+        this.cauldron.glow() /
+        this.bigBadWolf.rise() /
+      }
+      this.witch.cast spell() /
+    }",3,7,0,201
+compton-drew-data-MagicPotions,doinorder-y,PUZZLE,1/3/4/5/2/7/-1/-1/-1/-1/6/-1/-1/-1/-1/,1/3/4/5/2/7/-1/-1/-1/-1/6/-1/-1/-1/-1/,C/C/C/C/C/I/U/U/U/U/U/U/U/U/U/,86,90
+compton-drew-data-MagicPotions,doinorder-y,PUZZLE,1/3/4/5/2/7/-1/-1/-1/-1/6/-1/-1/-1/-1/,1/3/4/5/2/7/-1/-1/-1/-1/6/-1/-1/-1/-1/,C/C/C/C/C/I/U/U/U/U/U/U/U/U/U/,111,-1
+compton-drew-data-MagicPotions,doinorder-y,REFERENCE,1/3/4/5/2/7/-1/-1/-1/-1/6/-1/-1/-1/-1/,1/3/4/5/2/7/10/9/11/8/6/12/13/14/15/,C/C/C/C/C/I/U/U/U/U/U/U/U/U/U/,115,124
+compton-drew-data-MagicPotions,doinorder-y,PUZZLE,1/3/4/5/2/7/10/9/11/8/6/12/13/14/15/,1/3/4/5/2/7/10/9/11/8/6/12/13/14/15/,C/C/C/C/C/I/U/U/U/U/U/U/U/U/U/,165,169
+compton-drew-data-MagicPotions,doinorder-y,PUZZLE,1/3/4/5/2/7/10/9/11/8/6/12/13/14/15/,1/3/4/5/2/6/9/8/10/7/11/12/13/14/15/,C/C/C/C/C/I/U/U/U/U/U/U/U/U/U/,177,182
+compton-drew-data-MagicPotions,doinorder-y,PUZZLE,1/3/4/5/2/6/9/8/10/7/11/12/13/14/15/,1/3/4/5/2/6/9/8/10/7/11/12/13/14/15/,C/C/C/C/C/C/C/C/C/C/C/C/C/C/C/,196,206
+compton-drew-data-MagicPotions,doinorder-y,END,"    do together / {
+      this.alien.say(Limbo!) /
+      this.marchHare.say(Limbo!) /
+      this.tortoise.say(Limbo!) /
+      this.goldenMonkey.say(Limbo!) /
+    }
+    do together / {
+      this.alien.walk(6.0) /
+      this.marchHare.walk(7.0) /
+      this.tortoise.walk(8.0) /
+      this.goldenMonkey.walk(9.0) /
+      do in order / {
+        this.alien.getSpineBase().turn(TypeExpression.BACKWARD, 0.2) /
+        this.marchHare.getSpineBase().turn(TypeExpression.BACKWARD, 0.25) /
+        this.tortoise.getSpineBase().turn(TypeExpression.BACKWARD, 0.2) /
+        this.goldenMonkey.getSpineBase().turn(TypeExpression.BACKWARD, 0.27) /
+      }
+    }",3,15,0,212
+compton-drew-data-MagicPotions,doinorder-s,REFERENCE,1/-1/2/-1/-1/-1/3/-1/-1/,1/-1/2/-1/-1/-1/3/-1/-1/,C/C/I/I/U/U/U/U/U/,22,-1
+compton-drew-data-MagicPotions,doinorder-s,REFERENCE,1/-1/2/-1/-1/-1/3/-1/-1/,1/-1/2/-1/-1/-1/3/-1/-1/,C/C/I/I/U/U/U/U/U/,28,-1
+compton-drew-data-MagicPotions,doinorder-s,REFERENCE,1/-1/2/-1/-1/-1/3/-1/-1/,1/2/3/4/5/6/7/8/9/,C/C/I/I/U/U/U/U/U/,32,39
+compton-drew-data-MagicPotions,doinorder-s,PUZZLE,1/2/3/4/5/6/7/8/9/,1/2/3/4/5/6/7/8/9/,C/C/C/C/C/C/C/C/C/,80,88
+compton-drew-data-MagicPotions,doinorder-s,END,"    do together / {
+      this.yeti.walk(30.0) /
+      do in order / {
+        this.alien.say(Do you hear something?) /
+        this.hare.turnToFace(this.yeti) /
+        this.hare.say(YETI!!!!) /
+        do together / {
+          this.alien.run away from(this.yeti) /
+          this.hare.run away from(this.yeti) /
+        }
+      }
+    }",1,9,0,90
+compton-drew-data-MagicPotions,doinorder-z,PUZZLE,1/2/3/4/5/6/8/9/7/,1/2/3/4/5/6/8/9/7/,C/C/C/C/C/C/C/C/C/,69,73
+compton-drew-data-MagicPotions,doinorder-z,END,"    do together / {
+      this.caiman.move(TypeExpression.FORWARD, 5.0) /
+      do in order / {
+        this.troll.say(Get back!! Grrrrr!!!) /
+        this.troll.say(I said STOP!!!) /
+        do together / {
+          this.troll.getLeftShoulder().turn(TypeExpression.RIGHT, 0.375) /
+          this.troll.getRightShoulder().turn(TypeExpression.LEFT, 0.375) /
+          this.troll.say(RAAAwrRRRRrrrRRRrr!) /
+        }
+      }
+    }",1,9,0,76
+compton-drew-data-MagicPotions,doinorder-t,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/U/U/,14,-1
+compton-drew-data-MagicPotions,doinorder-t,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/U/U/,23,-1
+compton-drew-data-MagicPotions,doinorder-t,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/3/4/5/6/7/8/9/10/13/12/11/,I/U/U/U/U/U/U/U/U/U/U/U/U/,24,31
+compton-drew-data-MagicPotions,doinorder-t,PUZZLE,1/2/3/4/5/6/7/8/9/10/13/12/11/,1/2/3/4/5/6/7/8/9/10/13/12/11/,C/C/C/C/C/C/C/C/C/C/C/C/C/,88,95
+compton-drew-data-MagicPotions,doinorder-t,END,"    this.dragon.say(Turn the music up!) /
+    do together / {
+      this.music system.play music() /
+      do in order / {
+        this.dragon.get dressed() /
+        this.yeti.get dressed() /
+        this.hippo.get dressed() /
+        this.ostrich.get dressed() /
+        do together / {
+          this.dragon.front flip() /
+          this.hippo.front flip() /
+          this.ostrich.front flip() /
+          this.yeti.front flip() /
+        }
+      }
+    }",1,13,0,98
+compton-drew-data-MagicPotions,doinorder-u,PUZZLE,1/2/5/3/6/8/7/4/,1/2/3/4/6/8/7/5/,C/C/I/C/C/I/U/U/,59,63
+compton-drew-data-MagicPotions,doinorder-u,PUZZLE,1/2/3/4/6/8/7/5/,1/2/3/4/5/7/6/8/,C/C/C/C/I/U/U/U/,71,75
+compton-drew-data-MagicPotions,doinorder-u,PUZZLE,1/2/3/4/5/7/6/8/,1/2/3/4/5/7/6/8/,C/C/C/C/C/C/C/C/,82,92
+compton-drew-data-MagicPotions,doinorder-u,END,"    this.cheshireCat.say(This better work....) /
+    do together / {
+      do in order / {
+        this.marchHare.say(Hip-hip) /
+        do together / {
+          this.marchHare.say(Hurray!!!) /
+          this.cheshireCat.say(Hurray!!!) /
+        }
+      }
+      this.hotAirBalloon.move(TypeExpression.UP, 5.0) /
+    }",2,8,0,95
+compton-drew-data-MagicPotions,doinorder-j,PUZZLE,4/1/2/3/5/-1/-1/-1/6/-1/-1/,4/1/2/3/5/-1/-1/-1/6/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/,86,-1
+compton-drew-data-MagicPotions,doinorder-j,REFERENCE,4/1/2/3/5/-1/-1/-1/6/-1/-1/,1/2/3/4/5/-1/-1/-1/6/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/,88,93
+compton-drew-data-MagicPotions,doinorder-j,PUZZLE,1/2/3/4/5/-1/-1/-1/6/-1/-1/,1/2/3/4/5/6/7/8/9/11/10/,C/C/C/C/C/I/U/U/U/U/U/,98,108
+compton-drew-data-MagicPotions,doinorder-j,PUZZLE,1/2/3/4/5/6/7/8/9/11/10/,1/2/3/4/5/6/7/8/9/11/10/,C/C/C/C/C/C/C/C/C/C/C/,133,145
+compton-drew-data-MagicPotions,doinorder-j,END,"    this.troll.think(This place is terrifying.) /
+    do together / {
+      this.fishingBoat.float down river() /
+      do in order / {
+        this.caiman.snap mouth() /
+        this.troll.say(Maybe this one is nice!) /
+        this.billyGoat.shake head() /
+        this.troll.say(Elephants are gentle giants!) /
+        do together / {
+          this.elephant.setPaint(TypeExpression.RED) /
+          this.elephant.getHead().pointAt(this.troll) /
+        }
+      }
+    }",1,11,0,148

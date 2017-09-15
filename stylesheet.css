@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400i|Roboto:300,300i,400,700');
+body{
+  font-family: "Roboto";
+  margin: 40px;
+  margin-left: 60px;
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  font-weight: bold;
+}
+svg{
+  margin-left: 5px;
+  margin-bottom: 50px;
+  padding-left: 20px;
+}
+.title{
+  font-weight: 700;
+  font-size: 14px;
+  font-style: normal;
+  color: rgb(162, 162, 162);
+  margin: 0px 0px 10px 0px;
+  width: 700px;
+  border-bottom: rgb(194, 194, 194) solid 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.name, .detail{
+  margin: 0;
+}
+.detail{
+  font-size: 11px;
+  font-weight: 400;
+  color: rgb(140, 140, 140);
+}
+.form{
+  width: 700px;
+  background: rgb(45, 45, 45);
+  float: left;
+  overflow: hidden;
+  justify-content: flex-end;
+  align-items: flex-end;
+  display: flex;
+}
+select {
+  text-indent: 0.1px;
+  text-overflow: '';
+  outline: none;
+  border: 1px solid rgba(26, 53, 57, 0.34);
+  border-radius: 1px;
+  border-right-width: 15px;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(0, 0, 0, 0.86);
+  font-weight: 300;
+  &:focus {
+    outline: none;
+    border-color: lighten(rgb(116, 171, 235),10%);
+  }
+}
+.select{
+  outline: none;
+  width: 220px;
+  margin: 3px;
+}
+.button{
+  width: 70px;
+  margin: 3px;
+}
+#Puzzle{
+  width: 120px;
+}
+.legendinfo{
+  boarder: 5px solid rgb(232, 104, 109);
+  font-size: 11px;
+  margin-bottom: 20px;
+}
+/*--------axes--------*/
+.xaxis path,
+.xaxis line{
+  fill: none;
+  stroke: rgb(34, 34, 34);
+  shape-rendering: crispEdges;
+}
+.xaxis text,
+.yaxis text{
+  font-weight: 300;
+  font-size: 11px;
+}
+.yaxis path {
+  fill: none;
+  stroke: rgba(0, 0, 0, 1);
+}
+/*--------tooltip--------*/
+#component .tooltip {
+  visibility: hidden;
+}
+#component:hover .tooltip {
+  visibility: visible;
+  position: absolute;
+}
+#component:hover:after .tooltip{
+  position: relative;
+  left: 0;
+  top: 100%;
+  white-space: nowrap;
+}
+.tooltip text {
+  fill: rgb(55, 102, 158);
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 12px;
+  transform: translate(-18px, -13px);
+}
+.tooltip rect {
+  fill:rgba(23, 23, 23, 0);
+  transform: translate(-20px,-26px);
+  border-radius: 10px;
+}
+/*--------d3 content--------*/
+.playPuzzleBar{
+	fill: #484848;
+	width: 6px;
+}
+.playReferenceBar{
+	fill:rgb(108, 93, 179);
+	width: 6px;
+}
+.stateCellCorrect{
+	fill: rgb(148, 239, 212);
+	width: 4px;
+	height: 25px;
+}
+.stateCellError{
+	fill: rgb(214, 112, 112);
+	width: 4px;
+	height: 25px;
+}
+.stateCellUnknown{
+	fill: rgb(181, 185, 187);
+	width: 4px;
+	height: 25px;
+}
+.transitionLineMoved{
+	stroke: rgb(45, 52, 47);
+	stroke-width: 5px;
+  stroke-radius: 5px;
+}
+.transitionLineDropped{
+	stroke: rgb(99, 99, 99);
+	stroke-dasharray: 2,2;
+	stroke-width: 5px;
+}
+.transitionLineInto{
+	stroke: rgb(72, 72, 72);
+	stroke-width: 5px;
+}
+.transitionLineOutof{
+	stroke: rgb(72, 72, 72);
+	stroke-width: 5px;
+}
+.transitionLineAdded{
+	stroke: rgb(100, 100, 100);
+	stroke-width: 2px;
+}
+/*.actionboxinto {
+  width: 20;
+  heigh: 20;
+  background-color: rgb(0, 0, 0);
+  background-size: cover;
+  clip-path: polygon(0% 20%,80% 20%,80% 80%,0% 80%,0% 100%,100% 100%,100% 0%,0% 0%);
+  -webkit-clip-path:  polygon(0% 20%,80% 20%,80% 80%,0% 80%,0% 100%,100% 100%,100% 0%,0% 0%);
+}
+.outof{
+  -webkit-clip-path: polygon(200px 20px,120px 20px,120px 80px,200px 80px,200px 100px,100px 100px,100px 100px,100px 0px,200px 0px);
+  fill: rgb(0, 0, 0)
+}*/

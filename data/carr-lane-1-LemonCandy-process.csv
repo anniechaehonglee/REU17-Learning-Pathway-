@@ -1,0 +1,633 @@
+codename,puzzle,action,current_index,next_index,correctness,start_time,closed_time
+carr-lane-1-LemonCandy,sequential-c,REFERENCE,-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/,93,-1
+carr-lane-1-LemonCandy,sequential-c,REFERENCE,-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/,106,112
+carr-lane-1-LemonCandy,sequential-c,PUZZLE,1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/,C/I/U/U/U/U/,120,126
+carr-lane-1-LemonCandy,sequential-c,PUZZLE,1/2/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/,C/C/I/U/U/U/,140,147
+carr-lane-1-LemonCandy,sequential-c,REFERENCE,1/2/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/,C/C/I/U/U/U/,148,156
+carr-lane-1-LemonCandy,sequential-c,REFERENCE,1/2/-1/-1/-1/-1/,1/2/3/-1/4/-1/,C/C/I/U/U/U/,160,167
+carr-lane-1-LemonCandy,sequential-c,PUZZLE,1/2/3/-1/4/-1/,1/2/3/-1/-1/-1/,C/C/C/I/U/U/,181,189
+carr-lane-1-LemonCandy,sequential-c,REFERENCE,1/2/3/-1/-1/-1/,1/2/3/-1/-1/-1/,C/C/C/I/U/U/,196,-1
+carr-lane-1-LemonCandy,sequential-c,REFERENCE,1/2/3/-1/-1/-1/,1/2/3/4/5/-1/,C/C/C/I/U/U/,196,205
+carr-lane-1-LemonCandy,sequential-c,PUZZLE,1/2/3/4/5/-1/,1/2/3/4/5/6/,C/C/C/C/C/I/,225,234
+carr-lane-1-LemonCandy,sequential-c,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,294,-1
+carr-lane-1-LemonCandy,sequential-c,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,316,-1
+carr-lane-1-LemonCandy,sequential-c,REFERENCE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,332,342
+carr-lane-1-LemonCandy,sequential-c,END,"    this.hare.swing arm() /
+    this.volleyball.move(TypeExpression.DOWN, 0.6) /
+    this.hare.look down() /
+    this.hare.getRightHip().turn(TypeExpression.FORWARD, 0.25) /
+    this.hare.kick(this.volleyball) /
+    this.net.turn(TypeExpression.BACKWARD, 0.25) /",1,6,0,353
+carr-lane-1-LemonCandy,sequential-d,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/,13,16
+carr-lane-1-LemonCandy,sequential-d,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/,1/3/-1/-1/-1/-1/-1/2/,C/I/U/U/U/U/U/U/,27,32
+carr-lane-1-LemonCandy,sequential-d,PUZZLE,1/3/-1/-1/-1/-1/-1/2/,1/2/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/,46,51
+carr-lane-1-LemonCandy,sequential-d,PUZZLE,1/2/-1/-1/-1/-1/-1/-1/,1/2/3/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/,56,64
+carr-lane-1-LemonCandy,sequential-d,REFERENCE,1/2/3/-1/-1/-1/-1/-1/,1/2/3/-1/-1/-1/-1/-1/,C/C/C/I/U/U/U/U/,69,-1
+carr-lane-1-LemonCandy,sequential-d,PUZZLE,1/2/3/-1/-1/-1/-1/-1/,1/2/3/-1/-1/-1/-1/-1/,C/C/C/I/U/U/U/U/,83,-1
+carr-lane-1-LemonCandy,sequential-d,REFERENCE,1/2/3/-1/-1/-1/-1/-1/,1/2/3/4/-1/5/-1/-1/,C/C/C/I/U/U/U/U/,92,101
+carr-lane-1-LemonCandy,sequential-d,PUZZLE,1/2/3/4/-1/5/-1/-1/,1/2/3/4/-1/5/-1/-1/,C/C/C/C/I/U/U/U/,114,-1
+carr-lane-1-LemonCandy,sequential-d,REFERENCE,1/2/3/4/-1/5/-1/-1/,1/2/3/4/-1/5/-1/-1/,C/C/C/C/I/U/U/U/,126,-1
+carr-lane-1-LemonCandy,sequential-d,REFERENCE,1/2/3/4/-1/5/-1/-1/,1/2/3/4/5/-1/-1/-1/,C/C/C/C/I/U/U/U/,140,152
+carr-lane-1-LemonCandy,sequential-d,PUZZLE,1/2/3/4/5/-1/-1/-1/,1/2/3/4/5/6/-1/-1/,C/C/C/C/C/I/U/U/,168,181
+carr-lane-1-LemonCandy,sequential-d,PUZZLE,1/2/3/4/5/6/-1/-1/,1/2/3/4/5/6/-1/-1/,C/C/C/C/C/C/I/U/,195,209
+carr-lane-1-LemonCandy,sequential-d,REFERENCE,1/2/3/4/5/6/-1/-1/,1/2/3/4/5/6/7/8/,C/C/C/C/C/C/I/U/,211,226
+carr-lane-1-LemonCandy,sequential-d,PUZZLE,1/2/3/4/5/6/7/8/,1/2/3/4/5/6/7/8/,C/C/C/C/C/C/C/C/,236,254
+carr-lane-1-LemonCandy,sequential-d,END,"    this.monkey.walk(1.5) /
+    this.monkey.jump and spin() /
+    this.monkey.walk up to(this.treasureChest) /
+    this.monkey.raise arms() /
+    this.treasureChest.getChestLid().turn(TypeExpression.BACKWARD, 0.0125) /
+    this.monkey.bang on(this.treasureChest) /
+    this.treasureChest.getChestLid().turn(TypeExpression.BACKWARD, 0.25) /
+    this.treasureMonkey.raise arms() /",1,8,0,259
+carr-lane-1-LemonCandy,sequential-g,REFERENCE,-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/,8,13
+carr-lane-1-LemonCandy,sequential-g,REFERENCE,1/-1/-1/-1/-1/-1/-1/,1/2/3/-1/-1/-1/-1/,C/I/U/U/U/U/U/,18,24
+carr-lane-1-LemonCandy,sequential-g,PUZZLE,1/2/3/-1/-1/-1/-1/,1/2/3/-1/-1/-1/-1/,C/C/C/I/U/U/U/,46,55
+carr-lane-1-LemonCandy,sequential-g,REFERENCE,1/2/3/-1/-1/-1/-1/,1/2/3/4/5/-1/-1/,C/C/C/I/U/U/U/,56,64
+carr-lane-1-LemonCandy,sequential-g,PUZZLE,1/2/3/4/5/-1/-1/,1/2/3/4/5/-1/-1/,C/C/C/C/C/I/U/,76,86
+carr-lane-1-LemonCandy,sequential-g,REFERENCE,1/2/3/4/5/-1/-1/,1/2/3/4/5/6/7/,C/C/C/C/C/I/U/,89,100
+carr-lane-1-LemonCandy,sequential-g,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/C/C/,107,123
+carr-lane-1-LemonCandy,sequential-g,END,"    this.blueTang.say(We can't let anyone find our treasure!) /
+    this.clownFish.turnToFace(this.shark) /
+    this.clownFish.think(Uh oh) /
+    this.clownFish.turnToFace(this.blueTang) /
+    this.clownFish.say(I think it's too late..) /
+    this.shark.getMouth().turn(TypeExpression.FORWARD, 0.125) /
+    this.shark.move(TypeExpression.FORWARD, 15.0) /",1,7,0,126
+carr-lane-1-LemonCandy,dotogether-a,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/,10,13
+carr-lane-1-LemonCandy,dotogether-a,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/,18,20
+carr-lane-1-LemonCandy,dotogether-a,PUZZLE,1/2/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/,26,29
+carr-lane-1-LemonCandy,dotogether-a,REFERENCE,1/2/-1/-1/-1/-1/-1/-1/,1/2/3/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/,31,35
+carr-lane-1-LemonCandy,dotogether-a,REFERENCE,1/2/3/-1/-1/-1/-1/-1/,1/2/3/-1/-1/-1/-1/-1/,C/C/C/I/U/U/U/U/,41,43
+carr-lane-1-LemonCandy,dotogether-a,REFERENCE,1/2/3/-1/-1/-1/-1/-1/,1/2/3/-1/-1/-1/-1/-1/,C/C/C/I/U/U/U/U/,45,52
+carr-lane-1-LemonCandy,dotogether-a,REFERENCE,1/2/3/-1/-1/-1/-1/-1/,1/2/3/4/5/6/7/8/,C/C/C/I/U/U/U/U/,58,65
+carr-lane-1-LemonCandy,dotogether-a,PUZZLE,1/2/3/4/5/6/7/8/,1/2/3/4/5/6/7/8/,C/C/C/C/C/C/C/C/,96,105
+carr-lane-1-LemonCandy,dotogether-a,END,"    this.penguin.say(Everyone, I'd like you to meet Derek.) /
+    this.DerekTheYeti.say(Hello.) /
+    this.DerekTheYeti.moveToward(this.babyPenguin2, 0.5) /
+    do together / {
+      this.babyPenguin1.jump back() /
+      this.babyPenguin2.jump back() /
+      this.babyPenguin3.jump back() /
+    }
+    this.penguin.say(He's harmless and very kind!) /",1,8,0,109
+carr-lane-1-LemonCandy,dotogether-m,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/,9,13
+carr-lane-1-LemonCandy,dotogether-m,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/,1/-1/4/3/-1/2/-1/-1/,C/I/U/U/U/U/U/U/,24,27
+carr-lane-1-LemonCandy,dotogether-m,REFERENCE,1/-1/4/3/-1/2/-1/-1/,1/-1/4/3/-1/2/-1/-1/,C/C/C/C/I/U/U/U/,43,50
+carr-lane-1-LemonCandy,dotogether-m,REFERENCE,1/-1/4/3/-1/2/-1/-1/,1/6/4/3/5/2/8/7/,C/C/C/C/I/U/U/U/,56,63
+carr-lane-1-LemonCandy,dotogether-m,PUZZLE,1/6/4/3/5/2/8/7/,1/6/4/3/5/2/8/7/,C/C/C/C/C/C/C/C/,79,89
+carr-lane-1-LemonCandy,dotogether-m,END,"    this.hare.say(1...2...3...JUMP!) /
+    do together / {
+      this.pig.jump() /
+      this.hare.jump() /
+    }
+    this.caiman.snap jaws() /
+    do together / {
+      this.pig.say(UH OH!) /
+      this.hare.say(UH OH!) /
+    }",1,8,0,93
+carr-lane-1-LemonCandy,dotogether-o,REFERENCE,-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/,5,9
+carr-lane-1-LemonCandy,dotogether-o,REFERENCE,-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/,11,15
+carr-lane-1-LemonCandy,dotogether-o,PUZZLE,1/-1/-1/-1/-1/-1/,1/-1/2/-1/-1/-1/,C/I/U/U/U/U/,25,28
+carr-lane-1-LemonCandy,dotogether-o,PUZZLE,1/-1/2/-1/-1/-1/,1/-1/2/-1/-1/-1/,C/I/U/U/U/U/,33,36
+carr-lane-1-LemonCandy,dotogether-o,REFERENCE,1/-1/2/-1/-1/-1/,1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/,37,41
+carr-lane-1-LemonCandy,dotogether-o,REFERENCE,1/-1/-1/-1/-1/-1/,1/2/3/4/-1/-1/,C/I/U/U/U/U/,46,50
+carr-lane-1-LemonCandy,dotogether-o,PUZZLE,1/2/3/4/-1/-1/,1/2/3/4/-1/-1/,C/C/C/C/I/U/,63,68
+carr-lane-1-LemonCandy,dotogether-o,REFERENCE,1/2/3/4/-1/-1/,1/2/3/4/6/5/,C/C/C/C/I/U/,71,76
+carr-lane-1-LemonCandy,dotogether-o,PUZZLE,1/2/3/4/6/5/,1/2/3/4/6/5/,C/C/C/C/I/U/,83,89
+carr-lane-1-LemonCandy,dotogether-o,PUZZLE,1/2/3/4/6/5/,1/2/3/4/6/5/,C/C/C/C/I/U/,91,97
+carr-lane-1-LemonCandy,dotogether-o,PUZZLE,1/2/3/4/6/5/,1/2/3/4/6/5/,C/C/C/C/I/I/,108,111
+carr-lane-1-LemonCandy,dotogether-o,PUZZLE,1/2/3/4/6/5/,1/2/3/4/6/5/,C/C/C/C/I/U/,120,123
+carr-lane-1-LemonCandy,dotogether-o,PUZZLE,1/2/3/4/6/5/,1/2/3/4/6/5/,C/C/C/C/I/U/,127,132
+carr-lane-1-LemonCandy,dotogether-o,REFERENCE,1/2/3/4/6/5/,1/2/3/4/5/6/,C/C/C/C/I/U/,134,140
+carr-lane-1-LemonCandy,dotogether-o,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,148,153
+carr-lane-1-LemonCandy,dotogether-o,END,"    this.hare.getRightShoulder().turn(TypeExpression.RIGHT, 0.125) /
+    do together / {
+      this.hare.hit(this.volleyball) /
+      this.volleyball.fly away() /
+    }
+    this.hare.getHead().turn(TypeExpression.BACKWARD, 0.125) /
+    this.hare.say(Aww man..) /",2,6,0,159
+carr-lane-1-LemonCandy,dotogether-n,REFERENCE,-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/,6,8
+carr-lane-1-LemonCandy,dotogether-n,PUZZLE,1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/,13,15
+carr-lane-1-LemonCandy,dotogether-n,REFERENCE,1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/,C/I/U/U/U/U/,16,19
+carr-lane-1-LemonCandy,dotogether-n,REFERENCE,1/2/-1/-1/-1/-1/,1/2/3/4/5/6/,C/C/I/U/U/U/,24,31
+carr-lane-1-LemonCandy,dotogether-n,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,48,58
+carr-lane-1-LemonCandy,dotogether-n,END,"    this.playingCard.say(Alice was just here I promise!!) /
+    this.queenOfHearts.say(We BETTER find her!) /
+    do together / {
+      this.queenOfHearts.walk forward() /
+      this.playingCard.walk forward() /
+    }
+    this.alice.sneak away() /",1,6,0,61
+carr-lane-1-LemonCandy,dotogether-c,PUZZLE,1/2/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/,14,17
+carr-lane-1-LemonCandy,dotogether-c,REFERENCE,1/2/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/,19,24
+carr-lane-1-LemonCandy,dotogether-c,REFERENCE,1/2/-1/-1/-1/-1/-1/,1/2/3/5/4/-1/-1/,C/C/I/U/U/U/U/,34,38
+carr-lane-1-LemonCandy,dotogether-c,PUZZLE,1/2/3/5/4/-1/-1/,1/2/3/5/4/-1/-1/,C/C/C/C/C/I/U/,57,62
+carr-lane-1-LemonCandy,dotogether-c,REFERENCE,1/2/3/5/4/-1/-1/,1/2/3/5/4/6/7/,C/C/C/C/C/I/U/,64,71
+carr-lane-1-LemonCandy,dotogether-c,PUZZLE,1/2/3/5/4/6/7/,1/2/3/5/4/6/7/,C/C/C/C/C/C/C/,78,86
+carr-lane-1-LemonCandy,dotogether-c,END,"    this.Troll.say(What's for dinner?) /
+    this.Witch.say(YOU!) /
+    do together / {
+      this.Troll.moveTo(this.Cauldron) /
+      this.Troll.raise arms and scream() /
+    }
+    this.Troll.turn(TypeExpression.RIGHT, 8.0) /
+    this.Troll.disappear() /",1,7,0,89
+carr-lane-1-LemonCandy,dotogether-d,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/,5,7
+carr-lane-1-LemonCandy,dotogether-d,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/,2/-1/-1/1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/,13,15
+carr-lane-1-LemonCandy,dotogether-d,PUZZLE,2/-1/-1/1/-1/-1/-1/-1/,1/-1/-1/2/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/,23,25
+carr-lane-1-LemonCandy,dotogether-d,PUZZLE,1/-1/-1/2/-1/-1/-1/-1/,1/-1/-1/2/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/,29,32
+carr-lane-1-LemonCandy,dotogether-d,REFERENCE,1/-1/-1/2/-1/-1/-1/-1/,1/-1/-1/2/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/,35,39
+carr-lane-1-LemonCandy,dotogether-d,REFERENCE,1/-1/-1/2/-1/-1/-1/-1/,1/-1/-1/2/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/,40,44
+carr-lane-1-LemonCandy,dotogether-d,PUZZLE,1/-1/-1/2/-1/-1/-1/-1/,1/-1/2/3/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/,47,51
+carr-lane-1-LemonCandy,dotogether-d,PUZZLE,1/-1/2/3/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/,59,62
+carr-lane-1-LemonCandy,dotogether-d,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/,70,75
+carr-lane-1-LemonCandy,dotogether-d,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/,1/2/3/4/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/,82,85
+carr-lane-1-LemonCandy,dotogether-d,PUZZLE,1/2/3/4/-1/-1/-1/-1/,1/2/3/4/-1/-1/-1/-1/,C/C/C/C/I/U/U/U/,101,106
+carr-lane-1-LemonCandy,dotogether-d,REFERENCE,1/2/3/4/-1/-1/-1/-1/,1/2/3/4/-1/-1/-1/-1/,C/C/C/C/I/U/U/U/,108,113
+carr-lane-1-LemonCandy,dotogether-d,REFERENCE,1/2/3/4/-1/-1/-1/-1/,1/2/3/4/5/-1/-1/-1/,C/C/C/C/I/U/U/U/,116,122
+carr-lane-1-LemonCandy,dotogether-d,REFERENCE,1/2/3/4/5/-1/-1/-1/,1/2/3/4/5/7/6/8/,C/C/C/C/C/I/I/I/,126,131
+carr-lane-1-LemonCandy,dotogether-d,PUZZLE,1/2/3/4/5/7/6/8/,1/2/3/4/5/7/6/8/,C/C/C/C/C/C/C/C/,145,152
+carr-lane-1-LemonCandy,dotogether-d,END,"    this.mandril.think(A treasure chest!) /
+    do together / {
+      this.treasureChest.getChestLid().turn(TypeExpression.BACKWARD, 0.25) /
+      this.treasureChest.say(Hello!) /
+    }
+    do together / {
+      this.mandril.turn(TypeExpression.LEFT, 0.5) /
+      this.mandril.walk(10.0) /
+      this.mandril.say(Ahhhhhh!) /
+    }",2,8,0,161
+carr-lane-1-LemonCandy,dotogether-e,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/,6,11
+carr-lane-1-LemonCandy,dotogether-e,PUZZLE,1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/,19,23
+carr-lane-1-LemonCandy,dotogether-e,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/2/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/,24,28
+carr-lane-1-LemonCandy,dotogether-e,PUZZLE,1/-1/-1/2/-1/-1/-1/-1/-1/,1/-1/-1/2/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/,32,36
+carr-lane-1-LemonCandy,dotogether-e,PUZZLE,1/-1/-1/2/-1/-1/-1/-1/-1/,1/-1/-1/2/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/,38,42
+carr-lane-1-LemonCandy,dotogether-e,REFERENCE,1/-1/-1/2/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/,44,52
+carr-lane-1-LemonCandy,dotogether-e,REFERENCE,1/2/-1/-1/-1/-1/-1/-1/-1/,1/2/3/4/-1/-1/-1/-1/-1/,C/C/I/I/U/U/U/U/U/,60,65
+carr-lane-1-LemonCandy,dotogether-e,PUZZLE,1/2/3/4/-1/-1/-1/-1/-1/,1/2/3/4/-1/-1/-1/-1/-1/,C/C/C/C/I/U/U/U/U/,72,78
+carr-lane-1-LemonCandy,dotogether-e,REFERENCE,1/2/3/4/-1/-1/-1/-1/-1/,1/2/3/4/5/-1/-1/-1/-1/,C/C/C/C/I/U/U/U/U/,79,86
+carr-lane-1-LemonCandy,dotogether-e,REFERENCE,1/2/3/4/5/-1/-1/-1/-1/,1/2/3/4/5/-1/-1/6/-1/,C/C/C/C/C/I/I/I/I/,91,98
+carr-lane-1-LemonCandy,dotogether-e,REFERENCE,1/2/3/4/5/-1/-1/6/-1/,1/2/3/4/5/-1/-1/6/-1/,C/C/C/C/C/C/I/I/I/,105,113
+carr-lane-1-LemonCandy,dotogether-e,REFERENCE,1/2/3/4/5/-1/-1/6/-1/,1/2/3/4/5/7/8/6/9/,C/C/C/C/C/C/I/I/I/,116,123
+carr-lane-1-LemonCandy,dotogether-e,PUZZLE,1/2/3/4/5/7/8/6/9/,1/2/3/4/5/7/8/6/9/,C/C/C/C/C/C/C/C/C/,137,147
+carr-lane-1-LemonCandy,dotogether-e,END,"    this.bush.rustle() /
+    do together / {
+      this.Witch.getHead().turn(TypeExpression.RIGHT, 0.125) /
+      this.Witch.say(What was that?) /
+    }
+    do together / {
+      this.Troll.legs shake() /
+      this.Troll.bend over() /
+      this.Troll.turn(TypeExpression.RIGHT, 0.5) /
+      this.Troll.think(This place is scary..) /
+    }",1,9,0,151
+carr-lane-1-LemonCandy,dotogether-i,REFERENCE,-1/1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/,9,12
+carr-lane-1-LemonCandy,dotogether-i,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/3/4/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/,20,23
+carr-lane-1-LemonCandy,dotogether-i,REFERENCE,1/2/3/4/-1/-1/-1/-1/-1/-1/,1/2/3/4/5/-1/-1/-1/-1/-1/,C/C/C/C/I/U/U/U/U/U/,36,39
+carr-lane-1-LemonCandy,dotogether-i,PUZZLE,1/2/3/4/5/-1/-1/-1/-1/-1/,1/2/3/4/5/-1/-1/-1/-1/-1/,C/C/C/C/C/I/U/U/U/U/,47,51
+carr-lane-1-LemonCandy,dotogether-i,REFERENCE,1/2/3/4/5/-1/-1/-1/-1/-1/,1/2/3/4/5/-1/-1/-1/6/-1/,C/C/C/C/C/I/U/U/U/U/,53,57
+carr-lane-1-LemonCandy,dotogether-i,REFERENCE,1/2/3/4/5/-1/-1/-1/6/-1/,1/2/3/4/5/6/-1/-1/7/-1/,C/C/C/C/C/I/U/U/U/U/,63,67
+carr-lane-1-LemonCandy,dotogether-i,REFERENCE,1/2/3/4/5/6/-1/-1/7/-1/,1/2/3/4/5/6/-1/8/7/-1/,C/C/C/C/C/C/I/I/I/U/,74,78
+carr-lane-1-LemonCandy,dotogether-i,REFERENCE,1/2/3/4/5/6/-1/8/7/-1/,1/2/3/4/5/6/9/8/7/10/,C/C/C/C/C/C/I/C/I/U/,82,89
+carr-lane-1-LemonCandy,dotogether-i,PUZZLE,1/2/3/4/5/6/9/8/7/10/,1/2/3/4/5/6/9/8/7/10/,C/C/C/C/C/C/I/C/C/I/,97,101
+carr-lane-1-LemonCandy,dotogether-i,PUZZLE,1/2/3/4/5/6/9/8/7/10/,1/2/3/4/5/6/-1/8/7/-1/,C/C/C/C/C/C/I/C/I/U/,107,113
+carr-lane-1-LemonCandy,dotogether-i,PUZZLE,1/2/3/4/5/6/-1/8/7/-1/,1/2/3/4/5/6/7/8/-1/-1/,C/C/C/C/C/C/I/C/I/U/,118,125
+carr-lane-1-LemonCandy,dotogether-i,PUZZLE,1/2/3/4/5/6/7/8/-1/-1/,1/2/3/4/5/6/7/8/9/10/,C/C/C/C/C/C/C/C/I/U/,157,162
+carr-lane-1-LemonCandy,dotogether-i,PUZZLE,1/2/3/4/5/6/7/8/9/10/,1/2/3/4/5/6/7/8/9/10/,C/C/C/C/C/C/C/C/C/C/,169,177
+carr-lane-1-LemonCandy,dotogether-i,END,"    this.tiny yeti.turnToFace(this.big yeti) /
+    do together / {
+      this.tiny yeti.nod() /
+      this.big yeti.nod() /
+    }
+    this.tiny yeti.move(TypeExpression.BACKWARD, 0.5) /
+    do together / {
+      this.tiny yeti.jump to hammer() /
+      this.big yeti.prepare to swing hammer() /
+    }
+    this.big yeti.power swing() /
+    this.tiny yeti.fly away() /",3,10,0,180
+carr-lane-1-LemonCandy,dotogether-f,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/,10,14
+carr-lane-1-LemonCandy,dotogether-f,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/2/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/,16,23
+carr-lane-1-LemonCandy,dotogether-f,PUZZLE,1/-1/-1/2/-1/-1/-1/-1/,1/-1/4/3/2/-1/-1/-1/,C/I/U/U/U/U/U/U/,31,35
+carr-lane-1-LemonCandy,dotogether-f,REFERENCE,1/-1/4/3/2/-1/-1/-1/,1/-1/4/3/2/-1/-1/-1/,C/C/C/C/I/U/U/U/,50,56
+carr-lane-1-LemonCandy,dotogether-f,PUZZLE,1/-1/4/3/2/-1/-1/-1/,1/-1/4/3/2/-1/-1/-1/,C/C/C/C/I/U/U/U/,58,62
+carr-lane-1-LemonCandy,dotogether-f,REFERENCE,1/-1/4/3/2/-1/-1/-1/,1/5/4/3/2/7/6/-1/,C/C/C/C/I/U/U/U/,63,68
+carr-lane-1-LemonCandy,dotogether-f,REFERENCE,1/5/4/3/2/7/6/-1/,1/5/4/3/2/7/6/-1/,C/C/C/C/C/C/C/I/,87,89
+carr-lane-1-LemonCandy,dotogether-f,PUZZLE,1/5/4/3/2/7/6/-1/,1/5/4/3/2/7/6/8/,C/C/C/C/C/C/C/I/,90,98
+carr-lane-1-LemonCandy,dotogether-f,PUZZLE,1/5/4/3/2/7/6/8/,1/5/4/3/2/7/6/8/,C/C/C/C/C/C/C/C/,103,112
+carr-lane-1-LemonCandy,dotogether-f,END,"    this.Witch.say(I will turn you to stone!) /
+    do together / {
+      this.Ogre.move(TypeExpression.DOWN, 0.375) /
+      this.Ogre.bend knees() /
+    }
+    do together / {
+      this.Witch.cast spell() /
+      this.Ogre.getRightShoulder().turn(TypeExpression.LEFT, 0.25) /
+      this.Ogre.setPaint(InstanceCreation) /
+    }",1,8,0,115
+carr-lane-1-LemonCandy,dotogether-l,REFERENCE,1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/,10,15
+carr-lane-1-LemonCandy,dotogether-l,REFERENCE,1/2/-1/-1/-1/-1/-1/,1/2/-1/-1/3/-1/-1/,C/C/I/U/U/U/U/,19,26
+carr-lane-1-LemonCandy,dotogether-l,REFERENCE,1/2/-1/-1/3/-1/-1/,1/2/-1/-1/3/-1/4/,C/C/I/U/U/U/U/,31,38
+carr-lane-1-LemonCandy,dotogether-l,REFERENCE,1/2/-1/-1/3/-1/4/,1/2/3/-1/-1/-1/-1/,C/C/I/U/U/U/U/,42,63
+carr-lane-1-LemonCandy,dotogether-l,REFERENCE,1/2/3/-1/-1/-1/-1/,1/2/3/4/6/5/7/,C/C/C/I/I/I/U/,85,90
+carr-lane-1-LemonCandy,dotogether-l,PUZZLE,1/2/3/4/6/5/7/,1/2/3/4/6/5/7/,C/C/C/C/C/C/I/,106,113
+carr-lane-1-LemonCandy,dotogether-l,PUZZLE,1/2/3/4/6/5/7/,1/2/3/4/6/5/7/,C/C/C/C/C/C/C/,117,126
+carr-lane-1-LemonCandy,dotogether-l,END,"    this.cheshireCat.say(Okay Alice, your turn now.) /
+    this.alice.move(TypeExpression.BACKWARD, 1.0) /
+    do together / {
+      this.alice.move legs() /
+      this.alice.move(TypeExpression.UP, 1.0) /
+      this.alice.moveToward(this.cheshireCat, 3.0) /
+    }
+    this.alice.say(I'm stuck!) /",1,7,0,128
+carr-lane-1-LemonCandy,dotogether-j,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/,5,8
+carr-lane-1-LemonCandy,dotogether-j,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,2/-1/-1/-1/-1/-1/-1/-1/-1/-1/1/,I/U/U/U/U/U/U/U/U/U/U/,13,16
+carr-lane-1-LemonCandy,dotogether-j,PUZZLE,2/-1/-1/-1/-1/-1/-1/-1/-1/-1/1/,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/,27,30
+carr-lane-1-LemonCandy,dotogether-j,PUZZLE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/,35,39
+carr-lane-1-LemonCandy,dotogether-j,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/3/-1/-1/-1/2/-1/-1/4/-1/,C/I/U/U/U/U/U/U/U/U/U/,41,46
+carr-lane-1-LemonCandy,dotogether-j,REFERENCE,1/-1/3/-1/-1/-1/2/-1/-1/4/-1/,1/-1/3/-1/-1/-1/2/-1/-1/4/-1/,C/C/C/I/I/U/U/U/U/U/U/,58,67
+carr-lane-1-LemonCandy,dotogether-j,REFERENCE,1/-1/3/-1/-1/-1/2/-1/-1/4/-1/,1/-1/3/-1/5/6/2/-1/-1/4/-1/,C/C/C/I/I/U/U/U/U/U/U/,71,78
+carr-lane-1-LemonCandy,dotogether-j,PUZZLE,1/-1/3/-1/5/6/2/-1/-1/4/-1/,1/-1/3/4/5/6/2/-1/-1/-1/-1/,C/C/C/I/I/U/U/U/U/U/U/,92,98
+carr-lane-1-LemonCandy,dotogether-j,PUZZLE,1/-1/3/4/5/6/2/-1/-1/-1/-1/,1/-1/3/4/5/6/2/-1/-1/-1/-1/,C/C/C/C/C/C/I/U/U/U/U/,108,118
+carr-lane-1-LemonCandy,dotogether-j,REFERENCE,1/-1/3/4/5/6/2/-1/-1/-1/-1/,1/7/3/4/5/6/2/10/9/8/-1/,C/C/C/C/C/C/I/U/U/U/U/,120,134
+carr-lane-1-LemonCandy,dotogether-j,PUZZLE,1/7/3/4/5/6/2/10/9/8/-1/,1/7/3/4/5/6/2/10/9/8/11/,C/C/C/C/C/C/C/C/C/C/I/,150,167
+carr-lane-1-LemonCandy,dotogether-j,PUZZLE,1/7/3/4/5/6/2/10/9/8/11/,1/7/3/4/5/6/2/10/9/8/11/,C/C/C/C/C/C/C/C/C/C/C/,170,187
+carr-lane-1-LemonCandy,dotogether-j,END,"    this.fox.jump out of snow() /
+    do together / {
+      this.snow man.skate around() /
+      this.snow gal.skate around() /
+    }
+    this.fox.wag tail() /
+    this.fox.jump on(this.snow man) /
+    do together / {
+      this.snow gal.twirl around() /
+      this.snow gal.raise up and lower down() /
+      this.snow man.skate around() /
+    }
+    this.fox.dive into snow() /",1,11,0,191
+carr-lane-1-LemonCandy,dotogether-h,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/U/,5,8
+carr-lane-1-LemonCandy,dotogether-h,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/U/,14,17
+carr-lane-1-LemonCandy,dotogether-h,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/,22,25
+carr-lane-1-LemonCandy,dotogether-h,PUZZLE,1/-1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/3/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/,31,34
+carr-lane-1-LemonCandy,dotogether-h,REFERENCE,1/2/-1/3/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/4/3/-1/-1/-1/-1/-1/-1/-1/-1/,C/C/C/I/U/U/U/U/U/U/U/U/,41,44
+carr-lane-1-LemonCandy,dotogether-h,PUZZLE,1/2/4/3/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/4/3/-1/-1/-1/-1/-1/-1/-1/-1/,C/C/C/C/I/U/U/U/U/U/U/U/,59,64
+carr-lane-1-LemonCandy,dotogether-h,REFERENCE,1/2/4/3/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/4/3/5/-1/-1/-1/-1/-1/-1/-1/,C/C/C/C/I/U/U/U/U/U/U/U/,65,71
+carr-lane-1-LemonCandy,dotogether-h,PUZZLE,1/2/4/3/5/-1/-1/-1/-1/-1/-1/-1/,1/2/4/3/5/-1/-1/-1/-1/-1/-1/-1/,C/C/C/C/C/I/U/U/U/U/U/U/,76,81
+carr-lane-1-LemonCandy,dotogether-h,REFERENCE,1/2/4/3/5/-1/-1/-1/-1/-1/-1/-1/,1/2/4/3/5/6/7/8/-1/-1/-1/-1/,C/C/C/C/C/I/U/U/U/U/U/U/,83,88
+carr-lane-1-LemonCandy,dotogether-h,PUZZLE,1/2/4/3/5/6/7/8/-1/-1/-1/-1/,1/2/4/3/5/6/7/8/-1/-1/-1/-1/,C/C/C/C/C/C/C/C/I/U/U/U/,102,109
+carr-lane-1-LemonCandy,dotogether-h,PUZZLE,1/2/4/3/5/6/7/8/-1/-1/-1/-1/,1/2/4/3/5/6/7/8/-1/-1/-1/-1/,C/C/C/C/C/C/C/C/I/U/U/U/,110,112
+carr-lane-1-LemonCandy,dotogether-h,REFERENCE,1/2/4/3/5/6/7/8/-1/-1/-1/-1/,1/2/4/3/5/6/7/8/9/11/10/-1/,C/C/C/C/C/C/C/C/I/U/U/U/,113,120
+carr-lane-1-LemonCandy,dotogether-h,REFERENCE,1/2/4/3/5/6/7/8/9/11/10/-1/,1/2/4/3/5/6/7/8/9/11/10/12/,C/C/C/C/C/C/C/C/C/C/C/I/,129,138
+carr-lane-1-LemonCandy,dotogether-h,PUZZLE,1/2/4/3/5/6/7/8/9/11/10/12/,1/2/4/3/5/6/7/8/9/11/10/12/,C/C/C/C/C/C/C/C/C/C/C/C/,142,149
+carr-lane-1-LemonCandy,dotogether-h,END,"    this.bunny.bend forward() /
+    do together / {
+      this.bunny.jump() /
+      this.bunny.move(TypeExpression.FORWARD, 1.0) /
+    }
+    this.bunny.disappear() /
+    do together / {
+      this.hat.turn(TypeExpression.RIGHT, 2.0) /
+      this.hat.move(TypeExpression.DOWN, 1.0) /
+    }
+    do together / {
+      this.bunny.appear() /
+      this.bunny.raise arms() /
+      this.bunny.turn(TypeExpression.RIGHT, 2.25) /
+    }",1,12,0,153
+carr-lane-1-LemonCandy,repeat-ee,REFERENCE,-1/-1/-1/-1/,1/-1/-1/-1/,I/U/U/U/,11,18
+carr-lane-1-LemonCandy,repeat-ee,REFERENCE,1/-1/-1/-1/,1/2/3/4/,C/I/U/U/,22,30
+carr-lane-1-LemonCandy,repeat-ee,PUZZLE,1/2/3/4/,1/2/3/4/,C/C/C/C/,40,51
+carr-lane-1-LemonCandy,repeat-ee,END,"    this.hare.walk(5.0) /
+    count 3 / {
+      this.hare.knock() /
+    }
+    this.hare.say(Anyone home?) /",1,4,0,56
+carr-lane-1-LemonCandy,repeat-gg,REFERENCE,-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/,28,31
+carr-lane-1-LemonCandy,repeat-gg,REFERENCE,1/2/-1/-1/-1/-1/-1/,1/2/-1/3/-1/-1/-1/,C/C/I/U/U/U/U/,48,53
+carr-lane-1-LemonCandy,repeat-gg,PUZZLE,1/2/-1/3/-1/-1/-1/,1/2/-1/3/-1/-1/-1/,C/C/I/U/U/U/U/,61,66
+carr-lane-1-LemonCandy,repeat-gg,REFERENCE,1/2/-1/3/-1/-1/-1/,1/2/-1/3/4/-1/-1/,C/C/I/U/U/U/U/,69,75
+carr-lane-1-LemonCandy,repeat-gg,REFERENCE,1/2/-1/3/4/-1/-1/,1/2/3/4/5/-1/-1/,C/C/I/U/U/U/U/,80,88
+carr-lane-1-LemonCandy,repeat-gg,REFERENCE,1/2/3/4/5/-1/-1/,1/2/3/4/5/6/-1/,C/C/C/C/C/I/U/,99,111
+carr-lane-1-LemonCandy,repeat-gg,PUZZLE,1/2/3/4/5/6/-1/,1/2/3/4/5/6/7/,C/C/C/C/C/C/I/,116,119
+carr-lane-1-LemonCandy,repeat-gg,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/C/C/,123,139
+carr-lane-1-LemonCandy,repeat-gg,END,"    this.mandril.scare ostrich() /
+    this.ostrichBaby.say(AAAHHHHH!!!!) /
+    count 5 / {
+      this.ostrichBaby.run(3, 0.08) /
+      GlobalFirstInstanceExpression.scene.ostrichBaby.turn(TypeExpression.RIGHT, 0.5) /
+    }
+    this.ostrichBaby.think(I guess this is the end; there's no escape!) /
+    this.fade to black() /",1,7,0,145
+carr-lane-1-LemonCandy,repeat-f,REFERENCE,-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/,I/U/U/U/U/,17,21
+carr-lane-1-LemonCandy,repeat-f,PUZZLE,1/-1/-1/-1/-1/,1/3/-1/4/2/,C/I/U/U/U/,29,32
+carr-lane-1-LemonCandy,repeat-f,REFERENCE,1/3/-1/4/2/,2/4/1/5/3/,C/I/U/U/U/,49,57
+carr-lane-1-LemonCandy,repeat-f,PUZZLE,2/4/1/5/3/,1/4/3/5/2/,I/U/U/U/U/,76,80
+carr-lane-1-LemonCandy,repeat-f,PUZZLE,1/4/3/5/2/,1/4/3/5/2/,C/I/U/U/U/,126,130
+carr-lane-1-LemonCandy,repeat-f,PUZZLE,1/4/3/5/2/,1/4/3/5/2/,C/I/U/U/U/,134,139
+carr-lane-1-LemonCandy,repeat-f,PUZZLE,1/4/3/5/2/,1/3/-1/4/2/,C/I/U/U/U/,145,151
+carr-lane-1-LemonCandy,repeat-f,PUZZLE,1/3/-1/4/2/,1/2/-1/3/-1/,C/I/U/U/U/,158,161
+carr-lane-1-LemonCandy,repeat-f,PUZZLE,1/2/-1/3/-1/,1/3/2/4/5/,C/C/I/U/U/,169,173
+carr-lane-1-LemonCandy,repeat-f,PUZZLE,1/3/2/4/5/,1/2/-1/3/4/,C/I/U/U/U/,189,192
+carr-lane-1-LemonCandy,repeat-f,PUZZLE,1/2/-1/3/4/,1/2/-1/3/4/,C/C/I/U/U/,203,210
+carr-lane-1-LemonCandy,repeat-f,REFERENCE,1/2/-1/3/4/,1/3/2/4/5/,C/C/I/U/U/,212,221
+carr-lane-1-LemonCandy,repeat-f,PUZZLE,1/3/2/4/5/,1/2/3/4/5/,C/I/U/U/U/,236,238
+carr-lane-1-LemonCandy,repeat-f,PUZZLE,1/2/3/4/5/,1/2/3/4/5/,C/C/C/C/C/,263,275
+carr-lane-1-LemonCandy,repeat-f,END,"    this.Gray Rhino.getNeck().turn(TypeExpression.FORWARD, 0.0625) /
+    this.White Rhino.getNeck().turn(TypeExpression.FORWARD, 0.0625) /
+    count 2 / {
+      this.White Rhino.drink water() /
+      this.Gray Rhino.drink water() /
+    }",1,5,0,279
+carr-lane-1-LemonCandy,repeat-a,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/,7,12
+carr-lane-1-LemonCandy,repeat-a,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/,19,21
+carr-lane-1-LemonCandy,repeat-a,REFERENCE,1/2/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/3/-1/-1/,C/C/I/U/U/U/U/U/U/,29,33
+carr-lane-1-LemonCandy,repeat-a,PUZZLE,1/2/-1/-1/-1/-1/3/-1/-1/,1/2/-1/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/,40,44
+carr-lane-1-LemonCandy,repeat-a,PUZZLE,1/2/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/,51,56
+carr-lane-1-LemonCandy,repeat-a,REFERENCE,1/2/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/,58,63
+carr-lane-1-LemonCandy,repeat-a,REFERENCE,1/2/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/3/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/,75,82
+carr-lane-1-LemonCandy,repeat-a,PUZZLE,1/2/-1/-1/3/-1/-1/-1/-1/,1/2/3/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/,93,97
+carr-lane-1-LemonCandy,repeat-a,PUZZLE,1/2/3/-1/-1/-1/-1/-1/-1/,1/2/3/-1/-1/-1/-1/-1/-1/,C/C/C/I/U/U/U/U/U/,106,113
+carr-lane-1-LemonCandy,repeat-a,REFERENCE,1/2/3/-1/-1/-1/-1/-1/-1/,1/2/3/-1/4/-1/-1/-1/-1/,C/C/C/I/U/U/U/U/U/,115,122
+carr-lane-1-LemonCandy,repeat-a,REFERENCE,1/2/3/-1/4/-1/-1/-1/-1/,1/2/3/-1/5/6/-1/4/-1/,C/C/C/I/U/U/U/U/U/,130,141
+carr-lane-1-LemonCandy,repeat-a,REFERENCE,1/2/3/-1/5/6/-1/4/-1/,1/2/3/7/5/6/9/4/8/,C/C/C/C/C/C/I/U/U/,152,169
+carr-lane-1-LemonCandy,repeat-a,PUZZLE,1/2/3/7/5/6/9/4/8/,1/2/3/7/5/6/9/4/8/,C/C/C/C/C/C/I/U/U/,181,194
+carr-lane-1-LemonCandy,repeat-a,PUZZLE,1/2/3/7/5/6/9/4/8/,1/2/3/7/5/6/9/4/8/,C/C/C/C/C/C/I/U/U/,199,213
+carr-lane-1-LemonCandy,repeat-a,REFERENCE,1/2/3/7/5/6/9/4/8/,1/2/3/7/5/6/-1/4/8/,C/C/C/C/C/C/I/U/U/,220,248
+carr-lane-1-LemonCandy,repeat-a,PUZZLE,1/2/3/7/5/6/-1/4/8/,1/2/3/7/5/6/9/4/8/,C/C/C/C/C/C/I/U/U/,251,269
+carr-lane-1-LemonCandy,repeat-a,PUZZLE,1/2/3/7/5/6/9/4/8/,1/2/3/7/5/6/9/4/8/,C/C/C/C/C/C/I/U/U/,273,301
+carr-lane-1-LemonCandy,repeat-a,PUZZLE,1/2/3/7/5/6/9/4/8/,1/2/3/8/5/6/7/4/9/,C/C/C/C/C/C/I/U/U/,307,321
+carr-lane-1-LemonCandy,repeat-a,PUZZLE,1/2/3/8/5/6/7/4/9/,1/2/3/8/5/6/7/4/9/,C/C/C/C/C/C/C/C/C/,333,357
+carr-lane-1-LemonCandy,repeat-a,END,"    this.tiny yeti.run forward() /
+    this.tiny yeti.steal hammer() /
+    this.tiny yeti.jump above yeti() /
+    count 3 / {
+      this.tiny yeti.swing hammer() /
+      this.big yeti.shake head() /
+    }
+    this.tiny yeti.fall to ground() /
+    count 3 / {
+      this.big yeti.cry() /
+    }",4,9,0,367
+carr-lane-1-LemonCandy,repeat-e,REFERENCE,-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/,15,19
+carr-lane-1-LemonCandy,repeat-e,REFERENCE,1/-1/-1/-1/-1/-1/-1/,1/2/3/-1/-1/-1/-1/,C/I/U/U/U/U/U/,27,35
+carr-lane-1-LemonCandy,repeat-e,REFERENCE,1/2/3/-1/-1/-1/-1/,1/2/3/4/-1/-1/-1/,C/C/C/I/U/U/U/,43,57
+carr-lane-1-LemonCandy,repeat-e,REFERENCE,1/2/3/4/-1/-1/-1/,1/2/3/4/5/6/7/,C/C/C/C/I/U/U/,63,82
+carr-lane-1-LemonCandy,repeat-e,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/C/C/,93,107
+carr-lane-1-LemonCandy,repeat-e,END,"    this.curupira.walk(2.0) /
+    this.curupira.getNeck().turn(TypeExpression.FORWARD, 0.125) /
+    this.curupira.think(Uh oh.) /
+    this.curupira.move(TypeExpression.DOWN, 4.0) /
+    this.mapinguari.place hands on belly() /
+    count 3 / {
+      this.mapinguari.laugh() /
+    }",1,7,0,110
+carr-lane-1-LemonCandy,repeat-m,REFERENCE,-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/,7,10
+carr-lane-1-LemonCandy,repeat-m,REFERENCE,1/-1/-1/-1/-1/-1/-1/,1/-1/2/-1/-1/-1/-1/,C/I/U/U/U/U/U/,13,16
+carr-lane-1-LemonCandy,repeat-m,REFERENCE,1/-1/2/-1/-1/-1/-1/,1/-1/2/-1/-1/-1/-1/,C/I/U/U/U/U/U/,3591,-1
+carr-lane-1-LemonCandy,repeat-m,REFERENCE,1/-1/2/-1/-1/-1/-1/,1/-1/2/-1/-1/3/-1/,C/I/U/U/U/U/U/,3591,3595
+carr-lane-1-LemonCandy,repeat-m,PUZZLE,1/-1/2/-1/-1/3/-1/,1/-1/2/-1/-1/-1/-1/,C/I/U/U/U/U/U/,3600,3604
+carr-lane-1-LemonCandy,repeat-m,PUZZLE,1/-1/2/-1/-1/-1/-1/,1/-1/2/-1/-1/-1/-1/,C/I/U/U/U/U/U/,3606,3610
+carr-lane-1-LemonCandy,repeat-m,REFERENCE,1/-1/2/-1/-1/-1/-1/,1/2/3/4/-1/-1/-1/,C/I/U/U/U/U/U/,3612,3617
+carr-lane-1-LemonCandy,repeat-m,PUZZLE,1/2/3/4/-1/-1/-1/,1/2/3/4/-1/-1/-1/,C/C/C/C/I/U/U/,3631,3639
+carr-lane-1-LemonCandy,repeat-m,REFERENCE,1/2/3/4/-1/-1/-1/,1/2/3/4/-1/-1/-1/,C/C/C/C/I/U/U/,3640,3643
+carr-lane-1-LemonCandy,repeat-m,REFERENCE,1/2/3/4/-1/-1/-1/,1/2/3/4/-1/-1/-1/,C/C/C/C/I/U/U/,3650,3660
+carr-lane-1-LemonCandy,repeat-m,REFERENCE,1/2/3/4/-1/-1/-1/,1/2/3/4/6/5/7/,C/C/C/C/I/U/U/,3696,3705
+carr-lane-1-LemonCandy,repeat-m,PUZZLE,1/2/3/4/6/5/7/,1/2/3/4/5/6/7/,C/C/C/C/I/U/U/,3717,3727
+carr-lane-1-LemonCandy,repeat-m,PUZZLE,1/2/3/4/5/6/7/,1/2/3/4/5/6/7/,C/C/C/C/C/C/C/,3732,3745
+carr-lane-1-LemonCandy,repeat-m,END,"    this.alien.walk(0.5) /
+    count 2 / {
+      this.alien.kick() /
+      this.flying saucer.shake() /
+    }
+    this.flying saucer.fly above(this.alien) /
+    this.flying saucer.beam up(this.alien) /
+    this.flying saucer.fly away() /",1,7,0,3748
+carr-lane-1-LemonCandy,repeat-g,REFERENCE,-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/,11,16
+carr-lane-1-LemonCandy,repeat-g,REFERENCE,1/-1/-1/-1/-1/-1/,1/2/3/-1/-1/-1/,C/I/U/U/U/U/,21,26
+carr-lane-1-LemonCandy,repeat-g,REFERENCE,1/2/3/-1/-1/-1/,1/2/3/-1/-1/-1/,C/C/C/I/U/U/,33,38
+carr-lane-1-LemonCandy,repeat-g,REFERENCE,1/2/3/-1/-1/-1/,1/2/3/-1/-1/-1/,C/C/C/I/U/U/,42,48
+carr-lane-1-LemonCandy,repeat-g,REFERENCE,1/2/3/-1/-1/-1/,1/2/3/6/4/5/,C/C/C/I/U/U/,52,59
+carr-lane-1-LemonCandy,repeat-g,PUZZLE,1/2/3/6/4/5/,1/2/3/6/4/5/,C/C/C/I/U/U/,68,72
+carr-lane-1-LemonCandy,repeat-g,PUZZLE,1/2/3/6/4/5/,1/2/3/6/5/4/,C/C/C/I/U/U/,79,83
+carr-lane-1-LemonCandy,repeat-g,PUZZLE,1/2/3/6/5/4/,1/2/3/-1/-1/-1/,C/C/C/I/U/U/,91,95
+carr-lane-1-LemonCandy,repeat-g,PUZZLE,1/2/3/-1/-1/-1/,1/2/3/4/5/6/,C/C/C/I/U/U/,101,103
+carr-lane-1-LemonCandy,repeat-g,PUZZLE,1/2/3/4/5/6/,1/2/3/5/4/6/,C/C/C/I/U/U/,123,132
+carr-lane-1-LemonCandy,repeat-g,REFERENCE,1/2/3/5/4/6/,1/2/3/6/5/4/,C/C/C/I/U/U/,140,147
+carr-lane-1-LemonCandy,repeat-g,PUZZLE,1/2/3/6/5/4/,1/-1/-1/-1/-1/-1/,C/C/C/I/U/U/,153,156
+carr-lane-1-LemonCandy,repeat-g,REFERENCE,1/-1/-1/-1/-1/-1/,1/2/-1/3/-1/-1/,C/I/U/U/U/U/,181,184
+carr-lane-1-LemonCandy,repeat-g,PUZZLE,1/2/-1/3/-1/-1/,1/-1/-1/2/-1/-1/,C/C/I/U/U/U/,205,209
+carr-lane-1-LemonCandy,repeat-g,PUZZLE,1/-1/-1/2/-1/-1/,1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/,215,217
+carr-lane-1-LemonCandy,repeat-g,REFERENCE,1/-1/-1/-1/-1/-1/,1/2/5/3/4/6/,C/I/U/U/U/U/,220,223
+carr-lane-1-LemonCandy,repeat-g,PUZZLE,1/2/5/3/4/6/,1/2/4/3/5/6/,C/C/I/U/U/U/,256,260
+carr-lane-1-LemonCandy,repeat-g,PUZZLE,1/2/4/3/5/6/,1/2/3/-1/-1/-1/,C/C/I/U/U/U/,271,276
+carr-lane-1-LemonCandy,repeat-g,PUZZLE,1/2/3/-1/-1/-1/,1/2/3/6/4/5/,C/C/C/I/U/U/,287,290
+carr-lane-1-LemonCandy,repeat-g,PUZZLE,1/2/3/6/4/5/,1/2/3/4/5/6/,C/C/C/I/U/U/,303,307
+carr-lane-1-LemonCandy,repeat-g,PUZZLE,1/2/3/4/5/6/,1/2/3/5/4/6/,C/C/C/I/U/U/,315,320
+carr-lane-1-LemonCandy,repeat-g,PUZZLE,1/2/3/5/4/6/,1/2/3/4/5/6/,C/C/C/I/U/U/,337,340
+carr-lane-1-LemonCandy,repeat-g,PUZZLE,1/2/3/4/5/6/,1/2/3/5/4/6/,C/C/C/I/U/U/,352,354
+carr-lane-1-LemonCandy,repeat-g,PUZZLE,1/2/3/5/4/6/,1/2/3/5/4/6/,C/C/C/I/U/U/,368,370
+carr-lane-1-LemonCandy,repeat-g,REFERENCE,1/2/3/5/4/6/,1/2/3/5/4/6/,C/C/C/I/U/U/,374,382
+carr-lane-1-LemonCandy,repeat-g,PUZZLE,1/2/3/5/4/6/,1/2/3/6/4/5/,C/C/C/I/U/U/,400,405
+carr-lane-1-LemonCandy,repeat-g,PUZZLE,1/2/3/6/4/5/,1/2/3/6/4/5/,C/C/C/I/U/U/,415,421
+carr-lane-1-LemonCandy,repeat-g,PUZZLE,1/2/3/6/4/5/,1/2/3/5/4/6/,C/C/C/I/U/U/,424,433
+carr-lane-1-LemonCandy,repeat-g,PUZZLE,1/2/3/5/4/6/,1/2/3/4/5/6/,C/C/C/I/U/U/,436,442
+carr-lane-1-LemonCandy,repeat-g,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/I/U/U/,467,-1
+carr-lane-1-LemonCandy,repeat-g,REFERENCE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/I/U/U/,475,-1
+carr-lane-1-LemonCandy,repeat-g,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/I/U/U/,483,-1
+carr-lane-1-LemonCandy,repeat-g,PUZZLE,1/2/3/4/5/6/,1/2/3/6/4/5/,C/C/C/I/U/U/,490,495
+carr-lane-1-LemonCandy,repeat-g,PUZZLE,1/2/3/6/4/5/,1/2/3/-1/-1/-1/,C/C/C/I/U/U/,501,505
+carr-lane-1-LemonCandy,repeat-g,REFERENCE,1/2/3/-1/-1/-1/,1/2/3/-1/-1/-1/,C/C/C/I/U/U/,513,519
+carr-lane-1-LemonCandy,repeat-g,PUZZLE,1/2/3/-1/-1/-1/,1/2/3/4/-1/-1/,C/C/C/I/U/U/,520,527
+carr-lane-1-LemonCandy,repeat-g,PUZZLE,1/2/3/4/-1/-1/,1/2/3/4/5/6/,C/C/C/C/I/U/,532,537
+carr-lane-1-LemonCandy,repeat-g,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,541,550
+carr-lane-1-LemonCandy,repeat-g,END,"    this.Baby Yeti.raise arms() /
+    count 2 / {
+      this.Baby Yeti.turn(TypeExpression.LEFT, 0.125) /
+      this.Baby Yeti.turn(TypeExpression.RIGHT, 0.125) /
+    }
+    count 3 / {
+      this.Baby Yeti.jump and spin() /
+    }",7,6,0,555
+carr-lane-1-LemonCandy,repeat-b,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/,11,14
+carr-lane-1-LemonCandy,repeat-b,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/,18,21
+carr-lane-1-LemonCandy,repeat-b,PUZZLE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/,29,33
+carr-lane-1-LemonCandy,repeat-b,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/,35,39
+carr-lane-1-LemonCandy,repeat-b,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/2/-1/-1/,C/I/U/U/U/U/U/U/U/U/,43,47
+carr-lane-1-LemonCandy,repeat-b,PUZZLE,1/-1/-1/-1/-1/-1/-1/2/-1/-1/,1/2/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/,52,56
+carr-lane-1-LemonCandy,repeat-b,PUZZLE,1/2/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/,61,65
+carr-lane-1-LemonCandy,repeat-b,REFERENCE,1/2/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/,67,71
+carr-lane-1-LemonCandy,repeat-b,REFERENCE,1/2/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/3/4/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/,76,82
+carr-lane-1-LemonCandy,repeat-b,REFERENCE,1/2/-1/3/4/-1/-1/-1/-1/-1/,1/2/-1/3/4/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/,98,100
+carr-lane-1-LemonCandy,repeat-b,REFERENCE,1/2/-1/3/4/-1/-1/-1/-1/-1/,1/2/-1/4/5/-1/3/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/,102,114
+carr-lane-1-LemonCandy,repeat-b,PUZZLE,1/2/-1/4/5/-1/3/-1/-1/-1/,1/2/-1/4/5/-1/3/-1/-1/-1/,C/C/C/C/C/I/U/U/U/U/,127,135
+carr-lane-1-LemonCandy,repeat-b,REFERENCE,1/2/-1/4/5/-1/3/-1/-1/-1/,1/2/-1/4/5/6/3/-1/-1/-1/,C/C/C/C/C/I/U/U/U/U/,137,147
+carr-lane-1-LemonCandy,repeat-b,REFERENCE,1/2/-1/4/5/6/3/-1/-1/-1/,1/2/-1/4/5/6/3/-1/-1/-1/,C/C/C/C/C/C/I/U/U/U/,153,164
+carr-lane-1-LemonCandy,repeat-b,REFERENCE,1/2/-1/4/5/6/3/-1/-1/-1/,1/2/7/4/5/6/3/8/9/10/,C/C/C/C/C/C/I/U/U/U/,173,191
+carr-lane-1-LemonCandy,repeat-b,PUZZLE,1/2/7/4/5/6/3/8/9/10/,1/2/7/4/5/6/3/8/9/10/,C/C/C/C/C/C/C/C/C/C/,213,231
+carr-lane-1-LemonCandy,repeat-b,END,"    this.grey monkey.jump onto(this.couch) /
+    this.grey monkey.turnToFace(this.brown monkey) /
+    count 2 / {
+      this.grey monkey.move arms up and down() /
+      this.brown monkey.move arms up and down() /
+    }
+    this.grey monkey.hop side to side() /
+    count 2 / {
+      this.brown monkey.turn around() /
+      this.brown monkey.jump forward() /
+    }
+    this.grey monkey.lay down() /",1,10,0,236
+carr-lane-1-LemonCandy,repeat-dd,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/,16,18
+carr-lane-1-LemonCandy,repeat-dd,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/,26,40
+carr-lane-1-LemonCandy,repeat-dd,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/,1/-1/3/2/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/,41,45
+carr-lane-1-LemonCandy,repeat-dd,PUZZLE,1/-1/3/2/-1/-1/-1/-1/,1/2/3/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/,55,58
+carr-lane-1-LemonCandy,repeat-dd,PUZZLE,1/2/3/-1/-1/-1/-1/-1/,1/2/3/-1/-1/-1/-1/-1/,C/C/C/I/U/U/U/U/,76,80
+carr-lane-1-LemonCandy,repeat-dd,REFERENCE,1/2/3/-1/-1/-1/-1/-1/,1/2/3/-1/-1/-1/-1/-1/,C/C/C/I/U/U/U/U/,82,86
+carr-lane-1-LemonCandy,repeat-dd,REFERENCE,1/2/3/-1/-1/-1/-1/-1/,1/2/3/-1/-1/-1/-1/-1/,C/C/C/I/U/U/U/U/,88,100
+carr-lane-1-LemonCandy,repeat-dd,REFERENCE,1/2/3/-1/-1/-1/-1/-1/,1/2/3/-1/4/-1/5/-1/,C/C/C/I/U/U/U/U/,103,115
+carr-lane-1-LemonCandy,repeat-dd,PUZZLE,1/2/3/-1/4/-1/5/-1/,1/2/3/-1/4/-1/5/6/,C/C/C/I/U/U/U/U/,125,130
+carr-lane-1-LemonCandy,repeat-dd,PUZZLE,1/2/3/-1/4/-1/5/6/,1/2/3/-1/4/-1/5/-1/,C/C/C/I/U/U/U/U/,142,150
+carr-lane-1-LemonCandy,repeat-dd,PUZZLE,1/2/3/-1/4/-1/5/-1/,1/2/3/-1/4/-1/5/-1/,C/C/C/I/U/U/U/U/,163,171
+carr-lane-1-LemonCandy,repeat-dd,REFERENCE,1/2/3/-1/4/-1/5/-1/,1/2/3/-1/4/-1/5/-1/,C/C/C/I/U/U/U/U/,173,-1
+carr-lane-1-LemonCandy,repeat-dd,REFERENCE,1/2/3/-1/4/-1/5/-1/,1/2/3/4/5/-1/6/-1/,C/C/C/I/U/U/U/U/,207,214
+carr-lane-1-LemonCandy,repeat-dd,PUZZLE,1/2/3/4/5/-1/6/-1/,1/2/3/4/-1/-1/-1/-1/,C/C/C/C/C/I/U/U/,225,233
+carr-lane-1-LemonCandy,repeat-dd,REFERENCE,1/2/3/4/-1/-1/-1/-1/,1/2/3/4/5/-1/6/-1/,C/C/C/C/I/U/U/U/,238,246
+carr-lane-1-LemonCandy,repeat-dd,PUZZLE,1/2/3/4/5/-1/6/-1/,1/2/3/4/5/-1/6/-1/,C/C/C/C/C/I/U/U/,268,275
+carr-lane-1-LemonCandy,repeat-dd,REFERENCE,1/2/3/4/5/-1/6/-1/,1/2/3/4/5/7/6/8/,C/C/C/C/C/I/U/U/,277,295
+carr-lane-1-LemonCandy,repeat-dd,PUZZLE,1/2/3/4/5/7/6/8/,1/2/3/4/5/7/6/8/,C/C/C/C/C/I/U/U/,331,-1
+carr-lane-1-LemonCandy,repeat-dd,REFERENCE,1/2/3/4/5/7/6/8/,1/2/3/4/5/6/7/8/,C/C/C/C/C/I/U/U/,352,372
+carr-lane-1-LemonCandy,repeat-dd,PUZZLE,1/2/3/4/5/6/7/8/,1/2/3/4/5/6/7/8/,C/C/C/C/C/C/C/I/,393,405
+carr-lane-1-LemonCandy,repeat-dd,PUZZLE,1/2/3/4/5/6/7/8/,1/2/3/4/5/6/7/8/,C/C/C/C/C/C/C/I/,411,449
+carr-lane-1-LemonCandy,repeat-dd,PUZZLE,1/2/3/4/5/6/7/8/,1/2/3/4/5/6/7/8/,C/C/C/C/C/C/C/C/,486,526
+carr-lane-1-LemonCandy,repeat-dd,END,"    this.hare.say(Ready....Set...) /
+    this.hare.raise arm() /
+    this.hare.say(GO!!) /
+    this.hare.getRightShoulder().turn(TypeExpression.RIGHT, 0.35) /
+    count 2 / {
+      count 2 / {
+        this.rhinos paw ground() /
+      }
+      this.rhinos charge() /
+    }",5,8,0,541
+carr-lane-1-LemonCandy,repeat-ii,REFERENCE,-1/-1/-1/-1/-1/-1/,1/-1/-1/2/-1/-1/,I/U/U/U/U/U/,9,11
+carr-lane-1-LemonCandy,repeat-ii,PUZZLE,1/-1/-1/2/-1/-1/,1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/,18,20
+carr-lane-1-LemonCandy,repeat-ii,REFERENCE,1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/,31,101
+carr-lane-1-LemonCandy,repeat-ii,PUZZLE,1/-1/-1/-1/-1/-1/,1/-1/2/-1/-1/-1/,C/I/U/U/U/U/,105,107
+carr-lane-1-LemonCandy,repeat-ii,PUZZLE,1/-1/2/-1/-1/-1/,1/2/-1/-1/-1/-1/,C/I/U/U/U/U/,111,113
+carr-lane-1-LemonCandy,repeat-ii,PUZZLE,1/2/-1/-1/-1/-1/,1/2/-1/-1/-1/3/,C/C/I/U/U/U/,120,126
+carr-lane-1-LemonCandy,repeat-ii,PUZZLE,1/2/-1/-1/-1/3/,1/2/3/-1/-1/-1/,C/C/I/U/U/U/,130,134
+carr-lane-1-LemonCandy,repeat-ii,PUZZLE,1/2/3/-1/-1/-1/,1/2/3/-1/-1/-1/,C/C/I/U/U/U/,139,145
+carr-lane-1-LemonCandy,repeat-ii,PUZZLE,1/2/3/-1/-1/-1/,1/2/3/4/5/6/,C/C/C/I/U/U/,153,158
+carr-lane-1-LemonCandy,repeat-ii,PUZZLE,1/2/3/4/5/6/,1/2/3/4/5/6/,C/C/C/C/C/C/,182,220
+carr-lane-1-LemonCandy,repeat-ii,END,"    this.troll.say(I really wish I had something to row with) /
+    count 5 / {
+      count 2 / {
+        this.troll.row() /
+        this.boat.move(TypeExpression.BACKWARD, 0.25) /
+      }
+      this.troll.take a nap() /
+    }",1,6,0,223
+carr-lane-1-LemonCandy,repeat-c,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/,-1/-1/1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/,17,20
+carr-lane-1-LemonCandy,repeat-c,PUZZLE,-1/-1/1/-1/-1/-1/-1/-1/-1/,-1/-1/1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/,29,32
+carr-lane-1-LemonCandy,repeat-c,REFERENCE,-1/-1/1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/,33,35
+carr-lane-1-LemonCandy,repeat-c,PUZZLE,1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/,137,138
+carr-lane-1-LemonCandy,repeat-c,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/2/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/,139,141
+carr-lane-1-LemonCandy,repeat-c,PUZZLE,1/-1/-1/2/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/,145,147
+carr-lane-1-LemonCandy,repeat-c,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/2/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/,151,154
+carr-lane-1-LemonCandy,repeat-c,PUZZLE,1/-1/2/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/,158,160
+carr-lane-1-LemonCandy,repeat-c,PUZZLE,1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/,172,174
+carr-lane-1-LemonCandy,repeat-c,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/2/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/,175,181
+carr-lane-1-LemonCandy,repeat-c,REFERENCE,1/-1/2/-1/-1/-1/-1/-1/-1/,1/-1/2/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/,189,194
+carr-lane-1-LemonCandy,repeat-c,PUZZLE,1/-1/2/-1/-1/-1/-1/-1/-1/,1/-1/-1/2/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/,195,197
+carr-lane-1-LemonCandy,repeat-c,PUZZLE,1/-1/-1/2/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/,202,203
+carr-lane-1-LemonCandy,repeat-c,PUZZLE,1/2/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/,210,212
+carr-lane-1-LemonCandy,repeat-c,REFERENCE,1/2/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/,214,218
+carr-lane-1-LemonCandy,repeat-c,REFERENCE,1/2/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/,219,250
+carr-lane-1-LemonCandy,repeat-c,PUZZLE,1/2/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/,253,258
+carr-lane-1-LemonCandy,repeat-c,REFERENCE,1/2/-1/-1/-1/-1/-1/-1/-1/,1/2/3/4/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/,263,280
+carr-lane-1-LemonCandy,repeat-c,PUZZLE,1/2/3/4/-1/-1/-1/-1/-1/,1/2/3/4/-1/-1/-1/-1/-1/,C/C/C/C/I/U/U/U/U/,295,299
+carr-lane-1-LemonCandy,repeat-c,REFERENCE,1/2/3/4/-1/-1/-1/-1/-1/,1/2/3/4/5/-1/-1/-1/-1/,C/C/C/C/I/U/U/U/U/,301,307
+carr-lane-1-LemonCandy,repeat-c,PUZZLE,1/2/3/4/5/-1/-1/-1/-1/,1/2/3/4/5/-1/-1/-1/-1/,C/C/C/C/I/U/U/U/U/,311,313
+carr-lane-1-LemonCandy,repeat-c,PUZZLE,1/2/3/4/5/-1/-1/-1/-1/,1/2/3/4/5/-1/-1/-1/-1/,C/C/C/C/I/U/U/U/U/,315,323
+carr-lane-1-LemonCandy,repeat-c,PUZZLE,1/2/3/4/5/-1/-1/-1/-1/,1/2/3/4/-1/-1/-1/-1/-1/,C/C/C/C/C/I/U/U/U/,325,334
+carr-lane-1-LemonCandy,repeat-c,REFERENCE,1/2/3/4/-1/-1/-1/-1/-1/,1/2/3/4/5/-1/-1/-1/-1/,C/C/C/C/I/U/U/U/U/,340,360
+carr-lane-1-LemonCandy,repeat-c,PUZZLE,1/2/3/4/5/-1/-1/-1/-1/,1/2/3/4/7/5/6/-1/-1/,C/C/C/C/C/I/U/U/U/,379,389
+carr-lane-1-LemonCandy,repeat-c,PUZZLE,1/2/3/4/7/5/6/-1/-1/,1/2/3/4/5/-1/-1/-1/-1/,C/C/C/C/I/U/U/U/U/,401,405
+carr-lane-1-LemonCandy,repeat-c,PUZZLE,1/2/3/4/5/-1/-1/-1/-1/,1/2/3/4/5/6/7/8/9/,C/C/C/C/C/I/U/U/U/,407,415
+carr-lane-1-LemonCandy,repeat-c,PUZZLE,1/2/3/4/5/6/7/8/9/,1/2/3/4/5/6/7/8/9/,C/C/C/C/C/C/C/C/C/,456,481
+carr-lane-1-LemonCandy,repeat-c,END,"    this.dolphin.approach(this.fishing boat) /
+    count 2 / {
+      this.dolphin.bump(this.fishing boat) /
+      this.fishing boat.shake() /
+      this.fishing boat.move(TypeExpression.DOWN, 0.1) /
+      count 2 / {
+        this.rabbit.jump around() /
+      }
+    }
+    this.fishing boat.sink completely() /
+    this.rabbit.ride(this.dolphin) /",4,9,0,512
+carr-lane-1-LemonCandy,repeat-o,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/,17,20
+carr-lane-1-LemonCandy,repeat-o,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/2/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/,24,28
+carr-lane-1-LemonCandy,repeat-o,PUZZLE,1/-1/-1/2/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/,40,44
+carr-lane-1-LemonCandy,repeat-o,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/,47,69
+carr-lane-1-LemonCandy,repeat-o,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/3/4/5/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/,95,99
+carr-lane-1-LemonCandy,repeat-o,PUZZLE,1/2/3/4/5/-1/-1/-1/-1/-1/-1/,1/2/3/4/5/-1/-1/-1/-1/-1/-1/,C/C/C/C/C/I/U/U/U/U/U/,113,119
+carr-lane-1-LemonCandy,repeat-o,REFERENCE,1/2/3/4/5/-1/-1/-1/-1/-1/-1/,1/2/3/4/5/6/-1/-1/-1/-1/-1/,C/C/C/C/C/I/U/U/U/U/U/,121,128
+carr-lane-1-LemonCandy,repeat-o,PUZZLE,1/2/3/4/5/6/-1/-1/-1/-1/-1/,1/2/3/4/5/6/-1/-1/-1/-1/-1/,C/C/C/C/C/C/I/U/U/U/U/,132,166
+carr-lane-1-LemonCandy,repeat-o,REFERENCE,1/2/3/4/5/6/-1/-1/-1/-1/-1/,1/2/3/4/5/6/-1/-1/-1/-1/-1/,C/C/C/C/C/C/I/U/U/U/U/,168,-1
+carr-lane-1-LemonCandy,repeat-o,REFERENCE,1/2/3/4/5/6/-1/-1/-1/-1/-1/,1/2/3/4/5/6/7/-1/-1/-1/-1/,C/C/C/C/C/C/I/U/U/U/U/,235,244
+carr-lane-1-LemonCandy,repeat-o,PUZZLE,1/2/3/4/5/6/7/-1/-1/-1/-1/,1/2/3/4/5/6/7/-1/-1/-1/-1/,C/C/C/C/C/C/C/I/U/U/U/,250,261
+carr-lane-1-LemonCandy,repeat-o,REFERENCE,1/2/3/4/5/6/7/-1/-1/-1/-1/,1/2/3/4/5/6/7/8/9/11/10/,C/C/C/C/C/C/C/I/U/U/U/,264,277
+carr-lane-1-LemonCandy,repeat-o,PUZZLE,1/2/3/4/5/6/7/8/9/11/10/,1/2/3/4/5/6/7/8/9/11/10/,C/C/C/C/C/C/C/C/C/C/C/,292,305
+carr-lane-1-LemonCandy,repeat-o,END,"    this.troll.say(I have a bad feeling) /
+    count 2 / {
+      do together / {
+        this.cauldron.shake() /
+        this.lid.shoot up and down() /
+      }
+    }
+    this.witch.say(?) /
+    this.witch.move(TypeExpression.FORWARD, 0.5) /
+    this.cauldron.shrink and disappear() /
+    do together / {
+      this.troll.jump back() /
+      this.witch.jump back() /
+    }",1,11,0,310
+carr-lane-1-LemonCandy,repeat-x,REFERENCE,-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,I/U/U/U/U/U/U/U/U/U/U/U/,16,19
+carr-lane-1-LemonCandy,repeat-x,PUZZLE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/,23,25
+carr-lane-1-LemonCandy,repeat-x,REFERENCE,1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/,26,33
+carr-lane-1-LemonCandy,repeat-x,PUZZLE,1/-1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/,38,43
+carr-lane-1-LemonCandy,repeat-x,REFERENCE,1/-1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/-1/3/-1/2/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/,47,57
+carr-lane-1-LemonCandy,repeat-x,PUZZLE,1/-1/3/-1/2/-1/-1/-1/-1/-1/-1/-1/,1/-1/3/-1/2/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/,67,74
+carr-lane-1-LemonCandy,repeat-x,REFERENCE,1/-1/3/-1/2/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,C/I/U/U/U/U/U/U/U/U/U/U/,76,84
+carr-lane-1-LemonCandy,repeat-x,PUZZLE,1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/4/-1/3/-1/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/U/U/,94,115
+carr-lane-1-LemonCandy,repeat-x,PUZZLE,1/2/4/-1/3/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/U/U/,128,135
+carr-lane-1-LemonCandy,repeat-x,REFERENCE,1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/U/U/,257,278
+carr-lane-1-LemonCandy,repeat-x,REFERENCE,1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/3/-1/-1/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/U/U/,301,308
+carr-lane-1-LemonCandy,repeat-x,PUZZLE,1/2/-1/3/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/U/U/,317,327
+carr-lane-1-LemonCandy,repeat-x,REFERENCE,1/2/-1/-1/-1/-1/-1/-1/-1/-1/-1/-1/,1/2/-1/5/3/6/-1/4/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/U/U/,331,339
+carr-lane-1-LemonCandy,repeat-x,PUZZLE,1/2/-1/5/3/6/-1/4/-1/-1/-1/-1/,1/2/-1/6/3/5/-1/4/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/U/U/,372,384
+carr-lane-1-LemonCandy,repeat-x,PUZZLE,1/2/-1/6/3/5/-1/4/-1/-1/-1/-1/,1/2/-1/6/4/5/-1/3/-1/-1/-1/-1/,C/C/I/U/U/U/U/U/U/U/U/U/,394,403
+carr-lane-1-LemonCandy,repeat-x,PUZZLE,1/2/-1/6/4/5/-1/3/-1/-1/-1/-1/,1/2/-1/6/4/5/-1/3/-1/-1/-1/-1/,C/C/C/C/C/C/I/U/U/U/U/U/,445,453
+carr-lane-1-LemonCandy,repeat-x,REFERENCE,1/2/-1/6/4/5/-1/3/-1/-1/-1/-1/,1/2/-1/6/4/5/7/3/-1/-1/-1/-1/,C/C/C/C/C/C/I/U/U/U/U/U/,456,466
+carr-lane-1-LemonCandy,repeat-x,REFERENCE,1/2/-1/6/4/5/7/3/-1/-1/-1/-1/,1/2/-1/6/4/5/7/3/-1/-1/-1/-1/,C/C/C/C/C/C/C/I/U/U/U/U/,469,472
+carr-lane-1-LemonCandy,repeat-x,REFERENCE,1/2/-1/6/4/5/7/3/-1/-1/-1/-1/,1/2/-1/6/4/5/7/3/8/-1/-1/-1/,C/C/C/C/C/C/C/I/U/U/U/U/,474,489
+carr-lane-1-LemonCandy,repeat-x,PUZZLE,1/2/-1/6/4/5/7/3/8/-1/-1/-1/,1/2/-1/6/4/5/7/3/8/-1/-1/-1/,C/C/C/C/C/C/C/I/U/U/U/U/,497,507
+carr-lane-1-LemonCandy,repeat-x,REFERENCE,1/2/-1/6/4/5/7/3/8/-1/-1/-1/,1/2/8/6/4/5/7/3/9/10/11/12/,C/C/C/C/C/C/C/I/U/U/U/U/,510,518
+carr-lane-1-LemonCandy,repeat-x,PUZZLE,1/2/8/6/4/5/7/3/9/10/11/12/,1/2/8/6/4/5/7/3/9/10/11/12/,C/C/C/C/C/C/C/C/C/C/C/C/,535,552
+carr-lane-1-LemonCandy,repeat-x,END,"    this.alienRobot.land on ground() /
+    this.alien.turnToFace(this.alienRobot) /
+    do together / {
+      this.alien.say(Yay, you're home!) /
+      count 3 / {
+        this.alienRobot.jump() /
+      }
+    }
+    this.alien.think(Hmmm I wish I could make you bigger...) /
+    do together / {
+      this.alien.cast alien magic() /
+      this.alien.say(Abbbbra Ka-Da-Bra) /
+    }
+    this.alienRobot.resize(3.0) /
+    this.alienRobot.face camera() /",3,12,0,559
