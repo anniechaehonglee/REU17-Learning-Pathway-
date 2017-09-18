@@ -1,4 +1,4 @@
-# REU17LearningPathway.github.io
+# REU17LearningPathway
 Code written during REU WUSTL 2017 May-August. 
 
 Purpose:
